@@ -260,10 +260,6 @@ def add_to_chat_history(role: str, content: str):
 
 def fetch_gmail_emails():
     """執行Gmail信件抓取"""
-    ##############################################
-    if os.path.exists("gmail_emails.json"):
-        return True, "Gmail信件抓取成功！"
-    ###############################################
     try:
         # 檢查是否存在credentials.json
         if not os.path.exists("credentials.json"):
