@@ -17,7 +17,7 @@ class Settings:
     MERGED_BASE_FOLDER: str = r"./test_data"
     
     # 檢索設定
-    DEFAULT_TOP_K: int = 3
+    DEFAULT_TOP_K: int = 1
     
     # Prompt 設定
     SYSTEM_PROMPT: str = ""
