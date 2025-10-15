@@ -5,7 +5,7 @@ REM Gmail Chat Application Setup and Start Script (Windows Batch)
 REM This script sets up the environment and starts both the API and Streamlit UI
 
 echo ==========================================
-echo 📧 Gmail Chat Application Setup ^& Start
+echo Gmail Chat Application Setup ^& Start
 echo ==========================================
 
 REM Check if Python is installed
@@ -85,7 +85,7 @@ if not exist "multilingual-e5-large" (
 
 echo.
 echo ==========================================
-echo 🚀 Starting Services...
+echo Starting Services...
 echo ==========================================
 
 REM Start API service
@@ -105,20 +105,20 @@ echo [SUCCESS] Streamlit UI started in new window
 
 echo.
 echo ==========================================
-echo ✅ Setup Complete!
+echo Setup Complete!
 echo ==========================================
 echo.
-echo 🌐 Services are now running:
-echo    📡 FastAPI: http://localhost:8080
-echo    🖥️  Streamlit UI: http://localhost:8501 (default port)
+echo Services are now running:
+echo    FastAPI: http://localhost:8080
+echo    Streamlit UI: http://localhost:8501 (default port)
 echo.
-echo 📋 API Endpoints:
+echo API Endpoints:
 echo    - Health Check: http://localhost:8080/health
 echo    - API Docs: http://localhost:8080/docs
 echo    - Create DB: http://localhost:8080/create_db
 echo    - Query: http://localhost:8080/query_group
 echo.
-echo 📖 For more information, check the README.md file
+echo For more information, check the README.md file
 echo.
 echo Press any key to exit...
 pause >nul
