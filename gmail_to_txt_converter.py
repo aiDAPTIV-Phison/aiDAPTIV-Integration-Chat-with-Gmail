@@ -24,6 +24,12 @@ def convert_emails_to_txt():
     
     # 创建输出目录
     output_dir = Path("./agent_builder_client/test_data/ptest9109")
+    
+    # 如果目录存在，先清空内容
+    if output_dir.exists():
+        import shutil
+        shutil.rmtree(output_dir)
+    
     output_dir.mkdir(parents=True, exist_ok=True)
     
     # 读取邮件数据
@@ -80,11 +86,11 @@ def convert_emails_to_txt():
             filepath = output_dir / filename
             
             # 如果文件已存在，添加序号
-            # counter = 1
-            # while filepath.exists():
-            #     filename = f"{safe_subject}_{counter}.txt"
-            #     filepath = output_dir / filename
-            #     counter += 1
+            counter = 1
+            while filepath.exists():
+                filename = f"{safe_subject}_{counter}.txt"
+                filepath = output_dir / filename
+                counter += 1
             
             # 写入文件
             with open(filepath, "w", encoding="utf-8") as f:

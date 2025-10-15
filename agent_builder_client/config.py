@@ -7,14 +7,14 @@ class Settings:
     API_DEBUG: bool = True
     
     # 嵌入模型設定 
-    EMBEDDING_MODEL_PATH: str = r"D:\yu_chen\Desktop\chat_with_gmail\multilingual-e5-large"
+    EMBEDDING_MODEL_PATH: str = r"../multilingual-e5-large"
     EMBEDDING_DEVICE: str = "cpu"
     
     # Chroma 數據庫設定
-    CHROMA_PATH: str = r"D:\yu_chen\Desktop\chat_with_gmail\agent_builder_client\chroma"
+    CHROMA_PATH: str = r"./chroma"
     
     # 檔案路徑設定
-    MERGED_BASE_FOLDER: str = r"D:\yu_chen\Desktop\chat_with_gmail\agent_builder_client\test_data"
+    MERGED_BASE_FOLDER: str = r"./test_data"
     
     # 檢索設定
     DEFAULT_TOP_K: int = 3

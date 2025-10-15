@@ -133,25 +133,6 @@ def load_email_data():
             with open(emails_file, 'r', encoding='utf-8') as f:
                 return json.load(f)
         
-        # 如果沒有找到，嘗試載入 chunks 文件
-        chunks_file = "./agent_builder_client/test_data/gmail_chunks.json"
-        if os.path.exists(chunks_file):
-            with open(chunks_file, 'r', encoding='utf-8') as f:
-                chunks_data = json.load(f)
-                # 將 chunks 轉換為郵件格式
-                emails = []
-                for chunk in chunks_data:
-                    email = {
-                        "id": chunk.get("id", ""),
-                        "subject": chunk.get("metadata", {}).get("subject", "無標題"),
-                        "from": chunk.get("metadata", {}).get("from", "未知發件人"),
-                        "date": chunk.get("metadata", {}).get("date", ""),
-                        "snippet": chunk.get("text", "")[:200] + "..." if len(chunk.get("text", "")) > 200 else chunk.get("text", ""),
-                        "body": chunk.get("text", "")
-                    }
-                    emails.append(email)
-                return emails
-        
         return []
     except Exception as e:
         st.error(f"載入郵件數據失敗: {str(e)}")
@@ -316,6 +297,19 @@ def convert_emails_to_chunks():
         return False, "轉換超時，請稍後再試"
     except Exception as e:
         return False, f"轉換過程中發生錯誤: {str(e)}"
+
+def create_db(json_path: str, collection_name: str):
+    """創建向量數據庫"""
+    try:
+        url = f"{API_BASE_URL}/create_db"
+        data = {
+            "json_path": json_path,
+            "collection_name": collection_name
+        }
+        response = requests.post(url, json=data, timeout=300)
+        return {"success": True, "message": f"創建資料庫成功"}
+    except Exception as e:
+        return {"success": False, "message": f"創建資料庫失敗: {str(e)}"}
 
 def call_vllm_api_streaming(user_prompt: str, endpoint: str):
     """Call vLLM API for Q&A with streaming support"""
@@ -599,8 +593,12 @@ def main():
                         
                         chunks_success, chunks_message = convert_emails_to_chunks()
                         status_text.text(f"chunks_success: {chunks_success}...")
-                        # 步驟4: 檢測新信件並自動處理
-                        if chunks_success:
+                        # 步驟4: 
+                        db_response = create_db(json_path="test_data/gmail_chunks.json", collection_name=selected_collection.split("@")[0])
+                        st.write(db_response.get("message"))
+
+                        # 步驟5: 檢測新信件並自動處理
+                        if chunks_success and db_response.get("success"):
                             status_text.text("步驟 4/4: 檢測新信件並自動處理...")
                             progress_bar.progress(90)
                             
