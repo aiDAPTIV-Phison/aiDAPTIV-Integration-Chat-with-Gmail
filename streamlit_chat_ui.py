@@ -319,7 +319,7 @@ def create_db(json_path: str, collection_name: str):
             "collection_name": collection_name
         }
         response = requests.post(url, json=data, timeout=300)
-        return True, f"創建資料庫成功"
+        return True, f"創建資料庫成功!"
     except Exception as e:
         return False, f"創建資料庫失敗: {str(e)}"
 
@@ -493,7 +493,7 @@ def process_new_email_automatically(email, collection_name, vllm_endpoint, model
     """自動處理新信件：查詢數據庫並調用vLLM API進行總結"""
     try:
         # 步驟1: 查詢數據庫
-        user_question = '總結內容'
+        user_question = f'總結{email.get('subject', '無標題')}內容'
         result = query_database(user_question, collection_name.split("@")[0])
         
         if not result.get("success"):
@@ -655,7 +655,7 @@ def main():
                                         if success:
                                             processed_count += 1
                                             successfully_processed_emails.append(new_email)  # 添加到成功處理列表
-                                            st.success(f"✅ 信件 {i+1} 處理成功")
+                                            st.success(f"✅ 信件 {i+1} - {new_email.get('subject', '無標題')} 處理成功")
                                             # 可以在這裡添加總結結果的顯示，但根據需求不顯示結果
                                         else:
                                             st.warning(f"⚠️ 信件 {i+1} 處理失敗: {result_message}")
