@@ -128,7 +128,7 @@ def load_email_data():
     """載入郵件數據"""
     try:
         # 嘗試載入 gmail_emails.json
-        emails_file = "./gmail_emails.json"
+        emails_file = "./previous_emails.json"
         if os.path.exists(emails_file):
             with open(emails_file, 'r', encoding='utf-8') as f:
                 return json.load(f)
@@ -323,7 +323,7 @@ def create_db(json_path: str, collection_name: str):
     except Exception as e:
         return {"success": False, "message": f"創建資料庫失敗: {str(e)}"}
 
-def call_vllm_api_streaming(user_prompt: str, endpoint: str):
+def call_vllm_api_streaming(user_prompt: str, endpoint: str, model_name: str = "Qwen2.5-72B-Instruct-AWQ"):
     """Call vLLM API for Q&A with streaming support"""
     try:
         # Prepare the prompt with email context
@@ -333,7 +333,7 @@ def call_vllm_api_streaming(user_prompt: str, endpoint: str):
         
         # Prepare the request payload with streaming enabled
         payload = {
-            "model": "Qwen2.5-72B-Instruct-AWQ", # "Qwen2.5-32B-Instruct-AWQ",
+            "model": model_name,
             "messages": [
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt}
@@ -378,7 +378,7 @@ def call_vllm_api_streaming(user_prompt: str, endpoint: str):
     except Exception as e:
         yield f"❌ 處理響應錯誤: {str(e)}"
 
-def call_vllm_api_non_streaming(user_prompt: str, endpoint: str):
+def call_vllm_api_non_streaming(user_prompt: str, endpoint: str, model_name: str = "Qwen2.5-72B-Instruct-AWQ"):
     """Call vLLM API for Q&A without streaming support"""
     try:
         # Prepare the prompt with email context
@@ -388,7 +388,7 @@ def call_vllm_api_non_streaming(user_prompt: str, endpoint: str):
         
         # Prepare the request payload without streaming
         payload = {
-            "model": "Qwen2.5-72B-Instruct-AWQ",
+            "model": model_name,
             "messages": [
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt}
@@ -489,7 +489,7 @@ def update_previous_emails(successfully_processed_emails):
         print(f"更新 previous_emails 時發生錯誤: {str(e)}")
         return 0
 
-def process_new_email_automatically(email, collection_name, vllm_endpoint):
+def process_new_email_automatically(email, collection_name, vllm_endpoint, model_name="Qwen2.5-72B-Instruct-AWQ"):
     """自動處理新信件：查詢數據庫並調用vLLM API進行總結"""
     try:
         # 步驟1: 查詢數據庫
@@ -515,7 +515,7 @@ def process_new_email_automatically(email, collection_name, vllm_endpoint):
             return False, "沒有找到用戶消息"
         
         # 步驟3: 調用vLLM API進行總結（非streaming）
-        summary = call_vllm_api_non_streaming(user_message, vllm_endpoint)
+        summary = call_vllm_api_non_streaming(user_message, vllm_endpoint, model_name)
         
         if summary.startswith("❌"):
             return False, f"vLLM API調用失敗: {summary}"
@@ -549,6 +549,16 @@ def main():
             value=default_endpoint,
             help="輸入 vLLM API 的完整端點 URL",
             key="vllm_endpoint"
+        )
+        
+        # 模型選擇
+        st.subheader("🤖 模型配置")
+        default_model = "Qwen2.5-72B-Instruct-AWQ"
+        selected_model = st.text_input(
+            "模型名稱:",
+            value=default_model,
+            help="輸入要使用的模型名稱",
+            key="model_name"
         )
         
         # 集合選擇
@@ -641,7 +651,7 @@ def main():
                                         st.write(f"📧 正在處理新信件 {i+1}/{len(new_emails)}: {new_email.get('subject', '無標題')}")
                                         
                                         # 自動處理信件
-                                        success, result_message = process_new_email_automatically(new_email, selected_collection, vllm_endpoint)
+                                        success, result_message = process_new_email_automatically(new_email, selected_collection, vllm_endpoint, selected_model)
                                         
                                         if success:
                                             processed_count += 1
@@ -783,7 +793,7 @@ def main():
                                 
                                 # 使用流式 API 生成回答
                                 try:
-                                    for chunk in call_vllm_api_streaming(user_message, vllm_endpoint):
+                                    for chunk in call_vllm_api_streaming(user_message, vllm_endpoint, selected_model):
                                         if chunk:
                                             full_answer += chunk
                                             # 實時更新顯示，添加打字機效果
