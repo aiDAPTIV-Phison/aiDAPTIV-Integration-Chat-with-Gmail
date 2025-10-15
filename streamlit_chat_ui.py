@@ -255,7 +255,14 @@ def fetch_gmail_emails():
             if os.path.exists("gmail_emails.json"):
                 return True, "Gmail信件抓取成功！"
             else:
-                return False, "抓取完成但未生成gmail_emails.json文件"
+                # 分析为什么没有生成文件
+                reason = "抓取完成但未生成gmail_emails.json文件\n"
+                if result.stdout:
+                    reason += f"標準输出: {result.stdout}\n"
+                if result.stderr:
+                    reason += f"錯誤訊息: {result.stderr}\n"
+                
+                return False, reason
         else:
             error_msg = f"抓取失敗 (返回碼: {result.returncode})\n"
             if result.stderr:
