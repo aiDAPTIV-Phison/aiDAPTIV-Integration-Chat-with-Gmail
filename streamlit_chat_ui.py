@@ -257,7 +257,12 @@ def fetch_gmail_emails():
             else:
                 return False, "抓取完成但未生成gmail_emails.json文件"
         else:
-            return False, f"抓取失敗: {result.stderr}"
+            error_msg = f"抓取失敗 (返回碼: {result.returncode})\n"
+            if result.stderr:
+                error_msg += f"錯誤輸出: {result.stderr}\n"
+            if result.stdout:
+                error_msg += f"標準輸出: {result.stdout}"
+            return False, error_msg
             
     except subprocess.TimeoutExpired:
         return False, "抓取超時，請稍後再試"
