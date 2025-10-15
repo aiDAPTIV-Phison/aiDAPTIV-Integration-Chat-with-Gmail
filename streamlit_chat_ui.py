@@ -592,13 +592,25 @@ def main():
                         progress_bar.progress(70)
                         
                         chunks_success, chunks_message = convert_emails_to_chunks()
-                        status_text.text(f"chunks_success: {chunks_success}...")
+                        if chunks_success:
+                            status_text.text("步驟 3/4: chunks格式轉換完成")
+                            st.success(chunks_message)
+                        else:
+                            status_text.text("步驟 3/4: chunks格式轉換失敗")
+                            st.error(chunks_message)
+                            
                         # 步驟4: 
-                        db_response = create_db(json_path="test_data/gmail_chunks.json", collection_name=selected_collection.split("@")[0])
-                        st.write(db_response.get("message"))
+                        status_text.text("步驟 4/4: 正在創建資料庫...")
+                        db_success, db_message = create_db(json_path="test_data/gmail_chunks.json", collection_name=selected_collection.split("@")[0])
+                        if db_success:
+                            status_text.text("步驟 4/4: 創建資料庫完成")
+                            st.success(db_message)
+                        else:
+                            status_text.text("步驟 4/4: 創建資料庫失敗")
+                            st.error(db_message)
 
                         # 步驟5: 檢測新信件並自動處理
-                        if chunks_success and db_response.get("success"):
+                        if chunks_success and db_success:
                             status_text.text("步驟 4/4: 檢測新信件並自動處理...")
                             progress_bar.progress(90)
                             
