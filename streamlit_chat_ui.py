@@ -319,9 +319,9 @@ def create_db(json_path: str, collection_name: str):
             "collection_name": collection_name
         }
         response = requests.post(url, json=data, timeout=300)
-        return {"success": True, "message": f"創建資料庫成功"}
+        return True, f"創建資料庫成功"
     except Exception as e:
-        return {"success": False, "message": f"創建資料庫失敗: {str(e)}"}
+        return False, f"創建資料庫失敗: {str(e)}"
 
 def call_vllm_api_streaming(user_prompt: str, endpoint: str, model_name: str = "Qwen2.5-72B-Instruct-AWQ"):
     """Call vLLM API for Q&A with streaming support"""
@@ -541,8 +541,10 @@ def main():
             st.error("❌ API 服務離線")
             st.stop()
         
+        # 模型選擇
+        st.subheader("🤖 模型配置")
         # vLLM API 端點配置
-        st.subheader("🔗 vLLM API 配置")
+        # st.subheader("🔗 vLLM API 配置")
         default_endpoint = "http://10.102.196.26:8799/vllm/v1/chat/completions"
         vllm_endpoint = st.text_input(
             "vLLM API 端點:",
@@ -550,9 +552,6 @@ def main():
             help="輸入 vLLM API 的完整端點 URL",
             key="vllm_endpoint"
         )
-        
-        # 模型選擇
-        st.subheader("🤖 模型配置")
         default_model = "Qwen2.5-72B-Instruct-AWQ"
         selected_model = st.text_input(
             "模型名稱:",
@@ -588,52 +587,52 @@ def main():
                 status_text = st.empty()
                 
                 # 步驟1: 抓取Gmail信件
-                status_text.text("步驟 1/4: 正在抓取Gmail信件...")
+                status_text.text("步驟 1/5: 正在抓取Gmail信件...")
                 progress_bar.progress(15)
                 
                 success, message = fetch_gmail_emails()
                 
                 if success:
                     progress_bar.progress(25)
-                    status_text.text("步驟 1/4: Gmail信件抓取完成")
+                    status_text.text("步驟 1/5: Gmail信件抓取完成")
                     st.success(message)
                     
                     # 步驟2: 轉換為txt文件
-                    status_text.text("步驟 2/4: 正在轉換為txt文件...")
+                    status_text.text("步驟 2/5: 正在轉換為txt文件...")
                     progress_bar.progress(40)
                     
                     txt_success, txt_message = convert_emails_to_txt()
                     
                     if txt_success:
                         progress_bar.progress(55)
-                        status_text.text("步驟 2/4: txt文件轉換完成")
+                        status_text.text("步驟 2/5: txt文件轉換完成")
                         st.success(txt_message)
                         
                         # 步驟3: 轉換為chunks
-                        status_text.text("步驟 3/4: 正在轉換為chunks格式...")
+                        status_text.text("步驟 3/5: 正在轉換為chunks格式...")
                         progress_bar.progress(70)
                         
                         chunks_success, chunks_message = convert_emails_to_chunks()
                         if chunks_success:
-                            status_text.text("步驟 3/4: chunks格式轉換完成")
+                            status_text.text("步驟 3/5: chunks格式轉換完成")
                             st.success(chunks_message)
                         else:
-                            status_text.text("步驟 3/4: chunks格式轉換失敗")
+                            status_text.text("步驟 3/5: chunks格式轉換失敗")
                             st.error(chunks_message)
                             
                         # 步驟4: 
-                        status_text.text("步驟 4/4: 正在創建資料庫...")
+                        status_text.text("步驟 4/5: 正在創建資料庫...")
                         db_success, db_message = create_db(json_path="test_data/gmail_chunks.json", collection_name=selected_collection.split("@")[0])
                         if db_success:
-                            status_text.text("步驟 4/4: 創建資料庫完成")
+                            status_text.text("步驟 4/5: 創建資料庫完成")
                             st.success(db_message)
                         else:
-                            status_text.text("步驟 4/4: 創建資料庫失敗")
+                            status_text.text("步驟 4/5: 創建資料庫失敗")
                             st.error(db_message)
 
                         # 步驟5: 檢測新信件並自動處理
                         if chunks_success and db_success:
-                            status_text.text("步驟 4/4: 檢測新信件並自動處理...")
+                            status_text.text("步驟 5/5: 檢測新信件並自動處理...")
                             progress_bar.progress(90)
                             
                             # 檢測新信件
