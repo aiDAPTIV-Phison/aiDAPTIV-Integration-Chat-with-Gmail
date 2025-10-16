@@ -609,7 +609,7 @@ def main():
                     with open("credentials.json", "wb") as f:
                         f.write(file_content)
                     
-                    st.success("✅ credentials.json 文件上傳成功！")
+                    st.success("✅ 文件上傳成功！")
                     # st.success(f"✅ {validation_message}")
                     # st.rerun()  # 重新運行以更新狀態
                 else:
@@ -741,16 +741,8 @@ def main():
                     st.error(f"抓取失敗: {message}")
         else:
             st.error("❌ 找不到credentials.json文件")
-            st.info("請使用上方的文件上傳功能上傳Google OAuth2憑證文件")
-            st.markdown("""
-            **設置步驟:**
-            1. 前往 [Google Cloud Console](https://console.cloud.google.com/)
-            2. 創建或選擇項目
-            3. 啟用Gmail API
-            4. 創建OAuth2憑證
-            5. 下載憑證文件並使用上方上傳功能上傳
-            """)
-        
+            st.info("請上傳Google OAuth2憑證文件")
+
         # 郵件列表
         st.subheader("📧 郵件列表")
         display_sidebar_email_list()
