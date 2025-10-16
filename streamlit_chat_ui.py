@@ -103,6 +103,30 @@ def check_api_health():
     except:
         return False
 
+def validate_credential_file(file_content):
+    """驗證上傳的憑證文件是否有效"""
+    try:
+        # 解析 JSON
+        cred_data = json.loads(file_content.decode('utf-8'))
+        
+        # 檢查必要的字段
+        if "installed" not in cred_data and "web" not in cred_data:
+            return False, "憑證文件格式不正確，缺少 'installed' 或 'web' 字段"
+        
+        # 檢查 OAuth2 憑證的關鍵字段
+        if "installed" in cred_data:
+            required_fields = ["client_id", "client_secret", "auth_uri", "token_uri"]
+            for field in required_fields:
+                if field not in cred_data["installed"]:
+                    return False, f"憑證文件缺少必要字段: {field}"
+        
+        return True, "憑證文件格式正確"
+        
+    except json.JSONDecodeError:
+        return False, "文件不是有效的 JSON 格式"
+    except Exception as e:
+        return False, f"驗證憑證文件時發生錯誤: {str(e)}"
+
 def get_collections():
     """獲取可用的集合列表"""
     try:
@@ -489,12 +513,12 @@ def update_previous_emails(successfully_processed_emails):
         print(f"更新 previous_emails 時發生錯誤: {str(e)}")
         return 0
 
-def process_new_email_automatically(email, collection_name, vllm_endpoint, model_name="Qwen2.5-72B-Instruct-AWQ"):
+def process_new_email_automatically(email, vllm_endpoint, model_name="Qwen2.5-72B-Instruct-AWQ"):
     """自動處理新信件：查詢數據庫並調用vLLM API進行總結"""
     try:
         # 步驟1: 查詢數據庫
-        user_question = f'總結{email.get('subject', '無標題')}內容'
-        result = query_database(user_question, collection_name.split("@")[0])
+        user_question = f"總結{email.get('subject', '無標題')}內容"
+        result = query_database(user_question, "gmail_inbox")
         
         if not result.get("success"):
             return False, f"查詢數據庫失敗: {result.get('error', '未知錯誤')}"
@@ -545,14 +569,14 @@ def main():
         st.subheader("🤖 模型配置")
         # vLLM API 端點配置
         # st.subheader("🔗 vLLM API 配置")
-        default_endpoint = "http://10.102.196.26:8799/vllm/v1/chat/completions"
+        default_endpoint = "http://localhost:13141/v1/chat/completions"
         vllm_endpoint = st.text_input(
             "vLLM API 端點:",
             value=default_endpoint,
             help="輸入 vLLM API 的完整端點 URL",
             key="vllm_endpoint"
         )
-        default_model = "Qwen2.5-72B-Instruct-AWQ"
+        default_model = "Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf"
         selected_model = st.text_input(
             "模型名稱:",
             value=default_model,
@@ -560,25 +584,43 @@ def main():
             key="model_name"
         )
         
-        # 集合選擇
-        st.subheader("📁 選擇信件集合")
-        collections = get_collections()
-        if collections:
-            selected_collection = st.selectbox(
-                "選擇要查詢的gmail信箱:",
-                collections,
-                key="collection_select"
-            )
-        else:
-            st.warning("沒有可用的信件集合")
-            selected_collection = None
+        # 憑證上傳區塊
+        st.subheader("🔐 Google OAuth2 憑證")
         
-        # Gmail信件抓取
-        st.subheader("📥 Gmail信件抓取")
+        # 文件上傳
+        uploaded_file = st.file_uploader(
+            "上傳 credentials.json 文件",
+            type=['json'],
+            help="請上傳從 Google Cloud Console 下載的 OAuth2 憑證文件",
+            key="credential_upload"
+        )
+        
+        # 處理上傳的文件
+        if uploaded_file is not None:
+            try:
+                # 讀取上傳的文件內容
+                file_content = uploaded_file.read()
+                
+                # 驗證憑證文件
+                is_valid, validation_message = validate_credential_file(file_content)
+                
+                if is_valid:
+                    # 保存文件到本地
+                    with open("credentials.json", "wb") as f:
+                        f.write(file_content)
+                    
+                    st.success("✅ credentials.json 文件上傳成功！")
+                    # st.success(f"✅ {validation_message}")
+                    # st.rerun()  # 重新運行以更新狀態
+                else:
+                    st.error(f"❌ {validation_message}")
+                    
+            except Exception as e:
+                st.error(f"❌ 上傳文件時發生錯誤: {str(e)}")
         
         # 檢查credentials.json
         if os.path.exists("credentials.json"):
-            st.success("✅ 找到Google OAuth2憑證")
+            st.success("✅ 已上傳Google OAuth2憑證")
             
             # 抓取按鈕
             if st.button("🔄 抓取Gmail信件", use_container_width=True):
@@ -622,7 +664,7 @@ def main():
                             
                         # 步驟4: 
                         status_text.text("步驟 4/5: 正在創建資料庫...")
-                        db_success, db_message = create_db(json_path="test_data/gmail_chunks.json", collection_name=selected_collection.split("@")[0])
+                        db_success, db_message = create_db(json_path="test_data/gmail_chunks.json", collection_name='gmail_inbox')
                         if db_success:
                             status_text.text("步驟 4/5: 創建資料庫完成")
                             st.success(db_message)
@@ -650,7 +692,7 @@ def main():
                                         st.write(f"📧 正在處理新信件 {i+1}/{len(new_emails)}: {new_email.get('subject', '無標題')}")
                                         
                                         # 自動處理信件
-                                        success, result_message = process_new_email_automatically(new_email, selected_collection, vllm_endpoint, selected_model)
+                                        success, result_message = process_new_email_automatically(new_email, vllm_endpoint, selected_model)
                                         
                                         if success:
                                             processed_count += 1
@@ -699,14 +741,14 @@ def main():
                     st.error(f"抓取失敗: {message}")
         else:
             st.error("❌ 找不到credentials.json文件")
-            st.info("請先下載Google OAuth2憑證文件並命名為credentials.json")
+            st.info("請使用上方的文件上傳功能上傳Google OAuth2憑證文件")
             st.markdown("""
             **設置步驟:**
             1. 前往 [Google Cloud Console](https://console.cloud.google.com/)
             2. 創建或選擇項目
             3. 啟用Gmail API
             4. 創建OAuth2憑證
-            5. 下載憑證文件並重命名為 `credentials.json`
+            5. 下載憑證文件並使用上方上傳功能上傳
             """)
         
         # 郵件列表
@@ -763,7 +805,7 @@ def main():
                     
                     # 查詢數據庫
                     with st.spinner("🎨 正在分析您的信件..."):
-                        result = query_database(user_question, selected_collection.split("@")[0])
+                        result = query_database(user_question, 'gmail_inbox')
                     
                     # Get answer from video content
                     full_answer = ""  # 初始化 full_answer
