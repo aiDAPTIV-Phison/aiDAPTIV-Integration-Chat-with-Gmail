@@ -23,7 +23,7 @@ def convert_emails_to_txt():
     """将邮件转换为txt文件"""
     
     # 创建输出目录
-    output_dir = Path("./agent_builder_client/test_data/ptest9109")
+    output_dir = Path("./agent_builder_client/test_data/gmail_inbox")
     
     # 如果目录存在，先清空内容
     if output_dir.exists():
