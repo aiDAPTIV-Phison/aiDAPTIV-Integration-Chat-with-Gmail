@@ -136,7 +136,7 @@ def get_collections():
         return []
 
 def query_database(question: str, collection_name: str):
-    """查詢數據庫"""
+    """查詢資料庫"""
     try:
         url = f"{API_BASE_URL}/query_group"
         data = {
@@ -149,7 +149,7 @@ def query_database(question: str, collection_name: str):
         return {"success": False, "error": f"查詢失敗: {str(e)}"}
 
 def load_email_data():
-    """載入郵件數據"""
+    """載入郵件"""
     try:
         # 嘗試載入 gmail_emails.json
         emails_file = "./previous_emails.json"
@@ -159,7 +159,7 @@ def load_email_data():
         
         return []
     except Exception as e:
-        st.error(f"載入郵件數據失敗: {str(e)}")
+        st.error(f"載入郵件失敗: {str(e)}")
         return []
 
 
@@ -190,7 +190,7 @@ def display_sidebar_email_list():
     emails = load_email_data()
     
     if not emails:
-        st.warning("沒有找到郵件數據")
+        st.warning("沒有找到郵件")
         return
     
     st.info(f"共 {len(emails)} 封郵件")
@@ -335,7 +335,7 @@ def convert_emails_to_chunks():
         return False, f"轉換過程中發生錯誤: {str(e)}"
 
 def create_db(json_path: str, collection_name: str):
-    """創建向量數據庫"""
+    """創建向量資料庫"""
     try:
         url = f"{API_BASE_URL}/create_db"
         data = {
@@ -352,7 +352,7 @@ def call_vllm_api_streaming(user_prompt: str, endpoint: str, model_name: str = "
     try:
         # Prepare the prompt with email context
         system_prompt = """你是一個有用的助手，專門回答基於提供的郵件內容的問題。
-        請僅使用郵件內容中的信息來回答用戶的問題。
+        請僅使用郵件的內容來回答用戶的問題。
         如果在郵件內容中找不到答案，請明確說明。"""
         
         # Prepare the request payload with streaming enabled
@@ -407,7 +407,7 @@ def call_vllm_api_non_streaming(user_prompt: str, endpoint: str, model_name: str
     try:
         # Prepare the prompt with email context
         system_prompt = """你是一個有用的助手，專門回答基於提供的郵件內容的問題。
-        請僅使用郵件內容中的信息來回答用戶的問題。
+        請僅使用郵件的內容來回答用戶的問題。
         如果在郵件內容中找不到答案，請明確說明。"""
         
         # Prepare the request payload without streaming
@@ -514,14 +514,14 @@ def update_previous_emails(successfully_processed_emails):
         return 0
 
 def process_new_email_automatically(email, vllm_endpoint, model_name="Qwen2.5-72B-Instruct-AWQ"):
-    """自動處理新信件：查詢數據庫並調用vLLM API進行總結"""
+    """自動處理新信件：查詢資料庫並調用vLLM API進行總結"""
     try:
-        # 步驟1: 查詢數據庫
+        # 步驟1: 查詢資料庫
         user_question = f"總結{email.get('subject', '無標題')}內容"
         result = query_database(user_question, "gmail_inbox")
         
         if not result.get("success"):
-            return False, f"查詢數據庫失敗: {result.get('error', '未知錯誤')}"
+            return False, f"查詢資料庫失敗: {result.get('error', '未知錯誤')}"
         
         # 步驟2: 獲取聊天消息
         chat_messages = result.get("chat_messages", [])
@@ -718,7 +718,7 @@ def main():
                             progress_bar.progress(100)
                             status_text.text("完成: 所有步驟已完成")
                             st.success(chunks_message)
-                            st.info("信件數據已更新，頁面將自動刷新")
+                            st.info("信件資料已更新，頁面將自動刷新")
                             
                             # 清理進度條
                             progress_bar.empty()
@@ -795,7 +795,7 @@ def main():
                     # Add user question to chat history
                     add_to_chat_history("user", user_question)
                     
-                    # 查詢數據庫
+                    # 查詢資料庫
                     with st.spinner("🎨 正在分析您的信件..."):
                         result = query_database(user_question, 'gmail_inbox')
                     
@@ -856,7 +856,7 @@ def main():
                                     </div>
                                     """, unsafe_allow_html=True)
                             else:
-                                full_answer = "抱歉，我無法從您的信件中找到相關信息。"
+                                full_answer = "抱歉，我無法從您的信件中找到相關資訊。"
                                 st.markdown(f"""
                                 <div class="chat-message assistant">
                                     <div class="avatar">🤖</div>
@@ -864,7 +864,7 @@ def main():
                                 </div>
                                 """, unsafe_allow_html=True)
                         else:
-                            full_answer = "抱歉，我無法從您的信件中找到相關信息。"
+                            full_answer = "抱歉，我無法從您的信件中找到相關資訊。"
                             st.markdown(f"""
                             <div class="chat-message assistant">
                                 <div class="avatar">🤖</div>
@@ -892,7 +892,7 @@ def main():
                     
                     # 不需要重新渲染，聊天歷史已經在頁面頂部顯示
                     
-                    # 顯示詳細信息
+                    # 顯示詳細資訊
                     with st.expander("🔍 查詢詳情"):
                         st.json(result)
                     
