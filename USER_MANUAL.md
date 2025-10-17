@@ -56,16 +56,21 @@ LLM app with RAG to chat with Gmail. The app uses Retrieval Augmented Generation
 - Start both the API server and Streamlit UI
 
 3. Access the chat room at http://localhost:8501 (default)
+
 ![image](images/fig3.PNG)
 
 4. Fill in the vllm endpoint and the model name.
+
 ![image](images/fig4.PNG)
 
 5. Upload your `credentials.json`.
+
 ![image](images/fig5.PNG)
 
 6. Click on `search gmail inbox` button. All your emails will be listed below.
+
 ![image](images/fig6.PNG)
 
 7. Ask questions related to your emails in the chat room.
+
 ![image](images/fig7.PNG)
