@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Gmail 信件聊天室 UI
-使用 Streamlit 建立聊天室介面，讓使用者可以對自己的信件內容問問題
+Gmail Email Chat UI
+Using Streamlit to create a chat interface for users to ask questions about their email content
 """
 
 import streamlit as st
@@ -15,18 +15,18 @@ from datetime import datetime
 import subprocess
 import sys
 
-# 配置頁面
+# Configure page
 st.set_page_config(
-    page_title="Gmail 信件聊天室",
+    page_title="Gmail Chat Room",
     page_icon="📧",
     layout="wide",
     initial_sidebar_state="expanded"
 )
 
-# API 配置
+# API configuration
 API_BASE_URL = "http://localhost:8080"
 
-# 自定義 CSS 樣式
+# Custom CSS styles
 st.markdown("""
 <style>
     .chat-message {
@@ -96,7 +96,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 def check_api_health():
-    """檢查 API 服務是否正常運行"""
+    """Check if API service is running normally"""
     try:
         response = requests.get(f"{API_BASE_URL}/health", timeout=5)
         return response.status_code == 200
@@ -104,31 +104,31 @@ def check_api_health():
         return False
 
 def validate_credential_file(file_content):
-    """驗證上傳的憑證文件是否有效"""
+    """Validate uploaded credential file"""
     try:
-        # 解析 JSON
+        # Parse JSON
         cred_data = json.loads(file_content.decode('utf-8'))
         
-        # 檢查必要的字段
+        # Check required fields
         if "installed" not in cred_data and "web" not in cred_data:
-            return False, "憑證文件格式不正確，缺少 'installed' 或 'web' 字段"
+            return False, "Credential file format is incorrect, missing 'installed' or 'web' field"
         
-        # 檢查 OAuth2 憑證的關鍵字段
+        # Check OAuth2 credential key fields
         if "installed" in cred_data:
             required_fields = ["client_id", "client_secret", "auth_uri", "token_uri"]
             for field in required_fields:
                 if field not in cred_data["installed"]:
-                    return False, f"憑證文件缺少必要字段: {field}"
+                    return False, f"Credential file missing required field: {field}"
         
-        return True, "憑證文件格式正確"
+        return True, "Credential file format is correct"
         
     except json.JSONDecodeError:
-        return False, "文件不是有效的 JSON 格式"
+        return False, "File is not a valid JSON format"
     except Exception as e:
-        return False, f"驗證憑證文件時發生錯誤: {str(e)}"
+        return False, f"Error occurred while validating credential file: {str(e)}"
 
 def get_collections():
-    """獲取可用的集合列表"""
+    """Get available collection list"""
     try:
         fname = [folder for folder in os.listdir("./agent_builder_client/test_data") if os.path.isdir(os.path.join("./agent_builder_client/test_data", folder))]
         return [f"{user_name}@gmail.com" for user_name in fname]
@@ -136,7 +136,7 @@ def get_collections():
         return []
 
 def query_database(question: str, collection_name: str):
-    """查詢資料庫"""
+    """Query database"""
     try:
         url = f"{API_BASE_URL}/query_group"
         data = {
@@ -146,12 +146,12 @@ def query_database(question: str, collection_name: str):
         response = requests.post(url, json=data, timeout=30)
         return response.json()
     except Exception as e:
-        return {"success": False, "error": f"查詢失敗: {str(e)}"}
+        return {"success": False, "error": f"Query failed: {str(e)}"}
 
 def load_email_data():
-    """載入郵件"""
+    """Load emails"""
     try:
-        # 嘗試載入 gmail_emails.json
+        # Try to load gmail_emails.json
         emails_file = "./previous_emails.json"
         if os.path.exists(emails_file):
             with open(emails_file, 'r', encoding='utf-8') as f:
@@ -159,46 +159,46 @@ def load_email_data():
         
         return []
     except Exception as e:
-        st.error(f"載入郵件失敗: {str(e)}")
+        st.error(f"Failed to load emails: {str(e)}")
         return []
 
 
 def display_email_detail(email):
-    """顯示郵件詳情"""
-    st.subheader("📧 郵件詳情")
+    """Display email details"""
+    st.subheader("📧 Email Details")
     
     col1, col2 = st.columns([3, 1])
     
     with col1:
-        st.write(f"**標題:** {email.get('subject', '無標題')}")
-        st.write(f"**發件人:** {email.get('from', '未知')}")
-        st.write(f"**日期:** {email.get('date', '未知')}")
-        st.write(f"**郵件ID:** {email.get('id', '未知')}")
+        st.write(f"**Subject:** {email.get('subject', 'No Subject')}")
+        st.write(f"**From:** {email.get('from', 'Unknown')}")
+        st.write(f"**Date:** {email.get('date', 'Unknown')}")
+        st.write(f"**Email ID:** {email.get('id', 'Unknown')}")
     
     with col2:
-        if st.button("返回列表"):
+        if st.button("Back to List"):
             st.session_state.show_email_detail = False
             st.session_state.selected_email = None
             st.rerun()
     
     st.markdown("---")
-    st.write("**郵件內容:**")
-    st.text_area("", email.get('body', '無內容'), height=400, disabled=True)
+    st.write("**Email Content:**")
+    st.text_area("", email.get('body', 'No Content'), height=400, disabled=True)
 
 def display_sidebar_email_list():
-    """在側邊欄顯示郵件列表"""
+    """Display email list in sidebar"""
     emails = load_email_data()
     
     if not emails:
-        st.warning("沒有找到郵件")
+        st.warning("No emails found")
         return
     
-    st.info(f"共 {len(emails)} 封郵件")
+    st.info(f"Total {len(emails)} emails")
     
-    # 搜索功能
-    search_term = st.text_input("🔍 搜索郵件", placeholder="輸入關鍵詞...", key="sidebar_search")
+    # Search functionality
+    search_term = st.text_input("🔍 Search Emails", placeholder="Enter keywords...", key="sidebar_search")
     
-    # 篩選郵件
+    # Filter emails
     filtered_emails = emails
     if search_term:
         filtered_emails = [
@@ -209,36 +209,36 @@ def display_sidebar_email_list():
         ]
     
     if filtered_emails:
-        # st.write(f"找到 {len(filtered_emails)} 封郵件")
+        # st.write(f"Found {len(filtered_emails)} emails")
         
-        # 顯示所有郵件（不分頁）
+        # Display all emails (no pagination)
         for i, email in enumerate(filtered_emails):
-            subject = email.get('subject', '無標題')
-            from_email = email.get('from', '未知')
-            date = email.get('date', '未知')
+            subject = email.get('subject', 'No Subject')
+            from_email = email.get('from', 'Unknown')
+            date = email.get('date', 'Unknown')
             
-            # 使用主旨作為 expander 標題
+            # Use subject as expander title
             with st.expander(f"📧 {subject}"):
-                st.write(f"**主旨:** {subject}")
-                st.write(f"**發件人:** {from_email}")
-                st.write(f"**日期:** {date}")
+                st.write(f"**Subject:** {subject}")
+                st.write(f"**From:** {from_email}")
+                st.write(f"**Date:** {date}")
                 
-                # 顯示郵件預覽
-                snippet = email.get('snippet', '無內容')
+                # Display email preview
+                snippet = email.get('snippet', 'No Content')
                 if len(snippet) > 100:
                     snippet = snippet[:100] + "..."
-                st.write(f"**預覽:** {snippet}")
+                st.write(f"**Preview:** {snippet}")
                 
-                # 查看詳情按鈕
-                if st.button(f"查看詳情", key=f"sidebar_view_{i}"):
+                # View details button
+                if st.button(f"View Details", key=f"sidebar_view_{i}"):
                     st.session_state.selected_email = email
                     st.session_state.show_email_detail = True
                     st.rerun()
     else:
-        st.warning("沒有找到匹配的郵件")
+        st.warning("No matching emails found")
 
 def display_chat_message(message: str, is_user: bool = False):
-    """顯示聊天消息"""
+    """Display chat message"""
     if is_user:
         st.markdown(f"""
         <div class="chat-message user">
@@ -255,7 +255,7 @@ def display_chat_message(message: str, is_user: bool = False):
         """, unsafe_allow_html=True)
 
 def add_to_chat_history(role: str, content: str):
-    """添加消息到聊天歷史"""
+    """Add message to chat history"""
     st.session_state.chat_history.append({
         "content": content,
         "is_user": role == "user",
@@ -264,78 +264,78 @@ def add_to_chat_history(role: str, content: str):
 
 
 def fetch_gmail_emails():
-    """執行Gmail信件抓取"""
+    """Execute Gmail email fetching"""
     try:
-        # 檢查是否存在credentials.json
+        # Check if credentials.json exists
         if not os.path.exists("credentials.json"):
-            return False, "找不到credentials.json文件，請先設置Google OAuth2憑證"
+            return False, "Cannot find credentials.json file, please set up Google OAuth2 credentials first"
         
-        # 執行gmail_fetcher.py，使用UI模式
+        # Execute gmail_fetcher.py using UI mode
         result = subprocess.run([sys.executable, "gmail_fetcher.py", "--ui-mode"], 
                               capture_output=True, text=True, timeout=300)
         
         if result.returncode == 0:
-            # 檢查是否生成了gmail_emails.json
+            # Check if gmail_emails.json was generated
             if os.path.exists("gmail_emails.json"):
-                return True, "Gmail信件抓取成功！"
+                return True, "Email fetching success!"
             else:
-                # 分析为什么没有生成文件
-                reason = "抓取完成但未生成gmail_emails.json文件\n"
+                # Analyze why no file was generated
+                reason = "Fetching completed but gmail_emails.json file was not generated\n"
                 if result.stdout:
-                    reason += f"標準输出: {result.stdout}\n"
+                    reason += f"Standard output: {result.stdout}\n"
                 if result.stderr:
-                    reason += f"錯誤訊息: {result.stderr}\n"
+                    reason += f"Error message: {result.stderr}\n"
                 
                 return False, reason
         else:
-            error_msg = f"抓取失敗 (返回碼: {result.returncode})\n"
+            error_msg = f"Fetching failed (return code: {result.returncode})\n"
             if result.stderr:
-                error_msg += f"錯誤輸出: {result.stderr}\n"
+                error_msg += f"Error output: {result.stderr}\n"
             if result.stdout:
-                error_msg += f"標準輸出: {result.stdout}"
+                error_msg += f"Standard output: {result.stdout}"
             return False, error_msg
             
     except subprocess.TimeoutExpired:
-        return False, "抓取超時，請稍後再試"
+        return False, "Fetching timeout, please try again later"
     except Exception as e:
-        return False, f"抓取過程中發生錯誤: {str(e)}"
+        return False, f"Error occurred during fetching: {str(e)}"
 
 def convert_emails_to_txt():
-    """將抓取的郵件轉換為txt格式"""
+    """Convert fetched emails to txt format"""
     try:
-        # 執行gmail_to_txt_converter.py
+        # Execute gmail_to_txt_converter.py
         result = subprocess.run([sys.executable, "gmail_to_txt_converter.py"], 
                               capture_output=True, text=True, timeout=60)
         
         if result.returncode == 0:
-            return True, "郵件轉換為txt文件成功！"
+            return True, "Successfully converted emails to .txt files!"
         else:
-            return False, f"txt轉換失敗: {result.stderr}"
+            return False, f"txt conversion failed: {result.stderr}"
             
     except subprocess.TimeoutExpired:
-        return False, "txt轉換超時，請稍後再試"
+        return False, "txt conversion timeout, please try again later"
     except Exception as e:
-        return False, f"txt轉換過程中發生錯誤: {str(e)}"
+        return False, f"Error occurred during txt conversion: {str(e)}"
 
 def convert_emails_to_chunks():
-    """將抓取的郵件轉換為chunks格式"""
+    """Convert fetched emails to chunks format"""
     try:
-        # 執行gmail_to_chunks_converter.py
+        # Execute gmail_to_chunks_converter.py
         result = subprocess.run([sys.executable, "gmail_to_chunks_converter.py"], 
                               capture_output=True, text=True, timeout=60)
         
         if result.returncode == 0:
-            return True, "郵件轉換為chunks成功！"
+            return True, "Successfully converted emails to chunks!"
         else:
-            return False, f"轉換失敗: {result.stderr}"
+            return False, f"Conversion failed: {result.stderr}"
             
     except subprocess.TimeoutExpired:
-        return False, "轉換超時，請稍後再試"
+        return False, "Conversion timeout, please try again later"
     except Exception as e:
-        return False, f"轉換過程中發生錯誤: {str(e)}"
+        return False, f"Error occurred during conversion: {str(e)}"
 
 def create_db(json_path: str, collection_name: str):
-    """創建向量資料庫"""
+    """Create vector database"""
     try:
         url = f"{API_BASE_URL}/create_db"
         data = {
@@ -343,17 +343,17 @@ def create_db(json_path: str, collection_name: str):
             "collection_name": collection_name
         }
         response = requests.post(url, json=data, timeout=300)
-        return True, f"創建資料庫成功!"
+        return True, f"Successfully created database!"
     except Exception as e:
-        return False, f"創建資料庫失敗: {str(e)}"
+        return False, f"Failed to create database: {str(e)}"
 
 def call_vllm_api_streaming(user_prompt: str, endpoint: str, model_name: str = "Qwen2.5-72B-Instruct-AWQ"):
     """Call vLLM API for Q&A with streaming support"""
     try:
         # Prepare the prompt with email context
-        system_prompt = """你是一個有用的助手，專門回答基於提供的郵件內容的問題。
-        請僅使用郵件的內容來回答用戶的問題。
-        如果在郵件內容中找不到答案，請明確說明。"""
+        system_prompt = """You are a helpful assistant specialized in answering questions based on provided email content.
+        Please only use the email content to answer user questions.
+        If you cannot find the answer in the email content, please clearly state so."""
         
         # Prepare the request payload with streaming enabled
         payload = {
@@ -395,20 +395,20 @@ def call_vllm_api_streaming(user_prompt: str, endpoint: str, model_name: str = "
                         except json.JSONDecodeError:
                             continue
         else:
-            yield f"❌ 調用 vLLM API 錯誤: {response.status_code} - {response.text}"
+            yield f"❌ vLLM API call error: {response.status_code} - {response.text}"
             
     except requests.exceptions.RequestException as e:
-        yield f"❌ 連接 vLLM 端點錯誤: {str(e)}"
+        yield f"❌ vLLM endpoint connection error: {str(e)}"
     except Exception as e:
-        yield f"❌ 處理響應錯誤: {str(e)}"
+        yield f"❌ Response processing error: {str(e)}"
 
 def call_vllm_api_non_streaming(user_prompt: str, endpoint: str, model_name: str = "Qwen2.5-72B-Instruct-AWQ"):
     """Call vLLM API for Q&A without streaming support"""
     try:
         # Prepare the prompt with email context
-        system_prompt = """你是一個有用的助手，專門回答基於提供的郵件內容的問題。
-        請僅使用郵件的內容來回答用戶的問題。
-        如果在郵件內容中找不到答案，請明確說明。"""
+        system_prompt = """You are a helpful assistant specialized in answering questions based on provided email content.
+        Please only use the email content to answer user questions.
+        If you cannot find the answer in the email content, please clearly state so."""
         
         # Prepare the request payload without streaming
         payload = {
@@ -435,100 +435,100 @@ def call_vllm_api_non_streaming(user_prompt: str, endpoint: str, model_name: str
             if 'choices' in result and len(result['choices']) > 0:
                 return result['choices'][0]['message']['content']
             else:
-                return "❌ 無法獲取回應內容"
+                return "❌ Unable to get response content"
         else:
-            return f"❌ 調用 vLLM API 錯誤: {response.status_code} - {response.text}"
+            return f"❌ vLLM API call error: {response.status_code} - {response.text}"
             
     except requests.exceptions.RequestException as e:
-        return f"❌ 連接 vLLM 端點錯誤: {str(e)}"
+        return f"❌ vLLM endpoint connection error: {str(e)}"
     except Exception as e:
-        return f"❌ 處理響應錯誤: {str(e)}"
+        return f"❌ Response processing error: {str(e)}"
 
 def detect_new_emails():
-    """檢測新增的信件"""
+    """Detect new emails"""
     try:
-        # 檢查是否存在之前的信件記錄
+        # Check if previous email records exist
         previous_emails_file = "previous_emails.json"
         current_emails_file = "gmail_emails.json"
         
         if not os.path.exists(current_emails_file):
-            return [], "沒有找到當前信件文件"
+            return [], "No current email file found"
         
-        # 讀取當前信件
+        # Read current emails
         with open(current_emails_file, 'r', encoding='utf-8') as f:
             current_emails = json.load(f)
         
-        # 如果沒有之前的記錄，則所有信件都是新的
+        # If no previous records, all emails are new
         if not os.path.exists(previous_emails_file):
-            return current_emails, f"檢測到 {len(current_emails)} 封新信件"
+            return current_emails, f"Detected {len(current_emails)} new emails"
         
-        # 讀取之前的信件記錄
+        # Read previous email records
         with open(previous_emails_file, 'r', encoding='utf-8') as f:
             previous_emails = json.load(f)
         
-        # 創建之前信件的ID集合
+        # Create previous email ID set
         previous_ids = {email.get('id', '') for email in previous_emails}
         
-        # 找出新增的信件
+        # Find new emails
         new_emails = []
         for email in current_emails:
             if email.get('id', '') not in previous_ids:
                 new_emails.append(email)
         
-        return new_emails, f"檢測到 {len(new_emails)} 封新信件"
+        return new_emails, f"Detected {len(new_emails)} new emails"
         
     except Exception as e:
-        return [], f"檢測新信件時發生錯誤: {str(e)}"
+        return [], f"Error occurred while detecting new emails: {str(e)}"
 
 def update_previous_emails(successfully_processed_emails):
-    """將成功處理的信件加入 previous_emails.json"""
+    """Add successfully processed emails to previous_emails.json"""
     try:
         previous_emails_file = "previous_emails.json"
         
-        # 讀取現有的 previous_emails
+        # Read existing previous_emails
         existing_emails = []
         if os.path.exists(previous_emails_file):
             with open(previous_emails_file, 'r', encoding='utf-8') as f:
                 existing_emails = json.load(f)
         
-        # 創建現有信件的ID集合
+        # Create existing email ID set
         existing_ids = {email.get('id', '') for email in existing_emails}
         
-        # 只添加成功處理且不在現有記錄中的信件
+        # Only add successfully processed emails that are not in existing records
         new_processed_emails = []
         for email in successfully_processed_emails:
             if email.get('id', '') not in existing_ids:
                 new_processed_emails.append(email)
         
-        # 合併現有信件和新處理的信件
+        # Merge existing emails and newly processed emails
         updated_emails = existing_emails + new_processed_emails
         
-        # 保存更新後的記錄
+        # Save updated records
         with open(previous_emails_file, 'w', encoding='utf-8') as f:
             json.dump(updated_emails, f, ensure_ascii=False, indent=2)
         
         return len(new_processed_emails)
         
     except Exception as e:
-        print(f"更新 previous_emails 時發生錯誤: {str(e)}")
+        print(f"Error occurred while updating previous_emails: {str(e)}")
         return 0
 
 def process_new_email_automatically(email, vllm_endpoint, model_name="Qwen2.5-72B-Instruct-AWQ"):
-    """自動處理新信件：查詢資料庫並調用vLLM API進行總結"""
+    """Automatically process new emails: query database and call vLLM API for summarization"""
     try:
-        # 步驟1: 查詢資料庫
-        user_question = f"總結{email.get('subject', '無標題')}內容"
+        # Step 1: Query database
+        user_question = f"Summarize {email.get('subject', 'No Subject')} content"
         result = query_database(user_question, "gmail_inbox")
         
         if not result.get("success"):
-            return False, f"查詢資料庫失敗: {result.get('error', '未知錯誤')}"
+            return False, f"Database query failed: {result.get('error', 'Unknown error')}"
         
-        # 步驟2: 獲取聊天消息
+        # Step 2: Get chat messages
         chat_messages = result.get("chat_messages", [])
         if not chat_messages:
-            return False, "沒有獲取到聊天消息"
+            return False, "No chat messages retrieved"
         
-        # 找到用戶消息
+        # Find user message
         user_message = None
         for msg in chat_messages:
             if msg.get("role") == "user":
@@ -536,219 +536,219 @@ def process_new_email_automatically(email, vllm_endpoint, model_name="Qwen2.5-72
                 break
         
         if not user_message:
-            return False, "沒有找到用戶消息"
+            return False, "No user message found"
         
-        # 步驟3: 調用vLLM API進行總結（非streaming）
+        # Step 3: Call vLLM API for summarization (non-streaming)
         summary = call_vllm_api_non_streaming(user_message, vllm_endpoint, model_name)
         
         if summary.startswith("❌"):
-            return False, f"vLLM API調用失敗: {summary}"
+            return False, f"vLLM API call failed: {summary}"
         
         return True, summary
         
     except Exception as e:
-        return False, f"自動處理信件時發生錯誤: {str(e)}"
+        return False, f"Error occurred during automatic email processing: {str(e)}"
 
 def main():
-    # 標題
-    st.title("📧 Gmail 信件聊天室")
+    # Title
+    st.title("📧 Gmail Chat Room")
     st.markdown("---")
     
-    # 側邊欄 - 配置和狀態
+    # Sidebar - Configuration and Status
     with st.sidebar:
-        st.header("⚙️ 配置")
+        st.header("⚙️ Configuration")
         
-        # API 狀態檢查
+        # API Status Check
         if check_api_health():
-            st.success("✅ API 服務正常")
+            st.success("✅ API Service Available")
         else:
-            st.error("❌ API 服務離線")
+            st.error("❌ API Service Offline")
             st.stop()
         
-        # 模型選擇
-        st.subheader("🤖 模型配置")
-        # vLLM API 端點配置
-        # st.subheader("🔗 vLLM API 配置")
+        # Model Selection
+        st.subheader("🤖 Model Configuration")
+        # vLLM API endpoint configuration
+        # st.subheader("🔗 vLLM API Configuration")
         default_endpoint = "http://localhost:13141/v1/chat/completions"
         vllm_endpoint = st.text_input(
-            "vLLM API 端點:",
+            "vLLM API Endpoint:",
             value=default_endpoint,
-            help="輸入 vLLM API 的完整端點 URL",
+            help="Enter the complete vLLM API endpoint URL",
             key="vllm_endpoint"
         )
         default_model = "Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf"
         selected_model = st.text_input(
-            "模型名稱:",
+            "Model Name:",
             value=default_model,
-            help="輸入要使用的模型名稱",
+            help="Enter the model name to use",
             key="model_name"
         )
         
-        # 憑證上傳區塊
-        st.subheader("🔐 Google OAuth2 憑證")
+        # Credential Upload Section
+        st.subheader("🔐 Google OAuth2 Credentials")
         
-        # 文件上傳
+        # File Upload
         uploaded_file = st.file_uploader(
-            "上傳 credentials.json 文件",
+            "Upload credentials.json file",
             type=['json'],
-            help="請上傳從 Google Cloud Console 下載的 OAuth2 憑證文件",
+            help="Please upload the OAuth2 credential file downloaded from Google Cloud Console",
             key="credential_upload"
         )
         
-        # 處理上傳的文件
+        # Process uploaded file
         if uploaded_file is not None:
             try:
-                # 讀取上傳的文件內容
+                # Read uploaded file content
                 file_content = uploaded_file.read()
                 
-                # 驗證憑證文件
+                # Validate credential file
                 is_valid, validation_message = validate_credential_file(file_content)
                 
                 if is_valid:
-                    # 保存文件到本地
+                    # Save file locally
                     with open("credentials.json", "wb") as f:
                         f.write(file_content)
                     
-                    st.success("✅ 文件上傳成功！")
+                    st.success("✅ File upload successful!")
                     # st.success(f"✅ {validation_message}")
-                    # st.rerun()  # 重新運行以更新狀態
+                    # st.rerun()  # Rerun to update status
                 else:
                     st.error(f"❌ {validation_message}")
                     
             except Exception as e:
-                st.error(f"❌ 上傳文件時發生錯誤: {str(e)}")
+                st.error(f"❌ Error occurred while uploading file: {str(e)}")
         
-        # 檢查credentials.json
+        # Check credentials.json
         if os.path.exists("credentials.json"):
-            st.success("✅ 已上傳Google OAuth2憑證")
+            st.success("✅ Google OAuth2 credentials uploaded")
             
-            # 抓取按鈕
-            if st.button("🔄 抓取Gmail信件", use_container_width=True):
-                # 創建進度條
+            # Fetch Button
+            if st.button("🔄 Fetch Emails", use_container_width=True):
+                # Create progress bar
                 progress_bar = st.progress(0)
                 status_text = st.empty()
                 
-                # 步驟1: 抓取Gmail信件
-                status_text.text("步驟 1/5: 正在抓取Gmail信件...")
+                # Step 1: Fetch Gmail emails
+                status_text.text("Step 1/5: Fetching emails...")
                 progress_bar.progress(15)
                 
                 success, message = fetch_gmail_emails()
                 
                 if success:
                     progress_bar.progress(25)
-                    status_text.text("步驟 1/5: Gmail信件抓取完成")
+                    status_text.text("Step 1/5: Gmail fetching completed")
                     st.success(message)
                     
-                    # 步驟2: 轉換為txt文件
-                    status_text.text("步驟 2/5: 正在轉換為txt文件...")
+                    # Step 2: Convert to txt file
+                    status_text.text("Step 2/5: Converting to txt file...")
                     progress_bar.progress(40)
                     
                     txt_success, txt_message = convert_emails_to_txt()
                     
                     if txt_success:
                         progress_bar.progress(55)
-                        status_text.text("步驟 2/5: txt文件轉換完成")
+                        status_text.text("Step 2/5: txt file conversion completed")
                         st.success(txt_message)
                         
-                        # 步驟3: 轉換為chunks
-                        status_text.text("步驟 3/5: 正在轉換為chunks格式...")
+                        # Step 3: Convert to chunks
+                        status_text.text("Step 3/5: Converting to chunks format...")
                         progress_bar.progress(70)
                         
                         chunks_success, chunks_message = convert_emails_to_chunks()
                         if chunks_success:
-                            status_text.text("步驟 3/5: chunks格式轉換完成")
+                            status_text.text("Step 3/5: chunks format conversion completed")
                             st.success(chunks_message)
                         else:
-                            status_text.text("步驟 3/5: chunks格式轉換失敗")
+                            status_text.text("Step 3/5: chunks format conversion failed")
                             st.error(chunks_message)
                             
-                        # 步驟4: 
-                        status_text.text("步驟 4/5: 正在創建資料庫...")
+                        # Step 4:
+                        status_text.text("Step 4/5: Creating database...")
                         db_success, db_message = create_db(json_path="test_data/gmail_chunks.json", collection_name='gmail_inbox')
                         if db_success:
-                            status_text.text("步驟 4/5: 創建資料庫完成")
+                            status_text.text("Step 4/5: Database creation completed")
                             st.success(db_message)
                         else:
-                            status_text.text("步驟 4/5: 創建資料庫失敗")
+                            status_text.text("Step 4/5: Database creation failed")
                             st.error(db_message)
 
-                        # 步驟5: 檢測新信件並自動處理
+                        # Step 5: Detect new emails and process automatically
                         if chunks_success and db_success:
-                            status_text.text("步驟 5/5: 檢測新信件並自動處理...")
+                            status_text.text("Step 5/5: Detecting new emails and processing automatically...")
                             progress_bar.progress(90)
                             
-                            # 檢測新信件
+                            # Detect new emails
                             new_emails, detect_message = detect_new_emails()
                             
                             if new_emails:
                                 st.info(f"🔍 {detect_message}")
                                 
-                                # 對每封新信件進行自動處理
+                                # Automatically process each new email
                                 processed_count = 0
-                                successfully_processed_emails = []  # 收集成功處理的信件
+                                successfully_processed_emails = []  # Collect successfully processed emails
                                 
                                 for i, new_email in enumerate(new_emails):
                                     try:
-                                        st.write(f"📧 正在處理新信件 {i+1}/{len(new_emails)}: {new_email.get('subject', '無標題')}")
+                                        st.write(f"📧 Processing new email {i+1}/{len(new_emails)}: {new_email.get('subject', 'No Subject')}")
                                         
-                                        # 自動處理信件
+                                        # Automatically process email
                                         success, result_message = process_new_email_automatically(new_email, vllm_endpoint, selected_model)
                                         
                                         if success:
                                             processed_count += 1
-                                            successfully_processed_emails.append(new_email)  # 添加到成功處理列表
-                                            st.success(f"✅ 信件 {i+1} - {new_email.get('subject', '無標題')} 處理成功")
-                                            # 可以在這裡添加總結結果的顯示，但根據需求不顯示結果
+                                            successfully_processed_emails.append(new_email)  # Add to successfully processed list
+                                            st.success(f"✅ Email {i+1} - {new_email.get('subject', 'No Subject')} processed successfully")
+                                            # Can add summary result display here, but not showing results as per requirements
                                         else:
-                                            st.warning(f"⚠️ 信件 {i+1} 處理失敗: {result_message}")
+                                            st.warning(f"⚠️ Email {i+1} processing failed: {result_message}")
                                             
                                     except Exception as e:
-                                        st.error(f"❌ 處理信件 {i+1} 時發生錯誤: {str(e)}")
+                                        st.error(f"❌ Error occurred while processing email {i+1}: {str(e)}")
                                 
-                                # 只有成功處理的信件才加入 previous_emails.json
+                                # Only successfully processed emails are added to previous_emails.json
                                 if successfully_processed_emails:
                                     updated_count = update_previous_emails(successfully_processed_emails)
-                                    st.success(f"🎉 成功自動處理了 {processed_count} 封新信件，已更新處理記錄")
+                                    st.success(f"🎉 Successfully processed {processed_count} new emails, processing records updated")
                                 else:
-                                    st.info("ℹ️ 沒有信件處理成功，處理記錄未更新")
+                                    st.info("ℹ️ No emails processed successfully, processing records not updated")
                             else:
                                 st.info(f"ℹ️ {detect_message}")
                         
                         if chunks_success:
                             progress_bar.progress(100)
-                            status_text.text("完成: 所有步驟已完成")
+                            status_text.text("Completed: All steps completed")
                             st.success(chunks_message)
-                            st.info("信件資料已更新，頁面將自動刷新")
+                            st.info("Email data updated, page will refresh automatically")
                             
-                            # 清理進度條
+                            # Clear progress bar
                             progress_bar.empty()
                             status_text.empty()
                             
-                            # 自動刷新
+                            # Auto refresh
                             time.sleep(2)
                             st.rerun()
                         else:
                             progress_bar.empty()
                             status_text.empty()
-                            st.error(f"chunks轉換失敗: {chunks_message}")
+                            st.error(f"chunks conversion failed: {chunks_message}")
                     else:
                         progress_bar.empty()
                         status_text.empty()
-                        st.error(f"txt轉換失敗: {txt_message}")
+                        st.error(f"txt conversion failed: {txt_message}")
                 else:
                     progress_bar.empty()
                     status_text.empty()
-                    st.error(f"抓取失敗: {message}")
+                    st.error(f"Fetching failed: {message}")
         else:
-            st.error("❌ 找不到credentials.json文件")
-            st.info("請上傳Google OAuth2憑證文件")
+            st.error("❌ credentials.json file not found")
+            st.info("Please upload Google OAuth2 credential file")
 
-        # 郵件列表
-        st.subheader("📧 郵件列表")
+        # Email List
+        st.subheader("📧 Email List")
         display_sidebar_email_list()
 
 
-    # 初始化聊天歷史
+    # Initialize chat history
     if "chat_history" not in st.session_state:
         st.session_state.chat_history = []
     if "show_email_detail" not in st.session_state:
@@ -756,26 +756,26 @@ def main():
     if "selected_email" not in st.session_state:
         st.session_state.selected_email = None
     
-    # 檢查是否要顯示郵件詳情
+    # Check if email details should be displayed
     if st.session_state.show_email_detail and st.session_state.selected_email:
         display_email_detail(st.session_state.selected_email)
     else:
-        # 正常的聊天界面
+        # Normal chat interface
         st.markdown("---")
         
-        # 顯示聊天歷史
+        # Display chat history
         if st.session_state.chat_history:
-            st.subheader("💬 與您的信件對話")
+            st.subheader("💬 Chat with Your Emails")
             
-            # 創建聊天容器
+            # Create chat container
             chat_container = st.container()
             
             with chat_container:
                 st.markdown('<div class="chat-container">', unsafe_allow_html=True)
                 
-                # 顯示聊天歷史（從上到下按順序顯示）
+                # Display chat history (from top to bottom in order)
                 for message in st.session_state.chat_history:
-                    # 確保消息有正確的格式
+                    # Ensure message has correct format
                     is_user = message.get("is_user", False)
                     content = message.get("content", "")
                     display_chat_message(content, is_user)
@@ -784,7 +784,7 @@ def main():
             
             st.markdown("---")
         
-        # 聊天輸入區域
+        # Chat input area
         st.markdown('<div class="input-container">', unsafe_allow_html=True)
         
         user_question = st.text_input("Ask a question about your gmail:", placeholder="")
@@ -795,12 +795,12 @@ def main():
                     # Add user question to chat history
                     add_to_chat_history("user", user_question)
                     
-                    # 查詢資料庫
-                    with st.spinner("🎨 正在分析您的信件..."):
+                    # Query database
+                    with st.spinner("🎨 Analyzing your emails..."):
                         result = query_database(user_question, 'gmail_inbox')
                     
                     # Get answer from video content
-                    full_answer = ""  # 初始化 full_answer
+                    full_answer = ""  # Initialize full_answer
                     if result.get("success"):
                         chat_messages = result.get("chat_messages", [])
                         if chat_messages:
@@ -810,36 +810,36 @@ def main():
                                     user_message = msg.get("content", "")
                                     break
                             
-                            # 生成回答（使用流式輸出）
+                            # Generate answer (using streaming output)
                             if user_message:
-                                # 創建一個容器來顯示流式回答
+                                # Create a container to display streaming answer
                                 streaming_container = st.empty()
                                 full_answer = ""
                                 
-                                # 顯示正在生成的提示
+                                # Display generating prompt
                                 streaming_container.markdown("""
                                 <div class="chat-message assistant">
                                     <div class="avatar">🤖</div>
-                                    <div>🤔 正在思考中...</div>
+                                    <div>🤔 Thinking...</div>
                                 </div>
                                 """, unsafe_allow_html=True)
                                 
-                                # 使用流式 API 生成回答
+                                # Use streaming API to generate answer
                                 try:
                                     for chunk in call_vllm_api_streaming(user_message, vllm_endpoint, selected_model):
                                         if chunk:
                                             full_answer += chunk
-                                            # 實時更新顯示，添加打字機效果
+                                            # Real-time display update, add typewriter effect
                                             streaming_container.markdown(f"""
                                             <div class="chat-message assistant">
                                                 <div class="avatar">🤖</div>
                                                 <div>{full_answer}<span class="typing-cursor">|</span></div>
                                             </div>
                                             """, unsafe_allow_html=True)
-                                            # 添加小延遲以模擬打字效果
+                                            # Add small delay to simulate typing effect
                                             time.sleep(0.05)
                                     
-                                    # 最終顯示完整回答（移除游標）
+                                    # Final display of complete answer (remove cursor)
                                     streaming_container.markdown(f"""
                                     <div class="chat-message assistant">
                                         <div class="avatar">🤖</div>
@@ -848,7 +848,7 @@ def main():
                                     """, unsafe_allow_html=True)
                                     
                                 except Exception as e:
-                                    full_answer = f"❌ 生成回答時發生錯誤: {str(e)}"
+                                    full_answer = f"❌ Error occurred while generating answer: {str(e)}"
                                     streaming_container.markdown(f"""
                                     <div class="chat-message assistant">
                                         <div class="avatar">🤖</div>
@@ -856,7 +856,7 @@ def main():
                                     </div>
                                     """, unsafe_allow_html=True)
                             else:
-                                full_answer = "抱歉，我無法從您的信件中找到相關資訊。"
+                                full_answer = "Sorry, I cannot find relevant information from your emails."
                                 st.markdown(f"""
                                 <div class="chat-message assistant">
                                     <div class="avatar">🤖</div>
@@ -864,7 +864,7 @@ def main():
                                 </div>
                                 """, unsafe_allow_html=True)
                         else:
-                            full_answer = "抱歉，我無法從您的信件中找到相關資訊。"
+                            full_answer = "Sorry, I cannot find relevant information from your emails."
                             st.markdown(f"""
                             <div class="chat-message assistant">
                                 <div class="avatar">🤖</div>
@@ -872,10 +872,10 @@ def main():
                             </div>
                             """, unsafe_allow_html=True)
                     else:
-                        error_msg = result.get("error", "信件查詢失敗")
+                        error_msg = result.get("error", "Email query failed")
                         st.error(f"❌ {error_msg}")
                         
-                        # 添加錯誤消息到歷史
+                        # Add error message to history
                         st.session_state.chat_history.append({
                             "content": error_msg,
                             "is_user": False,
@@ -883,17 +883,17 @@ def main():
                         })
                     
                     if result.get("success"):
-                        # 流式輸出完成後，添加到聊天歷史
+                        # After streaming output is complete, add to chat history
                         st.session_state.chat_history.append({
                             "content": full_answer,
                             "is_user": False,
                             "timestamp": datetime.now()
                         })
                     
-                    # 不需要重新渲染，聊天歷史已經在頁面頂部顯示
+                    # No need to re-render, chat history is already displayed at the top of the page
                     
-                    # 顯示詳細資訊
-                    with st.expander("🔍 查詢詳情"):
+                    # Display detailed information
+                    with st.expander("🔍 Query Details"):
                         st.json(result)
                     
                     # Rerun to update the chat display
