@@ -50,6 +50,8 @@ LLM app with RAG to chat with Gmail. The app uses Retrieval Augmented Generation
 
 1. Click `Reuse_Start_Llama_Server.bat` to start the llama.cpp server.
 
+![image](images/fig_1.PNG)
+
 2. Go to `chat_with_gmail` folder and click `start.bat`. This scripts will:
 - Check all prerequisites
 - Install dependencies automatically
