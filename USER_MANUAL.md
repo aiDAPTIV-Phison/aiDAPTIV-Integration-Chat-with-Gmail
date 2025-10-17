@@ -70,7 +70,7 @@ LLM app with RAG to chat with Gmail. The app uses Retrieval Augmented Generation
 ![image](images/fig_5.PNG)
 
 
-6. Click on `search gmail inbox` button. All your emails will be listed below.
+6. Click on `Fetch Emails` button. All your emails will be listed below.
 
 ![image](images/fig_6.PNG)
 
