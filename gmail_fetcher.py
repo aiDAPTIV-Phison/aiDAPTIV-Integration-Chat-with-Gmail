@@ -8,6 +8,7 @@ import os
 import json
 import base64
 import pickle
+import re
 from datetime import datetime
 from typing import List, Dict, Any, Optional
 import logging
@@ -28,7 +29,7 @@ SCOPES = ['https://www.googleapis.com/auth/gmail.readonly']
 class GmailFetcher:
     """Gmail信件抓取器"""
     
-    def __init__(self, credentials_file: str = 'credentials.json', token_file: str = 'token.pickle'):
+    def __init__(self, credentials_file: str = './aiDAPTIV_Files/Example/Files/credentials.json', token_file: str = 'token.pickle'):
         """
         初始化Gmail抓取器
         
@@ -191,10 +192,14 @@ class GmailFetcher:
         
         # 提取標頭欄位
         header_fields = ['From', 'To', 'Subject', 'Date', 'Cc', 'Bcc', 'Reply-To']
+        illegal_chars = r'[<>:"/\\|?*!~]'
         for header in headers:
             name = header.get('name', '')
             value = header.get('value', '')
             if name in header_fields:
+                # 如果是 Subject，移除非法字符
+                if name == 'Subject':
+                    value = re.sub(illegal_chars, '_', value)
                 parsed_message[name.lower().replace('-', '_')] = value
         
         # 提取信件內容
@@ -354,7 +359,7 @@ def main():
     
     # 生成檔案名
     timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-    filename = "gmail_emails.json" # f"gmail_emails_{timestamp}.json"
+    filename = "./aiDAPTIV_Files/Example/Files/gmail_emails.json" # f"gmail_emails_{timestamp}.json"
     
     # 抓取信件
     emails = fetcher.fetch_all_emails(

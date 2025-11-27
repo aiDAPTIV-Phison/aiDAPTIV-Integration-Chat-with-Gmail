@@ -33,7 +33,7 @@ def convert_emails_to_txt():
     output_dir.mkdir(parents=True, exist_ok=True)
     
     # 读取邮件数据
-    with open("gmail_emails.json", "r", encoding="utf-8") as f:
+    with open("./aiDAPTIV_Files/Example/Files/gmail_emails.json", "r", encoding="utf-8") as f:
         emails = json.load(f)
     
     # print(f"找到 {len(emails)} 封邮件")
