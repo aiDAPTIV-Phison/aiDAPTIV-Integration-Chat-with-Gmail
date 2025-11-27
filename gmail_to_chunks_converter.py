@@ -165,10 +165,10 @@ def main():
     import argparse
     
     parser = argparse.ArgumentParser(description='將 Gmail 郵件轉換成 chunks.json 格式')
-    parser.add_argument('--input', '-i', default='gmail_emails.json', 
-                       help='輸入的 Gmail 郵件檔案 (預設: gmail_emails.json)')
+    parser.add_argument('--input', '-i', default='./aiDAPTIV_Files/Example/Files/gmail_emails.json', 
+                       help='輸入的 Gmail 郵件檔案 (預設: ./aiDAPTIV_Files/Example/Files/gmail_emails.json)')
     parser.add_argument('--output', '-o', default='./agent_builder_client/test_data/gmail_chunks.json', 
-                       help='輸出的 chunks 檔案 (預設: gmail_chunks.json)')
+                       help='輸出的 chunks 檔案 (預設: ./agent_builder_client/test_data/gmail_chunks.json)')
     args = parser.parse_args()
     
     print("Gmail 郵件轉換成 chunks.json 格式")

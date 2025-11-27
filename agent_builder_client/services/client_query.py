@@ -195,7 +195,7 @@ def get_rag_context_with_file_content(chroma, question, collection_name, k=5):
                 source_stats[source]['chunks'].append(chunk_content)
                 logger.info(f"source: {source}, similarity_sum: {source_stats[source]['similarity_sum']}, scores: {source_stats[source]['scores']}")
         
-        logger.info(f"source_stats: {source_stats}")
+        # logger.info(f"source_stats: {source_stats}")
         if not source_stats:
             return {
                 'filename': None,
@@ -231,8 +231,8 @@ def get_rag_context_with_file_content(chroma, question, collection_name, k=5):
         
         # 構建完整的 merged file 路徑
         merged_file_path = os.path.join(
-            settings.MERGED_BASE_FOLDER,
-            collection_name,
+            'test_data', 
+            'gmail_inbox', 
             merge_file_name
         )
         
@@ -244,7 +244,7 @@ def get_rag_context_with_file_content(chroma, question, collection_name, k=5):
             if os.path.exists(merged_file_path):
                 with open(merged_file_path, 'r', encoding='utf-8') as f:
                     merged_content = f.read()
-                logger.info(f"成功讀取 merged file，內容長度: {len(merged_content)} 字符")
+                logger.info(f"成功讀取 merged file{merged_file_path}，內容長度: {len(merged_content)} 字符")
             else:
                 logger.warning(f"Merged file 不存在: {merged_file_path}")
                 return {
@@ -279,7 +279,7 @@ def get_rag_context_with_file_content(chroma, question, collection_name, k=5):
         
         logger.info(f"建議的 merge file 名稱: {merge_file_name}")
         logger.info(f"生成了 {len(chat_messages)} 條聊天消息")
-        logger.debug(f"檢索到 {len(all_chunks)} 個文檔片段")
+        logger.info(f"檢索到 {len(all_chunks)} 個文檔片段")
         
         return {
             'filename': merge_file_name,

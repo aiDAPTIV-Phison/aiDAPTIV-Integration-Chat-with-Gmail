@@ -152,7 +152,7 @@ def load_email_data():
     """Load emails"""
     try:
         # Try to load gmail_emails.json
-        emails_file = "./previous_emails.json"
+        emails_file = "./aiDAPTIV_Files/Example/Files/previous_emails.json"
         if os.path.exists(emails_file):
             with open(emails_file, 'r', encoding='utf-8') as f:
                 return json.load(f)
@@ -267,7 +267,7 @@ def fetch_gmail_emails():
     """Execute Gmail email fetching"""
     try:
         # Check if credentials.json exists
-        if not os.path.exists("credentials.json"):
+        if not os.path.exists("./aiDAPTIV_Files/Example/Files/credentials.json"):
             return False, "Cannot find credentials.json file, please set up Google OAuth2 credentials first"
         
         # Execute gmail_fetcher.py using UI mode
@@ -448,8 +448,8 @@ def detect_new_emails():
     """Detect new emails"""
     try:
         # Check if previous email records exist
-        previous_emails_file = "previous_emails.json"
-        current_emails_file = "gmail_emails.json"
+        previous_emails_file = "./aiDAPTIV_Files/Example/Files/previous_emails.json"
+        current_emails_file = "./aiDAPTIV_Files/Example/Files/gmail_emails.json"
         
         if not os.path.exists(current_emails_file):
             return [], "No current email file found"
@@ -483,7 +483,7 @@ def detect_new_emails():
 def update_previous_emails(successfully_processed_emails):
     """Add successfully processed emails to previous_emails.json"""
     try:
-        previous_emails_file = "previous_emails.json"
+        previous_emails_file = "./aiDAPTIV_Files/Example/Files/previous_emails.json"
         
         # Read existing previous_emails
         existing_emails = []
@@ -606,7 +606,7 @@ def main():
                 
                 if is_valid:
                     # Save file locally
-                    with open("credentials.json", "wb") as f:
+                    with open("./aiDAPTIV_Files/Example/Files/credentials.json", "wb") as f:
                         f.write(file_content)
                     
                     st.success("✅ File upload successful!")
@@ -619,7 +619,7 @@ def main():
                 st.error(f"❌ Error occurred while uploading file: {str(e)}")
         
         # Check credentials.json
-        if os.path.exists("credentials.json"):
+        if os.path.exists("./aiDAPTIV_Files/Example/Files/credentials.json"):
             st.success("✅ Google OAuth2 credentials uploaded")
             
             # Fetch Button
