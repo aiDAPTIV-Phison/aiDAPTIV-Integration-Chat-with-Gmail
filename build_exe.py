@@ -31,25 +31,70 @@ def check_uv():
 def check_virtual_env():
     # Check project root .venv
     if not os.path.exists('.venv'):
-        print("[INFO] Virtual environment not found in project root. Installing dependencies using uv...")
+        print("[INFO] Virtual environment not found in project root. Creating virtual environment using uv...")
+        try:
+            # Create virtual environment first
+            subprocess.check_call(['uv', 'venv', '.venv'])
+            print("[SUCCESS] Virtual environment created")
+        except subprocess.CalledProcessError as e:
+            print(f"[ERROR] Failed to create virtual environment: {e}")
+            print("[INFO] Trying alternative method...")
+            # Fallback to standard venv
+            subprocess.check_call([sys.executable, '-m', 'venv', '.venv'])
+            print("[SUCCESS] Virtual environment created using standard venv")
+        
         if os.path.exists('requirements.txt'):
             print("[INFO] Installing main requirements...")
-            subprocess.check_call(['uv', 'pip', 'install', '-r', 'requirements.txt'])
-            print("[SUCCESS] All dependencies installed using uv")
+            try:
+                # Use uv pip install with the virtual environment
+                subprocess.check_call(['uv', 'pip', 'install', '-r', 'requirements.txt'])
+                print("[SUCCESS] All dependencies installed using uv")
+            except subprocess.CalledProcessError as e:
+                print(f"[WARNING] uv pip install failed: {e}")
+                print("[INFO] Trying alternative method with pip...")
+                # Fallback to standard pip
+                if sys.platform == 'win32':
+                    pip_path = os.path.join('.venv', 'Scripts', 'pip.exe')
+                else:
+                    pip_path = os.path.join('.venv', 'bin', 'pip')
+                subprocess.check_call([pip_path, 'install', '-r', 'requirements.txt'])
+                print("[SUCCESS] All dependencies installed using pip")
     else:
         print("[SUCCESS] Virtual environment found in project root, skipping dependency installation")
     
     # Check agent_builder_client .venv
     agent_client_venv = os.path.join('agent_builder_client', '.venv')
     if not os.path.exists(agent_client_venv):
-        print("[INFO] Virtual environment not found in agent_builder_client. Installing dependencies using uv...")
+        print("[INFO] Virtual environment not found in agent_builder_client. Creating virtual environment using uv...")
         agent_client_req = os.path.join('agent_builder_client', 'requirements.txt')
-        if os.path.exists(agent_client_req):
-            print("[INFO] Installing agent_builder_client requirements...")
+        try:
             os.chdir('agent_builder_client')
-            subprocess.check_call(['uv', 'pip', 'install', '-r', 'requirements.txt'])
-            os.chdir('..')
-            print("[SUCCESS] agent_builder_client dependencies installed using uv")
+            # Create virtual environment first
+            subprocess.check_call(['uv', 'venv', '.venv'])
+            print("[SUCCESS] Virtual environment created")
+        except subprocess.CalledProcessError as e:
+            print(f"[ERROR] Failed to create virtual environment: {e}")
+            print("[INFO] Trying alternative method...")
+            # Fallback to standard venv
+            subprocess.check_call([sys.executable, '-m', 'venv', '.venv'])
+            print("[SUCCESS] Virtual environment created using standard venv")
+        
+        if os.path.exists('requirements.txt'):
+            print("[INFO] Installing agent_builder_client requirements...")
+            try:
+                subprocess.check_call(['uv', 'pip', 'install', '-r', 'requirements.txt'])
+                print("[SUCCESS] agent_builder_client dependencies installed using uv")
+            except subprocess.CalledProcessError as e:
+                print(f"[WARNING] uv pip install failed: {e}")
+                print("[INFO] Trying alternative method with pip...")
+                # Fallback to standard pip
+                if sys.platform == 'win32':
+                    pip_path = os.path.join('.venv', 'Scripts', 'pip.exe')
+                else:
+                    pip_path = os.path.join('.venv', 'bin', 'pip')
+                subprocess.check_call([pip_path, 'install', '-r', 'requirements.txt'])
+                print("[SUCCESS] agent_builder_client dependencies installed using pip")
+        os.chdir('..')
     else:
         print("[SUCCESS] Virtual environment found in agent_builder_client, skipping dependency installation")
 
