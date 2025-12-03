@@ -12,7 +12,7 @@ import datetime
 from loguru import logger
 
 # 添加配置導入
-from config import settings
+from agent_builder_client.config import settings
 
 def get_rag_context_file_name(chroma, question, k=5):
     """

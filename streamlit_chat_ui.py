@@ -14,6 +14,19 @@ import os
 from datetime import datetime
 import subprocess
 import sys
+import multiprocessing
+
+# 檢查是否在 multiprocessing 子進程中（Windows spawn 模式）
+# 如果是子進程，不執行主程序代碼
+if __name__ != "__main__":
+    try:
+        if hasattr(multiprocessing, 'current_process'):
+            current_process = multiprocessing.current_process()
+            if hasattr(current_process, 'name') and current_process.name != 'MainProcess':
+                # 這是 multiprocessing 子進程，不執行主程序
+                sys.exit(0)
+    except:
+        pass
 
 # Configure page
 st.set_page_config(
@@ -24,7 +37,7 @@ st.set_page_config(
 )
 
 # API configuration
-API_BASE_URL = "http://localhost:8080"
+API_BASE_URL = "http://localhost:8081"
 
 # Custom CSS styles
 st.markdown("""
