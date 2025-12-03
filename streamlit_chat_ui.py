@@ -15,6 +15,7 @@ from datetime import datetime
 import subprocess
 import sys
 import multiprocessing
+from agent_builder_client.config import settings
 
 # 檢查是否在 multiprocessing 子進程中（Windows spawn 模式）
 # 如果是子進程，不執行主程序代碼
@@ -37,7 +38,7 @@ st.set_page_config(
 )
 
 # API configuration
-API_BASE_URL = "http://localhost:8081"
+API_BASE_URL = f"http://{settings.API_HOST}:{settings.API_PORT}"
 
 # Custom CSS styles
 st.markdown("""
