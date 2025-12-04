@@ -9,14 +9,21 @@ Gmail 郵件資料轉換成 chunks.json 格式的程式
 
 import json
 import re
+import sys
 from datetime import datetime
 from typing import List, Dict, Any
+from pathlib import Path
 
 try:
     import html2text
     HTML2TEXT_AVAILABLE = True
 except ImportError:
     HTML2TEXT_AVAILABLE = False
+
+
+APP_BASE_DIR = Path(sys.executable).parent if getattr(sys, 'frozen', False) else Path(__file__).parent.resolve()
+GMAIL_EMAILS_FILE = APP_BASE_DIR / "gmail_emails.json"
+GMAIL_CHUNKS_OUTPUT = APP_BASE_DIR / "agent_builder_client" / "test_data" / "gmail_chunks.json"
 
 
 def clean_text(text: str) -> str:
@@ -165,10 +172,10 @@ def main():
     import argparse
     
     parser = argparse.ArgumentParser(description='將 Gmail 郵件轉換成 chunks.json 格式')
-    parser.add_argument('--input', '-i', default='./aiDAPTIV_Files/Example/Files/gmail_emails.json', 
-                       help='輸入的 Gmail 郵件檔案 (預設: ./aiDAPTIV_Files/Example/Files/gmail_emails.json)')
-    parser.add_argument('--output', '-o', default='./agent_builder_client/test_data/gmail_chunks.json', 
-                       help='輸出的 chunks 檔案 (預設: ./agent_builder_client/test_data/gmail_chunks.json)')
+    parser.add_argument('--input', '-i', default=str(GMAIL_EMAILS_FILE), 
+                       help='輸入的 Gmail 郵件檔案 (預設: exe 同目錄下的 gmail_emails.json)')
+    parser.add_argument('--output', '-o', default=str(GMAIL_CHUNKS_OUTPUT), 
+                       help='輸出的 chunks 檔案 (預設: exe 同目錄/agent_builder_client/test_data/gmail_chunks.json)')
     args = parser.parse_args()
     
     print("Gmail 郵件轉換成 chunks.json 格式")

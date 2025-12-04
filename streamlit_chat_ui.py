@@ -15,6 +15,7 @@ from datetime import datetime
 import subprocess
 import sys
 import multiprocessing
+from pathlib import Path
 from agent_builder_client.config import settings
 
 # 檢查是否在 multiprocessing 子進程中（Windows spawn 模式）
@@ -39,6 +40,12 @@ st.set_page_config(
 
 # API configuration
 API_BASE_URL = f"http://{settings.API_HOST}:{settings.API_PORT}"
+
+# Runtime paths (credentials/emails live next to the executable)
+APP_BASE_DIR = Path(sys.executable).parent if getattr(sys, 'frozen', False) else Path(__file__).parent.resolve()
+CREDENTIALS_FILE = APP_BASE_DIR / "credentials.json"
+GMAIL_EMAILS_FILE = APP_BASE_DIR / "gmail_emails.json"
+PREVIOUS_EMAILS_FILE = APP_BASE_DIR / "previous_emails.json"
 
 # Custom CSS styles
 st.markdown("""
@@ -165,9 +172,8 @@ def query_database(question: str, collection_name: str):
 def load_email_data():
     """Load emails"""
     try:
-        # Try to load gmail_emails.json
-        emails_file = "./aiDAPTIV_Files/Example/Files/previous_emails.json"
-        if os.path.exists(emails_file):
+        emails_file = PREVIOUS_EMAILS_FILE
+        if emails_file.exists():
             with open(emails_file, 'r', encoding='utf-8') as f:
                 return json.load(f)
         
@@ -281,7 +287,7 @@ def fetch_gmail_emails():
     """Execute Gmail email fetching"""
     try:
         # Check if credentials.json exists
-        if not os.path.exists("./aiDAPTIV_Files/Example/Files/credentials.json"):
+        if not CREDENTIALS_FILE.exists():
             return False, "Cannot find credentials.json file, please set up Google OAuth2 credentials first"
         
         # Execute gmail_fetcher.py using UI mode
@@ -290,7 +296,7 @@ def fetch_gmail_emails():
         
         if result.returncode == 0:
             # Check if gmail_emails.json was generated
-            if os.path.exists("gmail_emails.json"):
+            if GMAIL_EMAILS_FILE.exists():
                 return True, "Email fetching success!"
             else:
                 # Analyze why no file was generated
@@ -462,10 +468,10 @@ def detect_new_emails():
     """Detect new emails"""
     try:
         # Check if previous email records exist
-        previous_emails_file = "./aiDAPTIV_Files/Example/Files/previous_emails.json"
-        current_emails_file = "./aiDAPTIV_Files/Example/Files/gmail_emails.json"
+        previous_emails_file = PREVIOUS_EMAILS_FILE
+        current_emails_file = GMAIL_EMAILS_FILE
         
-        if not os.path.exists(current_emails_file):
+        if not current_emails_file.exists():
             return [], "No current email file found"
         
         # Read current emails
@@ -473,7 +479,7 @@ def detect_new_emails():
             current_emails = json.load(f)
         
         # If no previous records, all emails are new
-        if not os.path.exists(previous_emails_file):
+        if not previous_emails_file.exists():
             return current_emails, f"Detected {len(current_emails)} new emails"
         
         # Read previous email records
@@ -497,11 +503,11 @@ def detect_new_emails():
 def update_previous_emails(successfully_processed_emails):
     """Add successfully processed emails to previous_emails.json"""
     try:
-        previous_emails_file = "./aiDAPTIV_Files/Example/Files/previous_emails.json"
+        previous_emails_file = PREVIOUS_EMAILS_FILE
         
         # Read existing previous_emails
         existing_emails = []
-        if os.path.exists(previous_emails_file):
+        if previous_emails_file.exists():
             with open(previous_emails_file, 'r', encoding='utf-8') as f:
                 existing_emails = json.load(f)
         
@@ -619,8 +625,8 @@ def main():
                 is_valid, validation_message = validate_credential_file(file_content)
                 
                 if is_valid:
-                    # Save file locally
-                    with open("./aiDAPTIV_Files/Example/Files/credentials.json", "wb") as f:
+                    # Save file locally next to executable
+                    with open(CREDENTIALS_FILE, "wb") as f:
                         f.write(file_content)
                     
                     st.success("✅ File upload successful!")
@@ -633,7 +639,7 @@ def main():
                 st.error(f"❌ Error occurred while uploading file: {str(e)}")
         
         # Check credentials.json
-        if os.path.exists("./aiDAPTIV_Files/Example/Files/credentials.json"):
+        if CREDENTIALS_FILE.exists():
             st.success("✅ Google OAuth2 credentials uploaded")
             
             # Fetch Button

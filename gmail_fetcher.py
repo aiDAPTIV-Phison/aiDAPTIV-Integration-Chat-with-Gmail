@@ -12,6 +12,8 @@ import re
 from datetime import datetime
 from typing import List, Dict, Any, Optional
 import logging
+import sys
+from pathlib import Path
 
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
@@ -26,10 +28,16 @@ logger = logging.getLogger(__name__)
 # Gmail API 範圍
 SCOPES = ['https://www.googleapis.com/auth/gmail.readonly']
 
+# 可執行檔所在目錄（打包後）或目前檔案所在目錄（開發環境）
+APP_BASE_DIR = Path(sys.executable).parent if getattr(sys, 'frozen', False) else Path(__file__).parent.resolve()
+CREDENTIALS_DEFAULT_PATH = APP_BASE_DIR / "credentials.json"
+GMAIL_EMAILS_DEFAULT_PATH = APP_BASE_DIR / "gmail_emails.json"
+TOKEN_DEFAULT_PATH = APP_BASE_DIR / "token.pickle"
+
 class GmailFetcher:
     """Gmail信件抓取器"""
     
-    def __init__(self, credentials_file: str = './aiDAPTIV_Files/Example/Files/credentials.json', token_file: str = 'token.pickle'):
+    def __init__(self, credentials_file: Optional[str] = None, token_file: Optional[str] = None):
         """
         初始化Gmail抓取器
         
@@ -37,8 +45,10 @@ class GmailFetcher:
             credentials_file: Google OAuth2 憑證檔案路徑
             token_file: 存取權杖檔案路徑
         """
-        self.credentials_file = credentials_file
-        self.token_file = token_file
+        credentials_path = Path(credentials_file) if credentials_file else CREDENTIALS_DEFAULT_PATH
+        token_path = Path(token_file) if token_file else TOKEN_DEFAULT_PATH
+        self.credentials_file = credentials_path
+        self.token_file = token_path
         self.service = None
         self.creds = None
         
@@ -51,7 +61,7 @@ class GmailFetcher:
         """
         try:
             # 載入已儲存的憑證
-            if os.path.exists(self.token_file):
+            if self.token_file.exists():
                 with open(self.token_file, 'rb') as token:
                     self.creds = pickle.load(token)
             
@@ -60,7 +70,7 @@ class GmailFetcher:
                 if self.creds and self.creds.expired and self.creds.refresh_token:
                     self.creds.refresh(Request())
                 else:
-                    if not os.path.exists(self.credentials_file):
+                    if not self.credentials_file.exists():
                         logger.error(f"找不到憑證檔案: {self.credentials_file}")
                         logger.error("請先下載Google OAuth2憑證檔案並命名為credentials.json")
                         return False
@@ -332,7 +342,6 @@ class GmailFetcher:
 
 def main():
     """主程式"""
-    import sys
     
     print("Gmail信件抓取工具")
     print("=" * 50)
@@ -359,7 +368,7 @@ def main():
     
     # 生成檔案名
     timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-    filename = "./aiDAPTIV_Files/Example/Files/gmail_emails.json" # f"gmail_emails_{timestamp}.json"
+    filename = str(GMAIL_EMAILS_DEFAULT_PATH)  # f"gmail_emails_{timestamp}.json"
     
     # 抓取信件
     emails = fetcher.fetch_all_emails(

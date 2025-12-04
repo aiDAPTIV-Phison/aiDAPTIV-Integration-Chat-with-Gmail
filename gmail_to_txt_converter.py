@@ -5,8 +5,8 @@
 """
 
 import json
-import os
 import re
+import sys
 from pathlib import Path
 
 def sanitize_filename(filename):
@@ -19,11 +19,15 @@ def sanitize_filename(filename):
         filename = filename[:200]
     return filename.strip()
 
+APP_BASE_DIR = Path(sys.executable).parent if getattr(sys, 'frozen', False) else Path(__file__).parent.resolve()
+GMAIL_EMAILS_FILE = APP_BASE_DIR / "gmail_emails.json"
+
+
 def convert_emails_to_txt():
     """将邮件转换为txt文件"""
     
     # 创建输出目录
-    output_dir = Path("./agent_builder_client/test_data/gmail_inbox")
+    output_dir = APP_BASE_DIR / "agent_builder_client" / "test_data" / "gmail_inbox"
     
     # 如果目录存在，先清空内容
     if output_dir.exists():
@@ -33,7 +37,7 @@ def convert_emails_to_txt():
     output_dir.mkdir(parents=True, exist_ok=True)
     
     # 读取邮件数据
-    with open("./aiDAPTIV_Files/Example/Files/gmail_emails.json", "r", encoding="utf-8") as f:
+    with open(GMAIL_EMAILS_FILE, "r", encoding="utf-8") as f:
         emails = json.load(f)
     
     # print(f"找到 {len(emails)} 封邮件")
