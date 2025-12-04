@@ -87,3 +87,11 @@ LLM app with RAG to chat with Gmail. The app uses Retrieval Augmented Generation
 5. Ask questions related to your emails in the chat room.
 
 ![image](images/fig_5.PNG)
+
+
+3. **Advanced Features**
+    - Build `app.exe` at `./dist` 
+   ```bash
+    python .\build_exe_with_uv.py
+   ```
+    - Place `./multilingual-e5-large`, `config.yaml`, `credentials.json`, `gmail_emails.json`, and (optional, if you have history) `previous_emails.json` in the same folder as `app.exe` before running. 
