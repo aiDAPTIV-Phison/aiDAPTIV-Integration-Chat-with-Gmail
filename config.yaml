@@ -4,15 +4,15 @@
 # 嵌入模型設定
 embedding:
   # 嵌入模型路径（绝对路径或相对于项目根目录的路径）
-  # 示例: D:\Project\temp\aiDAPTIV-Integration-Chat-with-Gmail\multilingual-e5-large
-  # 或: ./multilingual-e5-large
+  # 示例: D:/Project/temp/aiDAPTIV-Integration-Chat-with-Gmail/multilingual-e5-large
+  # 或: ./multilingual-e5-large（與打包好的 exe 同一路徑底下）
   model_path: "./multilingual-e5-large"
   # 设备类型: "cpu" 或 "cuda"
   device: "cpu"
 
 # 服務 API 設定
 api:
-  host: "0.0.0.0"
+  host: "localhost"
   port: 8081
   debug: true
 
@@ -24,7 +24,7 @@ chroma:
 # 檔案路徑設定
 files:
   # 合并文件基础文件夹路径（相对于项目根目录）
-  merged_base_folder: "./test_data"
+  merged_base_folder: "./agent_builder_client/test_data"
 
 # 檢索設定
 retrieval:
@@ -57,7 +57,7 @@ prompt:
 # 日誌設定
 logging:
   # 是否啟用日誌（true/false）
-  enabled: false
+  enabled: true
   # 日誌級別: "DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL"
   level: "INFO"
   # 日誌文件路徑（相對於項目根目錄）

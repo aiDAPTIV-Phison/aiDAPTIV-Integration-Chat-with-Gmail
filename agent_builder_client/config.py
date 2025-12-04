@@ -67,7 +67,15 @@ class Settings:
             # 嵌入模型設定
             embedding_config = config.get('embedding', {})
             model_path = embedding_config.get('model_path', './multilingual-e5-large')
-            self.EMBEDDING_MODEL_PATH = self._resolve_path(model_path)
+            # 始終以 exe 同目錄為基準，拼接模型路徑，確保與打包後 app.exe 同資料夾底下的模型可被正確找到
+            exe_base_dir = Path(sys.executable).parent if getattr(sys, 'frozen', False) else self._project_root
+            model_path_obj = Path(model_path)
+            if model_path_obj.is_absolute():
+                # 若使用者在 config.yaml 中填的是絕對路徑，則直接使用該路徑
+                self.EMBEDDING_MODEL_PATH = str(model_path_obj)
+            else:
+                # 否則將相對路徑視為「相對於 exe 所在目錄」的路徑
+                self.EMBEDDING_MODEL_PATH = str(exe_base_dir / model_path_obj)
             self.EMBEDDING_DEVICE = embedding_config.get('device', 'cpu')
             
             # API 設定
@@ -76,13 +84,24 @@ class Settings:
             self.API_PORT = api_config.get('port', 8081)
             self.API_DEBUG = api_config.get('debug', True)
             
-            # Chroma 設定
+            # Chroma 設定（路徑以 exe 同目錄為基準）
             chroma_config = config.get('chroma', {})
-            self.CHROMA_PATH = self._resolve_path(chroma_config.get('path', './chroma'))
+            chroma_path_cfg = chroma_config.get('path', './chroma')
+            exe_base_dir = Path(sys.executable).parent if getattr(sys, 'frozen', False) else self._project_root
+            chroma_path_obj = Path(chroma_path_cfg)
+            if chroma_path_obj.is_absolute():
+                self.CHROMA_PATH = str(chroma_path_obj)
+            else:
+                self.CHROMA_PATH = str(exe_base_dir / chroma_path_obj)
             
-            # 檔案路徑設定
+            # 檔案路徑設定（路徑以 exe 同目錄為基準）
             files_config = config.get('files', {})
-            self.MERGED_BASE_FOLDER = self._resolve_path(files_config.get('merged_base_folder', './test_data'))
+            merged_base_cfg = files_config.get('merged_base_folder', './test_data')
+            merged_base_obj = Path(merged_base_cfg)
+            if merged_base_obj.is_absolute():
+                self.MERGED_BASE_FOLDER = str(merged_base_obj)
+            else:
+                self.MERGED_BASE_FOLDER = str(exe_base_dir / merged_base_obj)
             
             # 檢索設定
             retrieval_config = config.get('retrieval', {})

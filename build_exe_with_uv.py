@@ -37,11 +37,11 @@ def setup_uv_environment():
     # 创建虚拟环境
     venv_path = Path(".venv")
     if not venv_path.exists():
-        print("[INFO] 创建虚拟环境...")
+        print("[INFO] 创建虚拟环境（使用 Python 3.12.11）...")
         try:
-            subprocess.check_call(['uv', 'venv', '.venv'], 
+            subprocess.check_call(['uv', 'venv', '--python', '3.12.11', '.venv'], 
                                 stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-            print("[SUCCESS] 虚拟环境创建成功")
+            print("[SUCCESS] 虚拟环境创建成功（Python 3.12.11）")
         except subprocess.CalledProcessError as e:
             print(f"[ERROR] 虚拟环境创建失败: {e}")
             return False
@@ -92,6 +92,14 @@ def build_exe():
     if not venv_python.exists():
         print(f"[ERROR] 虚拟环境 Python 不存在: {venv_python}")
         return False
+    
+    # 验证 Python 版本
+    try:
+        version_output = subprocess.check_output([str(venv_python), '--version'], 
+                                                stderr=subprocess.STDOUT, text=True)
+        print(f"[INFO] 使用 Python 版本: {version_output.strip()}")
+    except Exception as e:
+        print(f"[WARNING] 无法获取 Python 版本: {e}")
     
     # PyInstaller 应该在依赖安装阶段已经安装了
     print("[INFO] PyInstaller 应该已经安装")
