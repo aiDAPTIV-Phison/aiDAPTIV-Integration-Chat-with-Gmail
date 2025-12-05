@@ -21,7 +21,10 @@ LLM app with RAG to chat with Gmail. The app uses Retrieval Augmented Generation
    cd aiDAPTIV-Integration-Chat-with-Gmail
    git clone https://huggingface.co/intfloat/multilingual-e5-large
    ```
-  
+
+3. **Prepare required files**
+- Before running `app.exe`, ensure that `./multilingual-e5-large` and `config.yaml` are in the same folder. Additionally, you may include the optional files `credentials.json`, `gmail_emails.json`, and `previous_emails.json`.
+
 
 ## Chapter 2: How to Use?
 
@@ -66,27 +69,27 @@ LLM app with RAG to chat with Gmail. The app uses Retrieval Augmented Generation
 - Start both the API server and Streamlit UI
 - The chat room will be automatically opened at http://localhost:8501 (default).
 
-![image](images/fig_1.PNG)
+![image](img/fig_1.PNG)
 
 
 2. Fill in the vllm endpoint and the model name.
 
-![image](images/fig_2.PNG)
+![image](img/fig_2.PNG)
 
 
 3. Upload your `credentials.json`.
 
-![image](images/fig_3.PNG)
+![image](img/fig_3.PNG)
 
 
 4. Click on `Fetch Emails` button. All your emails will be listed below.
 
-![image](images/fig_4.PNG)
+![image](img/fig_4.PNG)
 
 
 5. Ask questions related to your emails in the chat room.
 
-![image](images/fig_5.PNG)
+![image](img/fig_5.PNG)
 
 
 3. **Advanced Features**
@@ -94,4 +97,4 @@ LLM app with RAG to chat with Gmail. The app uses Retrieval Augmented Generation
    ```bash
     python .\build_exe_with_uv.py
    ```
-    - Place `./multilingual-e5-large`, `config.yaml`, `credentials.json`, `gmail_emails.json`, and (optional, if you have history) `previous_emails.json` in the same folder as `app.exe` before running. 
+   
