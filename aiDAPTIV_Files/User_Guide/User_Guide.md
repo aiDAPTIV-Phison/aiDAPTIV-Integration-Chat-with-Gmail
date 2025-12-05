@@ -11,21 +11,20 @@ LLM app with RAG to chat with Gmail. The app uses Retrieval Augmented Generation
 
 ### Installation Steps
 
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   ```
+1. Download the `Installer.zip` file and extract its contents.
+2. Navigate to the `Installer` folder and double-click on `setup.bat` to initiate the model download. Once the download is complete, the model files will be located in the `./multilingual-e5-large` directory.
+3. Before you run `app.exe`, ensure that the following files are present in the same directory:
+```
+Installer/
+    ├── app.exe
+    ├── multilingual-e5-large/
+    ├── config.yaml
+    ├── credentials.json (optional)
+    ├── gmail_emails.json (optional)
+    └── previous_emails.json (optional)
+```
+4. Launch the application by clicking on `app.exe`. The chat room will be automatically opened in your web browser.
   
-2. **Setup embedding model**
-   ```bash
-   cd aiDAPTIV-Integration-Chat-with-Gmail
-   git clone https://huggingface.co/intfloat/multilingual-e5-large
-   ```
-
-3. **Prepare required files**
-- Before running `app.exe`, ensure that `./multilingual-e5-large` and `config.yaml` are in the same folder. Additionally, you may include the optional files `credentials.json`, `gmail_emails.json`, and `previous_emails.json`.
-
-
 ## Chapter 2: How to Use?
 
 ### Usage Workflow
@@ -90,11 +89,3 @@ LLM app with RAG to chat with Gmail. The app uses Retrieval Augmented Generation
 5. Ask questions related to your emails in the chat room.
 
 ![image](img/fig_5.PNG)
-
-
-3. **Advanced Features**
-    - Build `app.exe` at `./dist` 
-   ```bash
-    python .\build_exe_with_uv.py
-   ```
-   
