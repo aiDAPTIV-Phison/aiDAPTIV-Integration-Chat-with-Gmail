@@ -500,36 +500,6 @@ def start_services():
     # 检查服务是否已经在运行（通过端口检查）
     global _started_processes, _started_threads
     
-    # 检查端口是否被占用
-    api_already_running = is_port_in_use(settings.API_PORT)
-    if api_already_running:
-        print(f"[WARNING] Port {settings.API_PORT} is already in use.")
-        pid = find_port_process(settings.API_PORT)
-        if pid:
-            print(f"[INFO] Process ID using port {settings.API_PORT}: {pid}")
-            print(f"[INFO] API service appears to be already running, skipping startup")
-        else:
-            print("[INFO] Could not find the process ID. Please close the process manually.")
-            print("[INFO] Attempting to start anyway...")
-    
-    # 检查 Streamlit 端口是否被占用（默认 8501）
-    streamlit_default_port = 8501
-    streamlit_already_running = is_port_in_use(streamlit_default_port)
-    if streamlit_already_running:
-        print(f"[WARNING] Port {streamlit_default_port} (Streamlit) is already in use.")
-        pid = find_port_process(streamlit_default_port)
-        if pid:
-            print(f"[INFO] Process ID using port {streamlit_default_port}: {pid}")
-            print(f"[INFO] Streamlit service appears to be already running, skipping startup")
-        else:
-            print("[INFO] Could not find the process ID. Please close the process manually.")
-            print("[INFO] Streamlit will try to use a different port automatically...")
-    
-    # 如果服务已经在运行，跳过启动
-    if api_already_running and streamlit_already_running:
-        print("[INFO] Both services appear to be already running. Exiting startup.")
-        return streamlit_default_port
-    
     print("[INFO] Starting FastAPI service in background...")
     # 根据是否打包选择不同的启动方式
     if is_frozen:
@@ -895,21 +865,6 @@ except Exception as e:
                 print("  1. Streamlit is still starting up (wait longer)")
                 print("  2. Streamlit failed to bind to port")
                 print("  3. Check firewall settings")
-        
-        # 尝试读取日志
-        if settings.LOGGING_ENABLED and os.path.exists(log_file):
-            print(f"[INFO] Reading log file: {log_file}")
-            try:
-                with open(log_file, 'r', encoding='utf-8', errors='ignore') as f:
-                    log_content = f.read()
-                    if log_content:
-                        print("[INFO] Last 100 lines of log:")
-                        lines = log_content.split('\n')
-                        for line in lines[-100:]:
-                            if line.strip():
-                                print(f"  {line}")
-            except Exception as e:
-                print(f"[WARNING] Could not read log file: {e}")
         
         return None
     
