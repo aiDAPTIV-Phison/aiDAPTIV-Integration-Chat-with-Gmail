@@ -12,18 +12,7 @@ LLM app with RAG to chat with Gmail. The app uses Retrieval Augmented Generation
 ### Installation Steps
 
 1. Download the `Installer.zip` file and extract its contents.
-2. Navigate to the `Installer` folder and double-click on `setup.bat` to initiate the model download. Once the download is complete, the model files will be located in the `./multilingual-e5-large` directory.
-3. Before you run `app.exe`, ensure that the following files are present in the same directory:
-```
-Installer/
-    ├── app.exe
-    ├── multilingual-e5-large/
-    ├── config.yaml
-    ├── credentials.json (optional)
-    ├── gmail_emails.json (optional)
-    └── previous_emails.json (optional)
-```
-4. Launch the application by clicking on `app.exe`. The chat room will be automatically opened in your web browser.
+2. Launch the application by clicking on `start.bat`. The chat room will be automatically opened in your web browser.
   
 ## Chapter 2: How to Use?
 

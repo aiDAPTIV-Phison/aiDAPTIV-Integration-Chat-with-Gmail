@@ -1,0 +1,163 @@
+主旨: The End of Dashboards and Design Systems _ Michal Malewicz
+发件人: Medium Daily Digest <noreply@medium.com>
+收件人: ptest9109@gmail.com
+日期: Tue, 02 Dec 2025 23:10:00 +0000 (UTC)
+
+Stories for Ptest
+@ptest9109 (https://medium.com/@ptest9109?source=email-020bca72d959-1764699597940-digest.reader-------------------------f97491ca_ec2f_4735_b905_020da5593115)
+·Become a member (https://medium.com/plans?source=email-020bca72d959-1764699597940-digest.reader-------------------------f97491ca_ec2f_4735_b905_020da5593115)
+
+Today's highlights
+
+Michal Malewicz (https://medium.com/@michalmalewicz?source=email-020bca72d959-1764699597940-digest.reader--5d98ec9de627----0-109------------------f97491ca_ec2f_4735_b905_020da5593115-1)
+
+The End of Dashboards and Design Systems
+Design is becoming quietly human again.
+
+8 min read
+829
+27
+
+The CS Engineer (https://medium.com/@Krishnajlathi?source=email-020bca72d959-1764699597940-digest.reader--9b14c1102113----1-98------------------f97491ca_ec2f_4735_b905_020da5593115-1)
+
+Forget JSON - These 4 Data Formats Made My APIs 5× Faster
+A 1.2 KB JSON payload transformed a smooth request…
+
+6 min read
+1.5K
+45
+
+Adarsh Gupta (https://medium.com/@adarsh-gupta?source=email-020bca72d959-1764699597940-digest.reader-84ac01765c52-751f044430a4----2-98------------------f97491ca_ec2f_4735_b905_020da5593115-1)
+inWrite A Catalyst (https://medium.com/write-a-catalyst?source=email-020bca72d959-1764699597940-digest.reader-84ac01765c52-751f044430a4----2-98------------------f97491ca_ec2f_4735_b905_020da5593115-1)
+
+7 Websites that I Visit Daily as a 9–5 Software Engineer
+Every day, every single day.
+
+5 min read
+1.6K
+32
+
+ujjwal kumar (https://medium.com/@ujjwal3009?source=email-020bca72d959-1764699597940-digest.reader--8b8690e0bc78----3-109------------------f97491ca_ec2f_4735_b905_020da5593115-1)
+
+Stripe SDE 2 Interview Experience & Offer Breakdown (₹95.5L Total)
+Role: Backend Engineer (L2)
+
+2 min read
+2
+
+Minervee (https://medium.com/@minervee?source=email-020bca72d959-1764699597940-digest.reader-16e3527896e0-544407fe4648----4-98------------------f97491ca_ec2f_4735_b905_020da5593115-1)
+inCoding Nexus (https://medium.com/coding-nexus?source=email-020bca72d959-1764699597940-digest.reader-16e3527896e0-544407fe4648----4-98------------------f97491ca_ec2f_4735_b905_020da5593115-1)
+
+Not Cursor, Claude or VSCode, This Is My New Favorite Code Editor
+Native AI code completion with a lightning fast code…
+
+6 min read
+248
+7
+
+Reyanshicodes (https://medium.com/@reyanshicodes?source=email-020bca72d959-1764699597940-digest.reader--a4e5b5eb0a7b----5-98------------------f97491ca_ec2f_4735_b905_020da5593115-1)
+
+Spring Boot Developers, It's Time to Delete Your Service Layer
+Let's be honest: every Spring Boot project looks like…
+
+5 min read
+434
+67
+
+Erdogan T (https://medium.com/@erdogant?source=email-020bca72d959-1764699597940-digest.reader--1afdbfd4bada----6-109------------------f97491ca_ec2f_4735_b905_020da5593115-1)
+
+Chat with Your Dataset using Bayesian Inferences.
+Seeing patterns in data is great, but using data to…
+
+16 min read
+579
+4
+
+Steve Lacroix (https://medium.com/@steve.lacroix32?source=email-020bca72d959-1764699597940-digest.reader--8048971904cd----7-98------------------f97491ca_ec2f_4735_b905_020da5593115-1)
+
+Downloading Sentinel-2 Satellite Images with Python
+Learn how to download and process Sentinel-2 satellite…
+
+13 min read
+13
+
+Gao Dalie (高達烈) (https://medium.com/@GaoDalie_AI?source=email-020bca72d959-1764699597940-digest.reader-98111c9905da-4cb101e44c4b----8-99------------------f97491ca_ec2f_4735_b905_020da5593115-1)
+inTowards AI (https://medium.com/towards-artificial-intelligence?source=email-020bca72d959-1764699597940-digest.reader-98111c9905da-4cb101e44c4b----8-99------------------f97491ca_ec2f_4735_b905_020da5593115-1)
+
+RAG is Not Dead! No Chunking, No Vectors, Just Vectorless to Get the Higher…
+Over the past two years, I have written numerous…
+
+9 min read
+1.3K
+19
+
+The Latency Gambler (https://medium.com/@kanishks772?source=email-020bca72d959-1764699597940-digest.reader--d670696c440d----9-99------------------f97491ca_ec2f_4735_b905_020da5593115-1)
+
+Move Over Dijkstra: The New Algorithm That Just Rewrote 70 Years of Computer…
+For nearly seven decades, Dijkstra's algorithm has…
+
+5 min read
+2.3K
+31
+
+Piyush Agnihotri (https://medium.com/@piyushagni5?source=email-020bca72d959-1764699597940-digest.reader-78d064101951-c2c4578c836a----10-109------------------f97491ca_ec2f_4735_b905_020da5593115-1)
+inArtificial Intelligence in Plain English (https://medium.com/ai-in-plain-english?source=email-020bca72d959-1764699597940-digest.reader-78d064101951-c2c4578c836a----10-109------------------f97491ca_ec2f_4735_b905_020da5593115-1)
+
+Building Agentic RAG with LangGraph: Mastering Adaptive RAG for Production
+Build intelligent RAG systems that know when to…
+
+21 min read
+2.2K
+32
+
+Abhinav (https://medium.com/@codingplainenglish?source=email-020bca72d959-1764699597940-digest.reader--f80235237011----11-98------------------f97491ca_ec2f_4735_b905_020da5593115-1)
+
+Why Senior Engineers Are Choosing Hexagonal Over Layered Architecture
+Most developers start with the classic Layered…
+
+3 min read
+679
+48
+
+Adham Khaled (https://medium.com/@adhamhidawy?source=email-020bca72d959-1764699597940-digest.reader-440100e76000-5768e5c37969----12-98------------------f97491ca_ec2f_4735_b905_020da5593115-1)
+inGenerative AI (https://medium.com/generative-ai?source=email-020bca72d959-1764699597940-digest.reader-440100e76000-5768e5c37969----12-98------------------f97491ca_ec2f_4735_b905_020da5593115-1)
+
+I Built a Wall Street Analyst in 200 Lines of Code - And It Outperformed My…
+How an open-source AI agent named Dexter is…
+
+7 min read
+586
+13
+
+Hriday Checker (https://medium.com/@waffledesigns?source=email-020bca72d959-1764699597940-digest.reader--6d1a09faa933----13-102------------------f97491ca_ec2f_4735_b905_020da5593115-1)
+
+Why everything looks the same in 2025
+The Copy-Paste World
+
+7 min read
+3K
+192
+
+Mete Atamel (https://medium.com/@meteatamel?source=email-020bca72d959-1764699597940-digest.reader-e52cf94d98af-cffde820aa5c----14-99------------------f97491ca_ec2f_4735_b905_020da5593115-1)
+inGoogle Cloud - Community (https://medium.com/google-cloud?source=email-020bca72d959-1764699597940-digest.reader-e52cf94d98af-cffde820aa5c----14-99------------------f97491ca_ec2f_4735_b905_020da5593115-1)
+
+Google Antigravity Editor - Tips & Tricks
+Google Antigravity is an agentic development platform…
+
+4 min read
+36
+1
+
+See more of what you like and less of what you don't.
+Control your recommendations (https://medium.com/me/missioncontrol?source=email-020bca72d959-1764699597940-digest.reader-------------------------f97491ca_ec2f_4735_b905_020da5593115)
+
+Read from anywhere.
+
+Sent by Medium (https://medium.com/?source=email-020bca72d959-1764699597940-digest.reader-------------------------f97491ca_ec2f_4735_b905_020da5593115)
+·3500 South DuPont Highway, Suite IQ-101, Dover, DE 19901
+Unsubscribe (https://medium.com/me/email-settings/020bca72d959/c6a3d8c08c2c?type=social&source=email-020bca72d959-1764699597940-digest.reader-------------------------f97491ca_ec2f_4735_b905_020da5593115)
+ from this type of email·Switch to the Weekly Digest (https://medium.com/me/email-settings/020bca72d959/c6a3d8c08c2c?type=social&preference=2&source=email-020bca72d959-1764699597940-digest.reader-------------------------f97491ca_ec2f_4735_b905_020da5593115)
+·Careers (https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?source=email-020bca72d959-1764699597940-digest.reader-------------------------f97491ca_ec2f_4735_b905_020da5593115)
+·Help Center (https://help.medium.com/hc/en-us?source=email-020bca72d959-1764699597940-digest.reader-------------------------f97491ca_ec2f_4735_b905_020da5593115)
+·Privacy Policy (https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=email-020bca72d959-1764699597940-digest.reader-------------------------f97491ca_ec2f_4735_b905_020da5593115)
+·Terms of service (https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=email-020bca72d959-1764699597940-digest.reader-------------------------f97491ca_ec2f_4735_b905_020da5593115)

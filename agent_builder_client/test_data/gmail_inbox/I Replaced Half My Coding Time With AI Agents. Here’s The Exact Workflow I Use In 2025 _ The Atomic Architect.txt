@@ -1,0 +1,162 @@
+主旨: I Replaced Half My Coding Time With AI Agents. Here’s The Exact Workflow I Use In 2025 _ The Atomic Architect
+发件人: Medium Daily Digest <noreply@medium.com>
+收件人: ptest9109@gmail.com
+日期: Tue, 18 Nov 2025 23:10:00 +0000 (UTC)
+
+Stories for Ptest
+@ptest9109 (https://medium.com/@ptest9109?source=email-020bca72d959-1763489710470-digest.reader-------------------------e0c61dc4_79d9_46df_a9e9_65f66472fc94)
+·Become a member (https://medium.com/plans?source=email-020bca72d959-1763489710470-digest.reader-------------------------e0c61dc4_79d9_46df_a9e9_65f66472fc94)
+
+Today's highlights
+
+The Atomic Architect (https://medium.com/@the_atomic_architect?source=email-020bca72d959-1763489710470-digest.reader--e1ff5ab28b5f----0-109------------------e0c61dc4_79d9_46df_a9e9_65f66472fc94-1)
+
+I Replaced Half My Coding Time With AI Agents. Here's The Exact Workflow I Use…
+There was a night when I almost shut down my editor…
+
+9 min read
+341
+18
+
+Dr. Ashish Bamania (https://medium.com/@bamania-ashish?source=email-020bca72d959-1763489710470-digest.reader-5517fd7b58a6-c76bb41ce1ea----1-109------------------e0c61dc4_79d9_46df_a9e9_65f66472fc94-1)
+inLevel Up Coding (https://medium.com/gitconnected?source=email-020bca72d959-1763489710470-digest.reader-5517fd7b58a6-c76bb41ce1ea----1-109------------------e0c61dc4_79d9_46df_a9e9_65f66472fc94-1)
+
+20 Must-Know PyTorch Concepts, Explained Simply
+Learn these essential PyTorch concepts to supercharge…
+
+13 min read
+259
+1
+
+Gao Dalie (高達烈) (https://medium.com/@GaoDalie_AI?source=email-020bca72d959-1763489710470-digest.reader-98111c9905da-4cb101e44c4b----2-109------------------e0c61dc4_79d9_46df_a9e9_65f66472fc94-1)
+inTowards AI (https://medium.com/towards-artificial-intelligence?source=email-020bca72d959-1763489710470-digest.reader-98111c9905da-4cb101e44c4b----2-109------------------e0c61dc4_79d9_46df_a9e9_65f66472fc94-1)
+
+RAG is Not Dead! No Chunking, No Vectors, Just Vectorless to Get the Higher…
+Over the past two years, I have written numerous…
+
+9 min read
+1.2K
+17
+
+ArnanBonny (https://medium.com/@arnanbonny?source=email-020bca72d959-1763489710470-digest.reader--0edfd40b5568----3-102------------------e0c61dc4_79d9_46df_a9e9_65f66472fc94-1)
+
+011: Understanding Logistic Regression (Cost Function and Optimization)
+Introduction
+
+6 min read
+21
+1
+
+Adham Khaled (https://medium.com/@adhamhidawy?source=email-020bca72d959-1763489710470-digest.reader-b680b860beb1-f080bc89b736----4-109------------------e0c61dc4_79d9_46df_a9e9_65f66472fc94-1)
+inData And Beyond (https://medium.com/data-and-beyond?source=email-020bca72d959-1763489710470-digest.reader-b680b860beb1-f080bc89b736----4-109------------------e0c61dc4_79d9_46df_a9e9_65f66472fc94-1)
+
+I Don't Use Microsoft Word for Math Anymore. Gemini's LaTeX Upgrade Changed…
+I tried Gemini's new LaTeX features - here's how they…
+
+6 min read
+561
+15
+
+Civil Learning (https://medium.com/@civillearning?source=email-020bca72d959-1763489710470-digest.reader-16e3527896e0-ca1dfeb92edb----5-98------------------e0c61dc4_79d9_46df_a9e9_65f66472fc94-1)
+inCoding Nexus (https://medium.com/coding-nexus?source=email-020bca72d959-1763489710470-digest.reader-16e3527896e0-ca1dfeb92edb----5-98------------------e0c61dc4_79d9_46df_a9e9_65f66472fc94-1)
+
+I Handed ChatGPT $100 to Trade Stocks - Here's What Happened in 2 Months.
+What happens when you let a chatbot play Wall Street…
+
+4 min read
+6.8K
+237
+
+Dylan Cooper  (https://medium.com/@dylan_cooper?source=email-020bca72d959-1763489710470-digest.reader-d1baaa8417a4-c9a6baf8f182----6-109------------------e0c61dc4_79d9_46df_a9e9_65f66472fc94-1)
+inStackademic (https://medium.com/stackademic?source=email-020bca72d959-1763489710470-digest.reader-d1baaa8417a4-c9a6baf8f182----6-109------------------e0c61dc4_79d9_46df_a9e9_65f66472fc94-1)
+
+AI Finds Bugs, Humans Pay the Price - Google's FFmpeg Showdown Exposes…
+Unpaid Maintainers Slam "Pressure Without Patches"…
+
+5 min read
+84
+8
+
+Raden Gumilar Riyansyah (https://medium.com/@radengumilarr?source=email-020bca72d959-1763489710470-digest.reader--5ededa83dcfa----7-98------------------e0c61dc4_79d9_46df_a9e9_65f66472fc94-1)
+
+Building a Real-Time Face Recognition Attendance System with Python, OpenCV…
+By : Raden Gumilar Riyansyah, Iwan Muttaqin, Syahrul…
+
+4 min read
+2
+
+Sujatha Mudadla (https://medium.com/@sujathamudadla1213?source=email-020bca72d959-1763489710470-digest.reader--0b145a7bc6e2----8-98------------------e0c61dc4_79d9_46df_a9e9_65f66472fc94-1)
+
+What is the primary purpose of a Model Cascade in machine learning?
+"Model Cascade," a powerful and increasingly popular…
+
+4 min read
+
+Jessica Stillman (https://medium.com/@entrylevelrebel?source=email-020bca72d959-1763489710470-digest.reader--5cd66e53b023----9-98------------------e0c61dc4_79d9_46df_a9e9_65f66472fc94-1)
+
+How to Actually Change Someone's Mind: Ask Them This 1 Question
+Want to actually change the mind of someone you…
+
+4 min read
+7.7K
+226
+
+Avi Chawla (https://medium.com/@avi_chawla?source=email-020bca72d959-1763489710470-digest.reader-98111c9905da-bf6dc9ba7d56----10-109------------------e0c61dc4_79d9_46df_a9e9_65f66472fc94-1)
+inTowards AI (https://medium.com/towards-artificial-intelligence?source=email-020bca72d959-1763489710470-digest.reader-98111c9905da-bf6dc9ba7d56----10-109------------------e0c61dc4_79d9_46df_a9e9_65f66472fc94-1)
+
+This New Embedding Model Cuts Vector DB Costs by ~200x!
+It also outperforms OpenAI and Cohere models.
+
+6 min read
+106
+2
+
+Himanshu Singour (https://medium.com/@himanshusingour7?source=email-020bca72d959-1763489710470-digest.reader--d7444d454367----11-98------------------e0c61dc4_79d9_46df_a9e9_65f66472fc94-1)
+
+How I Learned System Design
+– The honest journey from total confusion to clarity
+
+5 min read
+6.8K
+204
+
+The Atomic Architect (https://medium.com/@the_atomic_architect?source=email-020bca72d959-1763489710470-digest.reader--89d1488c60a7----12-109------------------e0c61dc4_79d9_46df_a9e9_65f66472fc94-1)
+
+Architecture Patterns That Actually Scale In 2025: The Only Three You Need
+Last month, a company I advised shut down.
+
+12 min read
+1.5K
+41
+
+khayl (https://medium.com/@khayl?source=email-020bca72d959-1763489710470-digest.reader--89430eb30860----13-102------------------e0c61dc4_79d9_46df_a9e9_65f66472fc94-1)
+
+Unlike the stomach, the brain doesn't alert you when it's empty.
+Just because the body is moving doesn't mean you are…
+
+2 min read
+100K
+479
+
+Noah Byteforge (https://medium.com/@noahblogwriter2025?source=email-020bca72d959-1763489710470-digest.reader--31db64b3f2ec----14-109------------------e0c61dc4_79d9_46df_a9e9_65f66472fc94-1)
+
+Rust vs C++: Performance Benchmarks That Surprised Me
+After two years of writing production code in both…
+
+6 min read
+166
+9
+
+See more of what you like and less of what you don't.
+Control your recommendations (https://medium.com/me/missioncontrol?source=email-020bca72d959-1763489710470-digest.reader-------------------------e0c61dc4_79d9_46df_a9e9_65f66472fc94)
+
+Read from anywhere.
+
+Sent by Medium (https://medium.com/?source=email-020bca72d959-1763489710470-digest.reader-------------------------e0c61dc4_79d9_46df_a9e9_65f66472fc94)
+·3500 South DuPont Highway, Suite IQ-101, Dover, DE 19901
+Unsubscribe (https://medium.com/me/email-settings/020bca72d959/dbf6f8aee21a?type=social&source=email-020bca72d959-1763489710470-digest.reader-------------------------e0c61dc4_79d9_46df_a9e9_65f66472fc94)
+ from this type of email·Switch to the Weekly Digest (https://medium.com/me/email-settings/020bca72d959/dbf6f8aee21a?type=social&preference=2&source=email-020bca72d959-1763489710470-digest.reader-------------------------e0c61dc4_79d9_46df_a9e9_65f66472fc94)
+·Careers (https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?source=email-020bca72d959-1763489710470-digest.reader-------------------------e0c61dc4_79d9_46df_a9e9_65f66472fc94)
+·Help Center (https://help.medium.com/hc/en-us?source=email-020bca72d959-1763489710470-digest.reader-------------------------e0c61dc4_79d9_46df_a9e9_65f66472fc94)
+·Privacy Policy (https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=email-020bca72d959-1763489710470-digest.reader-------------------------e0c61dc4_79d9_46df_a9e9_65f66472fc94)
+·Terms of service (https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=email-020bca72d959-1763489710470-digest.reader-------------------------e0c61dc4_79d9_46df_a9e9_65f66472fc94)

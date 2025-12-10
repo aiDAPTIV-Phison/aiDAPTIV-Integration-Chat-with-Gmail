@@ -1,0 +1,170 @@
+主旨: I Built a RAG System for 100,000 Documents — Here’s the Architecture _ CodeOrbit
+发件人: Medium Daily Digest <noreply@medium.com>
+收件人: ptest9109@gmail.com
+日期: Sat, 08 Nov 2025 23:10:00 +0000 (UTC)
+
+Stories for Ptest
+@ptest9109 (https://medium.com/@ptest9109?source=email-020bca72d959-1762625477723-digest.reader-------------------------a9c38888_16c9_4bb5_99be_abb1cc6b0b51)
+·Become a member (https://medium.com/plans?source=email-020bca72d959-1762625477723-digest.reader-------------------------a9c38888_16c9_4bb5_99be_abb1cc6b0b51)
+
+Today's highlights
+
+CodeOrbit (https://medium.com/@theabhishek.040?source=email-020bca72d959-1762625477723-digest.reader--5f9ab0212c92----0-109------------------a9c38888_16c9_4bb5_99be_abb1cc6b0b51-1)
+
+I Built a RAG System for 100,000 Documents - Here's the Architecture
+My production system crashed at 2 AM because I…
+
+8 min read
+83
+4
+
+Gaurav Shrivastav (https://medium.com/@gaurav21s?source=email-020bca72d959-1762625477723-digest.reader-5517fd7b58a6-45866cd5ddc6----1-98------------------a9c38888_16c9_4bb5_99be_abb1cc6b0b51-1)
+inLevel Up Coding (https://medium.com/gitconnected?source=email-020bca72d959-1762625477723-digest.reader-5517fd7b58a6-45866cd5ddc6----1-98------------------a9c38888_16c9_4bb5_99be_abb1cc6b0b51-1)
+
+RAG Without Embeddings? Here's how OpenAI is doing this…with Code
+How OpenAI Could Change the Way We Retrieve…
+
+9 min read
+981
+24
+
+Teja Kusireddy (https://medium.com/@teja.kusireddy23?source=email-020bca72d959-1762625477723-digest.reader-98111c9905da-a8610acab0d3----2-102------------------a9c38888_16c9_4bb5_99be_abb1cc6b0b51-1)
+inTowards AI (https://medium.com/towards-artificial-intelligence?source=email-020bca72d959-1762625477723-digest.reader-98111c9905da-a8610acab0d3----2-102------------------a9c38888_16c9_4bb5_99be_abb1cc6b0b51-1)
+
+The Real Tech Stack Behind AI Startups: A 200-Company Analysis
+Three weeks of network monitoring revealed the truth…
+
+11 min read
+1.8K
+57
+
+<devtips/> (https://medium.com/@dev_tips?source=email-020bca72d959-1762625477723-digest.reader-e4812219800c-8de7e1618bca----3-102------------------a9c38888_16c9_4bb5_99be_abb1cc6b0b51-1)
+inRun.it.Bare (https://medium.com/devlink-tips?source=email-020bca72d959-1762625477723-digest.reader-e4812219800c-8de7e1618bca----3-102------------------a9c38888_16c9_4bb5_99be_abb1cc6b0b51-1)
+
+AI killed my coding brain but I'm rebuilding it
+We sprinted into the AI age of autocomplete IDEs now…
+
+16 min read
+7K
+468
+
+Mohab (https://medium.com/@mohababdelkarim?source=email-020bca72d959-1762625477723-digest.reader-78073def27b8-96721a6f4d5a----4-98------------------a9c38888_16c9_4bb5_99be_abb1cc6b0b51-1)
+inPython in Plain English (https://medium.com/python-in-plain-english?source=email-020bca72d959-1762625477723-digest.reader-78073def27b8-96721a6f4d5a----4-98------------------a9c38888_16c9_4bb5_99be_abb1cc6b0b51-1)
+
+10 Jupyter Notebook Features You Didn't Know Existed
+Little-known tricks that make you faster, sharper, and…
+
+3 min read
+90
+
+Nikhil Anand (https://medium.com/@nikhilanandnj?source=email-020bca72d959-1762625477723-digest.reader-3fe99b2acc4-3a016406150b----5-98------------------a9c38888_16c9_4bb5_99be_abb1cc6b0b51-1)
+inAI Advances (https://medium.com/ai-advances?source=email-020bca72d959-1762625477723-digest.reader-3fe99b2acc4-3a016406150b----5-98------------------a9c38888_16c9_4bb5_99be_abb1cc6b0b51-1)
+
+This simple prompt improved my LLM's performance by 200%
+I tried finetuning, RL, and steering, but at the end…
+
+6 min read
+935
+21
+
+Arslan Qutab (https://medium.com/@arslanshoukatali?source=email-020bca72d959-1762625477723-digest.reader-78073def27b8-a91a411ff604----6-98------------------a9c38888_16c9_4bb5_99be_abb1cc6b0b51-1)
+inPython in Plain English (https://medium.com/python-in-plain-english?source=email-020bca72d959-1762625477723-digest.reader-78073def27b8-a91a411ff604----6-98------------------a9c38888_16c9_4bb5_99be_abb1cc6b0b51-1)
+
+12 Python Libraries So Addictive, I Couldn't Stop Building Projects
+I thought they were overhyped… until I used them once.
+
+5 min read
+531
+6
+
+Prem Chandak (https://medium.com/@premchandak_11?source=email-020bca72d959-1762625477723-digest.reader--4bba5647a1a7----7-109------------------a9c38888_16c9_4bb5_99be_abb1cc6b0b51-1)
+
+The Ultimate Guide to Rust Frameworks in 2025: From Web to AI
+Discover the most powerful Rust frameworks shaping…
+
+4 min read
+48
+3
+
+Alex Dunlop (https://medium.com/@alexjamesdunlop?source=email-020bca72d959-1762625477723-digest.reader-413d50faa755-9abfec9cb178----8-98------------------a9c38888_16c9_4bb5_99be_abb1cc6b0b51-1)
+inVibe Coding (https://medium.com/vibe-coding?source=email-020bca72d959-1762625477723-digest.reader-413d50faa755-9abfec9cb178----8-98------------------a9c38888_16c9_4bb5_99be_abb1cc6b0b51-1)
+
+99% of Developers are Using Claude Wrong (How to Be The 1%)
+The Claude techniques most developers never discover
+
+6 min read
+3.6K
+90
+
+Alpha Iterations (https://medium.com/@alphaiterations?source=email-020bca72d959-1762625477723-digest.reader-98111c9905da-facac8ae6031----9-109------------------a9c38888_16c9_4bb5_99be_abb1cc6b0b51-1)
+inTowards AI (https://medium.com/towards-artificial-intelligence?source=email-020bca72d959-1762625477723-digest.reader-98111c9905da-facac8ae6031----9-109------------------a9c38888_16c9_4bb5_99be_abb1cc6b0b51-1)
+
+Agentic AI: Build ReAct Agent using LangGraph
+Practical Guide to build ReAct agent using LangGraph…
+
+26 min read
+168
+2
+
+Anubhav (https://medium.com/@anubhavgoyal101?source=email-020bca72d959-1762625477723-digest.reader-48e972f5c24e-6aeeafe45b37----10-109------------------a9c38888_16c9_4bb5_99be_abb1cc6b0b51-1)
+inBootcamp (https://medium.com/design-bootcamp?source=email-020bca72d959-1762625477723-digest.reader-48e972f5c24e-6aeeafe45b37----10-109------------------a9c38888_16c9_4bb5_99be_abb1cc6b0b51-1)
+
+Fine-Tuning YOLO Models with automated data labelling pipeline
+From Zero Labels to Production: The YOLO-World and…
+
+4 min read
+6
+1
+
+Mark Henry (https://medium.com/@fireprogrammer?source=email-020bca72d959-1762625477723-digest.reader-d1baaa8417a4-b2c86f008d30----11-98------------------a9c38888_16c9_4bb5_99be_abb1cc6b0b51-1)
+inStackademic (https://medium.com/stackademic?source=email-020bca72d959-1762625477723-digest.reader-d1baaa8417a4-b2c86f008d30----11-98------------------a9c38888_16c9_4bb5_99be_abb1cc6b0b51-1)
+
+How to Get Rich as a Solo Software Developer
+Stop Chasing Shiny Frameworks. Start Building Wealth.
+
+4 min read
+5.5K
+136
+
+Lee Vaughan (https://medium.com/@lee_vaughan?source=email-020bca72d959-1762625477723-digest.reader-8993e01dcfd3-f7c7fc5e2929----12-102------------------a9c38888_16c9_4bb5_99be_abb1cc6b0b51-1)
+inData Science Collective (https://medium.com/data-science-collective?source=email-020bca72d959-1762625477723-digest.reader-8993e01dcfd3-f7c7fc5e2929----12-102------------------a9c38888_16c9_4bb5_99be_abb1cc6b0b51-1)
+
+No Data, No Problem: Unflatten Maps with Image Processing
+From images to actionable data
+
+24 min read
+238
+
+Michael Hunter, MD (https://medium.com/@drmichaelhunter?source=email-020bca72d959-1762625477723-digest.reader-6b598c326afa-22ee65fa3165----13-98------------------a9c38888_16c9_4bb5_99be_abb1cc6b0b51-1)
+inBeingWell (https://medium.com/beingwell?source=email-020bca72d959-1762625477723-digest.reader-6b598c326afa-22ee65fa3165----13-98------------------a9c38888_16c9_4bb5_99be_abb1cc6b0b51-1)
+
+5 "Healthy" Habits That Are Quietly Aging You
+They sound smart. They feel right. But science. And my…
+
+5 min read
+9.8K
+300
+
+Rowan Pierce (https://medium.com/@Rowan_Pierce?source=email-020bca72d959-1762625477723-digest.reader-83a207239c74-272dc91e9017----14-98------------------a9c38888_16c9_4bb5_99be_abb1cc6b0b51-1)
+inBooks Are Our Superpower (https://medium.com/books-are-our-superpower?source=email-020bca72d959-1762625477723-digest.reader-83a207239c74-272dc91e9017----14-98------------------a9c38888_16c9_4bb5_99be_abb1cc6b0b51-1)
+
+5 Massive Books That Are Worth Your Time
+Five literary monsters that broke my back, melted my…
+
+9 min read
+3.8K
+126
+
+See more of what you like and less of what you don't.
+Control your recommendations (https://medium.com/me/missioncontrol?source=email-020bca72d959-1762625477723-digest.reader-------------------------a9c38888_16c9_4bb5_99be_abb1cc6b0b51)
+
+Read from anywhere.
+
+Sent by Medium (https://medium.com/?source=email-020bca72d959-1762625477723-digest.reader-------------------------a9c38888_16c9_4bb5_99be_abb1cc6b0b51)
+·3500 South DuPont Highway, Suite IQ-101, Dover, DE 19901
+Unsubscribe (https://medium.com/me/email-settings/020bca72d959/17cff60b6093?type=social&source=email-020bca72d959-1762625477723-digest.reader-------------------------a9c38888_16c9_4bb5_99be_abb1cc6b0b51)
+ from this type of email·Switch to the Weekly Digest (https://medium.com/me/email-settings/020bca72d959/17cff60b6093?type=social&preference=2&source=email-020bca72d959-1762625477723-digest.reader-------------------------a9c38888_16c9_4bb5_99be_abb1cc6b0b51)
+·Careers (https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?source=email-020bca72d959-1762625477723-digest.reader-------------------------a9c38888_16c9_4bb5_99be_abb1cc6b0b51)
+·Help Center (https://help.medium.com/hc/en-us?source=email-020bca72d959-1762625477723-digest.reader-------------------------a9c38888_16c9_4bb5_99be_abb1cc6b0b51)
+·Privacy Policy (https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=email-020bca72d959-1762625477723-digest.reader-------------------------a9c38888_16c9_4bb5_99be_abb1cc6b0b51)
+·Terms of service (https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=email-020bca72d959-1762625477723-digest.reader-------------------------a9c38888_16c9_4bb5_99be_abb1cc6b0b51)

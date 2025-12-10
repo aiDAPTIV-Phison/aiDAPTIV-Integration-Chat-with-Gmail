@@ -1,0 +1,165 @@
+主旨: What Happens When AI Models Start Running on Rust Inference Engines_ _ Dax
+发件人: Medium Daily Digest <noreply@medium.com>
+收件人: ptest9109@gmail.com
+日期: Fri, 21 Nov 2025 23:10:00 +0000 (UTC)
+
+Stories for Ptest
+@ptest9109 (https://medium.com/@ptest9109?source=email-020bca72d959-1763749260515-digest.reader-------------------------4884290f_adbb_47d8_b6b6_3889eee1c6c2)
+·Become a member (https://medium.com/plans?source=email-020bca72d959-1763749260515-digest.reader-------------------------4884290f_adbb_47d8_b6b6_3889eee1c6c2)
+
+Today's highlights
+
+Dax (https://medium.com/@daxx5?source=email-020bca72d959-1763749260515-digest.reader--cf4af7597fdf----0-99------------------4884290f_adbb_47d8_b6b6_3889eee1c6c2-1)
+
+What Happens When AI Models Start Running on Rust Inference Engines?
+I thought Rust would just make things faster. Turns…
+
+5 min read
+121
+3
+
+Lanquaye George K. (https://medium.com/@lanquayegeorge?source=email-020bca72d959-1763749260515-digest.reader-d568951ad7d4-3513124e33c6----1-98------------------4884290f_adbb_47d8_b6b6_3889eee1c6c2-1)
+inComedy Society (https://medium.com/rise-thrive?source=email-020bca72d959-1763749260515-digest.reader-d568951ad7d4-3513124e33c6----1-98------------------4884290f_adbb_47d8_b6b6_3889eee1c6c2-1)
+
+10 Adult Jokes So Funny They'll Make You Cry
+Sometimes, the only sane response to growing up and…
+
+6 min read
+6.3K
+112
+
+siromer (https://medium.com/@siromermer?source=email-020bca72d959-1763749260515-digest.reader--1f21b69a24cb----2-99------------------4884290f_adbb_47d8_b6b6_3889eee1c6c2-1)
+
+5 Different Ways to Track Objects in Python
+5 different object tracking methods, both deep…
+
+5 min read
+66
+
+Civil Learning (https://medium.com/@civillearning?source=email-020bca72d959-1763749260515-digest.reader-16e3527896e0-7436b66f42b9----3-109------------------4884290f_adbb_47d8_b6b6_3889eee1c6c2-1)
+inCoding Nexus (https://medium.com/coding-nexus?source=email-020bca72d959-1763749260515-digest.reader-16e3527896e0-7436b66f42b9----3-109------------------4884290f_adbb_47d8_b6b6_3889eee1c6c2-1)
+
+Building an AI Agent for Investment Research (Using 30+ Years of Market Data)
+Most people see AI in finance as involving complex…
+
+3 min read
+143
+1
+
+Lior Messinger (https://medium.com/@liormessinger?source=email-020bca72d959-1763749260515-digest.reader--44d1c868503b----4-102------------------4884290f_adbb_47d8_b6b6_3889eee1c6c2-1)
+
+How did scientists discover the AI species?
+In this article, I'd like to tell you a story of a…
+
+11 min read
+171
+7
+
+EarthExists (https://medium.com/@earthexistclothing?source=email-020bca72d959-1763749260515-digest.reader--799785fc42ca----5-109------------------4884290f_adbb_47d8_b6b6_3889eee1c6c2-1)
+
+3I/ATLAS - CASSANDRA UNCLASSIFIED.
+The 20 Year Plan They Never Told You About. 
+
+12 min read
+817
+39
+
+Aakash Gupta (https://medium.com/@aakashgupta?source=email-020bca72d959-1763749260515-digest.reader--510e796f81da----6-98------------------4884290f_adbb_47d8_b6b6_3889eee1c6c2-1)
+
+You're Using ChatGPT Wrong. Here's the Prompt Library System That 10x's Your…
+You open ChatGPT. You type a prompt from scratch. You…
+
+5 min read
+181
+6
+
+CodeOrbit (https://medium.com/@theabhishek.040?source=email-020bca72d959-1763749260515-digest.reader--ad4ea325683a----7-109------------------4884290f_adbb_47d8_b6b6_3889eee1c6c2-1)
+
+I Built a Lock-Free Queue That's 15x Faster Than Mutex - Here's How (And Why…
+A deep dive into Rust's atomic operations that will…
+
+9 min read
+97
+3
+
+Harry (https://medium.com/@harrymarkjava?source=email-020bca72d959-1763749260515-digest.reader-9cf31c9fda1a-af810be7fdbf----8-98------------------4884290f_adbb_47d8_b6b6_3889eee1c6c2-1)
+inJavaGuides (https://medium.com/javaguides?source=email-020bca72d959-1763749260515-digest.reader-9cf31c9fda1a-af810be7fdbf----8-98------------------4884290f_adbb_47d8_b6b6_3889eee1c6c2-1)
+
+Interviewer asked me why is 1 == 1 True but 1000 == 1000 False in Java?
+The maddening truth about Java's Integer caching and…
+
+3 min read
+2.6K
+84
+
+dravian (https://medium.com/@dravian?source=email-020bca72d959-1763749260515-digest.reader-7a97723a4b9c-8bf58a301648----9-109------------------4884290f_adbb_47d8_b6b6_3889eee1c6c2-1)
+inSilicon Valley Gradient (https://medium.com/quantum-information-review?source=email-020bca72d959-1763749260515-digest.reader-7a97723a4b9c-8bf58a301648----9-109------------------4884290f_adbb_47d8_b6b6_3889eee1c6c2-1)
+
+OpenAi GPT 5.1 literally reshaped AI in 2.5 hours
+damn sam altman..
+
+5 min read
+1K
+64
+
+Insight Hub (https://medium.com/@deepakmourya_14560?source=email-020bca72d959-1763749260515-digest.reader-fb0b3ac9b4cc-c41e2eddedf4----10-109------------------4884290f_adbb_47d8_b6b6_3889eee1c6c2-1)
+inAreas & Producers (https://medium.com/areas-producers?source=email-020bca72d959-1763749260515-digest.reader-fb0b3ac9b4cc-c41e2eddedf4----10-109------------------4884290f_adbb_47d8_b6b6_3889eee1c6c2-1)
+
+LLMs Are Randomized Algorithms
+A surprising connection between the newest AI models…
+
+14 min read
+332
+7
+
+David Lee (https://medium.com/@lordmoma?source=email-020bca72d959-1763749260515-digest.reader-5517fd7b58a6-a29f33ef1ba9----11-109------------------4884290f_adbb_47d8_b6b6_3889eee1c6c2-1)
+inLevel Up Coding (https://medium.com/gitconnected?source=email-020bca72d959-1763749260515-digest.reader-5517fd7b58a6-a29f33ef1ba9----11-109------------------4884290f_adbb_47d8_b6b6_3889eee1c6c2-1)
+
+Trust Me Bro: The Cloudflare Rust .unwrap() That Panicked Across 330+ Data…
+I guarantee this will always work. If it doesn't…
+
+4 min read
+305
+17
+
+Aakash Gupta (https://medium.com/@aakashgupta?source=email-020bca72d959-1763749260515-digest.reader--c0df8d8e82cc----12-98------------------4884290f_adbb_47d8_b6b6_3889eee1c6c2-1)
+
+Google Just Dropped 70 Pages on Context Engineering. Here's What Actually…
+Imagine an AI that remembers you're vegan. Knows your…
+
+7 min read
+372
+9
+
+Ashley Richmond (https://medium.com/@ashley-richmond?source=email-020bca72d959-1763749260515-digest.reader-30d32c722963-c99156051371----13-98------------------4884290f_adbb_47d8_b6b6_3889eee1c6c2-1)
+inChange Your Mind Change Your Life (https://medium.com/change-your-mind?source=email-020bca72d959-1763749260515-digest.reader-30d32c722963-c99156051371----13-98------------------4884290f_adbb_47d8_b6b6_3889eee1c6c2-1)
+
+The Most Efficient Fat Loss Exercise on the Planet (Backed by 70+ Studies)
+Just 2–4 minutes of effort. Up to 90% more fat loss…
+
+3 min read
+6K
+144
+
+Dax (https://medium.com/@daxx5?source=email-020bca72d959-1763749260515-digest.reader--43c6b5fd178c----14-98------------------4884290f_adbb_47d8_b6b6_3889eee1c6c2-1)
+
+Stop Using JWTs for Sessions. They're Not Meant for That.
+Every "stateless" auth system I've audited had the…
+
+5 min read
+114
+3
+
+See more of what you like and less of what you don't.
+Control your recommendations (https://medium.com/me/missioncontrol?source=email-020bca72d959-1763749260515-digest.reader-------------------------4884290f_adbb_47d8_b6b6_3889eee1c6c2)
+
+Read from anywhere.
+
+Sent by Medium (https://medium.com/?source=email-020bca72d959-1763749260515-digest.reader-------------------------4884290f_adbb_47d8_b6b6_3889eee1c6c2)
+·3500 South DuPont Highway, Suite IQ-101, Dover, DE 19901
+Unsubscribe (https://medium.com/me/email-settings/020bca72d959/51223427d018?type=social&source=email-020bca72d959-1763749260515-digest.reader-------------------------4884290f_adbb_47d8_b6b6_3889eee1c6c2)
+ from this type of email·Switch to the Weekly Digest (https://medium.com/me/email-settings/020bca72d959/51223427d018?type=social&preference=2&source=email-020bca72d959-1763749260515-digest.reader-------------------------4884290f_adbb_47d8_b6b6_3889eee1c6c2)
+·Careers (https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?source=email-020bca72d959-1763749260515-digest.reader-------------------------4884290f_adbb_47d8_b6b6_3889eee1c6c2)
+·Help Center (https://help.medium.com/hc/en-us?source=email-020bca72d959-1763749260515-digest.reader-------------------------4884290f_adbb_47d8_b6b6_3889eee1c6c2)
+·Privacy Policy (https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=email-020bca72d959-1763749260515-digest.reader-------------------------4884290f_adbb_47d8_b6b6_3889eee1c6c2)
+·Terms of service (https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=email-020bca72d959-1763749260515-digest.reader-------------------------4884290f_adbb_47d8_b6b6_3889eee1c6c2)

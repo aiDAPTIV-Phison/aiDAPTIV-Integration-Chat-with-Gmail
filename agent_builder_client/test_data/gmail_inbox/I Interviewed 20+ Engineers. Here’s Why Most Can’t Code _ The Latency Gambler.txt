@@ -1,0 +1,166 @@
+主旨: I Interviewed 20+ Engineers. Here’s Why Most Can’t Code _ The Latency Gambler
+发件人: Medium Daily Digest <noreply@medium.com>
+收件人: ptest9109@gmail.com
+日期: Wed, 03 Dec 2025 23:10:00 +0000 (UTC)
+
+Stories for Ptest
+@ptest9109 (https://medium.com/@ptest9109?source=email-020bca72d959-1764785494460-digest.reader-------------------------eeb8c730_b0f2_4a01_9568_95553ce6a09b)
+·Become a member (https://medium.com/plans?source=email-020bca72d959-1764785494460-digest.reader-------------------------eeb8c730_b0f2_4a01_9568_95553ce6a09b)
+
+Today's highlights
+
+The Latency Gambler (https://medium.com/@kanishks772?source=email-020bca72d959-1764785494460-digest.reader--b647d23f8c89----0-109------------------eeb8c730_b0f2_4a01_9568_95553ce6a09b-1)
+
+I Interviewed 20+ Engineers. Here's Why Most Can't Code
+Over the past year as a Senior Software Engineer at a…
+
+5 min read
+3.1K
+115
+
+Alpha Iterations (https://medium.com/@alphaiterations?source=email-020bca72d959-1764785494460-digest.reader-98111c9905da-facac8ae6031----1-109------------------eeb8c730_b0f2_4a01_9568_95553ce6a09b-1)
+inTowards AI (https://medium.com/towards-artificial-intelligence?source=email-020bca72d959-1764785494460-digest.reader-98111c9905da-facac8ae6031----1-109------------------eeb8c730_b0f2_4a01_9568_95553ce6a09b-1)
+
+Agentic AI: Build ReAct Agent using LangGraph
+Practical Guide to build ReAct agent using LangGraph…
+
+26 min read
+337
+3
+
+The CS Engineer (https://medium.com/@Krishnajlathi?source=email-020bca72d959-1764785494460-digest.reader--c1b052598ba0----2-109------------------eeb8c730_b0f2_4a01_9568_95553ce6a09b-1)
+
+Forget SQL Joins - These 4 Patterns Made My Queries 10x Faster
+One four-table join turned a 30-millisecond request…
+
+7 min read
+793
+17
+
+Ark Protocol (https://medium.com/@ArkProtocol1?source=email-020bca72d959-1764785494460-digest.reader--06b991b2b13f----3-98------------------eeb8c730_b0f2_4a01_9568_95553ce6a09b-1)
+
+Redis Is Dead: How We Replaced It With 200 Lines of Go
+Our production Redis cluster crashed at 3 AM on a…
+
+3 min read
+219
+39
+
+Namratha Shenoy (https://medium.com/@namrathashenoy01?source=email-020bca72d959-1764785494460-digest.reader--45c67be31396----4-109------------------eeb8c730_b0f2_4a01_9568_95553ce6a09b-1)
+
+Why I Stopped Using CTEs Everywhere in SQL
+If you do not have access to read the full post…
+
+4 min read
+511
+22
+
+Himanshu Singour (https://medium.com/@himanshusingour7?source=email-020bca72d959-1764785494460-digest.reader--47420b507564----5-98------------------eeb8c730_b0f2_4a01_9568_95553ce6a09b-1)
+
+These 16 DSA Patterns Did What 3000 LeetCode Problems Couldn't
+When I started with DSA, I did what everyone else…
+
+14 min read
+2.1K
+34
+
+Kiran Maan (https://medium.com/@kirantechblog?source=email-020bca72d959-1764785494460-digest.reader-78d064101951-9bfe702eb82c----6-109------------------eeb8c730_b0f2_4a01_9568_95553ce6a09b-1)
+inArtificial Intelligence in Plain English (https://medium.com/ai-in-plain-english?source=email-020bca72d959-1764785494460-digest.reader-78d064101951-9bfe702eb82c----6-109------------------eeb8c730_b0f2_4a01_9568_95553ce6a09b-1)
+
+Stanford Just Ended Prompt Engineering With a Single Sentence….
+A new research method quietly restores the creativity…
+
+3 min read
+993
+26
+
+Nivetha Thangaraj (https://medium.com/@nivesep26?source=email-020bca72d959-1764785494460-digest.reader--dcb31fae03ba----7-98------------------eeb8c730_b0f2_4a01_9568_95553ce6a09b-1)
+
+🪦 Kubernetes Is Dead: Why Tech Giants Are Secretly Moving to These 5…
+By Nivetha Thangaraj
+
+3 min read
+911
+143
+
+Peng Qian (https://medium.com/@qtalen?source=email-020bca72d959-1764785494460-digest.reader-8993e01dcfd3-ae00a88e10e7----8-109------------------eeb8c730_b0f2_4a01_9568_95553ce6a09b-1)
+inData Science Collective (https://medium.com/data-science-collective?source=email-020bca72d959-1764785494460-digest.reader-8993e01dcfd3-ae00a88e10e7----8-109------------------eeb8c730_b0f2_4a01_9568_95553ce6a09b-1)
+
+How To Use DeepSeek-OCR And Docling For PDF Parsing
+Is it really that good?
+
+7 min read
+64
+3
+
+Ujjawal Rohra (https://medium.com/@ujjawalr?source=email-020bca72d959-1764785494460-digest.reader--bcd9846d8b7f----9-98------------------eeb8c730_b0f2_4a01_9568_95553ce6a09b-1)
+
+5 Dockerfile Tricks That Separate Senior Developers from Juniors
+Why is your Docker image half the size of mine?
+
+6 min read
+1.4K
+19
+
+How to Win (https://medium.com/@howtowin?source=email-020bca72d959-1764785494460-digest.reader-661161fab0d0-5f32d04d8640----10-98------------------eeb8c730_b0f2_4a01_9568_95553ce6a09b-1)
+inPredict (https://medium.com/predict?source=email-020bca72d959-1764785494460-digest.reader-661161fab0d0-5f32d04d8640----10-98------------------eeb8c730_b0f2_4a01_9568_95553ce6a09b-1)
+
+MCKINSEY JUST DROPPED THEIR 2025 AI REPORT. HERE IS THE TLDR
+The top 10 takeaways of the shiny new McKinsey Report…
+
+3 min read
+2.3K
+101
+
+Andres Vourakis (https://medium.com/@avourakis?source=email-020bca72d959-1764785494460-digest.reader-8993e01dcfd3-bb73192862f3----11-98------------------eeb8c730_b0f2_4a01_9568_95553ce6a09b-1)
+inData Science Collective (https://medium.com/data-science-collective?source=email-020bca72d959-1764785494460-digest.reader-8993e01dcfd3-bb73192862f3----11-98------------------eeb8c730_b0f2_4a01_9568_95553ce6a09b-1)
+
+How I'm Currently Upskilling as a Senior Data Scientist in Tech (2025 Edition)
+Preparing for the age of AI and beyond
+
+7 min read
+685
+15
+
+Sajid Khan (https://medium.com/@sajidkhan.sjic?source=email-020bca72d959-1764785494460-digest.reader-84ac01765c52-502632a664f9----12-109------------------eeb8c730_b0f2_4a01_9568_95553ce6a09b-1)
+inWrite A Catalyst (https://medium.com/write-a-catalyst?source=email-020bca72d959-1764785494460-digest.reader-84ac01765c52-502632a664f9----12-109------------------eeb8c730_b0f2_4a01_9568_95553ce6a09b-1)
+
+What Is an Epoch in Machine Learning? A Simple Explanation
+The one word you hear in every ML training loop, Will…
+
+3 min read
+82
+
+Keith Weaver (https://medium.com/@kweave?source=email-020bca72d959-1764785494460-digest.reader-32881626c9c9-cd46d16fcf20----13-98------------------eeb8c730_b0f2_4a01_9568_95553ce6a09b-1)
+inDataDrivenInvestor (https://medium.com/datadriveninvestor?source=email-020bca72d959-1764785494460-digest.reader-32881626c9c9-cd46d16fcf20----13-98------------------eeb8c730_b0f2_4a01_9568_95553ce6a09b-1)
+
+To Retire 7 Years Earlier, Stop Buying These 7 Things
+Hint: Your daily "treat" might be costing you…
+
+6 min read
+1.3K
+54
+
+Subodh Shetty (https://medium.com/@subodh.shetty87?source=email-020bca72d959-1764785494460-digest.reader-d1baaa8417a4-263c19fa86ec----14-98------------------eeb8c730_b0f2_4a01_9568_95553ce6a09b-1)
+inStackademic (https://medium.com/stackademic?source=email-020bca72d959-1764785494460-digest.reader-d1baaa8417a4-263c19fa86ec----14-98------------------eeb8c730_b0f2_4a01_9568_95553ce6a09b-1)
+
+Git Rebase -Explained Like You're New to Git
+When you work in Git, you'll often make a branch to…
+
+4 min read
+1.1K
+20
+
+See more of what you like and less of what you don't.
+Control your recommendations (https://medium.com/me/missioncontrol?source=email-020bca72d959-1764785494460-digest.reader-------------------------eeb8c730_b0f2_4a01_9568_95553ce6a09b)
+
+Read from anywhere.
+
+Sent by Medium (https://medium.com/?source=email-020bca72d959-1764785494460-digest.reader-------------------------eeb8c730_b0f2_4a01_9568_95553ce6a09b)
+·3500 South DuPont Highway, Suite IQ-101, Dover, DE 19901
+Unsubscribe (https://medium.com/me/email-settings/020bca72d959/e9f3df450870?type=social&source=email-020bca72d959-1764785494460-digest.reader-------------------------eeb8c730_b0f2_4a01_9568_95553ce6a09b)
+ from this type of email·Switch to the Weekly Digest (https://medium.com/me/email-settings/020bca72d959/e9f3df450870?type=social&preference=2&source=email-020bca72d959-1764785494460-digest.reader-------------------------eeb8c730_b0f2_4a01_9568_95553ce6a09b)
+·Careers (https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?source=email-020bca72d959-1764785494460-digest.reader-------------------------eeb8c730_b0f2_4a01_9568_95553ce6a09b)
+·Help Center (https://help.medium.com/hc/en-us?source=email-020bca72d959-1764785494460-digest.reader-------------------------eeb8c730_b0f2_4a01_9568_95553ce6a09b)
+·Privacy Policy (https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=email-020bca72d959-1764785494460-digest.reader-------------------------eeb8c730_b0f2_4a01_9568_95553ce6a09b)
+·Terms of service (https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=email-020bca72d959-1764785494460-digest.reader-------------------------eeb8c730_b0f2_4a01_9568_95553ce6a09b)

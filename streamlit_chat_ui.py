@@ -831,7 +831,7 @@ def main():
                                         status_text.text("Step 4/5: Creating database...")
                                         
                                         try:
-                                            db_success, db_message = create_db(json_path="test_data/gmail_chunks.json", collection_name='gmail_inbox')
+                                            db_success, db_message = create_db(json_path="agent_builder_client/test_data/gmail_chunks.json", collection_name='gmail_inbox')
                                             
                                             if db_success:
                                                 status_text.text("Step 4/5: Database creation completed")

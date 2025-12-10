@@ -1,0 +1,19 @@
+主旨: 安全性快訊
+发件人: Google <no-reply@accounts.google.com>
+收件人: ptest9109@gmail.com
+日期: Tue, 25 Nov 2025 10:04:15 GMT
+
+[image: Google]
+用於兩步驟驗證的電話號碼已新增
+
+
+ptest9109@gmail.com
+從現在起，系統會將用於登入帳戶的驗證碼傳送到新的電話號碼。如果您並未新增這個 
+號碼，表示可能有人盜用了您的帳戶。請立即檢查帳戶並採取必要保護措施。
+查看活動
+<https://accounts.google.com/AccountChooser?Email=ptest9109@gmail.com&continue=https://myaccount.google.com/alert/nt/1764065055518?rfn%3D249%26rfnc%3D1%26eid%3D-1325631686859357941%26et%3D0>
+您也可以前往以下網址查看帳戶安全相關活動：
+https://myaccount.google.com/notifications
+您的 Google 帳戶和服務有重大異動，系統特此發送這封電子郵件通知您。
+© 2025 Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA
+

@@ -1,0 +1,166 @@
+主旨: I Can’t Tell the Difference Between Java Generic Symbols_ T, E, K, V, _ _ Umesh Kumar Yadav in JavaScript in Plain English
+发件人: Medium Daily Digest <noreply@medium.com>
+收件人: ptest9109@gmail.com
+日期: Tue, 04 Nov 2025 23:10:00 +0000 (UTC)
+
+Stories for Ptest
+@ptest9109 (https://medium.com/@ptest9109?source=email-020bca72d959-1762280240302-digest.reader-------------------------70153540_205b_47ac_a50c_ca46f28099f3)
+·Become a member (https://medium.com/plans?source=email-020bca72d959-1762280240302-digest.reader-------------------------70153540_205b_47ac_a50c_ca46f28099f3)
+
+Today's highlights
+
+Umesh Kumar Yadav (https://medium.com/@umeshcapg?source=email-020bca72d959-1762280240302-digest.reader-4b3a1ed4f11c-2adc1673d13a----0-109------------------70153540_205b_47ac_a50c_ca46f28099f3-1)
+inJavaScript in Plain English (https://medium.com/javascript-in-plain-english?source=email-020bca72d959-1762280240302-digest.reader-4b3a1ed4f11c-2adc1673d13a----0-109------------------70153540_205b_47ac_a50c_ca46f28099f3-1)
+
+I Can't Tell the Difference Between Java Generic Symbols: T, E, K, V, ?
+Today I want to talk to you about those dazzling…
+
+11 min read
+112
+6
+
+Adham Khaled (https://medium.com/@adhamhidawy?source=email-020bca72d959-1762280240302-digest.reader-440100e76000-8349d6524d2b----1-109------------------70153540_205b_47ac_a50c_ca46f28099f3-1)
+inGenerative AI (https://medium.com/generative-ai?source=email-020bca72d959-1762280240302-digest.reader-440100e76000-8349d6524d2b----1-109------------------70153540_205b_47ac_a50c_ca46f28099f3-1)
+
+Stanford Just Killed Prompt Engineering With 8 Words (And I Can't Believe It…
+ChatGPT keeps giving you the same boring response…
+
+7 min read
+14.9K
+340
+
+Jacob Bartlett (https://medium.com/@jacobmartinbartlett?source=email-020bca72d959-1762280240302-digest.reader-5517fd7b58a6-3f25678ffa5e----2-109------------------70153540_205b_47ac_a50c_ca46f28099f3-1)
+inLevel Up Coding (https://medium.com/gitconnected?source=email-020bca72d959-1762280240302-digest.reader-5517fd7b58a6-3f25678ffa5e----2-109------------------70153540_205b_47ac_a50c_ca46f28099f3-1)
+
+The Terrible Technical Architecture of my First Startup
+A system that could only be built with the confidence…
+
+16 min read
+269
+9
+
+Joe Procopio (https://medium.com/@jproco?source=email-020bca72d959-1762280240302-digest.reader-7adf33e44ae3-ba0fe40f1422----3-109------------------70153540_205b_47ac_a50c_ca46f28099f3-1)
+inEntrepreneurship Handbook (https://medium.com/entrepreneur-s-handbook?source=email-020bca72d959-1762280240302-digest.reader-7adf33e44ae3-ba0fe40f1422----3-109------------------70153540_205b_47ac_a50c_ca46f28099f3-1)
+
+AI Porn Is Here - and We're All Pretending It'll Be Fine
+Sam Altman has decided that five years is enough of a…
+
+5 min read
+1.3K
+54
+
+Lakshay Dagar (https://medium.com/@ldagar315?source=email-020bca72d959-1762280240302-digest.reader--2bdffa14aedb----4-98------------------70153540_205b_47ac_a50c_ca46f28099f3-1)
+
+LoRA vs. Full Fine-Tuning: The Truth No One Told You
+It would be a lie to say that I hadn't dismissed LoRA…
+
+6 min read
+4
+
+Arvind Kumar (https://medium.com/@codefarm0?source=email-020bca72d959-1762280240302-digest.reader--182e0932d962----5-109------------------70153540_205b_47ac_a50c_ca46f28099f3-1)
+
+Building a Ticketing System: Concurrency, Locks, and Race Conditions
+What happens when 100,000 fans try to book the same…
+
+21 min read
+114
+1
+
+Hussein Jundi (https://medium.com/@husseinjundi?source=email-020bca72d959-1762280240302-digest.reader-f2ba5b8f6eb3-bd1a79d98ed0----6-109------------------70153540_205b_47ac_a50c_ca46f28099f3-1)
+inData Engineer Things (https://medium.com/data-engineer-things?source=email-020bca72d959-1762280240302-digest.reader-f2ba5b8f6eb3-bd1a79d98ed0----6-109------------------70153540_205b_47ac_a50c_ca46f28099f3-1)
+
+Data Engineering: Incremental Data Loading Strategies
+Outlining strategies and solution architectures to…
+
+9 min read
+33
+1
+
+Abhinav (https://medium.com/@codingplainenglish?source=email-020bca72d959-1762280240302-digest.reader--b457d14b0a72----7-109------------------70153540_205b_47ac_a50c_ca46f28099f3-1)
+
+Docker Is Dead - And It's About Time
+Docker changed the game when it launched in 2013…
+
+3 min read
+7.2K
+250
+
+Neel Dozome (https://medium.com/@dozome?source=email-020bca72d959-1762280240302-digest.reader-138adf9c44c-cfd402d224d7----8-109------------------70153540_205b_47ac_a50c_ca46f28099f3-1)
+inUX Collective (https://medium.com/user-experience-design-1?source=email-020bca72d959-1762280240302-digest.reader-138adf9c44c-cfd402d224d7----8-109------------------70153540_205b_47ac_a50c_ca46f28099f3-1)
+
+After the AWS outage
+Can we trust Big Tech monopolies in essential…
+
+8 min read
+324
+3
+
+Ignacio de Gregorio (https://medium.com/@ignacio.de.gregorio.noblejas?source=email-020bca72d959-1762280240302-digest.reader--d8ed74f519af----9-109------------------70153540_205b_47ac_a50c_ca46f28099f3-1)
+
+Continual AI Learning, Finally Solved?
+A Smart Trick for a Hard Problem
+
+12 min read
+602
+10
+
+Enzo Lombardi (https://medium.com/@enzo-lombardi?source=email-020bca72d959-1762280240302-digest.reader-d11aa42eb8ad-4555fd23b113----10-109------------------70153540_205b_47ac_a50c_ca46f28099f3-1)
+inRustaceans (https://medium.com/rustaceans?source=email-020bca72d959-1762280240302-digest.reader-d11aa42eb8ad-4555fd23b113----10-109------------------70153540_205b_47ac_a50c_ca46f28099f3-1)
+
+🦀 Rust's Seven Cardinal Sins
+The typical advice about Rust focuses on fighting the…
+
+10 min read
+83
+2
+
+Linda Caroll (https://medium.com/@lindacaroll?source=email-020bca72d959-1762280240302-digest.reader-f9ef6d4a761d-ce47661a546f----11-102------------------70153540_205b_47ac_a50c_ca46f28099f3-1)
+inFourth Wave (https://medium.com/fourth-wave?source=email-020bca72d959-1762280240302-digest.reader-f9ef6d4a761d-ce47661a546f----11-102------------------70153540_205b_47ac_a50c_ca46f28099f3-1)
+
+Why Is Undressing For Rich Men A Girl's Best Career Option?
+We need to talk about the Bop House girls and how Only…
+
+9 min read
+20K
+491
+
+Tomas Pueyo (https://medium.com/@tomaspueyo?source=email-020bca72d959-1762280240302-digest.reader--933e28e6427d----12-98------------------70153540_205b_47ac_a50c_ca46f28099f3-1)
+
+Why Warm Countries Are Poorer
+The most underrated factor
+
+15 min read
+8.2K
+297
+
+The Latency Gambler (https://medium.com/@kanishks772?source=email-020bca72d959-1762280240302-digest.reader--ebcae423399b----13-98------------------70153540_205b_47ac_a50c_ca46f28099f3-1)
+
+Every Bug I Ever Fixed Made Sense Only After I Understood These 7 Layers
+Three years into my career, I spent two weeks…
+
+4 min read
+462
+18
+
+Yash Batra (https://medium.com/@yashbatra11111?source=email-020bca72d959-1762280240302-digest.reader--7269383d65db----14-98------------------70153540_205b_47ac_a50c_ca46f28099f3-1)
+
+The 47-Line Code That Made One Developer $2 Million from AI
+In late 2024, a solo indie developer pushed 47 lines…
+
+3 min read
+4.2K
+167
+
+See more of what you like and less of what you don't.
+Control your recommendations (https://medium.com/me/missioncontrol?source=email-020bca72d959-1762280240302-digest.reader-------------------------70153540_205b_47ac_a50c_ca46f28099f3)
+
+Read from anywhere.
+
+Sent by Medium (https://medium.com/?source=email-020bca72d959-1762280240302-digest.reader-------------------------70153540_205b_47ac_a50c_ca46f28099f3)
+·3500 South DuPont Highway, Suite IQ-101, Dover, DE 19901
+Unsubscribe (https://medium.com/me/email-settings/020bca72d959/c0de0ee6f843?type=social&source=email-020bca72d959-1762280240302-digest.reader-------------------------70153540_205b_47ac_a50c_ca46f28099f3)
+ from this type of email·Switch to the Weekly Digest (https://medium.com/me/email-settings/020bca72d959/c0de0ee6f843?type=social&preference=2&source=email-020bca72d959-1762280240302-digest.reader-------------------------70153540_205b_47ac_a50c_ca46f28099f3)
+·Careers (https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?source=email-020bca72d959-1762280240302-digest.reader-------------------------70153540_205b_47ac_a50c_ca46f28099f3)
+·Help Center (https://help.medium.com/hc/en-us?source=email-020bca72d959-1762280240302-digest.reader-------------------------70153540_205b_47ac_a50c_ca46f28099f3)
+·Privacy Policy (https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=email-020bca72d959-1762280240302-digest.reader-------------------------70153540_205b_47ac_a50c_ca46f28099f3)
+·Terms of service (https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=email-020bca72d959-1762280240302-digest.reader-------------------------70153540_205b_47ac_a50c_ca46f28099f3)

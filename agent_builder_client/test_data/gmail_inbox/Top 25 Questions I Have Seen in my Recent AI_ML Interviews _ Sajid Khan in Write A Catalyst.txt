@@ -1,0 +1,168 @@
+主旨: Top 25 Questions I Have Seen in my Recent AI_ML Interviews _ Sajid Khan in Write A Catalyst
+发件人: Medium Daily Digest <noreply@medium.com>
+收件人: ptest9109@gmail.com
+日期: Sat, 29 Nov 2025 23:10:00 +0000 (UTC)
+
+Stories for Ptest
+@ptest9109 (https://medium.com/@ptest9109?source=email-020bca72d959-1764439952378-digest.reader-------------------------a06e7cae_7c40_478c_9dbe_9c60b2cde62c)
+·Become a member (https://medium.com/plans?source=email-020bca72d959-1764439952378-digest.reader-------------------------a06e7cae_7c40_478c_9dbe_9c60b2cde62c)
+
+Today's highlights
+
+Audrey Xie (https://medium.com/@audreyx?source=email-020bca72d959-1764439952378-digest.reader-5517fd7b58a6-ebf585c59e55----0-109------------------a06e7cae_7c40_478c_9dbe_9c60b2cde62c-1)
+inLevel Up Coding (https://medium.com/gitconnected?source=email-020bca72d959-1764439952378-digest.reader-5517fd7b58a6-ebf585c59e55----0-109------------------a06e7cae_7c40_478c_9dbe_9c60b2cde62c-1)
+
+AI Porn Is About to Break the Internet - And Silicon Valley Is Pretending…
+Welcome to the future of intimacy, chaos, and…
+
+4 min read
+1.1K
+38
+
+Sajid Khan (https://medium.com/@sajidkhan.sjic?source=email-020bca72d959-1764439952378-digest.reader-84ac01765c52-c44666d88cec----1-109------------------a06e7cae_7c40_478c_9dbe_9c60b2cde62c-1)
+inWrite A Catalyst (https://medium.com/write-a-catalyst?source=email-020bca72d959-1764439952378-digest.reader-84ac01765c52-c44666d88cec----1-109------------------a06e7cae_7c40_478c_9dbe_9c60b2cde62c-1)
+
+Top 25 Questions I Have Seen in my Recent AI/ML Interviews
+Ace Your Next AI-ML/ Data Science Interview
+
+28 min read
+146
+6
+
+The Concurrent Mind (https://medium.com/@kp9810113?source=email-020bca72d959-1764439952378-digest.reader--ed61347dc7fe----2-109------------------a06e7cae_7c40_478c_9dbe_9c60b2cde62c-1)
+
+Stop Using UUIDs as Primary Keys. It Is Killing Your Database Throughput
+Your database is not slow because it is old.
+It is…
+
+4 min read
+143
+4
+
+Alpha Iterations (https://medium.com/@alphaiterations?source=email-020bca72d959-1764439952378-digest.reader-98111c9905da-344ab768caac----3-109------------------a06e7cae_7c40_478c_9dbe_9c60b2cde62c-1)
+inTowards AI (https://medium.com/towards-artificial-intelligence?source=email-020bca72d959-1764439952378-digest.reader-98111c9905da-344ab768caac----3-109------------------a06e7cae_7c40_478c_9dbe_9c60b2cde62c-1)
+
+Agentic AI Project: Build a Multi-Agent system with LangGraph and Open AI
+This is an end to end project on building a…
+
+35 min read
+452
+12
+
+tinopreter (https://medium.com/@tinopreter?source=email-020bca72d959-1764439952378-digest.reader--0e7eca022708----4-99------------------a06e7cae_7c40_478c_9dbe_9c60b2cde62c-1)
+
+$1,500 Recon Secrets: Dorks to Dollars
+But over the years, I've noticed something interesting…
+
+5 min read
+135
+3
+
+Rowan Pierce (https://medium.com/@Rowan_Pierce?source=email-020bca72d959-1764439952378-digest.reader-83a207239c74-272dc91e9017----5-98------------------a06e7cae_7c40_478c_9dbe_9c60b2cde62c-1)
+inBooks Are Our Superpower (https://medium.com/books-are-our-superpower?source=email-020bca72d959-1764439952378-digest.reader-83a207239c74-272dc91e9017----5-98------------------a06e7cae_7c40_478c_9dbe_9c60b2cde62c-1)
+
+5 Massive Books That Are Worth Your Time
+Five literary monsters that broke my back, melted my…
+
+9 min read
+5.8K
+195
+
+Andy Murphy (https://medium.com/@andycmurphy1?source=email-020bca72d959-1764439952378-digest.reader--d3360d35f134----6-98------------------a06e7cae_7c40_478c_9dbe_9c60b2cde62c-1)
+
+There Are Only Six Things You Have to Avoid In Life (According to Carl Jung)
+Plus there are five things to cultivate and work on
+
+5 min read
+5.6K
+135
+
+Tech Fusionist (https://medium.com/@thetechfusionist?source=email-020bca72d959-1764439952378-digest.reader--e89e8bf56f9f----7-98------------------a06e7cae_7c40_478c_9dbe_9c60b2cde62c-1)
+
+If You Don't Learn These 9 AI Skills in 2025, You'll Fall Behind
+We are moving from the era of "Chatting with AI" to…
+
+5 min read
+272
+10
+
+Aakash Gupta (https://medium.com/@aakashgupta?source=email-020bca72d959-1764439952378-digest.reader--c0df8d8e82cc----8-98------------------a06e7cae_7c40_478c_9dbe_9c60b2cde62c-1)
+
+Google Just Dropped 70 Pages on Context Engineering. Here's What Actually…
+Imagine an AI that remembers you're vegan. Knows your…
+
+7 min read
+815
+21
+
+Teja Kusireddy (https://medium.com/@teja.kusireddy23?source=email-020bca72d959-1764439952378-digest.reader-98111c9905da-5f845848de33----9-98------------------a06e7cae_7c40_478c_9dbe_9c60b2cde62c-1)
+inTowards AI (https://medium.com/towards-artificial-intelligence?source=email-020bca72d959-1764439952378-digest.reader-98111c9905da-5f845848de33----9-98------------------a06e7cae_7c40_478c_9dbe_9c60b2cde62c-1)
+
+We Spent $47,000 Running AI Agents in Production. Here's What Nobody Tells You…
+Multi-agent systems are the future. Agent-to-Agent…
+
+8 min read
+3.8K
+133
+
+Thomas Chong (https://medium.com/@chongcht?source=email-020bca72d959-1764439952378-digest.reader-e52cf94d98af-853b935c5df0----10-99------------------a06e7cae_7c40_478c_9dbe_9c60b2cde62c-1)
+inGoogle Cloud - Community (https://medium.com/google-cloud?source=email-020bca72d959-1764439952378-digest.reader-e52cf94d98af-853b935c5df0----10-99------------------a06e7cae_7c40_478c_9dbe_9c60b2cde62c-1)
+
+The Era of Action with Gemini 3 Pro & Google Antigravity
+For the last two years, the AI industry has been…
+
+8 min read
+67
+1
+
+Jim the AI Whisperer (https://medium.com/@JimTheAIWhisperer?source=email-020bca72d959-1764439952378-digest.reader-440100e76000-bb498276fe3d----11-109------------------a06e7cae_7c40_478c_9dbe_9c60b2cde62c-1)
+inGenerative AI (https://medium.com/generative-ai?source=email-020bca72d959-1764439952378-digest.reader-440100e76000-bb498276fe3d----11-109------------------a06e7cae_7c40_478c_9dbe_9c60b2cde62c-1)
+
+Mind-reading Claude AI's Complete System Prompt
+I hacked Anthropic's own XML dialect for structuring…
+
+46 min read
+1.93K
+33
+
+Sumit Pandey (https://medium.com/@sumit.ai?source=email-020bca72d959-1764439952378-digest.reader-73682e81cdce-078bf74cbdd2----12-98------------------a06e7cae_7c40_478c_9dbe_9c60b2cde62c-1)
+inTowards Deep Learning (https://medium.com/towards-deep-learning?source=email-020bca72d959-1764439952378-digest.reader-73682e81cdce-078bf74cbdd2----12-98------------------a06e7cae_7c40_478c_9dbe_9c60b2cde62c-1)
+
+Goodbye DINO Tricks, Goodbye Stop-Grad: LeJEPA Is About to Rewrite SSL For…
+LeJEPA fixes self-supervised learning with a stable…
+
+7 min read
+51
+2
+
+Alberto Romero (https://medium.com/@albertoromgar?source=email-020bca72d959-1764439952378-digest.reader--9481fe33f1db----13-102------------------a06e7cae_7c40_478c_9dbe_9c60b2cde62c-1)
+
+You Have No Idea How Screwed OpenAI Is
+An exhaustive overview of the situation
+
+13 min read
+4.3K
+184
+
+Md Faruk Alam (https://medium.com/@farukalamai?source=email-020bca72d959-1764439952378-digest.reader-fb847bbc144c-98ded2a8fcf7----14-98------------------a06e7cae_7c40_478c_9dbe_9c60b2cde62c-1)
+incvRealtime (https://medium.com/cvrealtime?source=email-020bca72d959-1764439952378-digest.reader-fb847bbc144c-98ded2a8fcf7----14-98------------------a06e7cae_7c40_478c_9dbe_9c60b2cde62c-1)
+
+Object Detection with Multimodal Large Vision-Language Models: An In-depth…
+The world of computer vision is experiencing a…
+
+8 min read
+38
+
+See more of what you like and less of what you don't.
+Control your recommendations (https://medium.com/me/missioncontrol?source=email-020bca72d959-1764439952378-digest.reader-------------------------a06e7cae_7c40_478c_9dbe_9c60b2cde62c)
+
+Read from anywhere.
+
+Sent by Medium (https://medium.com/?source=email-020bca72d959-1764439952378-digest.reader-------------------------a06e7cae_7c40_478c_9dbe_9c60b2cde62c)
+·3500 South DuPont Highway, Suite IQ-101, Dover, DE 19901
+Unsubscribe (https://medium.com/me/email-settings/020bca72d959/48409d206794?type=social&source=email-020bca72d959-1764439952378-digest.reader-------------------------a06e7cae_7c40_478c_9dbe_9c60b2cde62c)
+ from this type of email·Switch to the Weekly Digest (https://medium.com/me/email-settings/020bca72d959/48409d206794?type=social&preference=2&source=email-020bca72d959-1764439952378-digest.reader-------------------------a06e7cae_7c40_478c_9dbe_9c60b2cde62c)
+·Careers (https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?source=email-020bca72d959-1764439952378-digest.reader-------------------------a06e7cae_7c40_478c_9dbe_9c60b2cde62c)
+·Help Center (https://help.medium.com/hc/en-us?source=email-020bca72d959-1764439952378-digest.reader-------------------------a06e7cae_7c40_478c_9dbe_9c60b2cde62c)
+·Privacy Policy (https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=email-020bca72d959-1764439952378-digest.reader-------------------------a06e7cae_7c40_478c_9dbe_9c60b2cde62c)
+·Terms of service (https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=email-020bca72d959-1764439952378-digest.reader-------------------------a06e7cae_7c40_478c_9dbe_9c60b2cde62c)

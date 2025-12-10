@@ -1,0 +1,19 @@
+主旨: 您現在可以透過連結登入 Google 帳戶
+发件人: Google <no-reply@accounts.google.com>
+收件人: ptest9109@gmail.com
+日期: Tue, 25 Nov 2025 13:33:31 GMT
+
+[image: Google]
+請使用這個連結重新登入帳戶
+您現在可以重設密碼並重新登入 ptest9109@gmail.com。這個連結在 7 日內有效。
+開始使用
+<https://accounts.google.com/signin/challenge/marl/rtn?marl=ABHrDGS0_MjV_eBAVhcT0HCXs0iwxtd9R9OIsiTcCsDRXSvrUZyjbVgULpzzqsDm7Kl5aF1SD7R-oHAcyFKeEdDSTNz0qz-CgrbgNyqdsepYbHbz-BZI2Es0Qu89LKMC38YxId6BTbpMUIUcuvIgy_RKBENMW90heWNqbHYrsPGUd55aMlx2ple7W2MDLpclmZsq5JM-VgAX&hl=zh-TW&tokenDest=NONPRIMARY_PREREGISTERED_EMAIL>
+如果您並未要求取回 ptest9109@gmail.com 的存取權限，可能是有人不小心輸入了您 
+的電子郵件地址。在這種情況下，請忽略這封郵件。
+
+
+祝一切順心！
+Google 帳戶團隊敬上
+您的 Google 帳戶和服務有重大異動，系統特此發送這封電子郵件通知您。
+© 2025 Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA
+

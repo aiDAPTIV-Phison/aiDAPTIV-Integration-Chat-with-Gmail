@@ -1,0 +1,13 @@
+主旨: Gitlab CD Bot
+发件人: ptest <ptest9109@gmail.com>
+收件人: ptest <ptest9109@gmail.com>
+日期: Wed, 15 Oct 2025 15:59:04 +0800
+
+BlackDuck Risk Notification
+repo: guru_api
+branch: develop
+sha: 64b6a236c93254760ead6e7a6c7ce6ea059c0577
+Risk Info:
+Operational Risk: {'High Risk': '1', 'Low Risk': '5'}
+Job url: http://192.168.1.154/ai_algo/guru/guru_api/-/jobs/30467613
+

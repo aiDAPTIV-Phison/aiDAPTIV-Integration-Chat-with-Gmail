@@ -12,7 +12,7 @@ import datetime
 from loguru import logger
 
 # 添加配置導入
-from agent_builder_client.config import settings
+from config import settings
 
 def get_rag_context_file_name(chroma, question, k=5):
     """
@@ -231,6 +231,7 @@ def get_rag_context_with_file_content(chroma, question, collection_name, k=5):
         
         # 構建完整的 merged file 路徑
         merged_file_path = os.path.join(
+            'agent_builder_client',
             'test_data', 
             'gmail_inbox', 
             merge_file_name

@@ -1,0 +1,167 @@
+主旨: The 47-Line Code That Made One Developer $2 Million from AI _ Yash Batra
+发件人: Medium Daily Digest <noreply@medium.com>
+收件人: ptest9109@gmail.com
+日期: Thu, 04 Dec 2025 23:10:00 +0000 (UTC)
+
+Stories for Ptest
+@ptest9109 (https://medium.com/@ptest9109?source=email-020bca72d959-1764872307467-digest.reader-------------------------e4cb9072_24f0_437c_9a01_7834906ebbf2)
+·Become a member (https://medium.com/plans?source=email-020bca72d959-1764872307467-digest.reader-------------------------e4cb9072_24f0_437c_9a01_7834906ebbf2)
+
+Today's highlights
+
+Yash Batra (https://medium.com/@yashbatra11111?source=email-020bca72d959-1764872307467-digest.reader--7269383d65db----0-109------------------e4cb9072_24f0_437c_9a01_7834906ebbf2-1)
+
+The 47-Line Code That Made One Developer $2 Million from AI
+In late 2024, a solo indie developer pushed 47 lines…
+
+3 min read
+4.5K
+169
+
+The Concurrent Mind (https://medium.com/@kp9810113?source=email-020bca72d959-1764872307467-digest.reader--ed61347dc7fe----1-109------------------e4cb9072_24f0_437c_9a01_7834906ebbf2-1)
+
+Stop Using UUIDs as Primary Keys. It Is Killing Your Database Throughput
+Your database is not slow because it is old.
+It is…
+
+4 min read
+347
+18
+
+Animesh Gaitonde (https://medium.com/@animeshgaitonde?source=email-020bca72d959-1764872307467-digest.reader-5b301f10ddcd-4c5a3311d8ea----2-102------------------e4cb9072_24f0_437c_9a01_7834906ebbf2-1)
+inITNEXT (https://medium.com/itnext?source=email-020bca72d959-1764872307467-digest.reader-5b301f10ddcd-4c5a3311d8ea----2-102------------------e4cb9072_24f0_437c_9a01_7834906ebbf2-1)
+
+Solving Double Booking at Scale: System Design Patterns from Top Tech Companies
+Learn how Airbnb, Ticketmaster, and booking platforms…
+
+10 min read
+2.3K
+33
+
+DevLogics (https://medium.com/@vishwajitpatil1224?source=email-020bca72d959-1764872307467-digest.reader--0c074a096447----3-109------------------e4cb9072_24f0_437c_9a01_7834906ebbf2-1)
+
+13 GoLang Questions That Separate 10x Engineers from the Rest in Scaling Rounds
+Build systems that stay fast when traffic doubles…
+
+7 min read
+33
+
+Aakash Gupta (https://medium.com/@aakashgupta?source=email-020bca72d959-1764872307467-digest.reader--c0df8d8e82cc----4-98------------------e4cb9072_24f0_437c_9a01_7834906ebbf2-1)
+
+Google Just Dropped 70 Pages on Context Engineering. Here's What Actually…
+Imagine an AI that remembers you're vegan. Knows your…
+
+7 min read
+862
+23
+
+Sam Cooper (https://medium.com/@sam-cooper?source=email-020bca72d959-1764872307467-digest.reader--84bdd0afb237----5-102------------------e4cb9072_24f0_437c_9a01_7834906ebbf2-1)
+
+The Country That Broke Kotlin
+Logic vs language: how a Turkish alphabet bug played a…
+
+15 min read
+805
+14
+
+Sumit Pandey (https://medium.com/@sumit.ai?source=email-020bca72d959-1764872307467-digest.reader-73682e81cdce-8d27b009061f----6-98------------------e4cb9072_24f0_437c_9a01_7834906ebbf2-1)
+inTowards Deep Learning (https://medium.com/towards-deep-learning?source=email-020bca72d959-1764872307467-digest.reader-73682e81cdce-8d27b009061f----6-98------------------e4cb9072_24f0_437c_9a01_7834906ebbf2-1)
+
+Meta's SAM 3D Just Broke Reality: Your Old Photos Can Now Be Walked Inside
+Meta's SAM 3D turns messy photos into 3D scenes…
+
+7 min read
+73
+1
+
+The Concurrent Mind (https://medium.com/@kp9810113?source=email-020bca72d959-1764872307467-digest.reader--5b9e0a8eb17e----7-99------------------e4cb9072_24f0_437c_9a01_7834906ebbf2-1)
+
+Forget HashMap - These 3 Hidden Java Maps Made My Code 3× Faster
+Most developers never look past HashMap.
+
+3 min read
+767
+25
+
+Alberto Romero (https://medium.com/@albertoromgar?source=email-020bca72d959-1764872307467-digest.reader--9481fe33f1db----8-102------------------e4cb9072_24f0_437c_9a01_7834906ebbf2-1)
+
+You Have No Idea How Screwed OpenAI Is
+An exhaustive overview of the situation
+
+13 min read
+4.3K
+186
+
+Kartscrut (https://medium.com/@kartscrut?source=email-020bca72d959-1764872307467-digest.reader-48e972f5c24e-1bb6a8331831----9-102------------------e4cb9072_24f0_437c_9a01_7834906ebbf2-1)
+inBootcamp (https://medium.com/design-bootcamp?source=email-020bca72d959-1764872307467-digest.reader-48e972f5c24e-1bb6a8331831----9-102------------------e4cb9072_24f0_437c_9a01_7834906ebbf2-1)
+
+Why nobody can read anymore
+When curiosity fades, attention follows. And when…
+
+16 min read
+5.1K
+236
+
+Julius Nyerere Nyambok (https://medium.com/@juliusnyambok14?source=email-020bca72d959-1764872307467-digest.reader-dbb127d0396b-3b92b4e3e355----10-98------------------e4cb9072_24f0_437c_9a01_7834906ebbf2-1)
+inData, AI and Beyond (https://medium.com/data-ai-and-beyond?source=email-020bca72d959-1764872307467-digest.reader-dbb127d0396b-3b92b4e3e355----10-98------------------e4cb9072_24f0_437c_9a01_7834906ebbf2-1)
+
+Generate AWS architectural diagrams using this simple method
+A combination of LLMs and MCP Servers.
+
+5 min read
+272
+2
+
+Nikhil Anand (https://medium.com/@nikhilanandnj?source=email-020bca72d959-1764872307467-digest.reader-3fe99b2acc4-adbd08aa84ca----11-102------------------e4cb9072_24f0_437c_9a01_7834906ebbf2-1)
+inAI Advances (https://medium.com/ai-advances?source=email-020bca72d959-1764872307467-digest.reader-3fe99b2acc4-adbd08aa84ca----11-102------------------e4cb9072_24f0_437c_9a01_7834906ebbf2-1)
+
+I wasted years confused about how LLMs learn before learning this.
+I wish someone had told me this when I started.
+
+8 min read
+388
+4
+
+Luna Rae (https://medium.com/@itsmelunarae?source=email-020bca72d959-1764872307467-digest.reader-eca1ba5ae1ca-aaa55d0917a3----12-98------------------e4cb9072_24f0_437c_9a01_7834906ebbf2-1)
+inILLUMINATION (https://medium.com/illumination?source=email-020bca72d959-1764872307467-digest.reader-eca1ba5ae1ca-aaa55d0917a3----12-98------------------e4cb9072_24f0_437c_9a01_7834906ebbf2-1)
+
+Psychologists Found the One Phrase That Makes Women Lose Interest Instantly
+And men say it without realizing they just ended the…
+
+4 min read
+12.1K
+400
+
+Joe Procopio (https://medium.com/@jproco?source=email-020bca72d959-1764872307467-digest.reader-7adf33e44ae3-3bf73e4bf0cd----13-102------------------e4cb9072_24f0_437c_9a01_7834906ebbf2-1)
+inEntrepreneurship Handbook (https://medium.com/entrepreneur-s-handbook?source=email-020bca72d959-1764872307467-digest.reader-7adf33e44ae3-3bf73e4bf0cd----13-102------------------e4cb9072_24f0_437c_9a01_7834906ebbf2-1)
+
+Amazon's Return To Office Mandates Backfire
+The exodus of senior talent from AWS might be why it…
+
+6 min read
+3.6K
+87
+
+Danqing (DQ) Gao (https://medium.com/@dq.gao?source=email-020bca72d959-1764872307467-digest.reader-1b80bb216c10-8b74d73e1299----14-102------------------e4cb9072_24f0_437c_9a01_7834906ebbf2-1)
+inRubrik Design (https://medium.com/rubrik-design?source=email-020bca72d959-1764872307467-digest.reader-1b80bb216c10-8b74d73e1299----14-102------------------e4cb9072_24f0_437c_9a01_7834906ebbf2-1)
+
+Dare to Evolve: The Making of a Senior Designer
+Five years ago, I took my first job as a product…
+
+7 min read
+117
+2
+
+See more of what you like and less of what you don't.
+Control your recommendations (https://medium.com/me/missioncontrol?source=email-020bca72d959-1764872307467-digest.reader-------------------------e4cb9072_24f0_437c_9a01_7834906ebbf2)
+
+Read from anywhere.
+
+Sent by Medium (https://medium.com/?source=email-020bca72d959-1764872307467-digest.reader-------------------------e4cb9072_24f0_437c_9a01_7834906ebbf2)
+·3500 South DuPont Highway, Suite IQ-101, Dover, DE 19901
+Unsubscribe (https://medium.com/me/email-settings/020bca72d959/e57fd3ab8e68?type=social&source=email-020bca72d959-1764872307467-digest.reader-------------------------e4cb9072_24f0_437c_9a01_7834906ebbf2)
+ from this type of email·Switch to the Weekly Digest (https://medium.com/me/email-settings/020bca72d959/e57fd3ab8e68?type=social&preference=2&source=email-020bca72d959-1764872307467-digest.reader-------------------------e4cb9072_24f0_437c_9a01_7834906ebbf2)
+·Careers (https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?source=email-020bca72d959-1764872307467-digest.reader-------------------------e4cb9072_24f0_437c_9a01_7834906ebbf2)
+·Help Center (https://help.medium.com/hc/en-us?source=email-020bca72d959-1764872307467-digest.reader-------------------------e4cb9072_24f0_437c_9a01_7834906ebbf2)
+·Privacy Policy (https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=email-020bca72d959-1764872307467-digest.reader-------------------------e4cb9072_24f0_437c_9a01_7834906ebbf2)
+·Terms of service (https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=email-020bca72d959-1764872307467-digest.reader-------------------------e4cb9072_24f0_437c_9a01_7834906ebbf2)

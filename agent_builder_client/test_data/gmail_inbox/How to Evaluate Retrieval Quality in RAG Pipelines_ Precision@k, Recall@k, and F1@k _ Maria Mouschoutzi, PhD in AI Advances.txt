@@ -1,0 +1,166 @@
+主旨: How to Evaluate Retrieval Quality in RAG Pipelines_ Precision@k, Recall@k, and F1@k _ Maria Mouschoutzi, PhD in AI Advances
+发件人: Medium Daily Digest <noreply@medium.com>
+收件人: ptest9109@gmail.com
+日期: Wed, 12 Nov 2025 23:10:00 +0000 (UTC)
+
+Stories for Ptest
+@ptest9109 (https://medium.com/@ptest9109?source=email-020bca72d959-1762971484558-digest.reader-------------------------c29bf7d9_1366_4d96_acd4_ccc0dfcc90a4)
+·Become a member (https://medium.com/plans?source=email-020bca72d959-1762971484558-digest.reader-------------------------c29bf7d9_1366_4d96_acd4_ccc0dfcc90a4)
+
+Today's highlights
+
+Maria Mouschoutzi, PhD (https://medium.com/@m.mouschoutzi?source=email-020bca72d959-1762971484558-digest.reader-3fe99b2acc4-9d344a62358b----0-102------------------c29bf7d9_1366_4d96_acd4_ccc0dfcc90a4-1)
+inAI Advances (https://medium.com/ai-advances?source=email-020bca72d959-1762971484558-digest.reader-3fe99b2acc4-9d344a62358b----0-102------------------c29bf7d9_1366_4d96_acd4_ccc0dfcc90a4-1)
+
+How to Evaluate Retrieval Quality in RAG Pipelines: Precision@k, Recall@k, and…
+Why care about the quality of the retrieval of your…
+
+16 min read
+239
+
+Kai S (https://medium.com/@johnsu9090?source=email-020bca72d959-1762971484558-digest.reader--4bc5a6f57260----1-99------------------c29bf7d9_1366_4d96_acd4_ccc0dfcc90a4-1)
+
+🎓 What the Master of Data Science Taught Me at the University of Sydney Over…
+📑 Table of Contents
+
+10 min read
+2
+
+Simranjeet Singh (https://medium.com/@simranjeetsingh1497?source=email-020bca72d959-1762971484558-digest.reader-78d064101951-a6ccfbf8c2e2----2-98------------------c29bf7d9_1366_4d96_acd4_ccc0dfcc90a4-1)
+inArtificial Intelligence in Plain English (https://medium.com/ai-in-plain-english?source=email-020bca72d959-1762971484558-digest.reader-78d064101951-a6ccfbf8c2e2----2-98------------------c29bf7d9_1366_4d96_acd4_ccc0dfcc90a4-1)
+
+Top 15 GenAI/ML Interview Questions asked in FAANG 2025
+Top 15 FAANG interview questions for GenAI, LLM, RAG…
+
+24 min read
+210
+3
+
+Gao Dalie (高達烈) (https://medium.com/@GaoDalie_AI?source=email-020bca72d959-1762971484558-digest.reader-98111c9905da-4cb101e44c4b----3-109------------------c29bf7d9_1366_4d96_acd4_ccc0dfcc90a4-1)
+inTowards AI (https://medium.com/towards-artificial-intelligence?source=email-020bca72d959-1762971484558-digest.reader-98111c9905da-4cb101e44c4b----3-109------------------c29bf7d9_1366_4d96_acd4_ccc0dfcc90a4-1)
+
+RAG is Not Dead! No Chunking, No Vectors, Just Vectorless to Get the Higher…
+Over the past two years, I have written numerous…
+
+9 min read
+1K
+13
+
+Civil Learning (https://medium.com/@civillearning?source=email-020bca72d959-1762971484558-digest.reader-16e3527896e0-e7458d1289d9----4-109------------------c29bf7d9_1366_4d96_acd4_ccc0dfcc90a4-1)
+inCoding Nexus (https://medium.com/coding-nexus?source=email-020bca72d959-1762971484558-digest.reader-16e3527896e0-e7458d1289d9----4-109------------------c29bf7d9_1366_4d96_acd4_ccc0dfcc90a4-1)
+
+QF-Lib: The All-in-One Python Toolkit for Quantitative Finance and Backtesting
+If you've ever tried to develop or test a trading…
+
+4 min read
+82
+3
+
+Suleman Safdar (https://medium.com/@SulemanSafdar?source=email-020bca72d959-1762971484558-digest.reader-78073def27b8-bbc5b81a0bdd----5-109------------------c29bf7d9_1366_4d96_acd4_ccc0dfcc90a4-1)
+inPython in Plain English (https://medium.com/python-in-plain-english?source=email-020bca72d959-1762971484558-digest.reader-78073def27b8-bbc5b81a0bdd----5-109------------------c29bf7d9_1366_4d96_acd4_ccc0dfcc90a4-1)
+
+The Python Tool I Built in a Weekend That Now Pays My Rent
+How I turned a tiny automation script into a paid…
+
+6 min read
+4K
+92
+
+Sven Balnojan, PhD (https://medium.com/@svenbalnojan?source=email-020bca72d959-1762971484558-digest.reader-cb9e992c80eb-2fee8bbfd956----6-99------------------c29bf7d9_1366_4d96_acd4_ccc0dfcc90a4-1)
+inInfuse Data - Into All Of Your Products (https://medium.com/infuse-data-into-all-of-your-products?source=email-020bca72d959-1762971484558-digest.reader-cb9e992c80eb-2fee8bbfd956----6-99------------------c29bf7d9_1366_4d96_acd4_ccc0dfcc90a4-1)
+
+How my AI team quit
+"This isn't what I signed up for."
+
+6 min read
+13
+1
+
+Marketing Data Science with Joe Domaleski (https://medium.com/@marketingdatascience?source=email-020bca72d959-1762971484558-digest.reader--3d452febb3de----7-99------------------c29bf7d9_1366_4d96_acd4_ccc0dfcc90a4-1)
+
+A Marketer's Guide to NLP: How Machines Actually Process and Understand…
+We can "crunch numbers," but how do we do that with…
+
+40 min read
+13
+
+CodeOrbit (https://medium.com/@theabhishek.040?source=email-020bca72d959-1762971484558-digest.reader--81cd6d8d4f06----8-98------------------c29bf7d9_1366_4d96_acd4_ccc0dfcc90a4-1)
+
+I Rebuilt My RAG Pipeline 11 Times - Here's the Architecture That Finally…
+How I went from $8,400/month cloud costs and 18-second…
+
+9 min read
+26
+1
+
+Gao Dalie (高達烈) (https://medium.com/@GaoDalie_AI?source=email-020bca72d959-1762971484558-digest.reader-440100e76000-87fc6ca41f03----9-109------------------c29bf7d9_1366_4d96_acd4_ccc0dfcc90a4-1)
+inGenerative AI (https://medium.com/generative-ai?source=email-020bca72d959-1762971484558-digest.reader-440100e76000-87fc6ca41f03----9-109------------------c29bf7d9_1366_4d96_acd4_ccc0dfcc90a4-1)
+
+DeepSeek-OCR + LLama4 + RAG Just Revolutionized Agent OCR Forever
+During the weekend, I scrolled through Twitter to see…
+
+11 min read
+499
+2
+
+Civil Learning (https://medium.com/@civillearning?source=email-020bca72d959-1762971484558-digest.reader-16e3527896e0-45aa5310792d----10-109------------------c29bf7d9_1366_4d96_acd4_ccc0dfcc90a4-1)
+inCoding Nexus (https://medium.com/coding-nexus?source=email-020bca72d959-1762971484558-digest.reader-16e3527896e0-45aa5310792d----10-109------------------c29bf7d9_1366_4d96_acd4_ccc0dfcc90a4-1)
+
+The Top Local LLMs You Can Actually Run at Home
+Running large AI models at home used to seem like a…
+
+6 min read
+144
+6
+
+The CS Engineer (https://medium.com/@Krishnajlathi?source=email-020bca72d959-1762971484558-digest.reader--9b14c1102113----11-98------------------c29bf7d9_1366_4d96_acd4_ccc0dfcc90a4-1)
+
+Forget JSON - These 4 Data Formats Made My APIs 5× Faster
+A 1.2 KB JSON payload transformed a smooth request…
+
+6 min read
+1.4K
+44
+
+Neurobyte (https://medium.com/@kaushalsinh73?source=email-020bca72d959-1762971484558-digest.reader--eaf127f87565----12-98------------------c29bf7d9_1366_4d96_acd4_ccc0dfcc90a4-1)
+
+FastAPI for LLM APIs: The Quiet Superpower
+A pragmatic blueprint for shipping faster, cheaper…
+
+5 min read
+127
+2
+
+Civil Learning (https://medium.com/@civillearning?source=email-020bca72d959-1762971484558-digest.reader-16e3527896e0-a95a29cde211----13-109------------------c29bf7d9_1366_4d96_acd4_ccc0dfcc90a4-1)
+inCoding Nexus (https://medium.com/coding-nexus?source=email-020bca72d959-1762971484558-digest.reader-16e3527896e0-a95a29cde211----13-109------------------c29bf7d9_1366_4d96_acd4_ccc0dfcc90a4-1)
+
+Google Just Made RAG Ridiculously Easy with the New File Search Tool
+If you've ever tried building your own RAG setup, you…
+
+3 min read
+221
+2
+
+Thomas Chong (https://medium.com/@chongcht?source=email-020bca72d959-1762971484558-digest.reader-e52cf94d98af-bb441e59a78c----14-98------------------c29bf7d9_1366_4d96_acd4_ccc0dfcc90a4-1)
+inGoogle Cloud - Community (https://medium.com/google-cloud?source=email-020bca72d959-1762971484558-digest.reader-e52cf94d98af-bb441e59a78c----14-98------------------c29bf7d9_1366_4d96_acd4_ccc0dfcc90a4-1)
+
+Building AI Agents Visually with Google ADK Visual Agent Builder
+Google ADK v1.18.0 introduced the Visual Agent Builder…
+
+10 min read
+49
+3
+
+See more of what you like and less of what you don't.
+Control your recommendations (https://medium.com/me/missioncontrol?source=email-020bca72d959-1762971484558-digest.reader-------------------------c29bf7d9_1366_4d96_acd4_ccc0dfcc90a4)
+
+Read from anywhere.
+
+Sent by Medium (https://medium.com/?source=email-020bca72d959-1762971484558-digest.reader-------------------------c29bf7d9_1366_4d96_acd4_ccc0dfcc90a4)
+·3500 South DuPont Highway, Suite IQ-101, Dover, DE 19901
+Unsubscribe (https://medium.com/me/email-settings/020bca72d959/8d3cad43d693?type=social&source=email-020bca72d959-1762971484558-digest.reader-------------------------c29bf7d9_1366_4d96_acd4_ccc0dfcc90a4)
+ from this type of email·Switch to the Weekly Digest (https://medium.com/me/email-settings/020bca72d959/8d3cad43d693?type=social&preference=2&source=email-020bca72d959-1762971484558-digest.reader-------------------------c29bf7d9_1366_4d96_acd4_ccc0dfcc90a4)
+·Careers (https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?source=email-020bca72d959-1762971484558-digest.reader-------------------------c29bf7d9_1366_4d96_acd4_ccc0dfcc90a4)
+·Help Center (https://help.medium.com/hc/en-us?source=email-020bca72d959-1762971484558-digest.reader-------------------------c29bf7d9_1366_4d96_acd4_ccc0dfcc90a4)
+·Privacy Policy (https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=email-020bca72d959-1762971484558-digest.reader-------------------------c29bf7d9_1366_4d96_acd4_ccc0dfcc90a4)
+·Terms of service (https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=email-020bca72d959-1762971484558-digest.reader-------------------------c29bf7d9_1366_4d96_acd4_ccc0dfcc90a4)

@@ -1,0 +1,163 @@
+主旨: How to Get Rich as a Solo Software Developer _ Mark Henry in Stackademic
+发件人: Medium Daily Digest <noreply@medium.com>
+收件人: ptest9109@gmail.com
+日期: Sat, 22 Nov 2025 23:10:00 +0000 (UTC)
+
+Stories for Ptest
+@ptest9109 (https://medium.com/@ptest9109?source=email-020bca72d959-1763835481016-digest.reader-------------------------ff483b8b_32be_4bc5_b5a2_ad30a5d7f57b)
+·Become a member (https://medium.com/plans?source=email-020bca72d959-1763835481016-digest.reader-------------------------ff483b8b_32be_4bc5_b5a2_ad30a5d7f57b)
+
+Today's highlights
+
+Mark Henry (https://medium.com/@fireprogrammer?source=email-020bca72d959-1763835481016-digest.reader-d1baaa8417a4-b2c86f008d30----0-99------------------ff483b8b_32be_4bc5_b5a2_ad30a5d7f57b-1)
+inStackademic (https://medium.com/stackademic?source=email-020bca72d959-1763835481016-digest.reader-d1baaa8417a4-b2c86f008d30----0-99------------------ff483b8b_32be_4bc5_b5a2_ad30a5d7f57b-1)
+
+How to Get Rich as a Solo Software Developer
+Stop Chasing Shiny Frameworks. Start Building Wealth.
+
+4 min read
+5.8K
+144
+
+Nexumo (https://medium.com/@Nexumo_?source=email-020bca72d959-1763835481016-digest.reader--9925080ed602----1-109------------------ff483b8b_32be_4bc5_b5a2_ad30a5d7f57b-1)
+
+10 Pydantic v2 Moves for Safer, Faster APIs
+Practical patterns that harden contracts, cut CPU, and…
+
+5 min read
+144
+3
+
+Aashish Kumar (https://medium.com/@aashishkumar_77032?source=email-020bca72d959-1763835481016-digest.reader-ffcf9c43f8e9-8ee670212c33----2-109------------------ff483b8b_32be_4bc5_b5a2_ad30a5d7f57b-1)
+inThe Pythonworld (https://medium.com/the-pythonworld?source=email-020bca72d959-1763835481016-digest.reader-ffcf9c43f8e9-8ee670212c33----2-109------------------ff483b8b_32be_4bc5_b5a2_ad30a5d7f57b-1)
+
+10 Python Concepts That Took Me Years to Understand - Until I Saw These…
+Sometimes one example can do more than a hundred…
+
+4 min read
+1.1K
+15
+
+Umair (https://medium.com/@u.mair?source=email-020bca72d959-1763835481016-digest.reader-e726ed424e13-122ea65cdd1f----3-98------------------ff483b8b_32be_4bc5_b5a2_ad30a5d7f57b-1)
+inDevSecOps & AI (https://medium.com/devsecops-ai?source=email-020bca72d959-1763835481016-digest.reader-e726ed424e13-122ea65cdd1f----3-98------------------ff483b8b_32be_4bc5_b5a2_ad30a5d7f57b-1)
+
+10 Best Practices for Using Cursor Effectively
+Cursor has changed the way I work, but not in the way…
+
+7 min read
+1
+
+Hash Block (https://medium.com/@connect.hashblock?source=email-020bca72d959-1763835481016-digest.reader--ff090cd8288b----4-109------------------ff483b8b_32be_4bc5_b5a2_ad30a5d7f57b-1)
+
+FastAPI + Celery, Without the Headaches
+A practical path to running background jobs in Python…
+
+5 min read
+56
+2
+
+Ravinduhimansha (https://medium.com/@ravinduhimansha99?source=email-020bca72d959-1763835481016-digest.reader-84ac01765c52-0dab3e4d8dbd----5-99------------------ff483b8b_32be_4bc5_b5a2_ad30a5d7f57b-1)
+inWrite A Catalyst (https://medium.com/write-a-catalyst?source=email-020bca72d959-1763835481016-digest.reader-84ac01765c52-0dab3e4d8dbd----5-99------------------ff483b8b_32be_4bc5_b5a2_ad30a5d7f57b-1)
+
+n8n Just Got Insanely Powerful - Here's What You're Missing
+The automation tool everyone's sleeping on just…
+
+9 min read
+165
+
+Data Journal (https://medium.com/@datajournal?source=email-020bca72d959-1763835481016-digest.reader--ae6c7fb1dd81----6-98------------------ff483b8b_32be_4bc5_b5a2_ad30a5d7f57b-1)
+
+Web Scraping with Scrapling: 2025 Tutorial
+If you've ever had a working scraper collapse…
+
+6 min read
+15
+2
+
+Noel Johnson (https://medium.com/@johnsonanthonyservices?source=email-020bca72d959-1763835481016-digest.reader-9c20b47b7f5e-98ada61425f8----7-98------------------ff483b8b_32be_4bc5_b5a2_ad30a5d7f57b-1)
+inInvestor's Handbook (https://medium.com/the-investors-handbook?source=email-020bca72d959-1763835481016-digest.reader-9c20b47b7f5e-98ada61425f8----7-98------------------ff483b8b_32be_4bc5_b5a2_ad30a5d7f57b-1)
+
+The Ultra-Rich Know What's Coming
+When the world burns a few will survive
+
+9 min read
+6.8K
+300
+
+Linda Caroll (https://medium.com/@lindacaroll?source=email-020bca72d959-1763835481016-digest.reader-f9ef6d4a761d-ce47661a546f----8-102------------------ff483b8b_32be_4bc5_b5a2_ad30a5d7f57b-1)
+inFourth Wave (https://medium.com/fourth-wave?source=email-020bca72d959-1763835481016-digest.reader-f9ef6d4a761d-ce47661a546f----8-102------------------ff483b8b_32be_4bc5_b5a2_ad30a5d7f57b-1)
+
+Why Is Undressing For Rich Men A Girl's Best Career Option?
+We need to talk about the Bop House girls and how Only…
+
+9 min read
+21K
+512
+
+Connor Shorten (https://medium.com/@connorshorten300?source=email-020bca72d959-1763835481016-digest.reader--fd3daf38e9b4----9-98------------------ff483b8b_32be_4bc5_b5a2_ad30a5d7f57b-1)
+
+REFRAG with Xiaoqiang Lin - Weaviate Podcast #130!
+"If you think about raw tokens, a chunk with 16 tokens…
+
+7 min read
+3
+
+Chris Dunlop (https://medium.com/@chrisdunlop_37984?source=email-020bca72d959-1763835481016-digest.reader-2ad825db51ad-10bc46f6e67b----10-98------------------ff483b8b_32be_4bc5_b5a2_ad30a5d7f57b-1)
+inRealworld AI Use Cases (https://medium.com/realworld-ai-use-cases?source=email-020bca72d959-1763835481016-digest.reader-2ad825db51ad-10bc46f6e67b----10-98------------------ff483b8b_32be_4bc5_b5a2_ad30a5d7f57b-1)
+
+Why clients pay me 10x more than developers who are better at coding than me
+Last week I charged $15,000 for work a better coder…
+
+8 min read
+8.1K
+187
+
+The CS Engineer (https://medium.com/@Krishnajlathi?source=email-020bca72d959-1763835481016-digest.reader--9b14c1102113----11-109------------------ff483b8b_32be_4bc5_b5a2_ad30a5d7f57b-1)
+
+Forget JSON - These 4 Data Formats Made My APIs 5× Faster
+A 1.2 KB JSON payload transformed a smooth request…
+
+6 min read
+1.4K
+44
+
+Cordero Core (https://medium.com/@cdcore?source=email-020bca72d959-1763835481016-digest.reader--7eeb8ee41933----12-98------------------ff483b8b_32be_4bc5_b5a2_ad30a5d7f57b-1)
+
+MCP Is Broken and Anthropic Just Admitted It
+Let's be honest. MCP works beautifully in demos and…
+
+6 min read
+27
+1
+
+Neurobyte (https://medium.com/@kaushalsinh73?source=email-020bca72d959-1763835481016-digest.reader--eaf127f87565----13-109------------------ff483b8b_32be_4bc5_b5a2_ad30a5d7f57b-1)
+
+FastAPI for LLM APIs: The Quiet Superpower
+A pragmatic blueprint for shipping faster, cheaper…
+
+5 min read
+150
+2
+
+Jason Weiland (https://medium.com/@jasonjamesweiland?source=email-020bca72d959-1763835481016-digest.reader--228c5b97649b----14-98------------------ff483b8b_32be_4bc5_b5a2_ad30a5d7f57b-1)
+
+Why Nobody Wants to Hire You Anymore
+It's not just older workers. It's not just Gen Z. The…
+
+6 min read
+2.8K
+131
+
+See more of what you like and less of what you don't.
+Control your recommendations (https://medium.com/me/missioncontrol?source=email-020bca72d959-1763835481016-digest.reader-------------------------ff483b8b_32be_4bc5_b5a2_ad30a5d7f57b)
+
+Read from anywhere.
+
+Sent by Medium (https://medium.com/?source=email-020bca72d959-1763835481016-digest.reader-------------------------ff483b8b_32be_4bc5_b5a2_ad30a5d7f57b)
+·3500 South DuPont Highway, Suite IQ-101, Dover, DE 19901
+Unsubscribe (https://medium.com/me/email-settings/020bca72d959/3165b1df92b4?type=social&source=email-020bca72d959-1763835481016-digest.reader-------------------------ff483b8b_32be_4bc5_b5a2_ad30a5d7f57b)
+ from this type of email·Switch to the Weekly Digest (https://medium.com/me/email-settings/020bca72d959/3165b1df92b4?type=social&preference=2&source=email-020bca72d959-1763835481016-digest.reader-------------------------ff483b8b_32be_4bc5_b5a2_ad30a5d7f57b)
+·Careers (https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?source=email-020bca72d959-1763835481016-digest.reader-------------------------ff483b8b_32be_4bc5_b5a2_ad30a5d7f57b)
+·Help Center (https://help.medium.com/hc/en-us?source=email-020bca72d959-1763835481016-digest.reader-------------------------ff483b8b_32be_4bc5_b5a2_ad30a5d7f57b)
+·Privacy Policy (https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=email-020bca72d959-1763835481016-digest.reader-------------------------ff483b8b_32be_4bc5_b5a2_ad30a5d7f57b)
+·Terms of service (https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=email-020bca72d959-1763835481016-digest.reader-------------------------ff483b8b_32be_4bc5_b5a2_ad30a5d7f57b)

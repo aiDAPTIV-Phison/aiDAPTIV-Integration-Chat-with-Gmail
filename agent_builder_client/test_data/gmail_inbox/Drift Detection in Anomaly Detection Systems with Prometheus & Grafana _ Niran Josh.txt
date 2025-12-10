@@ -1,0 +1,158 @@
+主旨: Drift Detection in Anomaly Detection Systems with Prometheus & Grafana _ Niran Josh
+发件人: Medium Daily Digest <noreply@medium.com>
+收件人: ptest9109@gmail.com
+日期: Wed, 29 Oct 2025 23:10:00 +0000 (UTC)
+
+Stories for Ptest
+@ptest9109 (https://medium.com/@ptest9109?source=email-020bca72d959-1761761983810-digest.reader-------------------------ae651b75_e21a_4171_a569_156292bff7f9)
+·Become a member (https://medium.com/plans?source=email-020bca72d959-1761761983810-digest.reader-------------------------ae651b75_e21a_4171_a569_156292bff7f9)
+
+Today's highlights
+
+Niran Josh (https://medium.com/@niranjosh011?source=email-020bca72d959-1761761983810-digest.reader--3d0fd7137eca----0-98------------------ae651b75_e21a_4171_a569_156292bff7f9-1)
+
+Drift Detection in Anomaly Detection Systems with Prometheus & Grafana
+When we deploy machine learning models into the real…
+
+11 min read
+1
+
+Ignacio de Gregorio (https://medium.com/@ignacio.de.gregorio.noblejas?source=email-020bca72d959-1761761983810-digest.reader--26918fb8a421----1-109------------------ae651b75_e21a_4171_a569_156292bff7f9-1)
+
+LLMs are smarter than we thought.
+Changing how they talk changes how they think.
+
+18 min read
+447
+11
+
+Florent Poux, Ph.D. (https://medium.com/@florentpoux?source=email-020bca72d959-1761761983810-digest.reader--21d3023ad81b----2-109------------------ae651b75_e21a_4171_a569_156292bff7f9-1)
+
+How to Create 3D Models From ANY Image with AI (Zero-Shot 3D Reconstruction)
+Learn to create accurate 3D point clouds from photos…
+
+29 min read
+201
+
+Daniel Parris (https://medium.com/@stat_significant?source=email-020bca72d959-1761761983810-digest.reader-c7435de990ae-ca973f4ae027----3-98------------------ae651b75_e21a_4171_a569_156292bff7f9-1)
+inFanfare (https://medium.com/fan-fare?source=email-020bca72d959-1761761983810-digest.reader-c7435de990ae-ca973f4ae027----3-98------------------ae651b75_e21a_4171_a569_156292bff7f9-1)
+
+Has Music Gotten More Political? A Statistical Analysis
+Has popular music become "more political"?
+
+9 min read
+446
+12
+
+Will Lockett (https://medium.com/@wlockett?source=email-020bca72d959-1761761983810-digest.reader--f1f5eec126d6----4-99------------------ae651b75_e21a_4171_a569_156292bff7f9-1)
+
+Elon's Pathetic Attempt To Save The Trash Fire That Is The Cybertruck
+It is almost funny.
+
+6 min read
+1.7K
+52
+
+The CS Engineer (https://medium.com/@Krishnajlathi?source=email-020bca72d959-1761761983810-digest.reader--c1b052598ba0----5-98------------------ae651b75_e21a_4171_a569_156292bff7f9-1)
+
+Forget SQL Joins - These 4 Patterns Made My Queries 10x Faster
+One four-table join turned a 30-millisecond request…
+
+7 min read
+708
+11
+
+Joe Njenga  (https://medium.com/@joe.njenga?source=email-020bca72d959-1761761983810-digest.reader-440100e76000-081b543af632----6-109------------------ae651b75_e21a_4171_a569_156292bff7f9-1)
+inGenerative AI (https://medium.com/generative-ai?source=email-020bca72d959-1761761983810-digest.reader-440100e76000-081b543af632----6-109------------------ae651b75_e21a_4171_a569_156292bff7f9-1)
+
+I Read This Stanford Paper (And Discovered the Death of Prompting As We Know…
+Is prompt engineering about to change? I accidentally…
+
+20 min read
+184
+4
+
+Abdur Rahman (https://medium.com/@abdur.rahman12?source=email-020bca72d959-1761761983810-digest.reader-78073def27b8-5fbf94bbbdca----7-109------------------ae651b75_e21a_4171_a569_156292bff7f9-1)
+inPython in Plain English (https://medium.com/python-in-plain-english?source=email-020bca72d959-1761761983810-digest.reader-78073def27b8-5fbf94bbbdca----7-109------------------ae651b75_e21a_4171_a569_156292bff7f9-1)
+
+8 Python Libraries That Make Visualization Effortless
+My data finally speaks for itself.
+
+4 min read
+208
+7
+
+Hareem Fatima 👻 (https://medium.com/@codewithhareemfatima?source=email-020bca72d959-1761761983810-digest.reader-8993e01dcfd3-437ec39b82de----8-98------------------ae651b75_e21a_4171_a569_156292bff7f9-1)
+inData Science Collective (https://medium.com/data-science-collective?source=email-020bca72d959-1761761983810-digest.reader-8993e01dcfd3-437ec39b82de----8-98------------------ae651b75_e21a_4171_a569_156292bff7f9-1)
+
+The Hierarchical Bayesian Model That Solved the Multi-Level Business Problem
+How Partial Pooling and Bayesian Thinking Fixed the…
+
+5 min read
+51
+
+Yashwanth Sai (https://medium.com/@theyashwanthsai?source=email-020bca72d959-1761761983810-digest.reader--e911ffa62682----9-109------------------ae651b75_e21a_4171_a569_156292bff7f9-1)
+
+I have built around 300 agents, worked at 5 startups. Here's what I learnt…
+Lessons learnt after working with agents for over an…
+
+4 min read
+4.7K
+206
+
+Aymenfkir (https://medium.com/@aymenfkir23?source=email-020bca72d959-1761761983810-digest.reader--5ca44f48440e----10-98------------------ae651b75_e21a_4171_a569_156292bff7f9-1)
+
+From Tables to Graphs: Building a TensorFlow GNN Sampler
+Previously, I worked on data preparation and feature…
+
+4 min read
+
+Will Lockett (https://medium.com/@wlockett?source=email-020bca72d959-1761761983810-digest.reader--8358dccfca1c----11-109------------------ae651b75_e21a_4171_a569_156292bff7f9-1)
+
+You Have No Idea How Screwed OpenAI Actually Is
+When you find yourself in a hole, at what point do you…
+
+10 min read
+5.5K
+179
+
+Fanghua (Joshua) Yu (https://medium.com/@yu-joshua?source=email-020bca72d959-1761761983810-digest.reader--785342479639----12-98------------------ae651b75_e21a_4171_a569_156292bff7f9-1)
+
+Vision-Text Compression: How DeepSeek-OCR Makes Long-Context AI More Efficient…
+What if you could pack hundreds of PDF pages into an…
+
+6 min read
+8
+
+Nikhil Anand (https://medium.com/@nikhilanandnj?source=email-020bca72d959-1761761983810-digest.reader-3fe99b2acc4-1ced2f02f276----13-102------------------ae651b75_e21a_4171_a569_156292bff7f9-1)
+inAI Advances (https://medium.com/ai-advances?source=email-020bca72d959-1761761983810-digest.reader-3fe99b2acc4-1ced2f02f276----13-102------------------ae651b75_e21a_4171_a569_156292bff7f9-1)
+
+I thought I knew how LLMs learnt until I learnt this.
+Meet the algorithm that secretly taught every AI to…
+
+9 min read
+487
+5
+
+Aashish Kumar (https://medium.com/@aashishkumar_77032?source=email-020bca72d959-1761761983810-digest.reader-ffcf9c43f8e9-77b6cc741924----14-99------------------ae651b75_e21a_4171_a569_156292bff7f9-1)
+inThe Pythonworld (https://medium.com/the-pythonworld?source=email-020bca72d959-1761761983810-digest.reader-ffcf9c43f8e9-77b6cc741924----14-99------------------ae651b75_e21a_4171_a569_156292bff7f9-1)
+
+How to Structure Large-Scale Python Projects Like a Senior Engineer
+If your project has more than 3 files, you need more…
+
+4 min read
+22
+
+See more of what you like and less of what you don't.
+Control your recommendations (https://medium.com/me/missioncontrol?source=email-020bca72d959-1761761983810-digest.reader-------------------------ae651b75_e21a_4171_a569_156292bff7f9)
+
+Read from anywhere.
+
+Sent by Medium (https://medium.com/?source=email-020bca72d959-1761761983810-digest.reader-------------------------ae651b75_e21a_4171_a569_156292bff7f9)
+·3500 South DuPont Highway, Suite IQ-101, Dover, DE 19901
+Unsubscribe (https://medium.com/me/email-settings/020bca72d959/d61db9e9a8d9?type=social&source=email-020bca72d959-1761761983810-digest.reader-------------------------ae651b75_e21a_4171_a569_156292bff7f9)
+ from this type of email·Switch to the Weekly Digest (https://medium.com/me/email-settings/020bca72d959/d61db9e9a8d9?type=social&preference=2&source=email-020bca72d959-1761761983810-digest.reader-------------------------ae651b75_e21a_4171_a569_156292bff7f9)
+·Careers (https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?source=email-020bca72d959-1761761983810-digest.reader-------------------------ae651b75_e21a_4171_a569_156292bff7f9)
+·Help Center (https://help.medium.com/hc/en-us?source=email-020bca72d959-1761761983810-digest.reader-------------------------ae651b75_e21a_4171_a569_156292bff7f9)
+·Privacy Policy (https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=email-020bca72d959-1761761983810-digest.reader-------------------------ae651b75_e21a_4171_a569_156292bff7f9)
+·Terms of service (https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=email-020bca72d959-1761761983810-digest.reader-------------------------ae651b75_e21a_4171_a569_156292bff7f9)

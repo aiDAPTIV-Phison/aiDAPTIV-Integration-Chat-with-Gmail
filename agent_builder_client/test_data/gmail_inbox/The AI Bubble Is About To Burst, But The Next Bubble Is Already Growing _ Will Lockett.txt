@@ -1,0 +1,165 @@
+主旨: The AI Bubble Is About To Burst, But The Next Bubble Is Already Growing _ Will Lockett
+发件人: Medium Daily Digest <noreply@medium.com>
+收件人: ptest9109@gmail.com
+日期: Wed, 05 Nov 2025 23:10:00 +0000 (UTC)
+
+Stories for Ptest
+@ptest9109 (https://medium.com/@ptest9109?source=email-020bca72d959-1762366632986-digest.reader-------------------------ac38484d_2673_41f8_9955_74817de78f60)
+·Become a member (https://medium.com/plans?source=email-020bca72d959-1762366632986-digest.reader-------------------------ac38484d_2673_41f8_9955_74817de78f60)
+
+Today's highlights
+
+Will Lockett (https://medium.com/@wlockett?source=email-020bca72d959-1762366632986-digest.reader--383c0c0c7ede----0-102------------------ac38484d_2673_41f8_9955_74817de78f60-1)
+
+The AI Bubble Is About To Burst, But The Next Bubble Is Already Growing
+Techbros are preparing their latest bandwagon.
+
+8 min read
+16K
+664
+
+TONI RAMCHANDANI (https://medium.com/@toniramchandani?source=email-020bca72d959-1762366632986-digest.reader-b680b860beb1-7b4502613af9----1-109------------------ac38484d_2673_41f8_9955_74817de78f60-1)
+inData And Beyond (https://medium.com/data-and-beyond?source=email-020bca72d959-1762366632986-digest.reader-b680b860beb1-7b4502613af9----1-109------------------ac38484d_2673_41f8_9955_74817de78f60-1)
+
+How DeepSeek OCR Quietly Solved a Billion-Dollar Problem in AI Scaling
+A technical marvel using SAM, CLIP, and a sparse MoE…
+
+9 min read
+1.1K
+14
+
+Code Coup (https://medium.com/@CodeCoup?source=email-020bca72d959-1762366632986-digest.reader-16e3527896e0-7f0921339196----2-109------------------ac38484d_2673_41f8_9955_74817de78f60-1)
+inCoding Nexus (https://medium.com/coding-nexus?source=email-020bca72d959-1762366632986-digest.reader-16e3527896e0-7f0921339196----2-109------------------ac38484d_2673_41f8_9955_74817de78f60-1)
+
+Microsoft's Agent Lightning: The Open-Source Framework That Trains and…
+Microsoft quietly released a new open-source framework…
+
+3 min read
+100
+2
+
+Aashish Kumar (https://medium.com/@aashishkumar_77032?source=email-020bca72d959-1762366632986-digest.reader-ffcf9c43f8e9-816879634db5----3-99------------------ac38484d_2673_41f8_9955_74817de78f60-1)
+inThe Pythonworld (https://medium.com/the-pythonworld?source=email-020bca72d959-1762366632986-digest.reader-ffcf9c43f8e9-816879634db5----3-99------------------ac38484d_2673_41f8_9955_74817de78f60-1)
+
+15 Modern Python Libraries You Must Know in 2025! 🚀
+I have discovered these few game changer modern set of…
+
+10 min read
+284
+2
+
+Eleanor Howe (https://medium.com/@howe.ec?source=email-020bca72d959-1762366632986-digest.reader-138adf9c44c-4498fb64ea84----4-99------------------ac38484d_2673_41f8_9955_74817de78f60-1)
+inUX Collective (https://medium.com/user-experience-design-1?source=email-020bca72d959-1762366632986-digest.reader-138adf9c44c-4498fb64ea84----4-99------------------ac38484d_2673_41f8_9955_74817de78f60-1)
+
+A Hippocratic Oath for tech… with teeth
+From Frankenstein's dilemma to the Greek agora…
+
+10 min read
+59
+1
+
+Gao Dalie (高達烈) (https://medium.com/@GaoDalie_AI?source=email-020bca72d959-1762366632986-digest.reader-440100e76000-87fc6ca41f03----5-109------------------ac38484d_2673_41f8_9955_74817de78f60-1)
+inGenerative AI (https://medium.com/generative-ai?source=email-020bca72d959-1762366632986-digest.reader-440100e76000-87fc6ca41f03----5-109------------------ac38484d_2673_41f8_9955_74817de78f60-1)
+
+DeepSeek-OCR + LLama4 + RAG Just Revolutionized Agent OCR Forever
+During the weekend, I scrolled through Twitter to see…
+
+11 min read
+315
+2
+
+Rob Manson (https://medium.com/@robman?source=email-020bca72d959-1762366632986-digest.reader--dad3610197ef----6-102------------------ac38484d_2673_41f8_9955_74817de78f60-1)
+
+Latent Confusion - The Many Meanings Hidden Behind AI's Favourite Word
+Hidden, lying in wait, not yet manifest. That's the…
+
+9 min read
+82
+1
+
+Nikhil Anand (https://medium.com/@nikhilanandnj?source=email-020bca72d959-1762366632986-digest.reader-3fe99b2acc4-1ced2f02f276----7-102------------------ac38484d_2673_41f8_9955_74817de78f60-1)
+inAI Advances (https://medium.com/ai-advances?source=email-020bca72d959-1762366632986-digest.reader-3fe99b2acc4-1ced2f02f276----7-102------------------ac38484d_2673_41f8_9955_74817de78f60-1)
+
+I thought I knew how LLMs learnt until I learnt this.
+Meet the algorithm that secretly taught every AI to…
+
+9 min read
+861
+18
+
+TheOpinionatedDev (https://medium.com/@theopinionatedev?source=email-020bca72d959-1762366632986-digest.reader--d2963ca7337b----8-109------------------ac38484d_2673_41f8_9955_74817de78f60-1)
+
+How Rust Made My AI Inference Pipeline 10x Cheaper
+I didn't switch to Rust because it was trendy. I…
+
+4 min read
+133
+8
+
+Algo Insights (https://medium.com/@algoinsights?source=email-020bca72d959-1762366632986-digest.reader-16e3527896e0-b462abd3ad9e----9-109------------------ac38484d_2673_41f8_9955_74817de78f60-1)
+inCoding Nexus (https://medium.com/coding-nexus?source=email-020bca72d959-1762366632986-digest.reader-16e3527896e0-b462abd3ad9e----9-109------------------ac38484d_2673_41f8_9955_74817de78f60-1)
+
+Claude Skills Might Quietly Replace MCP
+I've been experimenting with Claude's new Skill…
+
+3 min read
+68
+4
+
+Chaim Rand (https://medium.com/@chaimrand?source=email-020bca72d959-1762366632986-digest.reader--bd43a7704c62----10-102------------------ac38484d_2673_41f8_9955_74817de78f60-1)
+
+On the Challenge of Converting TensorFlow Models to PyTorch
+How to Upgrade and Optimize Legacy AI/ML Models
+
+16 min read
+4
+
+The Latency Gambler (https://medium.com/@kanishks772?source=email-020bca72d959-1762366632986-digest.reader--39c688ded2f1----11-109------------------ac38484d_2673_41f8_9955_74817de78f60-1)
+
+Scaling to 1 Million Users: The Architecture I Wish I Knew Sooner
+When we launched, we were happy just having 100 daily…
+
+4 min read
+5.3K
+127
+
+Erdogan T (https://medium.com/@erdogant?source=email-020bca72d959-1762366632986-digest.reader-8993e01dcfd3-9fa66fd02825----12-102------------------ac38484d_2673_41f8_9955_74817de78f60-1)
+inData Science Collective (https://medium.com/data-science-collective?source=email-020bca72d959-1762366632986-digest.reader-8993e01dcfd3-9fa66fd02825----12-102------------------ac38484d_2673_41f8_9955_74817de78f60-1)
+
+Six Causal Libraries Compared: Which Bayesian Approach Finds Hidden Causes in…
+Six Bayesian libraries are put to the test. See how…
+
+25 min read
+395
+3
+
+Dharmendra Pratap Singh (https://medium.com/@dharamai2024?source=email-020bca72d959-1762366632986-digest.reader--0a8f43488a08----13-109------------------ac38484d_2673_41f8_9955_74817de78f60-1)
+
+Building a Text-to-SQL Chatbot with RAG, LangChain, FastAPI And Streamlit
+In this project, I built an AI-powered chatbot that…
+
+19 min read
+287
+8
+
+Mayurkumar Surani (https://medium.com/@mayursurani?source=email-020bca72d959-1762366632986-digest.reader--6b88137fba4e----14-109------------------ac38484d_2673_41f8_9955_74817de78f60-1)
+
+RAG-Anything: The Complete Guide to Building Multimodal AI Systems with…
+RAG-Anything Framework: Complete Guide to Multimodal…
+
+22 min read
+8
+
+See more of what you like and less of what you don't.
+Control your recommendations (https://medium.com/me/missioncontrol?source=email-020bca72d959-1762366632986-digest.reader-------------------------ac38484d_2673_41f8_9955_74817de78f60)
+
+Read from anywhere.
+
+Sent by Medium (https://medium.com/?source=email-020bca72d959-1762366632986-digest.reader-------------------------ac38484d_2673_41f8_9955_74817de78f60)
+·3500 South DuPont Highway, Suite IQ-101, Dover, DE 19901
+Unsubscribe (https://medium.com/me/email-settings/020bca72d959/e172683dd9f4?type=social&source=email-020bca72d959-1762366632986-digest.reader-------------------------ac38484d_2673_41f8_9955_74817de78f60)
+ from this type of email·Switch to the Weekly Digest (https://medium.com/me/email-settings/020bca72d959/e172683dd9f4?type=social&preference=2&source=email-020bca72d959-1762366632986-digest.reader-------------------------ac38484d_2673_41f8_9955_74817de78f60)
+·Careers (https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?source=email-020bca72d959-1762366632986-digest.reader-------------------------ac38484d_2673_41f8_9955_74817de78f60)
+·Help Center (https://help.medium.com/hc/en-us?source=email-020bca72d959-1762366632986-digest.reader-------------------------ac38484d_2673_41f8_9955_74817de78f60)
+·Privacy Policy (https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=email-020bca72d959-1762366632986-digest.reader-------------------------ac38484d_2673_41f8_9955_74817de78f60)
+·Terms of service (https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=email-020bca72d959-1762366632986-digest.reader-------------------------ac38484d_2673_41f8_9955_74817de78f60)

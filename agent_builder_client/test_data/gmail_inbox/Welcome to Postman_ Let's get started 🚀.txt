@@ -1,0 +1,6 @@
+主旨: Welcome to Postman_ Let's get started 🚀
+发件人: The Postman Team <postman-team@email.postman.com>
+收件人: ptest9109@gmail.com
+日期: Thu, 09 Oct 2025 06:28:08 +0000 (UTC)
+
+Hey there, and welcome on board! 🎉 You&#39;re all set to start designing, testing, and collaborating on APIs. Here&#39;s how to hit the ground running. Verify API behavior: Send a request to view and

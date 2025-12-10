@@ -1,0 +1,164 @@
+主旨: Denmark Just Triggered Putin’s Worst Nightmare _ Bogdan Ilyin
+发件人: Medium Daily Digest <noreply@medium.com>
+收件人: ptest9109@gmail.com
+日期: Mon, 03 Nov 2025 23:10:00 +0000 (UTC)
+
+Stories for Ptest
+@ptest9109 (https://medium.com/@ptest9109?source=email-020bca72d959-1762193827188-digest.reader-------------------------fbe6880e_9902_443d_beb2_eebd314a0dda)
+·Become a member (https://medium.com/plans?source=email-020bca72d959-1762193827188-digest.reader-------------------------fbe6880e_9902_443d_beb2_eebd314a0dda)
+
+Today's highlights
+
+Bogdan Ilyin (https://medium.com/@bogdanilyin07?source=email-020bca72d959-1762193827188-digest.reader--641eff945815----0-73------------------fbe6880e_9902_443d_beb2_eebd314a0dda-1)
+
+Denmark Just Triggered Putin's Worst Nightmare
+Europe's quietest country just made one of the loudest…
+
+4 min read
+16.4K
+222
+
+The Latency Gambler (https://medium.com/@kanishks772?source=email-020bca72d959-1762193827188-digest.reader--b647d23f8c89----1-109------------------fbe6880e_9902_443d_beb2_eebd314a0dda-1)
+
+I Interviewed 20+ Engineers. Here's Why Most Can't Code
+Over the past year as a Senior Software Engineer at a…
+
+5 min read
+3K
+103
+
+Allen Liang  (https://medium.com/@mlshark?source=email-020bca72d959-1762193827188-digest.reader--bf1121a97e77----2-109------------------fbe6880e_9902_443d_beb2_eebd314a0dda-1)
+
+Killing LMMs with a tiny 27M model: Hierarchical Reasoning Model Explained…
+Killing LMMs with a Tiny 27M model: Hierarchical…
+
+5 min read
+287
+5
+
+Prakash Sharma (https://medium.com/@trricho?source=email-020bca72d959-1762193827188-digest.reader-8c10b83d44ec-919e3d05f970----3-109------------------fbe6880e_9902_443d_beb2_eebd314a0dda-1)
+inAndroid Alchemy (https://medium.com/android-alchemy?source=email-020bca72d959-1762193827188-digest.reader-8c10b83d44ec-919e3d05f970----3-109------------------fbe6880e_9902_443d_beb2_eebd314a0dda-1)
+
+Stop watching random AI courses: Complete Guide to AI Engineering
+Ultimate guide for AI Engineering preparation , Six…
+
+5 min read
+1.2K
+36
+
+Alpha Iterations (https://medium.com/@alphaiterations?source=email-020bca72d959-1762193827188-digest.reader-98111c9905da-facac8ae6031----4-109------------------fbe6880e_9902_443d_beb2_eebd314a0dda-1)
+inTowards AI (https://medium.com/towards-artificial-intelligence?source=email-020bca72d959-1762193827188-digest.reader-98111c9905da-facac8ae6031----4-109------------------fbe6880e_9902_443d_beb2_eebd314a0dda-1)
+
+Agentic AI: Build ReAct Agent using LangGraph
+Practical Guide to build ReAct agent using LangGraph…
+
+26 min read
+98
+2
+
+The Latency Gambler (https://medium.com/@kanishks772?source=email-020bca72d959-1762193827188-digest.reader--4dc7f19f93a1----5-109------------------fbe6880e_9902_443d_beb2_eebd314a0dda-1)
+
+I Tested All Major AI Models of 2025. Here's the Brutal Truth No One Tells You
+After spending six months testing every major AI model…
+
+5 min read
+70
+1
+
+Abish Pius (https://medium.com/@abishpius?source=email-020bca72d959-1762193827188-digest.reader-790baa526fab-cddc8f091809----6-99------------------fbe6880e_9902_443d_beb2_eebd314a0dda-1)
+inWriting in the World of Artificial Intelligence (https://medium.com/chat-gpt-now-writes-all-my-articles?source=email-020bca72d959-1762193827188-digest.reader-790baa526fab-cddc8f091809----6-99------------------fbe6880e_9902_443d_beb2_eebd314a0dda-1)
+
+New on GCP: BigQuery MCP Server (Example use ADK code)
+For AI agents to be truly useful in the enterprise…
+
+5 min read
+7
+
+Yashwanth Sai (https://medium.com/@theyashwanthsai?source=email-020bca72d959-1762193827188-digest.reader--e911ffa62682----7-109------------------fbe6880e_9902_443d_beb2_eebd314a0dda-1)
+
+I have built around 300 agents, worked at 5 startups. Here's what I learnt…
+Lessons learnt after working with agents for over an…
+
+4 min read
+4.98K
+208
+
+Nikhil Anand (https://medium.com/@nikhilanandnj?source=email-020bca72d959-1762193827188-digest.reader-3fe99b2acc4-4d6e23fd1b25----8-99------------------fbe6880e_9902_443d_beb2_eebd314a0dda-1)
+inAI Advances (https://medium.com/ai-advances?source=email-020bca72d959-1762193827188-digest.reader-3fe99b2acc4-4d6e23fd1b25----8-99------------------fbe6880e_9902_443d_beb2_eebd314a0dda-1)
+
+I wasted months running slow LLMs before learning this
+Why your LLM is running at just 10% of its potential…
+
+6 min read
+911
+13
+
+Torty Sivill (https://medium.com/@TortySivill?source=email-020bca72d959-1762193827188-digest.reader-3fe99b2acc4-ee91c49f2198----9-102------------------fbe6880e_9902_443d_beb2_eebd314a0dda-1)
+inAI Advances (https://medium.com/ai-advances?source=email-020bca72d959-1762193827188-digest.reader-3fe99b2acc4-ee91c49f2198----9-102------------------fbe6880e_9902_443d_beb2_eebd314a0dda-1)
+
+Beyond Before-and-After Thinking: Building Digital Twins to Measure True Impact
+A practical comparison of Synthetic Controls and…
+
+9 min read
+145
+
+Hareem Fatima 👻 (https://medium.com/@codewithhareemfatima?source=email-020bca72d959-1762193827188-digest.reader-8993e01dcfd3-437ec39b82de----10-98------------------fbe6880e_9902_443d_beb2_eebd314a0dda-1)
+inData Science Collective (https://medium.com/data-science-collective?source=email-020bca72d959-1762193827188-digest.reader-8993e01dcfd3-437ec39b82de----10-98------------------fbe6880e_9902_443d_beb2_eebd314a0dda-1)
+
+The Hierarchical Bayesian Model That Solved the Multi-Level Business Problem
+How Partial Pooling and Bayesian Thinking Fixed the…
+
+5 min read
+435
+9
+
+Pravash (https://medium.com/@pravash-techie?source=email-020bca72d959-1762193827188-digest.reader-5517fd7b58a6-b7f6f799c23a----11-109------------------fbe6880e_9902_443d_beb2_eebd314a0dda-1)
+inLevel Up Coding (https://medium.com/gitconnected?source=email-020bca72d959-1762193827188-digest.reader-5517fd7b58a6-b7f6f799c23a----11-109------------------fbe6880e_9902_443d_beb2_eebd314a0dda-1)
+
+The Python Dunder Methods That Senior Engineers Actually Use (But Nobody…
+From missing to prepare: Master the special methods…
+
+8 min read
+204
+
+Nayab Bhutta (https://medium.com/@nayabbhutta665?source=email-020bca72d959-1762193827188-digest.reader-2e0a397e245a-fd9c719c2007----12-99------------------fbe6880e_9902_443d_beb2_eebd314a0dda-1)
+inInsiderFinance Wire (https://medium.com/insiderfinance?source=email-020bca72d959-1762193827188-digest.reader-2e0a397e245a-fd9c719c2007----12-99------------------fbe6880e_9902_443d_beb2_eebd314a0dda-1)
+
+The Moving Average Lie: Why 99% of Traders Use the WRONG Indicator (The KAMA…
+Most traders swear by moving averages - the 50-day…
+
+6 min read
+39
+2
+
+Abdur Rahman (https://medium.com/@abdur.rahman12?source=email-020bca72d959-1762193827188-digest.reader--e00f6c98fb96----13-99------------------fbe6880e_9902_443d_beb2_eebd314a0dda-1)
+
+7 Python Automation Projects You Can Build in Less Than 2 Hours Each
+Small Builds. Big Impact.
+
+4 min read
+803
+20
+
+Nayab Bhutta (https://medium.com/@nayabbhutta665?source=email-020bca72d959-1762193827188-digest.reader--db783b24854e----14-99------------------fbe6880e_9902_443d_beb2_eebd314a0dda-1)
+
+Stop Trading Blind! Build a Python Bot That Uses the Put-Call Ratio to Predict…
+The Problem: Most Traders Are Flying Blind
+
+4 min read
+41
+3
+
+See more of what you like and less of what you don't.
+Control your recommendations (https://medium.com/me/missioncontrol?source=email-020bca72d959-1762193827188-digest.reader-------------------------fbe6880e_9902_443d_beb2_eebd314a0dda)
+
+Read from anywhere.
+
+Sent by Medium (https://medium.com/?source=email-020bca72d959-1762193827188-digest.reader-------------------------fbe6880e_9902_443d_beb2_eebd314a0dda)
+·3500 South DuPont Highway, Suite IQ-101, Dover, DE 19901
+Unsubscribe (https://medium.com/me/email-settings/020bca72d959/91f934b9cd51?type=social&source=email-020bca72d959-1762193827188-digest.reader-------------------------fbe6880e_9902_443d_beb2_eebd314a0dda)
+ from this type of email·Switch to the Weekly Digest (https://medium.com/me/email-settings/020bca72d959/91f934b9cd51?type=social&preference=2&source=email-020bca72d959-1762193827188-digest.reader-------------------------fbe6880e_9902_443d_beb2_eebd314a0dda)
+·Careers (https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?source=email-020bca72d959-1762193827188-digest.reader-------------------------fbe6880e_9902_443d_beb2_eebd314a0dda)
+·Help Center (https://help.medium.com/hc/en-us?source=email-020bca72d959-1762193827188-digest.reader-------------------------fbe6880e_9902_443d_beb2_eebd314a0dda)
+·Privacy Policy (https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=email-020bca72d959-1762193827188-digest.reader-------------------------fbe6880e_9902_443d_beb2_eebd314a0dda)
+·Terms of service (https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=email-020bca72d959-1762193827188-digest.reader-------------------------fbe6880e_9902_443d_beb2_eebd314a0dda)

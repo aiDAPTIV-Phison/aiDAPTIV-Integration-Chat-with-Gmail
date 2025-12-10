@@ -1,0 +1,165 @@
+主旨: Introduction to ONNX Runtime_ Run Any Object Detection, Image Classification, Segmentation, NLP… _ siromer
+发件人: Medium Daily Digest <noreply@medium.com>
+收件人: ptest9109@gmail.com
+日期: Tue, 11 Nov 2025 23:10:00 +0000 (UTC)
+
+Stories for Ptest
+@ptest9109 (https://medium.com/@ptest9109?source=email-020bca72d959-1762884684563-digest.reader-------------------------aa83fcb7_0463_470b_b957_006ac907bd5f)
+·Become a member (https://medium.com/plans?source=email-020bca72d959-1762884684563-digest.reader-------------------------aa83fcb7_0463_470b_b957_006ac907bd5f)
+
+Today's highlights
+
+siromer (https://medium.com/@siromermer?source=email-020bca72d959-1762884684563-digest.reader--7d5e0720ec6d----0-98------------------aa83fcb7_0463_470b_b957_006ac907bd5f-1)
+
+Introduction to ONNX Runtime: Run Any Object Detection, Image Classification…
+There are tons of different deep learning models…
+
+4 min read
+
+The Latency Gambler (https://medium.com/@kanishks772?source=email-020bca72d959-1762884684563-digest.reader--b647d23f8c89----1-109------------------aa83fcb7_0463_470b_b957_006ac907bd5f-1)
+
+I Interviewed 20+ Engineers. Here's Why Most Can't Code
+Over the past year as a Senior Software Engineer at a…
+
+5 min read
+3K
+104
+
+Han HELOIR YAN, Ph.D. ☕️ (https://medium.com/@han.heloir?source=email-020bca72d959-1762884684563-digest.reader-8993e01dcfd3-45ed723cc73c----2-99------------------aa83fcb7_0463_470b_b957_006ac907bd5f-1)
+inData Science Collective (https://medium.com/data-science-collective?source=email-020bca72d959-1762884684563-digest.reader-8993e01dcfd3-45ed723cc73c----2-99------------------aa83fcb7_0463_470b_b957_006ac907bd5f-1)
+
+MCP New Superpower: How MCP Code Execution Changes the Game for AI Agents
+A deep dive into Anthropic's Model Context Protocol…
+
+22 min read
+209
+2
+
+Vyacheslav Efimov (https://medium.com/@slavahead?source=email-020bca72d959-1762884684563-digest.reader-3fe99b2acc4-d7144d8a4b7e----3-98------------------aa83fcb7_0463_470b_b957_006ac907bd5f-1)
+inAI Advances (https://medium.com/ai-advances?source=email-020bca72d959-1762884684563-digest.reader-3fe99b2acc4-d7144d8a4b7e----3-98------------------aa83fcb7_0463_470b_b957_006ac907bd5f-1)
+
+Feature Detection, Part 1: Image Derivatives, Gradients and Sobel Operator
+Applying calculus fundamentals to computer vision for…
+
+10 min read
+139
+1
+
+Civil Learning (https://medium.com/@civillearning?source=email-020bca72d959-1762884684563-digest.reader-16e3527896e0-92fc17ff1317----4-98------------------aa83fcb7_0463_470b_b957_006ac907bd5f-1)
+inCoding Nexus (https://medium.com/coding-nexus?source=email-020bca72d959-1762884684563-digest.reader-16e3527896e0-92fc17ff1317----4-98------------------aa83fcb7_0463_470b_b957_006ac907bd5f-1)
+
+RTX 3090 vs 4090 vs 5090 vs PRO 6000 - Which GPU Makes the Most Sense for LLMs?
+If you're experimenting with large language models…
+
+5 min read
+45
+2
+
+Prem Vishnoi(cloudvala) (https://medium.com/@premvishnoi?source=email-020bca72d959-1762884684563-digest.reader-98111c9905da-fd65eb1b40b8----5-98------------------aa83fcb7_0463_470b_b957_006ac907bd5f-1)
+inTowards AI (https://medium.com/towards-artificial-intelligence?source=email-020bca72d959-1762884684563-digest.reader-98111c9905da-fd65eb1b40b8----5-98------------------aa83fcb7_0463_470b_b957_006ac907bd5f-1)
+
+Embeddings Made Easy: How to Teach Machines to Understand Images, Videos, and…
+Embeddings are how machines understand meaning not…
+
+9 min read
+7
+1
+
+Abhishek Kumar Gupta (https://medium.com/@abhishekkrgupta0?source=email-020bca72d959-1762884684563-digest.reader-f9b6be363a21-60ecf985e354----6-99------------------aa83fcb7_0463_470b_b957_006ac907bd5f-1)
+inTech with Abhishek (https://medium.com/tech-with-abhishek?source=email-020bca72d959-1762884684563-digest.reader-f9b6be363a21-60ecf985e354----6-99------------------aa83fcb7_0463_470b_b957_006ac907bd5f-1)
+
+dbt + GenAI: The Next Era of Analytics Engineering
+✍🏼 Introduction
+
+4 min read
+25
+
+MatMaq (https://medium.com/@matiasmaquieira96?source=email-020bca72d959-1762884684563-digest.reader--0f33fc471113----7-109------------------aa83fcb7_0463_470b_b957_006ac907bd5f-1)
+
+The 90% of ML Teams Are Still Building Models Like It's 2019 (And the…
+The distributed machine learning approach that's…
+
+13 min read
+506
+10
+
+Keith Weaver (https://medium.com/@kweave?source=email-020bca72d959-1762884684563-digest.reader-f5af2b715248-e14cf2f9ad84----8-98------------------aa83fcb7_0463_470b_b957_006ac907bd5f-1)
+inThe Startup (https://medium.com/swlh?source=email-020bca72d959-1762884684563-digest.reader-f5af2b715248-e14cf2f9ad84----8-98------------------aa83fcb7_0463_470b_b957_006ac907bd5f-1)
+
+Your Salary Won't Make You Rich - But This Simple System Might
+Forget about raises and promotions
+
+7 min read
+4.5K
+200
+
+Daniel Craciun (https://medium.com/@dc0?source=email-020bca72d959-1762884684563-digest.reader-5517fd7b58a6-473199c8cbc0----9-98------------------aa83fcb7_0463_470b_b957_006ac907bd5f-1)
+inLevel Up Coding (https://medium.com/gitconnected?source=email-020bca72d959-1762884684563-digest.reader-5517fd7b58a6-473199c8cbc0----9-98------------------aa83fcb7_0463_470b_b957_006ac907bd5f-1)
+
+Stop Using UUIDs in Your Database
+How UUIDs Can Destroy SQL Database Performance
+
+3 min read
+1.97K
+117
+
+Code Coup (https://medium.com/@CodeCoup?source=email-020bca72d959-1762884684563-digest.reader-16e3527896e0-ce530a612513----10-98------------------aa83fcb7_0463_470b_b957_006ac907bd5f-1)
+inCoding Nexus (https://medium.com/coding-nexus?source=email-020bca72d959-1762884684563-digest.reader-16e3527896e0-ce530a612513----10-98------------------aa83fcb7_0463_470b_b957_006ac907bd5f-1)
+
+Running Powerful AI Models Locally (No Cloud, No API, No Data Leaks)
+There's a moment that occurs the first time you run a…
+
+3 min read
+308
+7
+
+Rohan Mistry (https://medium.com/@rohanmistry231?source=email-020bca72d959-1762884684563-digest.reader-98111c9905da-91757b1b87b1----11-98------------------aa83fcb7_0463_470b_b957_006ac907bd5f-1)
+inTowards AI (https://medium.com/towards-artificial-intelligence?source=email-020bca72d959-1762884684563-digest.reader-98111c9905da-91757b1b87b1----11-98------------------aa83fcb7_0463_470b_b957_006ac907bd5f-1)
+
+Stop Tuning Hyperparameters. You're Just Procrastinating.
+You Spent 3 Weeks Tuning. Your Colleague Beat Your…
+
+5 min read
+400
+7
+
+Alberto Romero (https://medium.com/@albertoromgar?source=email-020bca72d959-1762884684563-digest.reader--9481fe33f1db----12-102------------------aa83fcb7_0463_470b_b957_006ac907bd5f-1)
+
+You Have No Idea How Screwed OpenAI Is
+An exhaustive overview of the situation
+
+13 min read
+1.94K
+104
+
+Eva Keiffenheim (https://medium.com/@evakeiffenheim?source=email-020bca72d959-1762884684563-digest.reader--b9416c6fb856----13-98------------------aa83fcb7_0463_470b_b957_006ac907bd5f-1)
+
+The Smartest People I Know Are Obsessed With a Skill Many Were Told Is Useless
+The same technology promising to make us smarter is…
+
+7 min read
+22K
+486
+
+The Latency Gambler (https://medium.com/@kanishks772?source=email-020bca72d959-1762884684563-digest.reader--b5dd1e8da106----14-99------------------aa83fcb7_0463_470b_b957_006ac907bd5f-1)
+
+I Found a FORTRAN Algorithm That Beats Modern Machine Learning
+Last month, while cleaning up old files, I found a…
+
+3 min read
+1.5K
+33
+
+See more of what you like and less of what you don't.
+Control your recommendations (https://medium.com/me/missioncontrol?source=email-020bca72d959-1762884684563-digest.reader-------------------------aa83fcb7_0463_470b_b957_006ac907bd5f)
+
+Read from anywhere.
+
+Sent by Medium (https://medium.com/?source=email-020bca72d959-1762884684563-digest.reader-------------------------aa83fcb7_0463_470b_b957_006ac907bd5f)
+·3500 South DuPont Highway, Suite IQ-101, Dover, DE 19901
+Unsubscribe (https://medium.com/me/email-settings/020bca72d959/21b282900bd4?type=social&source=email-020bca72d959-1762884684563-digest.reader-------------------------aa83fcb7_0463_470b_b957_006ac907bd5f)
+ from this type of email·Switch to the Weekly Digest (https://medium.com/me/email-settings/020bca72d959/21b282900bd4?type=social&preference=2&source=email-020bca72d959-1762884684563-digest.reader-------------------------aa83fcb7_0463_470b_b957_006ac907bd5f)
+·Careers (https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?source=email-020bca72d959-1762884684563-digest.reader-------------------------aa83fcb7_0463_470b_b957_006ac907bd5f)
+·Help Center (https://help.medium.com/hc/en-us?source=email-020bca72d959-1762884684563-digest.reader-------------------------aa83fcb7_0463_470b_b957_006ac907bd5f)
+·Privacy Policy (https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=email-020bca72d959-1762884684563-digest.reader-------------------------aa83fcb7_0463_470b_b957_006ac907bd5f)
+·Terms of service (https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=email-020bca72d959-1762884684563-digest.reader-------------------------aa83fcb7_0463_470b_b957_006ac907bd5f)

@@ -1,0 +1,12 @@
+主旨: BlackDuck Risk Notification
+发件人: ptest <ptest9109@gmail.com>
+收件人: ptest <ptest9109@gmail.com>
+日期: Wed, 15 Oct 2025 16:00:47 +0800
+
+repo: guru_api
+branch: master
+sha: 881af5326eef7849eb75cfbd4d0c39105029f787
+Risk Info:
+Operational Risk: {'High Risk': '2', 'Low Risk': '7'}
+Job url: http://192.168.1.154/ai_algo/guru/guru_api/-/jobs/30467677
+

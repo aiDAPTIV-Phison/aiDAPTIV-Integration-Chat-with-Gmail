@@ -1,0 +1,169 @@
+主旨: Stanford Just Killed Prompt Engineering With 8 Words (And I Can’t Believe It Worked) _ Adham Khaled in Generative AI
+发件人: Medium Daily Digest <noreply@medium.com>
+收件人: ptest9109@gmail.com
+日期: Sun, 09 Nov 2025 23:10:00 +0000 (UTC)
+
+Stories for Ptest
+@ptest9109 (https://medium.com/@ptest9109?source=email-020bca72d959-1762711997235-digest.reader-------------------------06abf48c_8c92_4666_9c0a_1f2bce33f6e7)
+·Become a member (https://medium.com/plans?source=email-020bca72d959-1762711997235-digest.reader-------------------------06abf48c_8c92_4666_9c0a_1f2bce33f6e7)
+
+Today's highlights
+
+Adham Khaled (https://medium.com/@adhamhidawy?source=email-020bca72d959-1762711997235-digest.reader-440100e76000-8349d6524d2b----0-109------------------06abf48c_8c92_4666_9c0a_1f2bce33f6e7-1)
+inGenerative AI (https://medium.com/generative-ai?source=email-020bca72d959-1762711997235-digest.reader-440100e76000-8349d6524d2b----0-109------------------06abf48c_8c92_4666_9c0a_1f2bce33f6e7-1)
+
+Stanford Just Killed Prompt Engineering With 8 Words (And I Can't Believe It…
+ChatGPT keeps giving you the same boring response…
+
+7 min read
+16.2K
+383
+
+Abhinav (https://medium.com/@codingplainenglish?source=email-020bca72d959-1762711997235-digest.reader--b457d14b0a72----1-109------------------06abf48c_8c92_4666_9c0a_1f2bce33f6e7-1)
+
+Docker Is Dead - And It's About Time
+Docker changed the game when it launched in 2013…
+
+3 min read
+7.2K
+253
+
+Rohan Mistry (https://medium.com/@rohanmistry231?source=email-020bca72d959-1762711997235-digest.reader-98111c9905da-7044f58ba4fb----2-109------------------06abf48c_8c92_4666_9c0a_1f2bce33f6e7-1)
+inTowards AI (https://medium.com/towards-artificial-intelligence?source=email-020bca72d959-1762711997235-digest.reader-98111c9905da-7044f58ba4fb----2-109------------------06abf48c_8c92_4666_9c0a_1f2bce33f6e7-1)
+
+You're Not an AI Engineer. You're Just Using ChatGPT.
+What actually separates AI engineers from AI users
+
+9 min read
+184
+8
+
+Wei Lu (https://medium.com/@GenerationAI?source=email-020bca72d959-1762711997235-digest.reader--24ebd8809d74----3-109------------------06abf48c_8c92_4666_9c0a_1f2bce33f6e7-1)
+
+Qwen-image-edit on AMD Ryzen AI Max+395 "Strix Halo" & Intel Core Ultra 125H
+A simple comparison between Nano Banana and Qwen shows…
+
+5 min read
+2
+1
+
+Tasmia Sharmin (https://medium.com/@tasmiasharmin7?source=email-020bca72d959-1762711997235-digest.reader-661161fab0d0-6006b9b0918b----4-109------------------06abf48c_8c92_4666_9c0a_1f2bce33f6e7-1)
+inPredict (https://medium.com/predict?source=email-020bca72d959-1762711997235-digest.reader-661161fab0d0-6006b9b0918b----4-109------------------06abf48c_8c92_4666_9c0a_1f2bce33f6e7-1)
+
+The Man Who Invented AI Just Admitted What Tech CEOs Won't Say!
+Geoffrey Hinton: They're spending $420 billion on AI…
+
+6 min read
+696
+66
+
+Abdur Rahman (https://medium.com/@abdur.rahman12?source=email-020bca72d959-1762711997235-digest.reader-78073def27b8-5693d470e49a----5-98------------------06abf48c_8c92_4666_9c0a_1f2bce33f6e7-1)
+inPython in Plain English (https://medium.com/python-in-plain-english?source=email-020bca72d959-1762711997235-digest.reader-78073def27b8-5693d470e49a----5-98------------------06abf48c_8c92_4666_9c0a_1f2bce33f6e7-1)
+
+8 Python Libraries That Do the Hard Work for You
+Automation in one import.
+
+4 min read
+264
+1
+
+Yashwanth Sai (https://medium.com/@theyashwanthsai?source=email-020bca72d959-1762711997235-digest.reader--e911ffa62682----6-109------------------06abf48c_8c92_4666_9c0a_1f2bce33f6e7-1)
+
+I have built around 300 agents, worked at 5 startups. Here's what I learnt…
+Lessons learnt after working with agents for over an…
+
+4 min read
+5K
+208
+
+Hareem Fatima 👻 (https://medium.com/@codewithhareemfatima?source=email-020bca72d959-1762711997235-digest.reader-8993e01dcfd3-437ec39b82de----7-109------------------06abf48c_8c92_4666_9c0a_1f2bce33f6e7-1)
+inData Science Collective (https://medium.com/data-science-collective?source=email-020bca72d959-1762711997235-digest.reader-8993e01dcfd3-437ec39b82de----7-109------------------06abf48c_8c92_4666_9c0a_1f2bce33f6e7-1)
+
+The Hierarchical Bayesian Model That Solved the Multi-Level Business Problem
+How Partial Pooling and Bayesian Thinking Fixed the…
+
+5 min read
+593
+10
+
+Aashish Kumar (https://medium.com/@aashishkumar_77032?source=email-020bca72d959-1762711997235-digest.reader-ffcf9c43f8e9-7533078a5ec7----8-99------------------06abf48c_8c92_4666_9c0a_1f2bce33f6e7-1)
+inThe Pythonworld (https://medium.com/the-pythonworld?source=email-020bca72d959-1762711997235-digest.reader-ffcf9c43f8e9-7533078a5ec7----8-99------------------06abf48c_8c92_4666_9c0a_1f2bce33f6e7-1)
+
+From OOP to FP: How I Changed My Entire Python Coding Style
+I've written years of classes and methods, yet I…
+
+4 min read
+309
+6
+
+Marius Schröder (https://medium.com/@mariusschroeder?source=email-020bca72d959-1762711997235-digest.reader-2e91bf3dad1c-19cbb7fc552b----9-98------------------06abf48c_8c92_4666_9c0a_1f2bce33f6e7-1)
+inMedialesson (https://medium.com/medialesson?source=email-020bca72d959-1762711997235-digest.reader-2e91bf3dad1c-19cbb7fc552b----9-98------------------06abf48c_8c92_4666_9c0a_1f2bce33f6e7-1)
+
+JSON vs TOON - A new era of structured input?
+Why structure matters more than ever
+
+4 min read
+49
+3
+
+Fareed Khan (https://medium.com/@fareedkhandev?source=email-020bca72d959-1762711997235-digest.reader-5517fd7b58a6-8f23349b96a4----10-102------------------06abf48c_8c92_4666_9c0a_1f2bce33f6e7-1)
+inLevel Up Coding (https://medium.com/gitconnected?source=email-020bca72d959-1762711997235-digest.reader-5517fd7b58a6-8f23349b96a4----10-102------------------06abf48c_8c92_4666_9c0a_1f2bce33f6e7-1)
+
+Building the Entire RAG Ecosystem and Optimizing Every Component
+Routing, Indexing, Retrieval, Transformation and more.
+
+41 min read
+2.3K
+41
+
+Mahad Nadeem (https://medium.com/@mahadrajpoot911?source=email-020bca72d959-1762711997235-digest.reader-78073def27b8-5e693cac7f20----11-98------------------06abf48c_8c92_4666_9c0a_1f2bce33f6e7-1)
+inPython in Plain English (https://medium.com/python-in-plain-english?source=email-020bca72d959-1762711997235-digest.reader-78073def27b8-5e693cac7f20----11-98------------------06abf48c_8c92_4666_9c0a_1f2bce33f6e7-1)
+
+10 Python Tools That Made My Code Look Like It Was Written by a Senior Engineer
+The best-kept secrets behind clean, automated…
+
+5 min read
+106
+3
+
+Yash Batra (https://medium.com/@yashbatra11111?source=email-020bca72d959-1762711997235-digest.reader--7269383d65db----12-98------------------06abf48c_8c92_4666_9c0a_1f2bce33f6e7-1)
+
+The 47-Line Code That Made One Developer $2 Million from AI
+In late 2024, a solo indie developer pushed 47 lines…
+
+3 min read
+4.2K
+167
+
+Netflix Technology Blog (https://medium.com/@netflixtechblog?source=email-020bca72d959-1762711997235-digest.reader--f3b09b68beac----13-99------------------06abf48c_8c92_4666_9c0a_1f2bce33f6e7-1)
+
+Mount Mayhem at Netflix: Scaling Containers on Modern CPUs
+Authors: Harshad Sane, Andrew Halaney
+
+11 min read
+91
+1
+
+Sumit Pandey (https://medium.com/@sumit.ai?source=email-020bca72d959-1762711997235-digest.reader-73682e81cdce-b2e07b7a7363----14-99------------------06abf48c_8c92_4666_9c0a_1f2bce33f6e7-1)
+inTowards Deep Learning (https://medium.com/towards-deep-learning?source=email-020bca72d959-1762711997235-digest.reader-73682e81cdce-b2e07b7a7363----14-99------------------06abf48c_8c92_4666_9c0a_1f2bce33f6e7-1)
+
+Meet oLLM: The Secret Sauce to Run Huge AI on Tiny Hardware
+oLLM slashes LLM memory use: Run 100k context GPTs on…
+
+3 min read
+209
+12
+
+See more of what you like and less of what you don't.
+Control your recommendations (https://medium.com/me/missioncontrol?source=email-020bca72d959-1762711997235-digest.reader-------------------------06abf48c_8c92_4666_9c0a_1f2bce33f6e7)
+
+Read from anywhere.
+
+Sent by Medium (https://medium.com/?source=email-020bca72d959-1762711997235-digest.reader-------------------------06abf48c_8c92_4666_9c0a_1f2bce33f6e7)
+·3500 South DuPont Highway, Suite IQ-101, Dover, DE 19901
+Unsubscribe (https://medium.com/me/email-settings/020bca72d959/82dc6b737c30?type=social&source=email-020bca72d959-1762711997235-digest.reader-------------------------06abf48c_8c92_4666_9c0a_1f2bce33f6e7)
+ from this type of email·Switch to the Weekly Digest (https://medium.com/me/email-settings/020bca72d959/82dc6b737c30?type=social&preference=2&source=email-020bca72d959-1762711997235-digest.reader-------------------------06abf48c_8c92_4666_9c0a_1f2bce33f6e7)
+·Careers (https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?source=email-020bca72d959-1762711997235-digest.reader-------------------------06abf48c_8c92_4666_9c0a_1f2bce33f6e7)
+·Help Center (https://help.medium.com/hc/en-us?source=email-020bca72d959-1762711997235-digest.reader-------------------------06abf48c_8c92_4666_9c0a_1f2bce33f6e7)
+·Privacy Policy (https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=email-020bca72d959-1762711997235-digest.reader-------------------------06abf48c_8c92_4666_9c0a_1f2bce33f6e7)
+·Terms of service (https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=email-020bca72d959-1762711997235-digest.reader-------------------------06abf48c_8c92_4666_9c0a_1f2bce33f6e7)

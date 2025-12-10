@@ -1,0 +1,164 @@
+主旨: The quiet waste of manager 1-on-1s. _ Ian Kiprono in Level Up Coding
+发件人: Medium Daily Digest <noreply@medium.com>
+收件人: ptest9109@gmail.com
+日期: Thu, 20 Nov 2025 23:10:00 +0000 (UTC)
+
+Stories for Ptest
+@ptest9109 (https://medium.com/@ptest9109?source=email-020bca72d959-1763662759012-digest.reader-------------------------a4337981_2027_4718_b305_03c3a7a41b7e)
+·Become a member (https://medium.com/plans?source=email-020bca72d959-1763662759012-digest.reader-------------------------a4337981_2027_4718_b305_03c3a7a41b7e)
+
+Today's highlights
+
+Ian Kiprono (https://medium.com/@Ian_carson?source=email-020bca72d959-1763662759012-digest.reader-5517fd7b58a6-3f3d19a5e220----0-99------------------a4337981_2027_4718_b305_03c3a7a41b7e-1)
+inLevel Up Coding (https://medium.com/gitconnected?source=email-020bca72d959-1763662759012-digest.reader-5517fd7b58a6-3f3d19a5e220----0-99------------------a4337981_2027_4718_b305_03c3a7a41b7e-1)
+
+The quiet waste of manager 1-on-1s.
+How I spent 2 years giving status updates while my…
+
+5 min read
+325
+7
+
+Shaw Talebi (https://medium.com/@shawhin?source=email-020bca72d959-1763662759012-digest.reader-a47c2ab4d9da-9b2514625762----1-109------------------a4337981_2027_4718_b305_03c3a7a41b7e-1)
+inThe Data Entrepreneurs (https://medium.com/the-data-entrepreneurs?source=email-020bca72d959-1763662759012-digest.reader-a47c2ab4d9da-9b2514625762----1-109------------------a4337981_2027_4718_b305_03c3a7a41b7e-1)
+
+How to Monetize Your AI Skills (outside of your 9–5 job)
+5 technical side-hustles you can start this weekend
+
+6 min read
+662
+36
+
+Vishal Rajput (https://medium.com/@vishal-ai?source=email-020bca72d959-1763662759012-digest.reader-decdbc13dde6-543f6c56fd88----2-98------------------a4337981_2027_4718_b305_03c3a7a41b7e-1)
+inAIGuys (https://medium.com/aiguys?source=email-020bca72d959-1763662759012-digest.reader-decdbc13dde6-543f6c56fd88----2-98------------------a4337981_2027_4718_b305_03c3a7a41b7e-1)
+
+DeepSeek OCR Is Insane
+DeepSeek AI recently revealed DeepSeek-OCR, it is a…
+
+6 min read
+126
+2
+
+Dr Adrian Lucas Malec (https://medium.com/@adlumal?source=email-020bca72d959-1763662759012-digest.reader--fbc3eaad55ea----3-98------------------a4337981_2027_4718_b305_03c3a7a41b7e-1)
+
+How I Built Lightning-Fast Vector Search for Legal Documents
+From 53 to 2,880 queries/sec with USearch
+
+12 min read
+590
+6
+
+Minervee (https://medium.com/@minervee?source=email-020bca72d959-1763662759012-digest.reader-16e3527896e0-77b83c61c23f----4-109------------------a4337981_2027_4718_b305_03c3a7a41b7e-1)
+inCoding Nexus (https://medium.com/coding-nexus?source=email-020bca72d959-1763662759012-digest.reader-16e3527896e0-77b83c61c23f----4-109------------------a4337981_2027_4718_b305_03c3a7a41b7e-1)
+
+Forget TOON: I Slashed My Token Usage By 90% In My Claude Workflow
+Unlock leaner workflows and hyper-focused agents using…
+
+5 min read
+46
+
+Alberto Romero (https://medium.com/@albertoromgar?source=email-020bca72d959-1763662759012-digest.reader--9481fe33f1db----5-102------------------a4337981_2027_4718_b305_03c3a7a41b7e-1)
+
+You Have No Idea How Screwed OpenAI Is
+An exhaustive overview of the situation
+
+13 min read
+3.9K
+170
+
+Fareed Khan (https://medium.com/@fareedkhandev?source=email-020bca72d959-1763662759012-digest.reader-5517fd7b58a6-f55003af44c4----6-109------------------a4337981_2027_4718_b305_03c3a7a41b7e-1)
+inLevel Up Coding (https://medium.com/gitconnected?source=email-020bca72d959-1763662759012-digest.reader-5517fd7b58a6-f55003af44c4----6-109------------------a4337981_2027_4718_b305_03c3a7a41b7e-1)
+
+Building a Self-Improving Agentic RAG System
+Specialist agents, multi-dimensional eval, Pareto…
+
+65 min read
+1.1K
+7
+
+MatMaq (https://medium.com/@matiasmaquieira96?source=email-020bca72d959-1763662759012-digest.reader--893c4c719a5a----7-109------------------a4337981_2027_4718_b305_03c3a7a41b7e-1)
+
+I Tried Training 100 Machine Learning Models at Once - Here's What Happened
+Most data teams build one machine learning model for a…
+
+4 min read
+9
+1
+
+Zain Shariff (https://medium.com/@zainshariff6506?source=email-020bca72d959-1763662759012-digest.reader--f8c2de876639----8-98------------------a4337981_2027_4718_b305_03c3a7a41b7e-1)
+
+YOLOv13 Is Out: All You Need To Know
+YOLOv13 just now got released, and I will be covering…
+
+5 min read
+170
+5
+
+Jordan Gibbs (https://medium.com/@jordan_gibbs?source=email-020bca72d959-1763662759012-digest.reader--65d0c05d1e28----9-98------------------a4337981_2027_4718_b305_03c3a7a41b7e-1)
+
+Three Absurdly Powerful One-Line ChatGPT Prompts
+These 10-second prompts that make all the difference
+
+4 min read
+2.8K
+60
+
+B V Sarath Chandra (https://medium.com/@bvsarathc06?source=email-020bca72d959-1763662759012-digest.reader-f2ba5b8f6eb3-962021f26239----10-109------------------a4337981_2027_4718_b305_03c3a7a41b7e-1)
+inData Engineer Things (https://medium.com/data-engineer-things?source=email-020bca72d959-1763662759012-digest.reader-f2ba5b8f6eb3-962021f26239----10-109------------------a4337981_2027_4718_b305_03c3a7a41b7e-1)
+
+PySpark Interview Question By Netflix
+You should try this one.
+
+3 min read
+123
+4
+
+Günter Lagler (https://medium.com/@glagler?source=email-020bca72d959-1763662759012-digest.reader--d063c89c3e4e----11-109------------------a4337981_2027_4718_b305_03c3a7a41b7e-1)
+
+Why does Regularization actually work?
+Deconstructing the mathematical concept of…
+
+9 min read
+131
+5
+
+Jari Mattlar (https://medium.com/@mattlar.jari?source=email-020bca72d959-1763662759012-digest.reader--149639ce47cf----12-98------------------a4337981_2027_4718_b305_03c3a7a41b7e-1)
+
+Companies Are Blaming AI for Layoffs. The Real Reason Will Piss You Off.
+180,000 tech workers lost their jobs in 2025…
+
+7 min read
+3.2K
+114
+
+Aashish Kumar (https://medium.com/@aashishkumar_77032?source=email-020bca72d959-1763662759012-digest.reader-ffcf9c43f8e9-7533078a5ec7----13-98------------------a4337981_2027_4718_b305_03c3a7a41b7e-1)
+inThe Pythonworld (https://medium.com/the-pythonworld?source=email-020bca72d959-1763662759012-digest.reader-ffcf9c43f8e9-7533078a5ec7----13-98------------------a4337981_2027_4718_b305_03c3a7a41b7e-1)
+
+From OOP to FP: How I Changed My Entire Python Coding Style
+I've written years of classes and methods, yet I…
+
+4 min read
+383
+6
+
+Roshmita Dey (https://medium.com/@roshmitadey?source=email-020bca72d959-1763662759012-digest.reader--fec5aa491650----14-109------------------a4337981_2027_4718_b305_03c3a7a41b7e-1)
+
+Isolation Forest for Anomaly Detection
+"The easiest way to find an outlier? Isolate it."
+
+4 min read
+14
+
+See more of what you like and less of what you don't.
+Control your recommendations (https://medium.com/me/missioncontrol?source=email-020bca72d959-1763662759012-digest.reader-------------------------a4337981_2027_4718_b305_03c3a7a41b7e)
+
+Read from anywhere.
+
+Sent by Medium (https://medium.com/?source=email-020bca72d959-1763662759012-digest.reader-------------------------a4337981_2027_4718_b305_03c3a7a41b7e)
+·3500 South DuPont Highway, Suite IQ-101, Dover, DE 19901
+Unsubscribe (https://medium.com/me/email-settings/020bca72d959/ecc6c8c4c1df?type=social&source=email-020bca72d959-1763662759012-digest.reader-------------------------a4337981_2027_4718_b305_03c3a7a41b7e)
+ from this type of email·Switch to the Weekly Digest (https://medium.com/me/email-settings/020bca72d959/ecc6c8c4c1df?type=social&preference=2&source=email-020bca72d959-1763662759012-digest.reader-------------------------a4337981_2027_4718_b305_03c3a7a41b7e)
+·Careers (https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?source=email-020bca72d959-1763662759012-digest.reader-------------------------a4337981_2027_4718_b305_03c3a7a41b7e)
+·Help Center (https://help.medium.com/hc/en-us?source=email-020bca72d959-1763662759012-digest.reader-------------------------a4337981_2027_4718_b305_03c3a7a41b7e)
+·Privacy Policy (https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=email-020bca72d959-1763662759012-digest.reader-------------------------a4337981_2027_4718_b305_03c3a7a41b7e)
+·Terms of service (https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=email-020bca72d959-1763662759012-digest.reader-------------------------a4337981_2027_4718_b305_03c3a7a41b7e)

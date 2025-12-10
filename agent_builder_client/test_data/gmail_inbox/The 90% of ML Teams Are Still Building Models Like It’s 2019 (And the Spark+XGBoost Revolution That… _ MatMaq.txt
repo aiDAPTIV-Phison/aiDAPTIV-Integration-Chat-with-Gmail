@@ -1,0 +1,161 @@
+主旨: The 90% of ML Teams Are Still Building Models Like It’s 2019 (And the Spark+XGBoost Revolution That… _ MatMaq
+发件人: Medium Daily Digest <noreply@medium.com>
+收件人: ptest9109@gmail.com
+日期: Sun, 30 Nov 2025 23:10:00 +0000 (UTC)
+
+Stories for Ptest
+@ptest9109 (https://medium.com/@ptest9109?source=email-020bca72d959-1764526773202-digest.reader-------------------------e85dae32_bfa7_457e_b1f9_b2d229294768)
+·Become a member (https://medium.com/plans?source=email-020bca72d959-1764526773202-digest.reader-------------------------e85dae32_bfa7_457e_b1f9_b2d229294768)
+
+Today's highlights
+
+MatMaq (https://medium.com/@matiasmaquieira96?source=email-020bca72d959-1764526773202-digest.reader--0f33fc471113----0-109------------------e85dae32_bfa7_457e_b1f9_b2d229294768-1)
+
+The 90% of ML Teams Are Still Building Models Like It's 2019 (And the…
+The distributed machine learning approach that's…
+
+13 min read
+543
+11
+
+Cordero Core (https://medium.com/@cdcore?source=email-020bca72d959-1764526773202-digest.reader--7eeb8ee41933----1-98------------------e85dae32_bfa7_457e_b1f9_b2d229294768-1)
+
+MCP Is Broken and Anthropic Just Admitted It
+Let's be honest. MCP works beautifully in demos and…
+
+6 min read
+1.3K
+28
+
+The Thread Whisperer (https://medium.com/@maahisoft20?source=email-020bca72d959-1764526773202-digest.reader--8c874a9aef14----2-99------------------e85dae32_bfa7_457e_b1f9_b2d229294768-1)
+
+Spring AI Just Solved Java's AI Problem - And Most Teams Have Not Noticed Yet
+Your Java stack can ship real AI features this…
+
+6 min read
+122
+3
+
+Reza Rezvani (https://medium.com/@alirezarezvani?source=email-020bca72d959-1764526773202-digest.reader--60036faed17f----3-98------------------e85dae32_bfa7_457e_b1f9_b2d229294768-1)
+
+10 Claude Code Commands That Cut My Dev Time 60%: A Practical Guide
+Custom slash commands, subagents, and automation…
+
+15 min read
+365
+9
+
+Yashwanth Sai (https://medium.com/@theyashwanthsai?source=email-020bca72d959-1764526773202-digest.reader--e911ffa62682----4-109------------------e85dae32_bfa7_457e_b1f9_b2d229294768-1)
+
+I have built around 300 agents, worked at 5 startups. Here's what I learnt…
+Lessons learnt after working with agents for over an…
+
+4 min read
+5.2K
+217
+
+Micheal Lanham (https://medium.com/@Micheal-Lanham?source=email-020bca72d959-1764526773202-digest.reader--38a41fe39cbf----5-109------------------e85dae32_bfa7_457e_b1f9_b2d229294768-1)
+
+NVIDIA's DGX Spark: Your Personal AI Supercomputer Just Got Desk-Sized
+How a $3,999 mini-PC is bringing petaflop-scale AI…
+
+13 min read
+48
+3
+
+Minervee (https://medium.com/@minervee?source=email-020bca72d959-1764526773202-digest.reader-16e3527896e0-081d3b9648a9----6-98------------------e85dae32_bfa7_457e_b1f9_b2d229294768-1)
+inCoding Nexus (https://medium.com/coding-nexus?source=email-020bca72d959-1764526773202-digest.reader-16e3527896e0-081d3b9648a9----6-98------------------e85dae32_bfa7_457e_b1f9_b2d229294768-1)
+
+Turn Any Image into Perfect JSON for 100% Consistent Brand Visuals
+The Ultimate Vision-to-JSON Gemini "Gem" That Gives…
+
+5 min read
+11
+
+Vipra Singh (https://medium.com/@vipra_singh?source=email-020bca72d959-1764526773202-digest.reader--832ef8682581----7-98------------------e85dae32_bfa7_457e_b1f9_b2d229294768-1)
+
+AI Agents: Model Context Protocol (MCP) (Part-11)
+Discover AI agents, their design, and real-world…
+
+29 min read
+44
+
+Andres Vourakis (https://medium.com/@avourakis?source=email-020bca72d959-1764526773202-digest.reader-8993e01dcfd3-7b6983b2866d----8-99------------------e85dae32_bfa7_457e_b1f9_b2d229294768-1)
+inData Science Collective (https://medium.com/data-science-collective?source=email-020bca72d959-1764526773202-digest.reader-8993e01dcfd3-7b6983b2866d----8-99------------------e85dae32_bfa7_457e_b1f9_b2d229294768-1)
+
+What's Trending in Data Science and ML? Preparing for 2026
+Key Learnings from the "Nordic Data Science and…
+
+7 min read
+375
+7
+
+Matteo Ferruccio Andreoni (https://medium.com/@matteo28?source=email-020bca72d959-1764526773202-digest.reader--3964c01f39bd----9-98------------------e85dae32_bfa7_457e_b1f9_b2d229294768-1)
+
+How to Fine-Tune the new DeepSeek OCR model with Unsloth
+A Complete Guide to Adapting the OCR Model to Your…
+
+7 min read
+39
+
+The Latency Gambler (https://medium.com/@kanishks772?source=email-020bca72d959-1764526773202-digest.reader--ebcae423399b----10-98------------------e85dae32_bfa7_457e_b1f9_b2d229294768-1)
+
+Every Bug I Ever Fixed Made Sense Only After I Understood These 7 Layers
+Three years into my career, I spent two weeks…
+
+4 min read
+806
+22
+
+詹雨安 Alan Chan (https://medium.com/@alanchan1209?source=email-020bca72d959-1764526773202-digest.reader-7c6e8629fd5e-762c3467bdf1----11-98------------------e85dae32_bfa7_457e_b1f9_b2d229294768-1)
+inHeptabase (https://medium.com/heptabase?source=email-020bca72d959-1764526773202-digest.reader-7c6e8629fd5e-762c3467bdf1----11-98------------------e85dae32_bfa7_457e_b1f9_b2d229294768-1)
+
+The Best Way to Use AI for Learning
+An effective method of learning complex knowledge with…
+
+20 min read
+2.4K
+28
+
+Jordan Gibbs (https://medium.com/@jordan_gibbs?source=email-020bca72d959-1764526773202-digest.reader--65d0c05d1e28----12-98------------------e85dae32_bfa7_457e_b1f9_b2d229294768-1)
+
+Three Absurdly Powerful One-Line ChatGPT Prompts
+These 10-second prompts that make all the difference
+
+4 min read
+3.8K
+95
+
+Code Coup (https://medium.com/@CodeCoup?source=email-020bca72d959-1764526773202-digest.reader-16e3527896e0-33a6f7a9f3ed----13-109------------------e85dae32_bfa7_457e_b1f9_b2d229294768-1)
+inCoding Nexus (https://medium.com/coding-nexus?source=email-020bca72d959-1764526773202-digest.reader-16e3527896e0-33a6f7a9f3ed----13-109------------------e85dae32_bfa7_457e_b1f9_b2d229294768-1)
+
+Fine-Tuning LLMs on NVIDIA DGX Spark with Unsloth
+A few months ago, I began experimenting with…
+
+4 min read
+66
+2
+
+Alpha Iterations (https://medium.com/@alphaiterations?source=email-020bca72d959-1764526773202-digest.reader-98111c9905da-c8d0e294ec94----14-99------------------e85dae32_bfa7_457e_b1f9_b2d229294768-1)
+inTowards AI (https://medium.com/towards-artificial-intelligence?source=email-020bca72d959-1764526773202-digest.reader-98111c9905da-c8d0e294ec94----14-99------------------e85dae32_bfa7_457e_b1f9_b2d229294768-1)
+
+Agentic AI Project: Build a Multi-Agent Text2SQL Chatbot for E-commerce…
+Building an Intelligent Text-to-SQL Multi-Agent…
+
+25 min read
+120
+2
+
+See more of what you like and less of what you don't.
+Control your recommendations (https://medium.com/me/missioncontrol?source=email-020bca72d959-1764526773202-digest.reader-------------------------e85dae32_bfa7_457e_b1f9_b2d229294768)
+
+Read from anywhere.
+
+Sent by Medium (https://medium.com/?source=email-020bca72d959-1764526773202-digest.reader-------------------------e85dae32_bfa7_457e_b1f9_b2d229294768)
+·3500 South DuPont Highway, Suite IQ-101, Dover, DE 19901
+Unsubscribe (https://medium.com/me/email-settings/020bca72d959/e44c9e471a43?type=social&source=email-020bca72d959-1764526773202-digest.reader-------------------------e85dae32_bfa7_457e_b1f9_b2d229294768)
+ from this type of email·Switch to the Weekly Digest (https://medium.com/me/email-settings/020bca72d959/e44c9e471a43?type=social&preference=2&source=email-020bca72d959-1764526773202-digest.reader-------------------------e85dae32_bfa7_457e_b1f9_b2d229294768)
+·Careers (https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?source=email-020bca72d959-1764526773202-digest.reader-------------------------e85dae32_bfa7_457e_b1f9_b2d229294768)
+·Help Center (https://help.medium.com/hc/en-us?source=email-020bca72d959-1764526773202-digest.reader-------------------------e85dae32_bfa7_457e_b1f9_b2d229294768)
+·Privacy Policy (https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=email-020bca72d959-1764526773202-digest.reader-------------------------e85dae32_bfa7_457e_b1f9_b2d229294768)
+·Terms of service (https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=email-020bca72d959-1764526773202-digest.reader-------------------------e85dae32_bfa7_457e_b1f9_b2d229294768)

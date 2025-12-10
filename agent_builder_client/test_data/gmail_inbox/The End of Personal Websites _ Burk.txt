@@ -1,0 +1,167 @@
+主旨: The End of Personal Websites _ Burk
+发件人: Medium Daily Digest <noreply@medium.com>
+收件人: ptest9109@gmail.com
+日期: Mon, 01 Dec 2025 23:10:00 +0000 (UTC)
+
+Stories for Ptest
+@ptest9109 (https://medium.com/@ptest9109?source=email-020bca72d959-1764613032571-digest.reader-------------------------410ad8d1_f8cb_4c77_a685_510015b8b0a1)
+·Become a member (https://medium.com/plans?source=email-020bca72d959-1764613032571-digest.reader-------------------------410ad8d1_f8cb_4c77_a685_510015b8b0a1)
+
+Today's highlights
+
+Burk (https://medium.com/@burkrosemann?source=email-020bca72d959-1764613032571-digest.reader--79781da763b2----0-98------------------410ad8d1_f8cb_4c77_a685_510015b8b0a1-1)
+
+The End of Personal Websites
+And why that might be a good thing
+
+5 min read
+8K
+334
+
+Software Journal (https://medium.com/@software.journal?source=email-020bca72d959-1764613032571-digest.reader-c07a5e6b5e24-42548aee6374----1-109------------------410ad8d1_f8cb_4c77_a685_510015b8b0a1-1)
+inThe Software Journal (https://medium.com/the-software-journal?source=email-020bca72d959-1764613032571-digest.reader-c07a5e6b5e24-42548aee6374----1-109------------------410ad8d1_f8cb_4c77_a685_510015b8b0a1-1)
+
+Use Git Like a Senior Engineer
+Master version control with strategies, workflows, and…
+
+5 min read
+1.1K
+13
+
+Adarsh Gupta (https://medium.com/@adarsh-gupta?source=email-020bca72d959-1764613032571-digest.reader-84ac01765c52-2a1c52eed4ff----2-109------------------410ad8d1_f8cb_4c77_a685_510015b8b0a1-1)
+inWrite A Catalyst (https://medium.com/write-a-catalyst?source=email-020bca72d959-1764613032571-digest.reader-84ac01765c52-2a1c52eed4ff----2-109------------------410ad8d1_f8cb_4c77_a685_510015b8b0a1-1)
+
+Remember Vibe Coders? Yeah… They're Gone
+Turns out it was the first AI bubble to burst
+
+4 min read
+6.9K
+243
+
+Harry (https://medium.com/@harrymarkjava?source=email-020bca72d959-1764613032571-digest.reader-9cf31c9fda1a-af810be7fdbf----3-98------------------410ad8d1_f8cb_4c77_a685_510015b8b0a1-1)
+inJavaGuides (https://medium.com/javaguides?source=email-020bca72d959-1764613032571-digest.reader-9cf31c9fda1a-af810be7fdbf----3-98------------------410ad8d1_f8cb_4c77_a685_510015b8b0a1-1)
+
+Interviewer asked me why is 1 == 1 True but 1000 == 1000 False in Java?
+The maddening truth about Java's Integer caching and…
+
+3 min read
+2.7K
+90
+
+Rohan Dutt (https://medium.com/@Rohan_Dutt?source=email-020bca72d959-1764613032571-digest.reader--162be7ef02ea----4-99------------------410ad8d1_f8cb_4c77_a685_510015b8b0a1-1)
+
+10 Forecasting Models Used for Revenue, Sales, and Demand Prediction in…
+From ARIMA to LSTM, see how industries predict the…
+
+7 min read
+20
+
+Nick Babich (https://medium.com/@101?source=email-020bca72d959-1764613032571-digest.reader-819cc2aaeee0-f3fb44a295a6----5-98------------------410ad8d1_f8cb_4c77_a685_510015b8b0a1-1)
+inUX Planet (https://medium.com/ux-planet?source=email-020bca72d959-1764613032571-digest.reader-819cc2aaeee0-f3fb44a295a6----5-98------------------410ad8d1_f8cb_4c77_a685_510015b8b0a1-1)
+
+Gemini 3 For UI Design
+Gemini 3 is the latest state-of-the-art LLM from…
+
+4 min read
+1.1K
+27
+
+Olubusolami Sogunle (https://medium.com/@busolasogunle?source=email-020bca72d959-1764613032571-digest.reader-78d064101951-263b46273f9f----6-98------------------410ad8d1_f8cb_4c77_a685_510015b8b0a1-1)
+inArtificial Intelligence in Plain English (https://medium.com/ai-in-plain-english?source=email-020bca72d959-1764613032571-digest.reader-78d064101951-263b46273f9f----6-98------------------410ad8d1_f8cb_4c77_a685_510015b8b0a1-1)
+
+I Finally Understood "Attention is All You Need" After So Long. Here's how I…
+It's been almost 2 years since I first encountered the…
+
+8 min read
+1K
+13
+
+Aashish Kumar (https://medium.com/@aashishkumar_77032?source=email-020bca72d959-1764613032571-digest.reader-ffcf9c43f8e9-8ee670212c33----7-109------------------410ad8d1_f8cb_4c77_a685_510015b8b0a1-1)
+inThe Pythonworld (https://medium.com/the-pythonworld?source=email-020bca72d959-1764613032571-digest.reader-ffcf9c43f8e9-8ee670212c33----7-109------------------410ad8d1_f8cb_4c77_a685_510015b8b0a1-1)
+
+10 Python Concepts That Took Me Years to Understand - Until I Saw These…
+Sometimes one example can do more than a hundred…
+
+4 min read
+1.2K
+17
+
+Tattva Tarang (https://medium.com/@tarangtattva2?source=email-020bca72d959-1764613032571-digest.reader-16e3527896e0-764ef510a8d7----8-99------------------410ad8d1_f8cb_4c77_a685_510015b8b0a1-1)
+inCoding Nexus (https://medium.com/coding-nexus?source=email-020bca72d959-1764613032571-digest.reader-16e3527896e0-764ef510a8d7----8-99------------------410ad8d1_f8cb_4c77_a685_510015b8b0a1-1)
+
+Goldman Sachs GS-Quant: A Python Quant Toolkit Used on Wall Street
+Most people think big banks guard their quant tools…
+
+3 min read
+15
+
+Alexandre Daubois (https://medium.com/@alex-daubois?source=email-020bca72d959-1764613032571-digest.reader-5b301f10ddcd-951265f50c8e----9-102------------------410ad8d1_f8cb_4c77_a685_510015b8b0a1-1)
+inITNEXT (https://medium.com/itnext?source=email-020bca72d959-1764613032571-digest.reader-5b301f10ddcd-951265f50c8e----9-102------------------410ad8d1_f8cb_4c77_a685_510015b8b0a1-1)
+
+Stop Saying a Qubit Is "0 and 1 at the Same Time."
+You've heard the confusing shortcuts. "It's all values…
+
+8 min read
+1.6K
+41
+
+Hash Block (https://medium.com/@connect.hashblock?source=email-020bca72d959-1764613032571-digest.reader--67907e1841b1----10-109------------------410ad8d1_f8cb_4c77_a685_510015b8b0a1-1)
+
+RAG Without Regret: Caching and Chunking That Scale
+How to squeeze latency, boost recall, and control…
+
+6 min read
+20
+
+Andres Vourakis (https://medium.com/@avourakis?source=email-020bca72d959-1764613032571-digest.reader-8993e01dcfd3-30efd3a7e437----11-109------------------410ad8d1_f8cb_4c77_a685_510015b8b0a1-1)
+inData Science Collective (https://medium.com/data-science-collective?source=email-020bca72d959-1764613032571-digest.reader-8993e01dcfd3-30efd3a7e437----11-109------------------410ad8d1_f8cb_4c77_a685_510015b8b0a1-1)
+
+AI and the Data Science Job Market: What the Hell Is Actually Happening?
+What aspiring, junior, and senior data scientists…
+
+6 min read
+1.6K
+80
+
+Shakir Majeed Mir  (https://medium.com/@mirshakirdah2?source=email-020bca72d959-1764613032571-digest.reader-9c6d01af5370-e15940f33ed0----12-98------------------410ad8d1_f8cb_4c77_a685_510015b8b0a1-1)
+inAI Mind (https://medium.com/ai-mind-labs?source=email-020bca72d959-1764613032571-digest.reader-9c6d01af5370-e15940f33ed0----12-98------------------410ad8d1_f8cb_4c77_a685_510015b8b0a1-1)
+
+How to Run n8n for Free Forever on Google Cloud
+Save $240/year by self-hosting n8n on Google Cloud's…
+
+8 min read
+394
+6
+
+Yash Batra (https://medium.com/@yashbatra11111?source=email-020bca72d959-1764613032571-digest.reader--f2d66f0a0bb5----13-98------------------410ad8d1_f8cb_4c77_a685_510015b8b0a1-1)
+
+How Netflix Accidentally Proved Monoliths Scale Better Than Microservices
+For a decade, the dominant Silicon Valley mantra has…
+
+3 min read
+1.5K
+65
+
+Brian Treese (https://medium.com/@mrbriantreese?source=email-020bca72d959-1764613032571-digest.reader-5b301f10ddcd-85ec416d9e4c----14-99------------------410ad8d1_f8cb_4c77_a685_510015b8b0a1-1)
+inITNEXT (https://medium.com/itnext?source=email-020bca72d959-1764613032571-digest.reader-5b301f10ddcd-85ec416d9e4c----14-99------------------410ad8d1_f8cb_4c77_a685_510015b8b0a1-1)
+
+Goodbye FormArray. Hello Signal Forms.
+Reactive forms just grew up.
+
+7 min read
+141
+1
+
+See more of what you like and less of what you don't.
+Control your recommendations (https://medium.com/me/missioncontrol?source=email-020bca72d959-1764613032571-digest.reader-------------------------410ad8d1_f8cb_4c77_a685_510015b8b0a1)
+
+Read from anywhere.
+
+Sent by Medium (https://medium.com/?source=email-020bca72d959-1764613032571-digest.reader-------------------------410ad8d1_f8cb_4c77_a685_510015b8b0a1)
+·3500 South DuPont Highway, Suite IQ-101, Dover, DE 19901
+Unsubscribe (https://medium.com/me/email-settings/020bca72d959/06324dce2045?type=social&source=email-020bca72d959-1764613032571-digest.reader-------------------------410ad8d1_f8cb_4c77_a685_510015b8b0a1)
+ from this type of email·Switch to the Weekly Digest (https://medium.com/me/email-settings/020bca72d959/06324dce2045?type=social&preference=2&source=email-020bca72d959-1764613032571-digest.reader-------------------------410ad8d1_f8cb_4c77_a685_510015b8b0a1)
+·Careers (https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?source=email-020bca72d959-1764613032571-digest.reader-------------------------410ad8d1_f8cb_4c77_a685_510015b8b0a1)
+·Help Center (https://help.medium.com/hc/en-us?source=email-020bca72d959-1764613032571-digest.reader-------------------------410ad8d1_f8cb_4c77_a685_510015b8b0a1)
+·Privacy Policy (https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=email-020bca72d959-1764613032571-digest.reader-------------------------410ad8d1_f8cb_4c77_a685_510015b8b0a1)
+·Terms of service (https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=email-020bca72d959-1764613032571-digest.reader-------------------------410ad8d1_f8cb_4c77_a685_510015b8b0a1)

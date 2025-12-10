@@ -1,0 +1,163 @@
+主旨: Improving Quality of Recommended Content through Pinner Surveys _ Pinterest Engineering in Pinterest Engineering Blog
+发件人: Medium Daily Digest <noreply@medium.com>
+收件人: ptest9109@gmail.com
+日期: Sun, 07 Dec 2025 23:10:00 +0000 (UTC)
+
+Stories for Ptest
+@ptest9109 (https://medium.com/@ptest9109?source=email-020bca72d959-1765131544391-digest.reader-------------------------5e583945_ac12_442d_a214_563ed213e874)
+·Become a member (https://medium.com/plans?source=email-020bca72d959-1765131544391-digest.reader-------------------------5e583945_ac12_442d_a214_563ed213e874)
+
+Today's highlights
+
+Pinterest Engineering (https://medium.com/@Pinterest_Engineering?source=email-020bca72d959-1765131544391-digest.reader-4c5a5f6279b6-eebca8a52652----0-102------------------5e583945_ac12_442d_a214_563ed213e874-1)
+inPinterest Engineering Blog (https://medium.com/pinterest-engineering?source=email-020bca72d959-1765131544391-digest.reader-4c5a5f6279b6-eebca8a52652----0-102------------------5e583945_ac12_442d_a214_563ed213e874-1)
+
+Improving Quality of Recommended Content through Pinner Surveys
+Rudraksh Kapil | Machine Learning Engineer I; Michal…
+
+10 min read
+77
+1
+
+Bahul Neel Upadhyaya (https://medium.com/@bahulneel?source=email-020bca72d959-1765131544391-digest.reader-5517fd7b58a6-618b3ed38302----1-102------------------5e583945_ac12_442d_a214_563ed213e874-1)
+inLevel Up Coding (https://medium.com/gitconnected?source=email-020bca72d959-1765131544391-digest.reader-5517fd7b58a6-618b3ed38302----1-102------------------5e583945_ac12_442d_a214_563ed213e874-1)
+
+The End of Disposable Code: How I Built Universal APIs in TypeScript
+Unlocking two of TypeScript's hidden superpowers: Lazy…
+
+10 min read
+76
+1
+
+Naina Chaturvedi (https://medium.com/@naina0412?source=email-020bca72d959-1765131544391-digest.reader--cc7448200496----2-99------------------5e583945_ac12_442d_a214_563ed213e874-1)
+
+Full Crash Courses and System Design Case Studies
+With Implemented code…
+
+4 min read
+12
+
+Samuele Mazzanti (https://medium.com/@mazzanti.sam?source=email-020bca72d959-1765131544391-digest.reader-8993e01dcfd3-96f7b65e6cf2----3-102------------------5e583945_ac12_442d_a214_563ed213e874-1)
+inData Science Collective (https://medium.com/data-science-collective?source=email-020bca72d959-1765131544391-digest.reader-8993e01dcfd3-96f7b65e6cf2----3-102------------------5e583945_ac12_442d_a214_563ed213e874-1)
+
+How to Make Sure Your Causal-ML Model Is Truly "Causal"
+A practitioner's guide to building reliable causal…
+
+8 min read
+141
+6
+
+Florian June (https://medium.com/@florian_algo?source=email-020bca72d959-1765131544391-digest.reader-604432933561-655d09d21654----4-109------------------5e583945_ac12_442d_a214_563ed213e874-1)
+inAI Exploration Journey (https://medium.com/ai-exploration-journey?source=email-020bca72d959-1765131544391-digest.reader-604432933561-655d09d21654----4-109------------------5e583945_ac12_442d_a214_563ed213e874-1)
+
+RAG Too Slow? How to Cut Latency by 97%
+Today we're diving into a big leap in RAG efficiency.
+
+6 min read
+170
+6
+
+Usman (https://medium.com/@aaiguy?source=email-020bca72d959-1765131544391-digest.reader-84ac01765c52-1338abfd4d57----5-98------------------5e583945_ac12_442d_a214_563ed213e874-1)
+inWrite A Catalyst (https://medium.com/write-a-catalyst?source=email-020bca72d959-1765131544391-digest.reader-84ac01765c52-1338abfd4d57----5-98------------------5e583945_ac12_442d_a214_563ed213e874-1)
+
+This is How I Will Spot You Used ChatGPT
+In less than 1 minute
+
+3 min read
+10.1K
+512
+
+Eivind Kjosbakken (https://medium.com/@oieivind?source=email-020bca72d959-1765131544391-digest.reader-98111c9905da-f6065d178554----6-102------------------5e583945_ac12_442d_a214_563ed213e874-1)
+inTowards AI (https://medium.com/towards-artificial-intelligence?source=email-020bca72d959-1765131544391-digest.reader-98111c9905da-f6065d178554----6-102------------------5e583945_ac12_442d_a214_563ed213e874-1)
+
+How to Apply Vision Language Models to Long Documents
+Learn how to apply powerful VLMs for long context…
+
+8 min read
+165
+
+Ida Silfverskiöld (https://medium.com/@ilsilfverskiold?source=email-020bca72d959-1765131544391-digest.reader-8993e01dcfd3-727ff4328980----7-102------------------5e583945_ac12_442d_a214_563ed213e874-1)
+inData Science Collective (https://medium.com/data-science-collective?source=email-020bca72d959-1765131544391-digest.reader-8993e01dcfd3-727ff4328980----7-102------------------5e583945_ac12_442d_a214_563ed213e874-1)
+
+How Web Search Inside AI Chatbots Works
+And what this architecture means for generative engine…
+
+13 min read
+262
+6
+
+Nikhil Vemu (https://medium.com/@nikhilvemu?source=email-020bca72d959-1765131544391-digest.reader-d1f54550947b-3696a3c539d8----8-98------------------5e583945_ac12_442d_a214_563ed213e874-1)
+inMac O'Clock (https://medium.com/macoclock?source=email-020bca72d959-1765131544391-digest.reader-d1f54550947b-3696a3c539d8----8-98------------------5e583945_ac12_442d_a214_563ed213e874-1)
+
+7 macOS Homebrew Tools You'll Regret Not Knowing Sooner - I Did
+Why do I always find great things late? 😩
+
+9 min read
+1K
+17
+
+The Latency Gambler (https://medium.com/@kanishks772?source=email-020bca72d959-1765131544391-digest.reader--2d9deb0fe0e5----9-109------------------5e583945_ac12_442d_a214_563ed213e874-1)
+
+Every DSA Problem Is Just One of These 15 Patterns. Once You See It, You Can't…
+I spent months grinding LeetCode, convinced I needed…
+
+5 min read
+578
+7
+
+Kanchan Borade (https://medium.com/@kanchanborade?source=email-020bca72d959-1765131544391-digest.reader--74ba67281cbc----10-98------------------5e583945_ac12_442d_a214_563ed213e874-1)
+
+YOLO vs SAM for Geospatial Detection: Which One Actually Wins?
+Geospatial AI | Remote Sensing | Drone Imagery |…
+
+3 min read
+3
+
+Kuriko Iwai (https://medium.com/@kuriko-iwai?source=email-020bca72d959-1765131544391-digest.reader-3fe99b2acc4-2e9356b60773----11-102------------------5e583945_ac12_442d_a214_563ed213e874-1)
+inAI Advances (https://medium.com/ai-advances?source=email-020bca72d959-1765131544391-digest.reader-3fe99b2acc4-2e9356b60773----11-102------------------5e583945_ac12_442d_a214_563ed213e874-1)
+
+Layer-Contrast Decoding: A Novel Approach to LLM Factuality
+Explore how DoLa (Decoding by Contrasting Layers)…
+
+12 min read
+411
+2
+
+Kyle Jones (https://medium.com/@kyle-t-jones?source=email-020bca72d959-1765131544391-digest.reader--670ec00ff3b4----12-98------------------5e583945_ac12_442d_a214_563ed213e874-1)
+
+Wavelet Transformations for Time Series Analysis in Python: Beyond Fourier
+Fourier transforms changed signal processing by…
+
+7 min read
+30
+1
+
+Kyle Jones (https://medium.com/@kyle-t-jones?source=email-020bca72d959-1765131544391-digest.reader--237b5139c67e----13-99------------------5e583945_ac12_442d_a214_563ed213e874-1)
+
+tslearn for Time Series Analysis with Python
+tslearn is a purpose-built machine learning library…
+
+2 min read
+35
+
+Pankaj (https://medium.com/@pankaj_pandey?source=email-020bca72d959-1765131544391-digest.reader--efdc8b4ffc84----14-109------------------5e583945_ac12_442d_a214_563ed213e874-1)
+
+Voice Agents: Building Real-Time Conversational AI with Whisper, Groq…
+Voice Agents are no longer futuristic, with Whisper…
+
+4 min read
+158
+
+See more of what you like and less of what you don't.
+Control your recommendations (https://medium.com/me/missioncontrol?source=email-020bca72d959-1765131544391-digest.reader-------------------------5e583945_ac12_442d_a214_563ed213e874)
+
+Read from anywhere.
+
+Sent by Medium (https://medium.com/?source=email-020bca72d959-1765131544391-digest.reader-------------------------5e583945_ac12_442d_a214_563ed213e874)
+·3500 South DuPont Highway, Suite IQ-101, Dover, DE 19901
+Unsubscribe (https://medium.com/me/email-settings/020bca72d959/64ec325bc044?type=social&source=email-020bca72d959-1765131544391-digest.reader-------------------------5e583945_ac12_442d_a214_563ed213e874)
+ from this type of email·Switch to the Weekly Digest (https://medium.com/me/email-settings/020bca72d959/64ec325bc044?type=social&preference=2&source=email-020bca72d959-1765131544391-digest.reader-------------------------5e583945_ac12_442d_a214_563ed213e874)
+·Careers (https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?source=email-020bca72d959-1765131544391-digest.reader-------------------------5e583945_ac12_442d_a214_563ed213e874)
+·Help Center (https://help.medium.com/hc/en-us?source=email-020bca72d959-1765131544391-digest.reader-------------------------5e583945_ac12_442d_a214_563ed213e874)
+·Privacy Policy (https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=email-020bca72d959-1765131544391-digest.reader-------------------------5e583945_ac12_442d_a214_563ed213e874)
+·Terms of service (https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=email-020bca72d959-1765131544391-digest.reader-------------------------5e583945_ac12_442d_a214_563ed213e874)

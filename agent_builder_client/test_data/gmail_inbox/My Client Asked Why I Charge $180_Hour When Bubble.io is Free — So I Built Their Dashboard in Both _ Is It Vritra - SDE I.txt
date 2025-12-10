@@ -1,0 +1,163 @@
+主旨: My Client Asked Why I Charge $180_Hour When Bubble.io is Free — So I Built Their Dashboard in Both _ Is It Vritra - SDE I
+发件人: Medium Daily Digest <noreply@medium.com>
+收件人: ptest9109@gmail.com
+日期: Sun, 16 Nov 2025 23:10:00 +0000 (UTC)
+
+Stories for Ptest
+@ptest9109 (https://medium.com/@ptest9109?source=email-020bca72d959-1763316903340-digest.reader-------------------------142ba20e_e1a2_4fba_904f_0b9cb41414fe)
+·Become a member (https://medium.com/plans?source=email-020bca72d959-1763316903340-digest.reader-------------------------142ba20e_e1a2_4fba_904f_0b9cb41414fe)
+
+Today's highlights
+
+Is It Vritra - SDE I (https://medium.com/@isitvritra101?source=email-020bca72d959-1763316903340-digest.reader--ec06d88cbee7----0-98------------------142ba20e_e1a2_4fba_904f_0b9cb41414fe-1)
+
+My Client Asked Why I Charge $180/Hour When Bubble.io is Free - So I Built…
+So my client sends me this Slack message -
+
+6 min read
+1.1K
+22
+
+Arvind Kumar (https://medium.com/@codefarm0?source=email-020bca72d959-1763316903340-digest.reader--182e0932d962----1-109------------------142ba20e_e1a2_4fba_904f_0b9cb41414fe-1)
+
+Building a Ticketing System: Concurrency, Locks, and Race Conditions
+What happens when 100,000 fans try to book the same…
+
+21 min read
+817
+9
+
+Ryan Pégoud (https://medium.com/@ryanpegoud?source=email-020bca72d959-1763316903340-digest.reader-8993e01dcfd3-44851b4146dd----2-102------------------142ba20e_e1a2_4fba_904f_0b9cb41414fe-1)
+inData Science Collective (https://medium.com/data-science-collective?source=email-020bca72d959-1763316903340-digest.reader-8993e01dcfd3-44851b4146dd----2-102------------------142ba20e_e1a2_4fba_904f_0b9cb41414fe-1)
+
+Learning Triton One Kernel at a Time: Matrix Multiplication
+Learn about efficient matrix multiplication, memory…
+
+11 min read
+137
+2
+
+Mech2Dude (https://medium.com/@mech2dude?source=email-020bca72d959-1763316903340-digest.reader-d1baaa8417a4-98c46ef85db8----3-109------------------142ba20e_e1a2_4fba_904f_0b9cb41414fe-1)
+inStackademic (https://medium.com/stackademic?source=email-020bca72d959-1763316903340-digest.reader-d1baaa8417a4-98c46ef85db8----3-109------------------142ba20e_e1a2_4fba_904f_0b9cb41414fe-1)
+
+Goodbye PyCharm Pro, Hello VS Code: How We Rebuilt Our Python Setup for Free
+Non-members can read here
+
+5 min read
+65
+
+Gao Dalie (高達烈) (https://medium.com/@GaoDalie_AI?source=email-020bca72d959-1763316903340-digest.reader-98111c9905da-4f60732730fc----4-99------------------142ba20e_e1a2_4fba_904f_0b9cb41414fe-1)
+inTowards AI (https://medium.com/towards-artificial-intelligence?source=email-020bca72d959-1763316903340-digest.reader-98111c9905da-4f60732730fc----4-99------------------142ba20e_e1a2_4fba_904f_0b9cb41414fe-1)
+
+No More Embeddings, Just Gemini File Search to Get Higher Accuracy
+Last week I heard bad news, and life hit me hard…
+
+9 min read
+57
+
+Joe Njenga  (https://medium.com/@joe.njenga?source=email-020bca72d959-1763316903340-digest.reader--e69d7e55cd50----5-109------------------142ba20e_e1a2_4fba_904f_0b9cb41414fe-1)
+
+9 Books Every AI Engineer Should Read (To Go Fully Professional)
+Picking an AI engineering book and reading it from…
+
+10 min read
+1.5K
+41
+
+Tosny (https://medium.com/@tosny?source=email-020bca72d959-1763316903340-digest.reader--36d75ee36e93----6-98------------------142ba20e_e1a2_4fba_904f_0b9cb41414fe-1)
+
+7 Subscriptions I Will Never Cancel
+Some subscriptions are just too useful for me to…
+
+4 min read
+3.2K
+151
+
+Jamal J. Ghadi (https://medium.com/@jamal.ghadi08?source=email-020bca72d959-1763316903340-digest.reader-39e917513342-93930a8bf8cd----7-102------------------142ba20e_e1a2_4fba_904f_0b9cb41414fe-1)
+inSouthern Winds (https://medium.com/southern-winds?source=email-020bca72d959-1763316903340-digest.reader-39e917513342-93930a8bf8cd----7-102------------------142ba20e_e1a2_4fba_904f_0b9cb41414fe-1)
+
+India Is Choking and Delhi Is the Ashtray
+Breathing is killing us
+
+9 min read
+910
+18
+
+Keith Weaver (https://medium.com/@kweave?source=email-020bca72d959-1763316903340-digest.reader-f5af2b715248-e14cf2f9ad84----8-109------------------142ba20e_e1a2_4fba_904f_0b9cb41414fe-1)
+inThe Startup (https://medium.com/swlh?source=email-020bca72d959-1763316903340-digest.reader-f5af2b715248-e14cf2f9ad84----8-109------------------142ba20e_e1a2_4fba_904f_0b9cb41414fe-1)
+
+Your Salary Won't Make You Rich - But This Simple System Might
+Forget about raises and promotions
+
+7 min read
+4.6K
+204
+
+Yashar Mehdad (https://medium.com/@ymahdad?source=email-020bca72d959-1763316903340-digest.reader--572d07ae15f5----9-98------------------142ba20e_e1a2_4fba_904f_0b9cb41414fe-1)
+
+I went to EMNLP 2025. Here's my reflections.
+EMNLP looked a lot like every other LLM conference…
+
+6 min read
+69
+1
+
+The Latency Gambler (https://medium.com/@kanishks772?source=email-020bca72d959-1763316903340-digest.reader--b647d23f8c89----10-109------------------142ba20e_e1a2_4fba_904f_0b9cb41414fe-1)
+
+I Interviewed 20+ Engineers. Here's Why Most Can't Code
+Over the past year as a Senior Software Engineer at a…
+
+5 min read
+3K
+104
+
+CarolArts11 (https://medium.com/@CarolArt11?source=email-020bca72d959-1763316903340-digest.reader-f8a15c44fd4f-582988ff780f----11-98------------------142ba20e_e1a2_4fba_904f_0b9cb41414fe-1)
+inThe Art Of Psychology (https://medium.com/the-art-of-psychology?source=email-020bca72d959-1763316903340-digest.reader-f8a15c44fd4f-582988ff780f----11-98------------------142ba20e_e1a2_4fba_904f_0b9cb41414fe-1)
+
+The 7 Symptoms That You Have A High IQ, Even If You Don't Feel Like It
+The Reasons Why Intelligence Doesn't Always Appear the…
+
+4 min read
+5.9K
+135
+
+Marius Schröder (https://medium.com/@mariusschroeder?source=email-020bca72d959-1763316903340-digest.reader-2e91bf3dad1c-19cbb7fc552b----12-98------------------142ba20e_e1a2_4fba_904f_0b9cb41414fe-1)
+inMedialesson (https://medium.com/medialesson?source=email-020bca72d959-1763316903340-digest.reader-2e91bf3dad1c-19cbb7fc552b----12-98------------------142ba20e_e1a2_4fba_904f_0b9cb41414fe-1)
+
+JSON vs TOON - A new era of structured input?
+Why structure matters more than ever
+
+4 min read
+791
+42
+
+MatMaq (https://medium.com/@matiasmaquieira96?source=email-020bca72d959-1763316903340-digest.reader--0f33fc471113----13-109------------------142ba20e_e1a2_4fba_904f_0b9cb41414fe-1)
+
+The 90% of ML Teams Are Still Building Models Like It's 2019 (And the…
+The distributed machine learning approach that's…
+
+13 min read
+506
+11
+
+Divy Yadav (https://medium.com/@yadavdipu296?source=email-020bca72d959-1763316903340-digest.reader--97890a474d41----14-98------------------142ba20e_e1a2_4fba_904f_0b9cb41414fe-1)
+
+The Only Introduction to Agentic AI You'll Ever Need
+Complete introduction with detailed guide on Agentic…
+
+25 min read
+73
+
+See more of what you like and less of what you don't.
+Control your recommendations (https://medium.com/me/missioncontrol?source=email-020bca72d959-1763316903340-digest.reader-------------------------142ba20e_e1a2_4fba_904f_0b9cb41414fe)
+
+Read from anywhere.
+
+Sent by Medium (https://medium.com/?source=email-020bca72d959-1763316903340-digest.reader-------------------------142ba20e_e1a2_4fba_904f_0b9cb41414fe)
+·3500 South DuPont Highway, Suite IQ-101, Dover, DE 19901
+Unsubscribe (https://medium.com/me/email-settings/020bca72d959/c7e8ea481160?type=social&source=email-020bca72d959-1763316903340-digest.reader-------------------------142ba20e_e1a2_4fba_904f_0b9cb41414fe)
+ from this type of email·Switch to the Weekly Digest (https://medium.com/me/email-settings/020bca72d959/c7e8ea481160?type=social&preference=2&source=email-020bca72d959-1763316903340-digest.reader-------------------------142ba20e_e1a2_4fba_904f_0b9cb41414fe)
+·Careers (https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?source=email-020bca72d959-1763316903340-digest.reader-------------------------142ba20e_e1a2_4fba_904f_0b9cb41414fe)
+·Help Center (https://help.medium.com/hc/en-us?source=email-020bca72d959-1763316903340-digest.reader-------------------------142ba20e_e1a2_4fba_904f_0b9cb41414fe)
+·Privacy Policy (https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=email-020bca72d959-1763316903340-digest.reader-------------------------142ba20e_e1a2_4fba_904f_0b9cb41414fe)
+·Terms of service (https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=email-020bca72d959-1763316903340-digest.reader-------------------------142ba20e_e1a2_4fba_904f_0b9cb41414fe)

@@ -1,0 +1,168 @@
+主旨: Laziness Does Not Exist _ Devon Price in Human Parts
+发件人: Medium Daily Digest <noreply@medium.com>
+收件人: ptest9109@gmail.com
+日期: Fri, 31 Oct 2025 23:10:00 +0000 (UTC)
+
+Stories for Ptest
+@ptest9109 (https://medium.com/@ptest9109?source=email-020bca72d959-1761934582479-digest.reader-------------------------dfdd206f_f174_4c01_9945_ba644ef7af82)
+·Become a member (https://medium.com/plans?source=email-020bca72d959-1761934582479-digest.reader-------------------------dfdd206f_f174_4c01_9945_ba644ef7af82)
+
+Today's highlights
+
+Devon Price (https://medium.com/@devonprice?source=email-020bca72d959-1761934582479-digest.reader-544c7006046e-3af27e312d01----0-102------------------dfdd206f_f174_4c01_9945_ba644ef7af82-1)
+inHuman Parts (https://medium.com/human-parts?source=email-020bca72d959-1761934582479-digest.reader-544c7006046e-3af27e312d01----0-102------------------dfdd206f_f174_4c01_9945_ba644ef7af82-1)
+
+Laziness Does Not Exist
+Psychological research is clear: when people…
+
+11 min read
+358K
+3.4K
+
+Will Lockett (https://medium.com/@wlockett?source=email-020bca72d959-1761934582479-digest.reader--383c0c0c7ede----1-102------------------dfdd206f_f174_4c01_9945_ba644ef7af82-1)
+
+The AI Bubble Is About To Burst, But The Next Bubble Is Already Growing
+Techbros are preparing their latest bandwagon.
+
+8 min read
+15.5K
+630
+
+Pragya Shukla (https://medium.com/@pragyashukla2580?source=email-020bca72d959-1761934582479-digest.reader-d02743758256-f3bef428ec92----2-109------------------dfdd206f_f174_4c01_9945_ba644ef7af82-1)
+inInterview Preparation (https://medium.com/interview-preparation?source=email-020bca72d959-1761934582479-digest.reader-d02743758256-f3bef428ec92----2-109------------------dfdd206f_f174_4c01_9945_ba644ef7af82-1)
+
+Target Sr Data Scientist - Advanced Machine Learning interview experience
+Recently, a friend of mine interviewed at Target for a…
+
+4 min read
+18
+
+Gulam Ali H. (https://medium.com/@freakyali?source=email-020bca72d959-1761934582479-digest.reader-d1baaa8417a4-8d846cee9a2b----3-99------------------dfdd206f_f174_4c01_9945_ba644ef7af82-1)
+inStackademic (https://medium.com/stackademic?source=email-020bca72d959-1761934582479-digest.reader-d1baaa8417a4-8d846cee9a2b----3-99------------------dfdd206f_f174_4c01_9945_ba644ef7af82-1)
+
+Stop Writing Boilerplate: Let These 5 Modern C# Features Do the Work
+Less clutter, fewer ifs, cleaner models, and APIs that…
+
+5 min read
+72
+1
+
+Francesco  Franco (https://medium.com/@francescofranco_39234?source=email-020bca72d959-1761934582479-digest.reader-9c6d01af5370-0adc83d1296d----4-102------------------dfdd206f_f174_4c01_9945_ba644ef7af82-1)
+inAI Mind (https://medium.com/ai-mind-labs?source=email-020bca72d959-1761934582479-digest.reader-9c6d01af5370-0adc83d1296d----4-102------------------dfdd206f_f174_4c01_9945_ba644ef7af82-1)
+
+Guide to Compressing Machine Learning Models
+In the world of Data Science, the focus is almost…
+
+20 min read
+219
+1
+
+Utsuk Agarwal (https://medium.com/@utsuk28?source=email-020bca72d959-1761934582479-digest.reader-84ac01765c52-478c22ce71e3----5-109------------------dfdd206f_f174_4c01_9945_ba644ef7af82-1)
+inWrite A Catalyst (https://medium.com/write-a-catalyst?source=email-020bca72d959-1761934582479-digest.reader-84ac01765c52-478c22ce71e3----5-109------------------dfdd206f_f174_4c01_9945_ba644ef7af82-1)
+
+The 10 Morning Habits That Quietly Make You Unstoppable
+I Tried Them for 6 Months - The Results Were Unreal
+
+11 min read
+15K
+568
+
+Ossai Chinedum (https://medium.com/@ossaichinedum?source=email-020bca72d959-1761934582479-digest.reader-4a8556f9ae0a-d0a635bc0a00----6-109------------------dfdd206f_f174_4c01_9945_ba644ef7af82-1)
+inLong. Sweet. Valuable. (https://medium.com/long-sweet-valuable?source=email-020bca72d959-1761934582479-digest.reader-4a8556f9ae0a-d0a635bc0a00----6-109------------------dfdd206f_f174_4c01_9945_ba644ef7af82-1)
+
+I'll Instantly Know You Used Chat Gpt If I See This
+Trust me you're not as slick as you think
+
+9 min read
+25K
+1.7K
+
+TONI RAMCHANDANI (https://medium.com/@toniramchandani?source=email-020bca72d959-1761934582479-digest.reader-b680b860beb1-7b4502613af9----7-109------------------dfdd206f_f174_4c01_9945_ba644ef7af82-1)
+inData And Beyond (https://medium.com/data-and-beyond?source=email-020bca72d959-1761934582479-digest.reader-b680b860beb1-7b4502613af9----7-109------------------dfdd206f_f174_4c01_9945_ba644ef7af82-1)
+
+How DeepSeek OCR Quietly Solved a Billion-Dollar Problem in AI Scaling
+A technical marvel using SAM, CLIP, and a sparse MoE…
+
+9 min read
+701
+9
+
+Dharmendra Pratap Singh (https://medium.com/@dharamai2024?source=email-020bca72d959-1761934582479-digest.reader--0a8f43488a08----8-109------------------dfdd206f_f174_4c01_9945_ba644ef7af82-1)
+
+Building a Text-to-SQL Chatbot with RAG, LangChain, FastAPI And Streamlit
+In this project, I built an AI-powered chatbot that…
+
+19 min read
+103
+6
+
+Julie Zhuo (https://medium.com/@joulee?source=email-020bca72d959-1761934582479-digest.reader-dc18a905b310-cf8a2e30907d----9-102------------------dfdd206f_f174_4c01_9945_ba644ef7af82-1)
+inThe Year of the Looking Glass (https://medium.com/the-year-of-the-looking-glass?source=email-020bca72d959-1761934582479-digest.reader-dc18a905b310-cf8a2e30907d----9-102------------------dfdd206f_f174_4c01_9945_ba644ef7af82-1)
+
+Average Manager vs. Great Manager
+Explained in 10 sketches
+
+2 min read
+52K
+1.1K
+
+Gao Dalie (高達烈) (https://medium.com/@GaoDalie_AI?source=email-020bca72d959-1761934582479-digest.reader-440100e76000-87fc6ca41f03----10-98------------------dfdd206f_f174_4c01_9945_ba644ef7af82-1)
+inGenerative AI (https://medium.com/generative-ai?source=email-020bca72d959-1761934582479-digest.reader-440100e76000-87fc6ca41f03----10-98------------------dfdd206f_f174_4c01_9945_ba644ef7af82-1)
+
+DeepSeek-OCR + LLama4 + RAG Just Revolutionized Agent OCR Forever
+During the weekend, I scrolled through Twitter to see…
+
+11 min read
+181
+
+MatMaq (https://medium.com/@matiasmaquieira96?source=email-020bca72d959-1761934582479-digest.reader--0f33fc471113----11-109------------------dfdd206f_f174_4c01_9945_ba644ef7af82-1)
+
+The 90% of ML Teams Are Still Building Models Like It's 2019 (And the…
+The distributed machine learning approach that's…
+
+13 min read
+505
+10
+
+Ida Silfverskiöld (https://medium.com/@ilsilfverskiold?source=email-020bca72d959-1761934582479-digest.reader-8993e01dcfd3-e5c8b0e3cb28----12-102------------------dfdd206f_f174_4c01_9945_ba644ef7af82-1)
+inData Science Collective (https://medium.com/data-science-collective?source=email-020bca72d959-1761934582479-digest.reader-8993e01dcfd3-e5c8b0e3cb28----12-102------------------dfdd206f_f174_4c01_9945_ba644ef7af82-1)
+
+Agentic AI: Single vs Multi-Agent Systems
+Building with a structured data source in LangGraph
+
+15 min read
+287
+7
+
+Piyush Agnihotri (https://medium.com/@piyushagni5?source=email-020bca72d959-1761934582479-digest.reader-78d064101951-c2c4578c836a----13-109------------------dfdd206f_f174_4c01_9945_ba644ef7af82-1)
+inArtificial Intelligence in Plain English (https://medium.com/ai-in-plain-english?source=email-020bca72d959-1761934582479-digest.reader-78d064101951-c2c4578c836a----13-109------------------dfdd206f_f174_4c01_9945_ba644ef7af82-1)
+
+Building Agentic RAG with LangGraph: Mastering Adaptive RAG for Production
+Build intelligent RAG systems that know when to…
+
+21 min read
+2.2K
+31
+
+Hash Block (https://medium.com/@connect.hashblock?source=email-020bca72d959-1761934582479-digest.reader--be8cd20e5b35----14-109------------------dfdd206f_f174_4c01_9945_ba644ef7af82-1)
+
+Training 100 Models per Day: My Scalable MLOps Pipeline with DVC, Docker, and…
+How I Built a Reproducible, Automated, and…
+
+5 min read
+6
+3
+
+See more of what you like and less of what you don't.
+Control your recommendations (https://medium.com/me/missioncontrol?source=email-020bca72d959-1761934582479-digest.reader-------------------------dfdd206f_f174_4c01_9945_ba644ef7af82)
+
+Read from anywhere.
+
+Sent by Medium (https://medium.com/?source=email-020bca72d959-1761934582479-digest.reader-------------------------dfdd206f_f174_4c01_9945_ba644ef7af82)
+·3500 South DuPont Highway, Suite IQ-101, Dover, DE 19901
+Unsubscribe (https://medium.com/me/email-settings/020bca72d959/13c650d0ba5a?type=social&source=email-020bca72d959-1761934582479-digest.reader-------------------------dfdd206f_f174_4c01_9945_ba644ef7af82)
+ from this type of email·Switch to the Weekly Digest (https://medium.com/me/email-settings/020bca72d959/13c650d0ba5a?type=social&preference=2&source=email-020bca72d959-1761934582479-digest.reader-------------------------dfdd206f_f174_4c01_9945_ba644ef7af82)
+·Careers (https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?source=email-020bca72d959-1761934582479-digest.reader-------------------------dfdd206f_f174_4c01_9945_ba644ef7af82)
+·Help Center (https://help.medium.com/hc/en-us?source=email-020bca72d959-1761934582479-digest.reader-------------------------dfdd206f_f174_4c01_9945_ba644ef7af82)
+·Privacy Policy (https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=email-020bca72d959-1761934582479-digest.reader-------------------------dfdd206f_f174_4c01_9945_ba644ef7af82)
+·Terms of service (https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=email-020bca72d959-1761934582479-digest.reader-------------------------dfdd206f_f174_4c01_9945_ba644ef7af82)

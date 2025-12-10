@@ -80,19 +80,39 @@ class Settings:
             
             # API 設定
             api_config = config.get('api', {})
-            self.API_HOST = api_config.get('host', '0.0.0.0')
+            self.API_HOST = api_config.get('host', 'localhost')
             self.API_PORT = api_config.get('port', 8081)
             self.API_DEBUG = api_config.get('debug', True)
             
-            # Chroma 設定（路徑以 exe 同目錄為基準）
+            # Chroma 設定
             chroma_config = config.get('chroma', {})
-            chroma_path_cfg = chroma_config.get('path', './chroma')
-            exe_base_dir = Path(sys.executable).parent if getattr(sys, 'frozen', False) else self._project_root
-            chroma_path_obj = Path(chroma_path_cfg)
-            if chroma_path_obj.is_absolute():
-                self.CHROMA_PATH = str(chroma_path_obj)
+            chroma_path_cfg = chroma_config.get('path', './agent_builder_client/chroma')
+            
+            if getattr(sys, 'frozen', False):
+                # 打包後：使用 PyInstaller 臨時解壓目錄中的 agent_builder_client\chroma
+                if hasattr(sys, '_MEIPASS'):
+                    # 指向 sys._MEIPASS/agent_builder_client/chroma
+                    meipass_path = Path(sys._MEIPASS)
+                    self.CHROMA_PATH = str(meipass_path / 'agent_builder_client' / 'chroma')
+                else:
+                    # 如果沒有 _MEIPASS，回退到 exe 同目錄
+                    exe_base_dir = Path(sys.executable).parent
+                    chroma_path_obj = Path(chroma_path_cfg)
+                    if chroma_path_obj.is_absolute():
+                        self.CHROMA_PATH = str(chroma_path_obj)
+                    else:
+                        # 移除 ./ 前綴並拼接
+                        clean_path = chroma_path_cfg.lstrip('./') if chroma_path_cfg.startswith('./') else chroma_path_cfg
+                        self.CHROMA_PATH = str(exe_base_dir / clean_path)
             else:
-                self.CHROMA_PATH = str(exe_base_dir / chroma_path_obj)
+                # 開發環境：使用 project_root/agent_builder_client/chroma
+                chroma_path_obj = Path(chroma_path_cfg)
+                if chroma_path_obj.is_absolute():
+                    self.CHROMA_PATH = str(chroma_path_obj)
+                else:
+                    # 移除 ./ 前綴，確保使用 project_root/agent_builder_client/chroma
+                    clean_path = chroma_path_cfg.lstrip('./') if chroma_path_cfg.startswith('./') else chroma_path_cfg
+                    self.CHROMA_PATH = str(self._project_root / clean_path)
             
             # 檔案路徑設定（路徑以 exe 同目錄為基準）
             files_config = config.get('files', {})
@@ -135,7 +155,12 @@ class Settings:
         self.API_DEBUG = True
         self.EMBEDDING_MODEL_PATH = str(self._project_root / "multilingual-e5-large")
         self.EMBEDDING_DEVICE = "cpu"
-        self.CHROMA_PATH = "./chroma"
+        # 默认 chroma 路径会在 _load_config 中根据环境设置
+        # 这里设置一个临时值，稍后会被覆盖
+        if getattr(sys, 'frozen', False) and hasattr(sys, '_MEIPASS'):
+            self.CHROMA_PATH = str(Path(sys._MEIPASS) / 'agent_builder_client' / 'chroma')
+        else:
+            self.CHROMA_PATH = str(self._project_root / 'agent_builder_client' / 'chroma')
         self.MERGED_BASE_FOLDER = "./test_data"
         self.DEFAULT_TOP_K = 1
         self.SYSTEM_PROMPT = ""

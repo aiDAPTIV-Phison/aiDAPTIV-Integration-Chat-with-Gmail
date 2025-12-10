@@ -1,0 +1,164 @@
+主旨: Stop Using UUIDs as Primary Keys. It Is Killing Your Database Throughput _ The Concurrent Mind
+发件人: Medium Daily Digest <noreply@medium.com>
+收件人: ptest9109@gmail.com
+日期: Tue, 09 Dec 2025 23:10:00 +0000 (UTC)
+
+Stories for Ptest
+@ptest9109 (https://medium.com/@ptest9109?source=email-020bca72d959-1765304008140-digest.reader-------------------------f2506ff3_0bd0_41ca_9fc6_6ed339b84aff)
+·Become a member (https://medium.com/plans?source=email-020bca72d959-1765304008140-digest.reader-------------------------f2506ff3_0bd0_41ca_9fc6_6ed339b84aff)
+
+Today's highlights
+
+The Concurrent Mind (https://medium.com/@kp9810113?source=email-020bca72d959-1765304008140-digest.reader--ed61347dc7fe----0-109------------------f2506ff3_0bd0_41ca_9fc6_6ed339b84aff-1)
+
+Stop Using UUIDs as Primary Keys. It Is Killing Your Database Throughput
+Your database is not slow because it is old.
+It is…
+
+4 min read
+571
+32
+
+Ark Protocol (https://medium.com/@ArkProtocol1?source=email-020bca72d959-1765304008140-digest.reader--06b991b2b13f----1-98------------------f2506ff3_0bd0_41ca_9fc6_6ed339b84aff-1)
+
+Our Redis Cache Cost $4,800/Month. A 200-Line Go Cache Fixed It
+Our production Redis cluster crashed at 3 AM on a…
+
+3 min read
+384
+50
+
+aakash (https://medium.com/@aakash_7?source=email-020bca72d959-1765304008140-digest.reader-2ded13a636e7-249dc3dc0fff----2-98------------------f2506ff3_0bd0_41ca_9fc6_6ed339b84aff-1)
+inWork Smarter (https://medium.com/work-smarter-not-harder?source=email-020bca72d959-1765304008140-digest.reader-2ded13a636e7-249dc3dc0fff----2-98------------------f2506ff3_0bd0_41ca_9fc6_6ed339b84aff-1)
+
+Perplexity Just Unleashed 10 FREE AI Agents That Do Your Entire Job (The…
+Stop what you are doing. The era of the simple AI…
+
+7 min read
+990
+39
+
+Neal Davis (https://medium.com/@neal-davis?source=email-020bca72d959-1765304008140-digest.reader--1dbdb9a89960----3-98------------------f2506ff3_0bd0_41ca_9fc6_6ed339b84aff-1)
+
+Cloud Skills that will soon be obsolete - and what to learn instead
+If you're learning cloud right now - pay attention…
+
+5 min read
+318
+22
+
+Joe Njenga  (https://medium.com/@joe.njenga?source=email-020bca72d959-1765304008140-digest.reader--e69d7e55cd50----4-98------------------f2506ff3_0bd0_41ca_9fc6_6ed339b84aff-1)
+
+9 Books Every AI Engineer Should Read (To Go Fully Professional)
+Picking an AI engineering book and reading it from…
+
+10 min read
+1.6K
+45
+
+Andres Vourakis (https://medium.com/@avourakis?source=email-020bca72d959-1765304008140-digest.reader-8993e01dcfd3-bb73192862f3----5-98------------------f2506ff3_0bd0_41ca_9fc6_6ed339b84aff-1)
+inData Science Collective (https://medium.com/data-science-collective?source=email-020bca72d959-1765304008140-digest.reader-8993e01dcfd3-bb73192862f3----5-98------------------f2506ff3_0bd0_41ca_9fc6_6ed339b84aff-1)
+
+How I'm Currently Upskilling as a Senior Data Scientist in Tech (2025 Edition)
+Preparing for the age of AI and beyond
+
+7 min read
+702
+15
+
+Sajid Khan (https://medium.com/@sajidkhan.sjic?source=email-020bca72d959-1765304008140-digest.reader-84ac01765c52-502632a664f9----6-109------------------f2506ff3_0bd0_41ca_9fc6_6ed339b84aff-1)
+inWrite A Catalyst (https://medium.com/write-a-catalyst?source=email-020bca72d959-1765304008140-digest.reader-84ac01765c52-502632a664f9----6-109------------------f2506ff3_0bd0_41ca_9fc6_6ed339b84aff-1)
+
+What Is an Epoch in Machine Learning? A Simple Explanation
+The one word you hear in every ML training loop, Will…
+
+3 min read
+90
+
+Nikesh Kazi (https://medium.com/@nikeshkazi?source=email-020bca72d959-1765304008140-digest.reader--a80c2f65acd1----7-98------------------f2506ff3_0bd0_41ca_9fc6_6ed339b84aff-1)
+
+You Don't Need a NAT : A $30 to $0 AWS story
+I still remember the moment I opened my AWS bill and…
+
+7 min read
+214
+12
+
+Aashish Kumar (https://medium.com/@aashishkumar_77032?source=email-020bca72d959-1765304008140-digest.reader-ffcf9c43f8e9-8ee670212c33----8-98------------------f2506ff3_0bd0_41ca_9fc6_6ed339b84aff-1)
+inThe Pythonworld (https://medium.com/the-pythonworld?source=email-020bca72d959-1765304008140-digest.reader-ffcf9c43f8e9-8ee670212c33----8-98------------------f2506ff3_0bd0_41ca_9fc6_6ed339b84aff-1)
+
+10 Python Concepts That Took Me Years to Understand - Until I Saw These…
+Sometimes one example can do more than a hundred…
+
+4 min read
+1.4K
+21
+
+Neurobyte (https://medium.com/@kaushalsinh73?source=email-020bca72d959-1765304008140-digest.reader--d2357e5a5a71----9-98------------------f2506ff3_0bd0_41ca_9fc6_6ed339b84aff-1)
+
+10 Grafana Dashboards That Catch Incidents Early
+Practical, copy-pasteable panels that surface trouble…
+
+5 min read
+96
+
+Laurentiu Raducu (https://medium.com/@laurentiu-raducu?source=email-020bca72d959-1765304008140-digest.reader--3d6c54c68445----10-98------------------f2506ff3_0bd0_41ca_9fc6_6ed339b84aff-1)
+
+I created an AI trading agent and monitored its performance for 3 months…
+Lately, I've been feeling some serious AI fatigue. I'm…
+
+7 min read
+317
+8
+
+Prem Vishnoi(cloudvala) (https://medium.com/@premvishnoi?source=email-020bca72d959-1765304008140-digest.reader-32a73565f998-30fd4afbd86d----11-109------------------f2506ff3_0bd0_41ca_9fc6_6ed339b84aff-1)
+inNextGenAI (https://medium.com/nextgenllm?source=email-020bca72d959-1765304008140-digest.reader-32a73565f998-30fd4afbd86d----11-109------------------f2506ff3_0bd0_41ca_9fc6_6ed339b84aff-1)
+
+The Two-Tower Architecture for TIKTOK
+You open TikTok for just a moment scroll, and suddenly…
+
+8 min read
+102
+
+Ujjawal Rohra (https://medium.com/@ujjawalr?source=email-020bca72d959-1765304008140-digest.reader--bcd9846d8b7f----12-98------------------f2506ff3_0bd0_41ca_9fc6_6ed339b84aff-1)
+
+5 Dockerfile Tricks That Separate Senior Developers from Juniors
+Why is your Docker image half the size of mine?
+
+6 min read
+1.5K
+19
+
+Gao Dalie (高達烈) (https://medium.com/@GaoDalie_AI?source=email-020bca72d959-1765304008140-digest.reader-98111c9905da-4cb101e44c4b----13-109------------------f2506ff3_0bd0_41ca_9fc6_6ed339b84aff-1)
+inTowards AI (https://medium.com/towards-artificial-intelligence?source=email-020bca72d959-1765304008140-digest.reader-98111c9905da-4cb101e44c4b----13-109------------------f2506ff3_0bd0_41ca_9fc6_6ed339b84aff-1)
+
+RAG is Not Dead! No Chunking, No Vectors, Just Vectorless to Get the Higher…
+Over the past two years, I have written numerous…
+
+9 min read
+1.4K
+19
+
+Paolo Perrone (https://medium.com/@paoloperrone?source=email-020bca72d959-1765304008140-digest.reader-8993e01dcfd3-f6f604bcd075----14-98------------------f2506ff3_0bd0_41ca_9fc6_6ed339b84aff-1)
+inData Science Collective (https://medium.com/data-science-collective?source=email-020bca72d959-1765304008140-digest.reader-8993e01dcfd3-f6f604bcd075----14-98------------------f2506ff3_0bd0_41ca_9fc6_6ed339b84aff-1)
+
+Why Most AI Agents Fail in Production (And How to Build Ones That Don't)
+I'm a 8+ years Machine Learning Engineer building AI…
+
+5 min read
+2.2K
+42
+
+See more of what you like and less of what you don't.
+Control your recommendations (https://medium.com/me/missioncontrol?source=email-020bca72d959-1765304008140-digest.reader-------------------------f2506ff3_0bd0_41ca_9fc6_6ed339b84aff)
+
+Read from anywhere.
+
+Sent by Medium (https://medium.com/?source=email-020bca72d959-1765304008140-digest.reader-------------------------f2506ff3_0bd0_41ca_9fc6_6ed339b84aff)
+·3500 South DuPont Highway, Suite IQ-101, Dover, DE 19901
+Unsubscribe (https://medium.com/me/email-settings/020bca72d959/b5016c97bbeb?type=social&source=email-020bca72d959-1765304008140-digest.reader-------------------------f2506ff3_0bd0_41ca_9fc6_6ed339b84aff)
+ from this type of email·Switch to the Weekly Digest (https://medium.com/me/email-settings/020bca72d959/b5016c97bbeb?type=social&preference=2&source=email-020bca72d959-1765304008140-digest.reader-------------------------f2506ff3_0bd0_41ca_9fc6_6ed339b84aff)
+·Careers (https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?source=email-020bca72d959-1765304008140-digest.reader-------------------------f2506ff3_0bd0_41ca_9fc6_6ed339b84aff)
+·Help Center (https://help.medium.com/hc/en-us?source=email-020bca72d959-1765304008140-digest.reader-------------------------f2506ff3_0bd0_41ca_9fc6_6ed339b84aff)
+·Privacy Policy (https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=email-020bca72d959-1765304008140-digest.reader-------------------------f2506ff3_0bd0_41ca_9fc6_6ed339b84aff)
+·Terms of service (https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=email-020bca72d959-1765304008140-digest.reader-------------------------f2506ff3_0bd0_41ca_9fc6_6ed339b84aff)

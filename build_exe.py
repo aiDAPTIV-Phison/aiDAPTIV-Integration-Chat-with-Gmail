@@ -71,121 +71,6 @@ def ensure_venv_in_path():
             return True
     return False
 
-def check_python():
-    """检查 Python（仅在开发环境中）"""
-    # 打包后的 exe 不需要检查 Python，因为已经打包了 Python 运行时
-    if getattr(sys, 'frozen', False):
-        return
-    
-    try:
-        subprocess.check_call(['python', '--version'], stdout=subprocess.PIPE)
-        print("[SUCCESS] Python found:")
-    except subprocess.CalledProcessError:
-        print("[ERROR] Python is not installed or not in PATH. Please install Python 3.8+ first.")
-        sys.exit(1)
-
-def check_uv():
-    """检查 uv（仅在开发环境中）"""
-    # 打包后的 exe 不需要检查 uv，因为所有依赖都已打包
-    if getattr(sys, 'frozen', False):
-        return
-    
-    try:
-        subprocess.check_call(['uv', '--version'], stdout=subprocess.PIPE)
-        print("[SUCCESS] uv found:")
-    except subprocess.CalledProcessError:
-        print("[WARNING] uv is not installed. Installing uv...")
-        try:
-            subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'uv'])
-            print("[SUCCESS] uv installed successfully")
-        except subprocess.CalledProcessError:
-            print("[ERROR] Failed to install uv. Please install it manually with: pip install uv")
-            sys.exit(1)
-
-def check_virtual_env():
-    """检查并创建虚拟环境（仅在开发环境中）"""
-    # 打包后的 exe 不需要虚拟环境，因为所有依赖都已打包
-    if getattr(sys, 'frozen', False):
-        print("[INFO] Running as packaged exe, skipping virtual environment setup")
-        return
-    
-    # 获取项目根目录
-    project_root = get_project_root()
-    venv_path = os.path.join(project_root, '.venv')
-    venv_exists = os.path.exists(venv_path)
-    
-    if not venv_exists:
-        print("[INFO] Virtual environment not found in project root. Creating virtual environment using uv...")
-        try:
-            # Create virtual environment first
-            subprocess.check_call(['uv', 'venv', '--python', '3.12.11', venv_path])
-            print("[SUCCESS] Virtual environment created")
-        except subprocess.CalledProcessError as e:
-            print(f"[ERROR] Failed to create virtual environment: {e}")
-            print("[INFO] Trying alternative method...")
-            # Fallback to standard venv
-            subprocess.check_call([sys.executable, '-m', 'venv', venv_path])
-            print("[SUCCESS] Virtual environment created using standard venv")
-    
-    # 优先使用 requirements_all.txt，如果不存在则使用 requirements.txt
-    req_file = os.path.join(project_root, 'requirements_all.txt') if os.path.exists(os.path.join(project_root, 'requirements_all.txt')) else os.path.join(project_root, 'requirements.txt')
-    if os.path.exists(req_file):
-        if venv_exists:
-            print(f"[INFO] Virtual environment found. Installing/updating dependencies from {req_file}...")
-        else:
-            print(f"[INFO] Installing main requirements from {req_file}...")
-        
-        try:
-            # Use uv pip install with the virtual environment
-            subprocess.check_call(['uv', 'pip', 'install', '-r', req_file])
-            print("[SUCCESS] All dependencies installed using uv")
-        except subprocess.CalledProcessError as e:
-            print(f"[WARNING] uv pip install failed: {e}")
-            print("[INFO] Trying alternative method with pip...")
-            # Fallback to standard pip
-            try:
-                if sys.platform == 'win32':
-                    pip_path = os.path.join(venv_path, 'Scripts', 'pip.exe')
-                else:
-                    pip_path = os.path.join(venv_path, 'bin', 'pip')
-                subprocess.check_call([pip_path, 'install', '-r', req_file])
-                print("[SUCCESS] All dependencies installed using pip")
-            except Exception as e2:
-                print(f"[ERROR] pip install also failed: {e2}")
-    else:
-        if not venv_exists:
-            print("[WARNING] No requirements file found (requirements_all.txt or requirements.txt)")
-        else:
-            print("[INFO] Virtual environment found, but no requirements file to install")
-    
-    # 安装 agent_builder_client 的依赖到项目根目录的 .venv
-    # 注意：agent_builder_client 只是一个 Python 包，不需要单独的虚拟环境
-    # 所有依赖都安装到项目根目录的 .venv 中
-    agent_client_dir = os.path.join(project_root, 'agent_builder_client')
-    agent_client_req = os.path.join(agent_client_dir, 'requirements.txt')
-    
-    if os.path.exists(agent_client_req):
-        print("[INFO] Installing agent_builder_client dependencies to project .venv...")
-        try:
-            # 使用项目根目录的 .venv 安装 agent_builder_client 的依赖
-            subprocess.check_call(['uv', 'pip', 'install', '-r', agent_client_req])
-            print("[SUCCESS] agent_builder_client dependencies installed using uv")
-        except subprocess.CalledProcessError as e:
-            print(f"[WARNING] uv pip install failed: {e}")
-            print("[INFO] Trying alternative method with pip...")
-            # Fallback to standard pip
-            try:
-                if sys.platform == 'win32':
-                    pip_path = os.path.join(venv_path, 'Scripts', 'pip.exe')
-                else:
-                    pip_path = os.path.join(venv_path, 'bin', 'pip')
-                subprocess.check_call([pip_path, 'install', '-r', agent_client_req])
-                print("[SUCCESS] agent_builder_client dependencies installed using pip")
-            except Exception as e2:
-                print(f"[WARNING] pip install also failed: {e2}")
-    elif os.path.exists(agent_client_dir):
-        print(f"[INFO] agent_builder_client directory found, but requirements.txt not found (optional)")
-
 def check_required_files():
     """检查必需的文件是否存在"""
     # 获取项目根目录（在打包后可能是 PyInstaller 临时目录或 exe 所在目录）
@@ -532,12 +417,13 @@ def start_services():
         # 开发环境，使用 uv run
         # 检查是否已经有API进程在运行
         if 'api' not in _started_processes or not _process_is_alive(_started_processes['api']):
+            api_path = os.path.join('agent_builder_client', 'api.py')
             if settings.LOGGING_ENABLED:
-                _started_processes['api'] = subprocess.Popen(['uv', 'run', '--python', '3.12.11', 'api.py'], stdout=open(settings.LOGGING_FILE_PATH, 'a', encoding='utf-8'), stderr=subprocess.STDOUT)
+                _started_processes['api'] = subprocess.Popen(['uv', 'run', '--python', '3.12.11', api_path], stdout=open(settings.LOGGING_FILE_PATH, 'a', encoding='utf-8'), stderr=subprocess.STDOUT)
                 print(f"[SUCCESS] FastAPI service started in background (logs: {settings.LOGGING_FILE_PATH})")
             else:
                 devnull = open(os.devnull, 'w')
-                _started_processes['api'] = subprocess.Popen(['uv', 'run', '--python', '3.12.11', 'api.py'], stdout=devnull, stderr=devnull)
+                _started_processes['api'] = subprocess.Popen(['uv', 'run', '--python', '3.12.11', api_path], stdout=devnull, stderr=devnull)
                 print("[SUCCESS] FastAPI service started in background (logging disabled)")
         else:
             print("[WARNING] FastAPI service process already running, skipping startup")
@@ -934,17 +820,8 @@ def main():
     print("==========================================")
     print("Gmail Chat Application Setup & Start")
     print("==========================================")
-
-    # 打包后的 exe 不需要检查 Python、uv 和虚拟环境，因为所有依赖都已打包
-    is_frozen = getattr(sys, 'frozen', False)
-    if not is_frozen:
-        # 仅在开发环境中检查这些
-        check_python()
-        check_uv()
-        check_virtual_env()
     
     check_required_files()  # 现在使用当前工作目录检查文件
-    check_embedding_model()
     
     print()
     print("==========================================")

@@ -1,0 +1,157 @@
+主旨: Building a Stock Prediction AI in Python _ Civil Learning in Coding Nexus
+发件人: Medium Daily Digest <noreply@medium.com>
+收件人: ptest9109@gmail.com
+日期: Wed, 26 Nov 2025 23:10:00 +0000 (UTC)
+
+Stories for Ptest
+@ptest9109 (https://medium.com/@ptest9109?source=email-020bca72d959-1764180770883-digest.reader-------------------------6bf28757_561b_41a2_a232_553a25afed14)
+·Become a member (https://medium.com/plans?source=email-020bca72d959-1764180770883-digest.reader-------------------------6bf28757_561b_41a2_a232_553a25afed14)
+
+Today's highlights
+
+Civil Learning (https://medium.com/@civillearning?source=email-020bca72d959-1764180770883-digest.reader-16e3527896e0-8a963c6f0ffa----0-109------------------6bf28757_561b_41a2_a232_553a25afed14-1)
+inCoding Nexus (https://medium.com/coding-nexus?source=email-020bca72d959-1764180770883-digest.reader-16e3527896e0-8a963c6f0ffa----0-109------------------6bf28757_561b_41a2_a232_553a25afed14-1)
+
+Building a Stock Prediction AI in Python
+Trying to predict the stock market is like predicting…
+
+8 min read
+56
+2
+
+UMANG GULATI (https://medium.com/@umang.gulati19?source=email-020bca72d959-1764180770883-digest.reader--6f37b7b6b26c----1-98------------------6bf28757_561b_41a2_a232_553a25afed14-1)
+
+Z-Score: The Universal Language That Lets You Compare Apples to Oranges
+The Problem: When Numbers Don't Speak the Same…
+
+12 min read
+63
+
+Stacy Mwangi (https://medium.com/@stacyfuende?source=email-020bca72d959-1764180770883-digest.reader--4ae5eb73ba1c----2-98------------------6bf28757_561b_41a2_a232_553a25afed14-1)
+
+Python Space-Time Cube: Visualizing Spatiotemporal Patterns
+How to analyze and represent geographic phenomena that…
+
+12 min read
+67
+2
+
+Dr. Ashish Bamania (https://medium.com/@bamania-ashish?source=email-020bca72d959-1764180770883-digest.reader-5517fd7b58a6-c76bb41ce1ea----3-109------------------6bf28757_561b_41a2_a232_553a25afed14-1)
+inLevel Up Coding (https://medium.com/gitconnected?source=email-020bca72d959-1764180770883-digest.reader-5517fd7b58a6-c76bb41ce1ea----3-109------------------6bf28757_561b_41a2_a232_553a25afed14-1)
+
+20 Must-Know PyTorch Concepts, Explained Simply
+Learn these essential PyTorch concepts to supercharge…
+
+13 min read
+322
+5
+
+Ankur Gupta (https://medium.com/@gankur277?source=email-020bca72d959-1764180770883-digest.reader--92381e34de5a----4-99------------------6bf28757_561b_41a2_a232_553a25afed14-1)
+
+What Really Happens When You Run a Spark Job
+A behind-the-scenes look at how Spark turns your code…
+
+4 min read
+4
+1
+
+Prakash Sharma (https://medium.com/@trricho?source=email-020bca72d959-1764180770883-digest.reader--cc17aad25ff7----5-98------------------6bf28757_561b_41a2_a232_553a25afed14-1)
+
+I Spent $500 Learning AI in 30 Days: Here's My Roadmap
+From Zero AI Knowledge to Building Production Apps
+
+10 min read
+123
+8
+
+Hemasri (https://medium.com/@lellas.odyssey?source=email-020bca72d959-1764180770883-digest.reader--51076f0946b0----6-98------------------6bf28757_561b_41a2_a232_553a25afed14-1)
+
+Support Vector Machine (SVM)
+Part 5: Learning Machine Learning/Deep Learning
+
+4 min read
+50
+
+Parth Chokhra (https://medium.com/@parthplc?source=email-020bca72d959-1764180770883-digest.reader-8993e01dcfd3-52ec8146e427----7-98------------------6bf28757_561b_41a2_a232_553a25afed14-1)
+inData Science Collective (https://medium.com/data-science-collective?source=email-020bca72d959-1764180770883-digest.reader-8993e01dcfd3-52ec8146e427----7-98------------------6bf28757_561b_41a2_a232_553a25afed14-1)
+
+Detailed Visual Guide for Finetuning LLMs
+A comprehensive guide on fine-tuning large language…
+
+7 min read
+158
+2
+
+Chris Kuo/Dr. Dataman (https://medium.com/@dataman-ai?source=email-020bca72d959-1764180770883-digest.reader-05b75fd9b2c6-0e6d7fc43f91----8-99------------------6bf28757_561b_41a2_a232_553a25afed14-1)
+inCause and Effect in the Age of AI: Methods, Models, and Applications (https://medium.com/causal-inference-methods-models-and-applications?source=email-020bca72d959-1764180770883-digest.reader-05b75fd9b2c6-0e6d7fc43f91----8-99------------------6bf28757_561b_41a2_a232_553a25afed14-1)
+
+Causal Machine Learning with EconML
+Estimating CATE with Meta-Learners Using EconML
+
+18 min read
+16
+
+Teh Kok How (https://medium.com/@khteh?source=email-020bca72d959-1764180770883-digest.reader--8858bf5c867a----9-98------------------6bf28757_561b_41a2_a232_553a25afed14-1)
+
+Sine Wave Generative Adversarial Network (GAN)
+A simple Generative Adverserial Network (GAN) use case…
+
+6 min read
+2
+
+Maheera Amjad (https://medium.com/@maheera_amjad?source=email-020bca72d959-1764180770883-digest.reader--8592e2f3f25a----10-98------------------6bf28757_561b_41a2_a232_553a25afed14-1)
+
+Fine-Tuning LLMs: Adapting GPT and BERT for Your Task
+From full fine-tuning to LoRA and parameter-efficient…
+
+5 min read
+63
+
+Kyle Jones (https://medium.com/@kyle-t-jones?source=email-020bca72d959-1764180770883-digest.reader--237b5139c67e----11-98------------------6bf28757_561b_41a2_a232_553a25afed14-1)
+
+tslearn for Time Series Analysis with Python
+tslearn is a purpose-built machine learning library…
+
+2 min read
+28
+
+EarthExists (https://medium.com/@earthexistclothing?source=email-020bca72d959-1764180770883-digest.reader--799785fc42ca----12-98------------------6bf28757_561b_41a2_a232_553a25afed14-1)
+
+3I/ATLAS - CASSANDRA UNCLASSIFIED.
+The 20 Year Plan They Never Told You About. 
+
+12 min read
+877
+43
+
+Tosny (https://medium.com/@tosny?source=email-020bca72d959-1764180770883-digest.reader--cb593890ba6a----13-99------------------6bf28757_561b_41a2_a232_553a25afed14-1)
+
+7 Free or Buy Once Apps to Replace Subscriptions
+If I can help it, I won't pay for a subscription.
+
+5 min read
+1K
+43
+
+Burk (https://medium.com/@burkrosemann?source=email-020bca72d959-1764180770883-digest.reader--79781da763b2----14-98------------------6bf28757_561b_41a2_a232_553a25afed14-1)
+
+The End of Personal Websites
+And why that might be a good thing
+
+5 min read
+6.8K
+268
+
+See more of what you like and less of what you don't.
+Control your recommendations (https://medium.com/me/missioncontrol?source=email-020bca72d959-1764180770883-digest.reader-------------------------6bf28757_561b_41a2_a232_553a25afed14)
+
+Read from anywhere.
+
+Sent by Medium (https://medium.com/?source=email-020bca72d959-1764180770883-digest.reader-------------------------6bf28757_561b_41a2_a232_553a25afed14)
+·3500 South DuPont Highway, Suite IQ-101, Dover, DE 19901
+Unsubscribe (https://medium.com/me/email-settings/020bca72d959/edacc49c6fde?type=social&source=email-020bca72d959-1764180770883-digest.reader-------------------------6bf28757_561b_41a2_a232_553a25afed14)
+ from this type of email·Switch to the Weekly Digest (https://medium.com/me/email-settings/020bca72d959/edacc49c6fde?type=social&preference=2&source=email-020bca72d959-1764180770883-digest.reader-------------------------6bf28757_561b_41a2_a232_553a25afed14)
+·Careers (https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?source=email-020bca72d959-1764180770883-digest.reader-------------------------6bf28757_561b_41a2_a232_553a25afed14)
+·Help Center (https://help.medium.com/hc/en-us?source=email-020bca72d959-1764180770883-digest.reader-------------------------6bf28757_561b_41a2_a232_553a25afed14)
+·Privacy Policy (https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=email-020bca72d959-1764180770883-digest.reader-------------------------6bf28757_561b_41a2_a232_553a25afed14)
+·Terms of service (https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=email-020bca72d959-1764180770883-digest.reader-------------------------6bf28757_561b_41a2_a232_553a25afed14)

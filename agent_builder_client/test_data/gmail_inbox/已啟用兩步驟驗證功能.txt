@@ -1,0 +1,25 @@
+主旨: 已啟用兩步驟驗證功能
+发件人: Google <no-reply@accounts.google.com>
+收件人: ptest9109@gmail.com
+日期: Tue, 25 Nov 2025 10:04:17 GMT
+
+[image: Google]
+已啟用兩步驟驗證功能
+
+
+ptest9109@gmail.com
+
+您的 Google 帳戶 ptest9109@gmail.com
+現已受到兩步驟驗證的保護。如果您使用新裝置或不受信任的裝置登入帳戶，系統將要 
+求您進行第二個步驟，藉此驗證身分。
+
+*避免無法登入自己帳戶！*
+您可以新增備援電話號碼或取得備用碼，以便在無法進行第二個步驟時使用。
+您可以查看您的兩步驟驗證設定
+<https://accounts.google.com/AccountChooser?Email=ptest9109@gmail.com&continue=https://myaccount.google.com/signinoptions/two-step-verification?rfn%3D16%26rfnc%3D1%26eid%3D9086914143265174286%26et%3D0>
+來進行變更。
+您也可以前往以下網址查看帳戶安全相關活動：
+https://myaccount.google.com/notifications
+您的 Google 帳戶和服務有重大異動，系統特此發送這封電子郵件通知您。
+© 2025 Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA
+

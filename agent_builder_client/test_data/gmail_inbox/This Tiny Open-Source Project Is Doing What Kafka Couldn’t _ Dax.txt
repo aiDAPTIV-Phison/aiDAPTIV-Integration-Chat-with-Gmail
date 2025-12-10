@@ -1,0 +1,164 @@
+主旨: This Tiny Open-Source Project Is Doing What Kafka Couldn’t _ Dax
+发件人: Medium Daily Digest <noreply@medium.com>
+收件人: ptest9109@gmail.com
+日期: Wed, 19 Nov 2025 23:10:00 +0000 (UTC)
+
+Stories for Ptest
+@ptest9109 (https://medium.com/@ptest9109?source=email-020bca72d959-1763576500152-digest.reader-------------------------1fcbade4_ded1_4f60_a565_c8188d415fb3)
+·Become a member (https://medium.com/plans?source=email-020bca72d959-1763576500152-digest.reader-------------------------1fcbade4_ded1_4f60_a565_c8188d415fb3)
+
+Today's highlights
+
+Dax (https://medium.com/@daxx5?source=email-020bca72d959-1763576500152-digest.reader--397be38b6f9b----0-98------------------1fcbade4_ded1_4f60_a565_c8188d415fb3-1)
+
+This Tiny Open-Source Project Is Doing What Kafka Couldn't
+Turns out, the real bottleneck wasn't Kafka. It was us…
+
+5 min read
+394
+16
+
+Adham Khaled (https://medium.com/@adhamhidawy?source=email-020bca72d959-1763576500152-digest.reader-440100e76000-5768e5c37969----1-109------------------1fcbade4_ded1_4f60_a565_c8188d415fb3-1)
+inGenerative AI (https://medium.com/generative-ai?source=email-020bca72d959-1763576500152-digest.reader-440100e76000-5768e5c37969----1-109------------------1fcbade4_ded1_4f60_a565_c8188d415fb3-1)
+
+I Built a Wall Street Analyst in 200 Lines of Code - And It Outperformed My…
+How an open-source AI agent named Dexter is…
+
+7 min read
+383
+10
+
+Saurav Mandal (https://medium.com/@mandalsaurav3?source=email-020bca72d959-1763576500152-digest.reader--81be3a096207----2-102------------------1fcbade4_ded1_4f60_a565_c8188d415fb3-1)
+
+Do Hard Things if You Want an Easy Life
+The one skill that changes everything
+
+8 min read
+23K
+1.1K
+
+Stacy Mwangi (https://medium.com/@stacyfuende?source=email-020bca72d959-1763576500152-digest.reader--25d3a7eaa08c----3-98------------------1fcbade4_ded1_4f60_a565_c8188d415fb3-1)
+
+Python Spatial Overlay Operations: Combining Geographic Layers
+Mastering union, intersection, difference, and…
+
+16 min read
+3
+
+Adarsh Gupta (https://medium.com/@adarsh-gupta?source=email-020bca72d959-1763576500152-digest.reader-84ac01765c52-2a1c52eed4ff----4-98------------------1fcbade4_ded1_4f60_a565_c8188d415fb3-1)
+inWrite A Catalyst (https://medium.com/write-a-catalyst?source=email-020bca72d959-1763576500152-digest.reader-84ac01765c52-2a1c52eed4ff----4-98------------------1fcbade4_ded1_4f60_a565_c8188d415fb3-1)
+
+Remember Vibe Coders? Yeah… They're Gone
+Turns out it was the first AI bubble to burst
+
+4 min read
+6.3K
+228
+
+Alex Carter (https://medium.com/@henry-becker.de?source=email-020bca72d959-1763576500152-digest.reader--18293134669f----5-98------------------1fcbade4_ded1_4f60_a565_c8188d415fb3-1)
+
+Why 73% of American Expats Leave Spain Within 2 Years (The Data No One Talks…
+I spent 6 months investigating the American expat…
+
+7 min read
+9.96K
+381
+
+Florian June (https://medium.com/@florian_algo?source=email-020bca72d959-1763576500152-digest.reader-604432933561-655d09d21654----6-109------------------1fcbade4_ded1_4f60_a565_c8188d415fb3-1)
+inAI Exploration Journey (https://medium.com/ai-exploration-journey?source=email-020bca72d959-1763576500152-digest.reader-604432933561-655d09d21654----6-109------------------1fcbade4_ded1_4f60_a565_c8188d415fb3-1)
+
+RAG Too Slow? How to Cut Latency by 97%
+Today we're diving into a big leap in RAG efficiency.
+
+6 min read
+86
+2
+
+SriRekha K (https://medium.com/@srirekha88?source=email-020bca72d959-1763576500152-digest.reader--826934493b45----7-102------------------1fcbade4_ded1_4f60_a565_c8188d415fb3-1)
+
+Trading My Audi Q7 Diesel for an EV in Ireland: A Real Family's Guide
+So here I am, driving a lovely Audi Q7 diesel - the…
+
+11 min read
+130
+5
+
+Joe Procopio (https://medium.com/@jproco?source=email-020bca72d959-1763576500152-digest.reader-7adf33e44ae3-ba0fe40f1422----8-98------------------1fcbade4_ded1_4f60_a565_c8188d415fb3-1)
+inEntrepreneurship Handbook (https://medium.com/entrepreneur-s-handbook?source=email-020bca72d959-1763576500152-digest.reader-7adf33e44ae3-ba0fe40f1422----8-98------------------1fcbade4_ded1_4f60_a565_c8188d415fb3-1)
+
+AI Porn Is Here - and We're All Pretending It'll Be Fine
+Sam Altman has decided that five years is enough of a…
+
+5 min read
+3.8K
+161
+
+Bernardo olisan (https://medium.com/@bernardoolisan?source=email-020bca72d959-1763576500152-digest.reader--b5ca5ea40f8a----9-102------------------1fcbade4_ded1_4f60_a565_c8188d415fb3-1)
+
+Particle Swarm Optimization (in depth)
+The Hidden Mathematics in Bird Flight
+
+12 min read
+57
+1
+
+Arturo García (https://medium.com/@echoes_journal?source=email-020bca72d959-1763576500152-digest.reader-440100e76000-92c8614c79b7----10-109------------------1fcbade4_ded1_4f60_a565_c8188d415fb3-1)
+inGenerative AI (https://medium.com/generative-ai?source=email-020bca72d959-1763576500152-digest.reader-440100e76000-92c8614c79b7----10-109------------------1fcbade4_ded1_4f60_a565_c8188d415fb3-1)
+
+Our AI Has a Perfect Memory and Never Hallucinates. Here's How We Built It.
+This is Part 3 of our "Building in Public" series…
+
+5 min read
+429
+18
+
+Alpha Iterations (https://medium.com/@alphaiterations?source=email-020bca72d959-1763576500152-digest.reader-98111c9905da-facac8ae6031----11-109------------------1fcbade4_ded1_4f60_a565_c8188d415fb3-1)
+inTowards AI (https://medium.com/towards-artificial-intelligence?source=email-020bca72d959-1763576500152-digest.reader-98111c9905da-facac8ae6031----11-109------------------1fcbade4_ded1_4f60_a565_c8188d415fb3-1)
+
+Agentic AI: Build ReAct Agent using LangGraph
+Practical Guide to build ReAct agent using LangGraph…
+
+26 min read
+269
+3
+
+Stacy Mwangi (https://medium.com/@stacyfuende?source=email-020bca72d959-1763576500152-digest.reader--98ab91c377a3----12-98------------------1fcbade4_ded1_4f60_a565_c8188d415fb3-1)
+
+Python Map Algebra Cookbook: Raster Operations for Spatial Analysis
+Essential recipes for transforming, combining, and…
+
+17 min read
+2
+
+Suleman Safdar (https://medium.com/@SulemanSafdar?source=email-020bca72d959-1763576500152-digest.reader-78073def27b8-bbc5b81a0bdd----13-109------------------1fcbade4_ded1_4f60_a565_c8188d415fb3-1)
+inPython in Plain English (https://medium.com/python-in-plain-english?source=email-020bca72d959-1763576500152-digest.reader-78073def27b8-bbc5b81a0bdd----13-109------------------1fcbade4_ded1_4f60_a565_c8188d415fb3-1)
+
+The Python Tool I Built in a Weekend That Now Pays My Rent
+How I turned a tiny automation script into a paid…
+
+6 min read
+4.1K
+94
+
+Alex Carter (https://medium.com/@henry-becker.de?source=email-020bca72d959-1763576500152-digest.reader--a34e06dcdc49----14-98------------------1fcbade4_ded1_4f60_a565_c8188d415fb3-1)
+
+I Spent $31,847 in 6 Months Living in Europe. 68% Went to Costs Americans Never…
+I stared at the number on my screen: $31,847. Six…
+
+9 min read
+5.7K
+305
+
+See more of what you like and less of what you don't.
+Control your recommendations (https://medium.com/me/missioncontrol?source=email-020bca72d959-1763576500152-digest.reader-------------------------1fcbade4_ded1_4f60_a565_c8188d415fb3)
+
+Read from anywhere.
+
+Sent by Medium (https://medium.com/?source=email-020bca72d959-1763576500152-digest.reader-------------------------1fcbade4_ded1_4f60_a565_c8188d415fb3)
+·3500 South DuPont Highway, Suite IQ-101, Dover, DE 19901
+Unsubscribe (https://medium.com/me/email-settings/020bca72d959/2e719ca8b4d2?type=social&source=email-020bca72d959-1763576500152-digest.reader-------------------------1fcbade4_ded1_4f60_a565_c8188d415fb3)
+ from this type of email·Switch to the Weekly Digest (https://medium.com/me/email-settings/020bca72d959/2e719ca8b4d2?type=social&preference=2&source=email-020bca72d959-1763576500152-digest.reader-------------------------1fcbade4_ded1_4f60_a565_c8188d415fb3)
+·Careers (https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?source=email-020bca72d959-1763576500152-digest.reader-------------------------1fcbade4_ded1_4f60_a565_c8188d415fb3)
+·Help Center (https://help.medium.com/hc/en-us?source=email-020bca72d959-1763576500152-digest.reader-------------------------1fcbade4_ded1_4f60_a565_c8188d415fb3)
+·Privacy Policy (https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=email-020bca72d959-1763576500152-digest.reader-------------------------1fcbade4_ded1_4f60_a565_c8188d415fb3)
+·Terms of service (https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=email-020bca72d959-1763576500152-digest.reader-------------------------1fcbade4_ded1_4f60_a565_c8188d415fb3)

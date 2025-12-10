@@ -1,0 +1,167 @@
+主旨: This New Embedding Model Cuts Vector DB Costs by _200x_ _ Avi Chawla in Towards AI
+发件人: Medium Daily Digest <noreply@medium.com>
+收件人: ptest9109@gmail.com
+日期: Tue, 25 Nov 2025 23:10:00 +0000 (UTC)
+
+Stories for Ptest
+@ptest9109 (https://medium.com/@ptest9109?source=email-020bca72d959-1764094603824-digest.reader-------------------------7915ab2e_11b1_4323_a5ae_d02a8b1739b4)
+·Become a member (https://medium.com/plans?source=email-020bca72d959-1764094603824-digest.reader-------------------------7915ab2e_11b1_4323_a5ae_d02a8b1739b4)
+
+Today's highlights
+
+Avi Chawla (https://medium.com/@avi_chawla?source=email-020bca72d959-1764094603824-digest.reader-98111c9905da-bf6dc9ba7d56----0-109------------------7915ab2e_11b1_4323_a5ae_d02a8b1739b4-1)
+inTowards AI (https://medium.com/towards-artificial-intelligence?source=email-020bca72d959-1764094603824-digest.reader-98111c9905da-bf6dc9ba7d56----0-109------------------7915ab2e_11b1_4323_a5ae_d02a8b1739b4-1)
+
+This New Embedding Model Cuts Vector DB Costs by ~200x!
+It also outperforms OpenAI and Cohere models.
+
+6 min read
+388
+4
+
+Vishal Rajput (https://medium.com/@vishal-ai?source=email-020bca72d959-1764094603824-digest.reader-decdbc13dde6-543f6c56fd88----1-109------------------7915ab2e_11b1_4323_a5ae_d02a8b1739b4-1)
+inAIGuys (https://medium.com/aiguys?source=email-020bca72d959-1764094603824-digest.reader-decdbc13dde6-543f6c56fd88----1-109------------------7915ab2e_11b1_4323_a5ae_d02a8b1739b4-1)
+
+DeepSeek OCR Is Insane
+DeepSeek AI recently revealed DeepSeek-OCR, it is a…
+
+6 min read
+189
+5
+
+Accelerated AI (https://medium.com/@accelerated-ai?source=email-020bca72d959-1764094603824-digest.reader--2689d7ea71bb----2-99------------------7915ab2e_11b1_4323_a5ae_d02a8b1739b4-1)
+
+Multi-Agent LangGraph
+Quick Start Guide to Multi-Agents
+
+4 min read
+21
+
+AndroidLab by Andre (https://medium.com/@androidlab?source=email-020bca72d959-1764094603824-digest.reader--9d6441cb8bdc----3-99------------------7915ab2e_11b1_4323_a5ae_d02a8b1739b4-1)
+
+Hot Plugins for Android Developers 2025 - Productivity Boosting Tools for…
+5 Productivity Hackers in Android Studio That You…
+
+3 min read
+8
+1
+
+Florian June (https://medium.com/@florian_algo?source=email-020bca72d959-1764094603824-digest.reader-604432933561-655d09d21654----4-109------------------7915ab2e_11b1_4323_a5ae_d02a8b1739b4-1)
+inAI Exploration Journey (https://medium.com/ai-exploration-journey?source=email-020bca72d959-1764094603824-digest.reader-604432933561-655d09d21654----4-109------------------7915ab2e_11b1_4323_a5ae_d02a8b1739b4-1)
+
+RAG Too Slow? How to Cut Latency by 97%
+Today we're diving into a big leap in RAG efficiency.
+
+6 min read
+157
+5
+
+Aysha R (https://medium.com/@tricky16122000?source=email-020bca72d959-1764094603824-digest.reader-78073def27b8-b1437575e128----5-99------------------7915ab2e_11b1_4323_a5ae_d02a8b1739b4-1)
+inPython in Plain English (https://medium.com/python-in-plain-english?source=email-020bca72d959-1764094603824-digest.reader-78073def27b8-b1437575e128----5-99------------------7915ab2e_11b1_4323_a5ae_d02a8b1739b4-1)
+
+9 Python Libraries Used by Senior Developers in my Team
+The Unspoken Toolkit Behind Clean, Fast, and…
+
+5 min read
+133
+4
+
+Gao Dalie (高達烈) (https://medium.com/@GaoDalie_AI?source=email-020bca72d959-1764094603824-digest.reader-98111c9905da-4f60732730fc----6-109------------------7915ab2e_11b1_4323_a5ae_d02a8b1739b4-1)
+inTowards AI (https://medium.com/towards-artificial-intelligence?source=email-020bca72d959-1764094603824-digest.reader-98111c9905da-4f60732730fc----6-109------------------7915ab2e_11b1_4323_a5ae_d02a8b1739b4-1)
+
+No More Embeddings, Just Gemini File Search to Get Higher Accuracy
+Last week I heard bad news, and life hit me hard…
+
+9 min read
+149
+5
+
+The CS Engineer (https://medium.com/@Krishnajlathi?source=email-020bca72d959-1764094603824-digest.reader--c1b052598ba0----7-98------------------7915ab2e_11b1_4323_a5ae_d02a8b1739b4-1)
+
+Forget SQL Joins - These 4 Patterns Made My Queries 10x Faster
+One four-table join turned a 30-millisecond request…
+
+7 min read
+766
+14
+
+MatMaq (https://medium.com/@matiasmaquieira96?source=email-020bca72d959-1764094603824-digest.reader--0f33fc471113----8-109------------------7915ab2e_11b1_4323_a5ae_d02a8b1739b4-1)
+
+The 90% of ML Teams Are Still Building Models Like It's 2019 (And the…
+The distributed machine learning approach that's…
+
+13 min read
+541
+11
+
+Jonatha Cz (https://medium.com/@jonathacz99?source=email-020bca72d959-1764094603824-digest.reader--fd0d13b6c203----9-98------------------7915ab2e_11b1_4323_a5ae_d02a8b1739b4-1)
+
+What a Sex Worker Notices About Gen X and Gen Z Men
+How masculinity changed between Grunge and TikTok
+
+7 min read
+10.4K
+272
+
+Shaw Talebi (https://medium.com/@shawhin?source=email-020bca72d959-1764094603824-digest.reader-a47c2ab4d9da-9b2514625762----10-109------------------7915ab2e_11b1_4323_a5ae_d02a8b1739b4-1)
+inThe Data Entrepreneurs (https://medium.com/the-data-entrepreneurs?source=email-020bca72d959-1764094603824-digest.reader-a47c2ab4d9da-9b2514625762----10-109------------------7915ab2e_11b1_4323_a5ae_d02a8b1739b4-1)
+
+How to Monetize Your AI Skills (outside of your 9–5 job)
+5 technical side-hustles you can start this weekend
+
+6 min read
+683
+41
+
+Yashwanth Sai (https://medium.com/@theyashwanthsai?source=email-020bca72d959-1764094603824-digest.reader--e911ffa62682----11-109------------------7915ab2e_11b1_4323_a5ae_d02a8b1739b4-1)
+
+I have built around 300 agents, worked at 5 startups. Here's what I learnt…
+Lessons learnt after working with agents for over an…
+
+4 min read
+5.1K
+216
+
+DhanushKumar (https://medium.com/@danushidk507?source=email-020bca72d959-1764094603824-digest.reader-d1baaa8417a4-91e6a6048e80----12-98------------------7915ab2e_11b1_4323_a5ae_d02a8b1739b4-1)
+inStackademic (https://medium.com/stackademic?source=email-020bca72d959-1764094603824-digest.reader-d1baaa8417a4-91e6a6048e80----12-98------------------7915ab2e_11b1_4323_a5ae_d02a8b1739b4-1)
+
+UV in Python: The Fastest Package & Project Manager (Complete Guide + Example…
+Python packaging is finally getting the speed boost it…
+
+3 min read
+117
+5
+
+Prakash Sharma (https://medium.com/@trricho?source=email-020bca72d959-1764094603824-digest.reader-8c10b83d44ec-919e3d05f970----13-98------------------7915ab2e_11b1_4323_a5ae_d02a8b1739b4-1)
+inAndroid Alchemy (https://medium.com/android-alchemy?source=email-020bca72d959-1764094603824-digest.reader-8c10b83d44ec-919e3d05f970----13-98------------------7915ab2e_11b1_4323_a5ae_d02a8b1739b4-1)
+
+Stop watching random AI courses: Complete Guide to AI Engineering
+Ultimate guide for AI Engineering preparation , Six…
+
+5 min read
+1.3K
+39
+
+Nick Babich (https://medium.com/@101?source=email-020bca72d959-1764094603824-digest.reader-819cc2aaeee0-3f44fb570dcc----14-98------------------7915ab2e_11b1_4323_a5ae_d02a8b1739b4-1)
+inUX Planet (https://medium.com/ux-planet?source=email-020bca72d959-1764094603824-digest.reader-819cc2aaeee0-3f44fb570dcc----14-98------------------7915ab2e_11b1_4323_a5ae_d02a8b1739b4-1)
+
+Gemini 3 for Web Design
+Gemini 3 is Google's latest multimodal/agentic AI…
+
+3 min read
+353
+4
+
+See more of what you like and less of what you don't.
+Control your recommendations (https://medium.com/me/missioncontrol?source=email-020bca72d959-1764094603824-digest.reader-------------------------7915ab2e_11b1_4323_a5ae_d02a8b1739b4)
+
+Read from anywhere.
+
+Sent by Medium (https://medium.com/?source=email-020bca72d959-1764094603824-digest.reader-------------------------7915ab2e_11b1_4323_a5ae_d02a8b1739b4)
+·3500 South DuPont Highway, Suite IQ-101, Dover, DE 19901
+Unsubscribe (https://medium.com/me/email-settings/020bca72d959/57833a810fb4?type=social&source=email-020bca72d959-1764094603824-digest.reader-------------------------7915ab2e_11b1_4323_a5ae_d02a8b1739b4)
+ from this type of email·Switch to the Weekly Digest (https://medium.com/me/email-settings/020bca72d959/57833a810fb4?type=social&preference=2&source=email-020bca72d959-1764094603824-digest.reader-------------------------7915ab2e_11b1_4323_a5ae_d02a8b1739b4)
+·Careers (https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?source=email-020bca72d959-1764094603824-digest.reader-------------------------7915ab2e_11b1_4323_a5ae_d02a8b1739b4)
+·Help Center (https://help.medium.com/hc/en-us?source=email-020bca72d959-1764094603824-digest.reader-------------------------7915ab2e_11b1_4323_a5ae_d02a8b1739b4)
+·Privacy Policy (https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=email-020bca72d959-1764094603824-digest.reader-------------------------7915ab2e_11b1_4323_a5ae_d02a8b1739b4)
+·Terms of service (https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=email-020bca72d959-1764094603824-digest.reader-------------------------7915ab2e_11b1_4323_a5ae_d02a8b1739b4)

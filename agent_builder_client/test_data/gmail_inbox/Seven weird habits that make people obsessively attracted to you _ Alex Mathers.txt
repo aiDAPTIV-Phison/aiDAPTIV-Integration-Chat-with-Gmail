@@ -1,0 +1,164 @@
+主旨: Seven weird habits that make people obsessively attracted to you _ Alex Mathers
+发件人: Medium Daily Digest <noreply@medium.com>
+收件人: ptest9109@gmail.com
+日期: Sat, 15 Nov 2025 23:10:00 +0000 (UTC)
+
+Stories for Ptest
+@ptest9109 (https://medium.com/@ptest9109?source=email-020bca72d959-1763230505692-digest.reader-------------------------1f141fbb_b03e_4fd8_a793_bc820a8c7ff6)
+·Become a member (https://medium.com/plans?source=email-020bca72d959-1763230505692-digest.reader-------------------------1f141fbb_b03e_4fd8_a793_bc820a8c7ff6)
+
+Today's highlights
+
+Alex Mathers (https://medium.com/@iamalexmathers?source=email-020bca72d959-1763230505692-digest.reader--18eee26c1fe3----0-98------------------1f141fbb_b03e_4fd8_a793_bc820a8c7ff6-1)
+
+Seven weird habits that make people obsessively attracted to you
+I spent years trying to figure out why some people are…
+
+4 min read
+10.9K
+370
+
+Songtham Tung (https://medium.com/@songthamtung?source=email-020bca72d959-1763230505692-digest.reader--bc68bad54d1d----1-102------------------1f141fbb_b03e_4fd8_a793_bc820a8c7ff6-1)
+
+How I Built an Autonomous Virtual Car, Trained it, and Competed to Win First…
+Reflecting on my hands on experience with using a…
+
+11 min read
+173
+3
+
+Fareed Khan (https://medium.com/@fareedkhandev?source=email-020bca72d959-1763230505692-digest.reader-5517fd7b58a6-f55003af44c4----2-102------------------1f141fbb_b03e_4fd8_a793_bc820a8c7ff6-1)
+inLevel Up Coding (https://medium.com/gitconnected?source=email-020bca72d959-1763230505692-digest.reader-5517fd7b58a6-f55003af44c4----2-102------------------1f141fbb_b03e_4fd8_a793_bc820a8c7ff6-1)
+
+Building a Self-Improving Agentic RAG System
+Specialist agents, multi-dimensional eval, Pareto…
+
+65 min read
+248
+2
+
+B V Sarath Chandra (https://medium.com/@bvsarathc06?source=email-020bca72d959-1763230505692-digest.reader-f2ba5b8f6eb3-962021f26239----3-99------------------1f141fbb_b03e_4fd8_a793_bc820a8c7ff6-1)
+inData Engineer Things (https://medium.com/data-engineer-things?source=email-020bca72d959-1763230505692-digest.reader-f2ba5b8f6eb3-962021f26239----3-99------------------1f141fbb_b03e_4fd8_a793_bc820a8c7ff6-1)
+
+PySpark Interview Question By Netflix
+You should try this one.
+
+3 min read
+118
+4
+
+hebiao064 (https://medium.com/@stefanhebuaa?source=email-020bca72d959-1763230505692-digest.reader--ea8a1c2da551----4-109------------------1f141fbb_b03e_4fd8_a793_bc820a8c7ff6-1)
+
+How to Calculate LLM Model Parameter Size
+This guide explains how to calculate the parameter…
+
+5 min read
+6
+
+Yashwanth Sai (https://medium.com/@theyashwanthsai?source=email-020bca72d959-1763230505692-digest.reader--e911ffa62682----5-109------------------1f141fbb_b03e_4fd8_a793_bc820a8c7ff6-1)
+
+I have built around 300 agents, worked at 5 startups. Here's what I learnt…
+Lessons learnt after working with agents for over an…
+
+4 min read
+5.1K
+212
+
+Alabhya Dahal (https://medium.com/@alabhya?source=email-020bca72d959-1763230505692-digest.reader--8350abe35a32----6-102------------------1f141fbb_b03e_4fd8_a793_bc820a8c7ff6-1)
+
+Sentiment Analysis In 3 steps: Using quick_sentiments in Python
+This blog is based on the Python package…
+
+6 min read
+46
+
+Noel Johnson (https://medium.com/@johnsonanthonyservices?source=email-020bca72d959-1763230505692-digest.reader-9c20b47b7f5e-98ada61425f8----7-98------------------1f141fbb_b03e_4fd8_a793_bc820a8c7ff6-1)
+inInvestor's Handbook (https://medium.com/the-investors-handbook?source=email-020bca72d959-1763230505692-digest.reader-9c20b47b7f5e-98ada61425f8----7-98------------------1f141fbb_b03e_4fd8_a793_bc820a8c7ff6-1)
+
+The Ultra-Rich Know What's Coming
+When the world burns a few will survive
+
+9 min read
+6.5K
+282
+
+Harry (https://medium.com/@harrymarkjava?source=email-020bca72d959-1763230505692-digest.reader-9cf31c9fda1a-af810be7fdbf----8-98------------------1f141fbb_b03e_4fd8_a793_bc820a8c7ff6-1)
+inJavaGuides (https://medium.com/javaguides?source=email-020bca72d959-1763230505692-digest.reader-9cf31c9fda1a-af810be7fdbf----8-98------------------1f141fbb_b03e_4fd8_a793_bc820a8c7ff6-1)
+
+Interviewer asked me why is 1 == 1 True but 1000 == 1000 False in Java?
+The maddening truth about Java's Integer caching and…
+
+3 min read
+2.6K
+79
+
+Tomas Pueyo (https://medium.com/@tomaspueyo?source=email-020bca72d959-1763230505692-digest.reader--933e28e6427d----9-98------------------1f141fbb_b03e_4fd8_a793_bc820a8c7ff6-1)
+
+Why Warm Countries Are Poorer
+The most underrated factor
+
+15 min read
+8.9K
+329
+
+Harishkumar Pillai (https://medium.com/@harishpillai1994?source=email-020bca72d959-1763230505692-digest.reader-d1baaa8417a4-545b8da322ac----10-109------------------1f141fbb_b03e_4fd8_a793_bc820a8c7ff6-1)
+inStackademic (https://medium.com/stackademic?source=email-020bca72d959-1763230505692-digest.reader-d1baaa8417a4-545b8da322ac----10-109------------------1f141fbb_b03e_4fd8_a793_bc820a8c7ff6-1)
+
+How to run DeepSeek-OCR ?
+DeepSeek-OCR is a newly released open-source model…
+
+11 min read
+95
+1
+
+Günter Lagler (https://medium.com/@glagler?source=email-020bca72d959-1763230505692-digest.reader--d063c89c3e4e----11-102------------------1f141fbb_b03e_4fd8_a793_bc820a8c7ff6-1)
+
+Why does Regularization actually work?
+Deconstructing the mathematical concept of…
+
+9 min read
+95
+3
+
+Jason McBride (https://medium.com/@jasoncmcbride?source=email-020bca72d959-1763230505692-digest.reader--0750e852475a----12-102------------------1f141fbb_b03e_4fd8_a793_bc820a8c7ff6-1)
+
+How to Create a Life You Love
+No magical thinking required
+
+8 min read
+18.1K
+914
+
+Shaw Talebi (https://medium.com/@shawhin?source=email-020bca72d959-1763230505692-digest.reader-a47c2ab4d9da-9b2514625762----13-109------------------1f141fbb_b03e_4fd8_a793_bc820a8c7ff6-1)
+inThe Data Entrepreneurs (https://medium.com/the-data-entrepreneurs?source=email-020bca72d959-1763230505692-digest.reader-a47c2ab4d9da-9b2514625762----13-109------------------1f141fbb_b03e_4fd8_a793_bc820a8c7ff6-1)
+
+How to Monetize Your AI Skills (outside of your 9–5 job)
+5 technical side-hustles you can start this weekend
+
+6 min read
+365
+21
+
+Usman (https://medium.com/@aaiguy?source=email-020bca72d959-1763230505692-digest.reader-84ac01765c52-1338abfd4d57----14-98------------------1f141fbb_b03e_4fd8_a793_bc820a8c7ff6-1)
+inWrite A Catalyst (https://medium.com/write-a-catalyst?source=email-020bca72d959-1763230505692-digest.reader-84ac01765c52-1338abfd4d57----14-98------------------1f141fbb_b03e_4fd8_a793_bc820a8c7ff6-1)
+
+This is How I Will Spot You Used ChatGPT
+In less than 1 minute
+
+3 min read
+9.1K
+460
+
+See more of what you like and less of what you don't.
+Control your recommendations (https://medium.com/me/missioncontrol?source=email-020bca72d959-1763230505692-digest.reader-------------------------1f141fbb_b03e_4fd8_a793_bc820a8c7ff6)
+
+Read from anywhere.
+
+Sent by Medium (https://medium.com/?source=email-020bca72d959-1763230505692-digest.reader-------------------------1f141fbb_b03e_4fd8_a793_bc820a8c7ff6)
+·3500 South DuPont Highway, Suite IQ-101, Dover, DE 19901
+Unsubscribe (https://medium.com/me/email-settings/020bca72d959/50411713f489?type=social&source=email-020bca72d959-1763230505692-digest.reader-------------------------1f141fbb_b03e_4fd8_a793_bc820a8c7ff6)
+ from this type of email·Switch to the Weekly Digest (https://medium.com/me/email-settings/020bca72d959/50411713f489?type=social&preference=2&source=email-020bca72d959-1763230505692-digest.reader-------------------------1f141fbb_b03e_4fd8_a793_bc820a8c7ff6)
+·Careers (https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?source=email-020bca72d959-1763230505692-digest.reader-------------------------1f141fbb_b03e_4fd8_a793_bc820a8c7ff6)
+·Help Center (https://help.medium.com/hc/en-us?source=email-020bca72d959-1763230505692-digest.reader-------------------------1f141fbb_b03e_4fd8_a793_bc820a8c7ff6)
+·Privacy Policy (https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=email-020bca72d959-1763230505692-digest.reader-------------------------1f141fbb_b03e_4fd8_a793_bc820a8c7ff6)
+·Terms of service (https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=email-020bca72d959-1763230505692-digest.reader-------------------------1f141fbb_b03e_4fd8_a793_bc820a8c7ff6)

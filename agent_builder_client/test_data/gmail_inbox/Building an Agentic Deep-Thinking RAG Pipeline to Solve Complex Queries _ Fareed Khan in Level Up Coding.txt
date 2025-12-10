@@ -1,0 +1,169 @@
+主旨: Building an Agentic Deep-Thinking RAG Pipeline to Solve Complex Queries _ Fareed Khan in Level Up Coding
+发件人: Medium Daily Digest <noreply@medium.com>
+收件人: ptest9109@gmail.com
+日期: Sat, 01 Nov 2025 23:10:00 +0000 (UTC)
+
+Stories for Ptest
+@ptest9109 (https://medium.com/@ptest9109?source=email-020bca72d959-1762021008419-digest.reader-------------------------9f81e374_e10e_4955_be6d_d745c160e697)
+·Become a member (https://medium.com/plans?source=email-020bca72d959-1762021008419-digest.reader-------------------------9f81e374_e10e_4955_be6d_d745c160e697)
+
+Today's highlights
+
+Fareed Khan (https://medium.com/@fareedkhandev?source=email-020bca72d959-1762021008419-digest.reader-5517fd7b58a6-af69c5e044db----0-102------------------9f81e374_e10e_4955_be6d_d745c160e697-1)
+inLevel Up Coding (https://medium.com/gitconnected?source=email-020bca72d959-1762021008419-digest.reader-5517fd7b58a6-af69c5e044db----0-102------------------9f81e374_e10e_4955_be6d_d745c160e697-1)
+
+Building an Agentic Deep-Thinking RAG Pipeline to Solve Complex Queries
+Planning, Retrieval, Reflection, Critique, Synthesis…
+
+68 min read
+1.5K
+19
+
+Suleman Safdar (https://medium.com/@SulemanSafdar?source=email-020bca72d959-1762021008419-digest.reader-78073def27b8-bbc5b81a0bdd----1-109------------------9f81e374_e10e_4955_be6d_d745c160e697-1)
+inPython in Plain English (https://medium.com/python-in-plain-english?source=email-020bca72d959-1762021008419-digest.reader-78073def27b8-bbc5b81a0bdd----1-109------------------9f81e374_e10e_4955_be6d_d745c160e697-1)
+
+The Python Tool I Built in a Weekend That Now Pays My Rent
+How I turned a tiny automation script into a paid…
+
+6 min read
+4K
+90
+
+Dima Iakubovskyi (https://medium.com/@dimaiakubovskyi?source=email-020bca72d959-1762021008419-digest.reader-b680b860beb1-59c57a30cb5a----2-99------------------9f81e374_e10e_4955_be6d_d745c160e697-1)
+inData And Beyond (https://medium.com/data-and-beyond?source=email-020bca72d959-1762021008419-digest.reader-b680b860beb1-59c57a30cb5a----2-99------------------9f81e374_e10e_4955_be6d_d745c160e697-1)
+
+How to Forecast Time Series with XGBoost
+An end-to-end walkthrough with forecasting sample…
+
+5 min read
+120
+2
+
+ZIRU (https://medium.com/@jh.baek.sd?source=email-020bca72d959-1762021008419-digest.reader--390e6e6078d0----3-102------------------9f81e374_e10e_4955_be6d_d745c160e697-1)
+
+Why I Code 3x Faster Than My Team (And It's Not What You Think 🤣)
+The secret isn't better tools or more experience -…
+
+7 min read
+3.1K
+171
+
+Tosny (https://medium.com/@tosny?source=email-020bca72d959-1762021008419-digest.reader--ef54332a2003----4-109------------------9f81e374_e10e_4955_be6d_d745c160e697-1)
+
+7 Websites I Visit Every Day in 2025
+If there is one thing I am addicted to, besides…
+
+5 min read
+6.3K
+259
+
+James Asher (https://medium.com/@jamesasher4994?source=email-020bca72d959-1762021008419-digest.reader-a6e43238cdaf-430c279c3687----5-99------------------9f81e374_e10e_4955_be6d_d745c160e697-1)
+inData Science at Microsoft (https://medium.com/data-science-at-microsoft?source=email-020bca72d959-1762021008419-digest.reader-a6e43238cdaf-430c279c3687----5-99------------------9f81e374_e10e_4955_be6d_d745c160e697-1)
+
+Who watches the watchers?
+Building more rigid and reliable AI evaluators
+
+13 min read
+3
+
+Fareed Khan (https://medium.com/@fareedkhandev?source=email-020bca72d959-1762021008419-digest.reader-5517fd7b58a6-8f23349b96a4----6-102------------------9f81e374_e10e_4955_be6d_d745c160e697-1)
+inLevel Up Coding (https://medium.com/gitconnected?source=email-020bca72d959-1762021008419-digest.reader-5517fd7b58a6-8f23349b96a4----6-102------------------9f81e374_e10e_4955_be6d_d745c160e697-1)
+
+Building the Entire RAG Ecosystem and Optimizing Every Component
+Routing, Indexing, Retrieval, Transformation and more.
+
+41 min read
+2.2K
+40
+
+Harishkumar Pillai (https://medium.com/@harishpillai1994?source=email-020bca72d959-1762021008419-digest.reader-d1baaa8417a4-545b8da322ac----7-109------------------9f81e374_e10e_4955_be6d_d745c160e697-1)
+inStackademic (https://medium.com/stackademic?source=email-020bca72d959-1762021008419-digest.reader-d1baaa8417a4-545b8da322ac----7-109------------------9f81e374_e10e_4955_be6d_d745c160e697-1)
+
+How to run DeepSeek-OCR ?
+DeepSeek-OCR is a newly released open-source model…
+
+11 min read
+29
+1
+
+Mary Chang Story Writer (https://medium.com/@marychang-10894?source=email-020bca72d959-1762021008419-digest.reader-544c7006046e-72f81e9fadbf----8-102------------------9f81e374_e10e_4955_be6d_d745c160e697-1)
+inHuman Parts (https://medium.com/human-parts?source=email-020bca72d959-1762021008419-digest.reader-544c7006046e-72f81e9fadbf----8-102------------------9f81e374_e10e_4955_be6d_d745c160e697-1)
+
+I Thought I Was Ugly Until I Posed Nude
+Then the other woman seduced and betrayed me
+
+9 min read
+8.8K
+163
+
+Beau Maher (https://medium.com/@beau.maher?source=email-020bca72d959-1762021008419-digest.reader-f38ecb50999b-b95e547c8140----9-94------------------9f81e374_e10e_4955_be6d_d745c160e697-1)
+inFerocia Engineering (https://medium.com/ferocia-engineering?source=email-020bca72d959-1762021008419-digest.reader-f38ecb50999b-b95e547c8140----9-94------------------9f81e374_e10e_4955_be6d_d745c160e697-1)
+
+SpaceDog
+Designing a variable font using numbers from an old…
+
+18 min read
+1.4K
+36
+
+Alper Ersin Balcı (https://medium.com/@alperersinbalci?source=email-020bca72d959-1762021008419-digest.reader--88a69784f732----10-109------------------9f81e374_e10e_4955_be6d_d745c160e697-1)
+
+Python Optimization Libraries for Operations Research
+Operations research problems - scheduling, routing…
+
+6 min read
+10
+2
+
+James Wilkins (https://medium.com/@jdhwilkins?source=email-020bca72d959-1762021008419-digest.reader-8993e01dcfd3-1814b4243064----11-102------------------9f81e374_e10e_4955_be6d_d745c160e697-1)
+inData Science Collective (https://medium.com/data-science-collective?source=email-020bca72d959-1762021008419-digest.reader-8993e01dcfd3-1814b4243064----11-102------------------9f81e374_e10e_4955_be6d_d745c160e697-1)
+
+You're using ChatGPT wrong. Here's how to prompt like a pro
+Smarter prompts lead to smarter responses.
+
+12 min read
+8.6K
+661
+
+Dhruv Ahuja (https://medium.com/@dhruvahuja2330?source=email-020bca72d959-1762021008419-digest.reader-78073def27b8-5a890ff17803----12-109------------------9f81e374_e10e_4955_be6d_d745c160e697-1)
+inPython in Plain English (https://medium.com/python-in-plain-english?source=email-020bca72d959-1762021008419-digest.reader-78073def27b8-5a890ff17803----12-109------------------9f81e374_e10e_4955_be6d_d745c160e697-1)
+
+Why Python 3.14 Feels Like a Developer's Upgrade, Not Just a Version Bump ✨
+💡 Heads Up! Click here to unlock this article for…
+
+5 min read
+138
+1
+
+NocoBase (https://medium.com/@nocobase?source=email-020bca72d959-1762021008419-digest.reader--15ad0230d5f7----13-99------------------9f81e374_e10e_4955_be6d_d745c160e697-1)
+
+6 Best Open Source Alternatives to Jira
+This article introduces 6 open-source Jira…
+
+7 min read
+100
+1
+
+Harris Georgiou (MSc,PhD) (https://medium.com/@xgeorgio?source=email-020bca72d959-1762021008419-digest.reader-3fe99b2acc4-39ef0a2aca3f----14-99------------------9f81e374_e10e_4955_be6d_d745c160e697-1)
+inAI Advances (https://medium.com/ai-advances?source=email-020bca72d959-1762021008419-digest.reader-3fe99b2acc4-39ef0a2aca3f----14-99------------------9f81e374_e10e_4955_be6d_d745c160e697-1)
+
+The black-box AI cannot refactor itself. The 'COBOL' moment of LLMs is looming.
+Before Large Language Models (LLM), there were simpler…
+
+7 min read
+1.4K
+37
+
+See more of what you like and less of what you don't.
+Control your recommendations (https://medium.com/me/missioncontrol?source=email-020bca72d959-1762021008419-digest.reader-------------------------9f81e374_e10e_4955_be6d_d745c160e697)
+
+Read from anywhere.
+
+Sent by Medium (https://medium.com/?source=email-020bca72d959-1762021008419-digest.reader-------------------------9f81e374_e10e_4955_be6d_d745c160e697)
+·3500 South DuPont Highway, Suite IQ-101, Dover, DE 19901
+Unsubscribe (https://medium.com/me/email-settings/020bca72d959/11ed7feffe1f?type=social&source=email-020bca72d959-1762021008419-digest.reader-------------------------9f81e374_e10e_4955_be6d_d745c160e697)
+ from this type of email·Switch to the Weekly Digest (https://medium.com/me/email-settings/020bca72d959/11ed7feffe1f?type=social&preference=2&source=email-020bca72d959-1762021008419-digest.reader-------------------------9f81e374_e10e_4955_be6d_d745c160e697)
+·Careers (https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?source=email-020bca72d959-1762021008419-digest.reader-------------------------9f81e374_e10e_4955_be6d_d745c160e697)
+·Help Center (https://help.medium.com/hc/en-us?source=email-020bca72d959-1762021008419-digest.reader-------------------------9f81e374_e10e_4955_be6d_d745c160e697)
+·Privacy Policy (https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=email-020bca72d959-1762021008419-digest.reader-------------------------9f81e374_e10e_4955_be6d_d745c160e697)
+·Terms of service (https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=email-020bca72d959-1762021008419-digest.reader-------------------------9f81e374_e10e_4955_be6d_d745c160e697)

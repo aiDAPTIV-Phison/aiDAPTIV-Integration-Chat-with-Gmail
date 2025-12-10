@@ -1,0 +1,12 @@
+主旨: test mail
+发件人: ptest <ptest9109@gmail.com>
+收件人: ptest <ptest9109@gmail.com>
+日期: Wed, 15 Oct 2025 14:51:16 +0800
+
+Hi Ptest,
+
+This is a test case for chatting with gmail app!
+
+BRs,
+YU
+

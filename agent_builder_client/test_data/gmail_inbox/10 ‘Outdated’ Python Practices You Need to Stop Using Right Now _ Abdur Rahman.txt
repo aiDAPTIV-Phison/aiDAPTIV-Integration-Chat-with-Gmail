@@ -1,0 +1,166 @@
+主旨: 10 ‘Outdated’ Python Practices You Need to Stop Using Right Now _ Abdur Rahman
+发件人: Medium Daily Digest <noreply@medium.com>
+收件人: ptest9109@gmail.com
+日期: Sun, 02 Nov 2025 23:10:00 +0000 (UTC)
+
+Stories for Ptest
+@ptest9109 (https://medium.com/@ptest9109?source=email-020bca72d959-1762107308478-digest.reader-------------------------6dcb97a5_5c75_4a1d_9f39_9b50344dcd07)
+·Become a member (https://medium.com/plans?source=email-020bca72d959-1762107308478-digest.reader-------------------------6dcb97a5_5c75_4a1d_9f39_9b50344dcd07)
+
+Today's highlights
+
+Abdur Rahman (https://medium.com/@abdur.rahman12?source=email-020bca72d959-1762107308478-digest.reader--8dd688e01045----0-98------------------6dcb97a5_5c75_4a1d_9f39_9b50344dcd07-1)
+
+10 'Outdated' Python Practices You Need to Stop Using Right Now
+These coding practices are killing your career and…
+
+4 min read
+1.2K
+19
+
+Gao Dalie (高達烈) (https://medium.com/@GaoDalie_AI?source=email-020bca72d959-1762107308478-digest.reader-98111c9905da-4cb101e44c4b----1-109------------------6dcb97a5_5c75_4a1d_9f39_9b50344dcd07-1)
+inTowards AI (https://medium.com/towards-artificial-intelligence?source=email-020bca72d959-1762107308478-digest.reader-98111c9905da-4cb101e44c4b----1-109------------------6dcb97a5_5c75_4a1d_9f39_9b50344dcd07-1)
+
+RAG is Not Dead! No Chunking, No Vectors, Just Vectorless to Get the Higher…
+Over the past two years, I have written numerous…
+
+9 min read
+752
+6
+
+Gaurav Shrivastav (https://medium.com/@gaurav21s?source=email-020bca72d959-1762107308478-digest.reader-5517fd7b58a6-45866cd5ddc6----2-98------------------6dcb97a5_5c75_4a1d_9f39_9b50344dcd07-1)
+inLevel Up Coding (https://medium.com/gitconnected?source=email-020bca72d959-1762107308478-digest.reader-5517fd7b58a6-45866cd5ddc6----2-98------------------6dcb97a5_5c75_4a1d_9f39_9b50344dcd07-1)
+
+RAG Without Embeddings? Here's how OpenAI is doing this…with Code
+How OpenAI Could Change the Way We Retrieve…
+
+9 min read
+971
+23
+
+Simranjeet Singh (https://medium.com/@simranjeetsingh1497?source=email-020bca72d959-1762107308478-digest.reader-78d064101951-a6ccfbf8c2e2----3-109------------------6dcb97a5_5c75_4a1d_9f39_9b50344dcd07-1)
+inArtificial Intelligence in Plain English (https://medium.com/ai-in-plain-english?source=email-020bca72d959-1762107308478-digest.reader-78d064101951-a6ccfbf8c2e2----3-109------------------6dcb97a5_5c75_4a1d_9f39_9b50344dcd07-1)
+
+Top 15 GenAI/ML Interview Questions asked in FAANG 2025
+Top 15 FAANG interview questions for GenAI, LLM, RAG…
+
+24 min read
+159
+3
+
+Arslan Qutab (https://medium.com/@arslanshoukatali?source=email-020bca72d959-1762107308478-digest.reader-78073def27b8-3a2dc0cf2410----4-98------------------6dcb97a5_5c75_4a1d_9f39_9b50344dcd07-1)
+inPython in Plain English (https://medium.com/python-in-plain-english?source=email-020bca72d959-1762107308478-digest.reader-78073def27b8-3a2dc0cf2410----4-98------------------6dcb97a5_5c75_4a1d_9f39_9b50344dcd07-1)
+
+I Thought My Python Code Was Clean Then a Senior Developer Reviewed It
+The One Review That Changed How I Write Code Forever…
+
+4 min read
+305
+11
+
+Neurobyte (https://medium.com/@kaushalsinh73?source=email-020bca72d959-1762107308478-digest.reader--eaf127f87565----5-109------------------6dcb97a5_5c75_4a1d_9f39_9b50344dcd07-1)
+
+FastAPI for LLM APIs: The Quiet Superpower
+A pragmatic blueprint for shipping faster, cheaper…
+
+5 min read
+57
+
+Alex Dunlop (https://medium.com/@alexjamesdunlop?source=email-020bca72d959-1762107308478-digest.reader-413d50faa755-9abfec9cb178----6-98------------------6dcb97a5_5c75_4a1d_9f39_9b50344dcd07-1)
+inVibe Coding (https://medium.com/vibe-coding?source=email-020bca72d959-1762107308478-digest.reader-413d50faa755-9abfec9cb178----6-98------------------6dcb97a5_5c75_4a1d_9f39_9b50344dcd07-1)
+
+99% of Developers are Using Claude Wrong (How to Be The 1%)
+The Claude techniques most developers never discover
+
+6 min read
+3.6K
+87
+
+Safoura jolfaei (https://medium.com/@sa.aghadavood?source=email-020bca72d959-1762107308478-digest.reader--56558380be46----7-102------------------6dcb97a5_5c75_4a1d_9f39_9b50344dcd07-1)
+
+My Reasons for Finetuning My Models (And Why I Got Criticized for Not Doing It)
+A PhD Journey in Building Conversational QA for…
+
+7 min read
+91
+1
+
+Hash Block (https://medium.com/@connect.hashblock?source=email-020bca72d959-1762107308478-digest.reader--ff090cd8288b----8-109------------------6dcb97a5_5c75_4a1d_9f39_9b50344dcd07-1)
+
+FastAPI + Celery, Without the Headaches
+A practical path to running background jobs in Python…
+
+5 min read
+38
+2
+
+Fareed Khan (https://medium.com/@fareedkhandev?source=email-020bca72d959-1762107308478-digest.reader-5517fd7b58a6-687e1fd79f61----9-102------------------6dcb97a5_5c75_4a1d_9f39_9b50344dcd07-1)
+inLevel Up Coding (https://medium.com/gitconnected?source=email-020bca72d959-1762107308478-digest.reader-5517fd7b58a6-687e1fd79f61----9-102------------------6dcb97a5_5c75_4a1d_9f39_9b50344dcd07-1)
+
+Building an Advanced Agentic RAG Pipeline that Mimics a Human Thought Process
+Ambiguity Checks, Multi-Tool Planning…
+
+60 min read
+1.4K
+22
+
+Rohan Mistry (https://medium.com/@rohanmistry231?source=email-020bca72d959-1762107308478-digest.reader-78073def27b8-9c6b38d1b924----10-109------------------6dcb97a5_5c75_4a1d_9f39_9b50344dcd07-1)
+inPython in Plain English (https://medium.com/python-in-plain-english?source=email-020bca72d959-1762107308478-digest.reader-78073def27b8-9c6b38d1b924----10-109------------------6dcb97a5_5c75_4a1d_9f39_9b50344dcd07-1)
+
+🧩 Dependency Injection in Python: A Complete Guide to Cleaner, Scalable Code
+When you hear "Dependency Injection" (DI), your mind…
+
+4 min read
+121
+1
+
+Mohamed Bakry (https://medium.com/@mbakry?source=email-020bca72d959-1762107308478-digest.reader-a6d4f5aec3a8-103c6b88c8ba----11-98------------------6dcb97a5_5c75_4a1d_9f39_9b50344dcd07-1)
+inHow To Profit AI (https://medium.com/how-to-profit-ai?source=email-020bca72d959-1762107308478-digest.reader-a6d4f5aec3a8-103c6b88c8ba----11-98------------------6dcb97a5_5c75_4a1d_9f39_9b50344dcd07-1)
+
+Your ChatGPT History Just Went Public on Google. Here's What I Did in 10 Mins…
+Safety/Privacy Check Prompt Template Is Included
+
+7 min read
+12.2K
+486
+
+Pape (https://medium.com/@pape14?source=email-020bca72d959-1762107308478-digest.reader--3dfca59dba61----12-109------------------6dcb97a5_5c75_4a1d_9f39_9b50344dcd07-1)
+
+Transformers for Financial Time Series Forecasting: A Practical Python Guide
+Financial markets are a fascinating beast: a complex…
+
+4 min read
+9
+
+F. Perry Wilson, MD (https://medium.com/@fperrywilson?source=email-020bca72d959-1762107308478-digest.reader--fcf8241107da----13-102------------------6dcb97a5_5c75_4a1d_9f39_9b50344dcd07-1)
+
+How Old Is Your Body? Stand On One Leg and Find Out
+According to new research, the time you can stand on…
+
+5 min read
+25K
+953
+
+Adarsh Gupta (https://medium.com/@adarsh-gupta?source=email-020bca72d959-1762107308478-digest.reader-84ac01765c52-2a1c52eed4ff----14-109------------------6dcb97a5_5c75_4a1d_9f39_9b50344dcd07-1)
+inWrite A Catalyst (https://medium.com/write-a-catalyst?source=email-020bca72d959-1762107308478-digest.reader-84ac01765c52-2a1c52eed4ff----14-109------------------6dcb97a5_5c75_4a1d_9f39_9b50344dcd07-1)
+
+Remember Vibe Coders? Yeah… They're Gone
+Turns out it was the first AI bubble to burst
+
+4 min read
+4.9K
+169
+
+See more of what you like and less of what you don't.
+Control your recommendations (https://medium.com/me/missioncontrol?source=email-020bca72d959-1762107308478-digest.reader-------------------------6dcb97a5_5c75_4a1d_9f39_9b50344dcd07)
+
+Read from anywhere.
+
+Sent by Medium (https://medium.com/?source=email-020bca72d959-1762107308478-digest.reader-------------------------6dcb97a5_5c75_4a1d_9f39_9b50344dcd07)
+·3500 South DuPont Highway, Suite IQ-101, Dover, DE 19901
+Unsubscribe (https://medium.com/me/email-settings/020bca72d959/a65328169de8?type=social&source=email-020bca72d959-1762107308478-digest.reader-------------------------6dcb97a5_5c75_4a1d_9f39_9b50344dcd07)
+ from this type of email·Switch to the Weekly Digest (https://medium.com/me/email-settings/020bca72d959/a65328169de8?type=social&preference=2&source=email-020bca72d959-1762107308478-digest.reader-------------------------6dcb97a5_5c75_4a1d_9f39_9b50344dcd07)
+·Careers (https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?source=email-020bca72d959-1762107308478-digest.reader-------------------------6dcb97a5_5c75_4a1d_9f39_9b50344dcd07)
+·Help Center (https://help.medium.com/hc/en-us?source=email-020bca72d959-1762107308478-digest.reader-------------------------6dcb97a5_5c75_4a1d_9f39_9b50344dcd07)
+·Privacy Policy (https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=email-020bca72d959-1762107308478-digest.reader-------------------------6dcb97a5_5c75_4a1d_9f39_9b50344dcd07)
+·Terms of service (https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=email-020bca72d959-1762107308478-digest.reader-------------------------6dcb97a5_5c75_4a1d_9f39_9b50344dcd07)

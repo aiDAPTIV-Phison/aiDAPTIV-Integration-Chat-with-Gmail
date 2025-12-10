@@ -1,0 +1,164 @@
+主旨: 10 Claude Code Commands That Cut My Dev Time 60%_ A Practical Guide _ Reza Rezvani
+发件人: Medium Daily Digest <noreply@medium.com>
+收件人: ptest9109@gmail.com
+日期: Fri, 05 Dec 2025 23:10:00 +0000 (UTC)
+
+Stories for Ptest
+@ptest9109 (https://medium.com/@ptest9109?source=email-020bca72d959-1764958312836-digest.reader-------------------------90ed141b_83ae_44c8_8f91_6f317091d477)
+·Become a member (https://medium.com/plans?source=email-020bca72d959-1764958312836-digest.reader-------------------------90ed141b_83ae_44c8_8f91_6f317091d477)
+
+Today's highlights
+
+Reza Rezvani (https://medium.com/@alirezarezvani?source=email-020bca72d959-1764958312836-digest.reader--60036faed17f----0-109------------------90ed141b_83ae_44c8_8f91_6f317091d477-1)
+
+10 Claude Code Commands That Cut My Dev Time 60%: A Practical Guide
+Custom slash commands, subagents, and automation…
+
+15 min read
+666
+18
+
+Andres Vourakis (https://medium.com/@avourakis?source=email-020bca72d959-1764958312836-digest.reader-8993e01dcfd3-7b6983b2866d----1-109------------------90ed141b_83ae_44c8_8f91_6f317091d477-1)
+inData Science Collective (https://medium.com/data-science-collective?source=email-020bca72d959-1764958312836-digest.reader-8993e01dcfd3-7b6983b2866d----1-109------------------90ed141b_83ae_44c8_8f91_6f317091d477-1)
+
+What's Trending in Data Science and ML? Preparing for 2026
+Key Learnings from the "Nordic Data Science and…
+
+7 min read
+409
+12
+
+dravian (https://medium.com/@dravian?source=email-020bca72d959-1764958312836-digest.reader-7a97723a4b9c-2421a68e8de8----2-98------------------90ed141b_83ae_44c8_8f91_6f317091d477-1)
+inSilicon Valley Gradient (https://medium.com/quantum-information-review?source=email-020bca72d959-1764958312836-digest.reader-7a97723a4b9c-2421a68e8de8----2-98------------------90ed141b_83ae_44c8_8f91_6f317091d477-1)
+
+"gpt-6 is unstable and dangerous"
+says sam altman as the model created it's own language…
+
+8 min read
+3.1K
+168
+
+Hassan Nauman (https://medium.com/@HassanNauman?source=email-020bca72d959-1764958312836-digest.reader-5517fd7b58a6-7145d2de779f----3-109------------------90ed141b_83ae_44c8_8f91_6f317091d477-1)
+inLevel Up Coding (https://medium.com/gitconnected?source=email-020bca72d959-1764958312836-digest.reader-5517fd7b58a6-7145d2de779f----3-109------------------90ed141b_83ae_44c8_8f91_6f317091d477-1)
+
+7 Python Libraries Perfect for Building Internal Company Tools
+Create dashboards, trackers, and workflows instantly.
+
+5 min read
+225
+
+Abhinav (https://medium.com/@codingplainenglish?source=email-020bca72d959-1764958312836-digest.reader--88c5d16cecab----4-109------------------90ed141b_83ae_44c8_8f91_6f317091d477-1)
+
+Why Every Startup Will Have an MCP Server by 2026
+I was at a startup meetup last month when someone…
+
+6 min read
+45
+2
+
+Sonu Yadav (https://medium.com/@sonuyadav1?source=email-020bca72d959-1764958312836-digest.reader-16e3527896e0-b6bc64b774d9----5-109------------------90ed141b_83ae_44c8_8f91_6f317091d477-1)
+inCoding Nexus (https://medium.com/coding-nexus?source=email-020bca72d959-1764958312836-digest.reader-16e3527896e0-b6bc64b774d9----5-109------------------90ed141b_83ae_44c8_8f91_6f317091d477-1)
+
+Claude Code MCP: The Upgrade That Finally Stops Breaking Your Flow
+If you've used Claude Code for more than… 10 minutes…
+
+4 min read
+14
+2
+
+Poojasri (https://medium.com/@workwithpoojasri?source=email-020bca72d959-1764958312836-digest.reader--af433be5f3ba----6-98------------------90ed141b_83ae_44c8_8f91_6f317091d477-1)
+
+From U-Net to SegFormer: Segmenting Spinal Structures with Precision
+-Poojasri JK
+
+6 min read
+34
+
+Alpha Iterations (https://medium.com/@alphaiterations?source=email-020bca72d959-1764958312836-digest.reader-78d064101951-b568aa26d710----7-109------------------90ed141b_83ae_44c8_8f91_6f317091d477-1)
+inArtificial Intelligence in Plain English (https://medium.com/ai-in-plain-english?source=email-020bca72d959-1764958312836-digest.reader-78d064101951-b568aa26d710----7-109------------------90ed141b_83ae_44c8_8f91_6f317091d477-1)
+
+Build Agentic RAG using LangGraph
+A practical guide to build Agentic RAG with complete…
+
+30 min read
+456
+3
+
+The PyCoach (https://medium.com/@frank-andrade?source=email-020bca72d959-1764958312836-digest.reader-76436a11a2b0-933535a44f8b----8-109------------------90ed141b_83ae_44c8_8f91_6f317091d477-1)
+inArtificial Corner (https://medium.com/artificial-corner?source=email-020bca72d959-1764958312836-digest.reader-76436a11a2b0-933535a44f8b----8-109------------------90ed141b_83ae_44c8_8f91_6f317091d477-1)
+
+The Best AI Tools for 2026
+If you're going to learn a new AI tool, make sure it's…
+
+7 min read
+657
+16
+
+stunspot (https://medium.com/@stunspot?source=email-020bca72d959-1764958312836-digest.reader--802770aa12f7----9-98------------------90ed141b_83ae_44c8_8f91_6f317091d477-1)
+
+💠🌐 Everyone Is Wrong About NotebookLM
+Why Google's quiet little lab tool is the most…
+
+7 min read
+1K
+38
+
+Md Johirul Islam (https://medium.com/@johirbuet?source=email-020bca72d959-1764958312836-digest.reader--f077b870e27d----10-98------------------90ed141b_83ae_44c8_8f91_6f317091d477-1)
+
+Hands-On with MCP: Build Your First AI Server in 5 Minutes
+A practical guide to bridging the gap between Claude…
+
+4 min read
+13
+
+Jordan Gibbs (https://medium.com/@jordan_gibbs?source=email-020bca72d959-1764958312836-digest.reader--65d0c05d1e28----11-98------------------90ed141b_83ae_44c8_8f91_6f317091d477-1)
+
+Three Absurdly Powerful One-Line ChatGPT Prompts
+These 10-second prompts that make all the difference
+
+4 min read
+3.9K
+97
+
+Fareed Khan (https://medium.com/@fareedkhandev?source=email-020bca72d959-1764958312836-digest.reader-5517fd7b58a6-f55003af44c4----12-102------------------90ed141b_83ae_44c8_8f91_6f317091d477-1)
+inLevel Up Coding (https://medium.com/gitconnected?source=email-020bca72d959-1764958312836-digest.reader-5517fd7b58a6-f55003af44c4----12-102------------------90ed141b_83ae_44c8_8f91_6f317091d477-1)
+
+Building a Self-Improving Agentic RAG System
+Specialist agents, multi-dimensional eval, Pareto…
+
+65 min read
+1.3K
+12
+
+Engr. Md. Hasan Monsur (https://medium.com/@hasanmcse?source=email-020bca72d959-1764958312836-digest.reader--b355c7fd488c----13-109------------------90ed141b_83ae_44c8_8f91_6f317091d477-1)
+
+n8n:Why n8n is a "Dangerous" Future Force
+A clear guide to how n8n works, its expanding power in…
+
+3 min read
+24
+
+Sonu Yadav (https://medium.com/@sonuyadav1?source=email-020bca72d959-1764958312836-digest.reader-16e3527896e0-30c0d44ed2f5----14-98------------------90ed141b_83ae_44c8_8f91_6f317091d477-1)
+inCoding Nexus (https://medium.com/coding-nexus?source=email-020bca72d959-1764958312836-digest.reader-16e3527896e0-30c0d44ed2f5----14-98------------------90ed141b_83ae_44c8_8f91_6f317091d477-1)
+
+Is Ollama Really Free? A Complete Breakdown of Costs, Hardware, and Use
+I'll say it straight - Ollama is free.
+ Not "free…
+
+6 min read
+11
+1
+
+See more of what you like and less of what you don't.
+Control your recommendations (https://medium.com/me/missioncontrol?source=email-020bca72d959-1764958312836-digest.reader-------------------------90ed141b_83ae_44c8_8f91_6f317091d477)
+
+Read from anywhere.
+
+Sent by Medium (https://medium.com/?source=email-020bca72d959-1764958312836-digest.reader-------------------------90ed141b_83ae_44c8_8f91_6f317091d477)
+·3500 South DuPont Highway, Suite IQ-101, Dover, DE 19901
+Unsubscribe (https://medium.com/me/email-settings/020bca72d959/80e67ef5a549?type=social&source=email-020bca72d959-1764958312836-digest.reader-------------------------90ed141b_83ae_44c8_8f91_6f317091d477)
+ from this type of email·Switch to the Weekly Digest (https://medium.com/me/email-settings/020bca72d959/80e67ef5a549?type=social&preference=2&source=email-020bca72d959-1764958312836-digest.reader-------------------------90ed141b_83ae_44c8_8f91_6f317091d477)
+·Careers (https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?source=email-020bca72d959-1764958312836-digest.reader-------------------------90ed141b_83ae_44c8_8f91_6f317091d477)
+·Help Center (https://help.medium.com/hc/en-us?source=email-020bca72d959-1764958312836-digest.reader-------------------------90ed141b_83ae_44c8_8f91_6f317091d477)
+·Privacy Policy (https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=email-020bca72d959-1764958312836-digest.reader-------------------------90ed141b_83ae_44c8_8f91_6f317091d477)
+·Terms of service (https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=email-020bca72d959-1764958312836-digest.reader-------------------------90ed141b_83ae_44c8_8f91_6f317091d477)

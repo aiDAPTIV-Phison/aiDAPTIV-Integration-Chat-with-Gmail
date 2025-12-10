@@ -1,0 +1,62 @@
+主旨: Upcoming Terms of Use changes on Sketchfab
+发件人: Sketchfab Support <support@sketchfab.com>
+收件人: <ptest9109@gmail.com>
+日期: Mon, 10 Nov 2025 17:40:57 +0000
+
+Hello,
+
+
+We’re writing to let you know about some upcoming updates to [Sketchfab’s Terms of Use](https://r.email1.sketchfab.com/mk/cl/f/sh/28xHLtxYQ4yZ42UyOfEfZ3uUsmN8VKH0Fu/iBDMpAOVfngLterms) that will take effect on December 11, 2025. 
+
+
+Here’s what’s changing:
+
+
+1. 
+
+New users who sign up to Sketchfab once the new terms go into effect will use Epic Games accounts.
+
+
+- 
+
+If you already have a Sketchfab account, nothing changes for you—you can continue to log in to Sketchfab as you always have.
+
+
+2. 
+
+Any 3D asset created with Generative AI Programs must be labeled as “CreatedWithAI”. 
+
+
+- 
+
+Previously, we had only required the “CreatedWithAI” label on models that were made available for sale or download—now the requirement applies to every AI-generated model you upload, whether you make it downloadable or not.
+
+
+- 
+
+In some cases, if we detect that models have been created with Generative AI Programs, we may assign the “CreatedWithAI” label to those models.
+
+
+- 
+
+This helps maintain transparency across the community and makes it easier to discover the type of content you’re most interested in. New search filters—which rely upon accurate labeling of models as “CreatedWithAI”—will enable you to find or exclude AI-generated content.
+
+
+You can review the updated Terms of Use here: [https://r.email1.sketchfab.com/mk/cl/f/sh/8qyleR3u7gcTgWYUVkj8ChNVC4ofjgv8sZG/-OyLTDXN60oAblogs/community/sketchfab-terms-of-use-update/](https://r.email1.sketchfab.com/mk/cl/f/sh/28xHLtxYQ4zbPDpFvjduc0BfkawrfDxB7y/34gqs2RYD92b).
+
+
+Thank you for being part of the Sketchfab community.
+
+
+The Sketchfab Team
+
+
+Sketchfab, Inc., 440 Ninth Ave., Suite 1700, New York, New York 10001
+
+This email was sent to ptest9109@gmail.com because you are a registered Sketchfab user.
+
+[Update your preference]() | | Terms of Use | Privacy Policy| Terms of Use | Privacy PolicyTerm | Terms of Use | Privacy PolicyTT [Manage Preferences](https://r.email1.sketchfab.com/mk/cl/f/sh/28xHLtxYQ53EbMTFIU4GHI9mmwxuirpnBC/o40xgzN8oKzs "Manage notification preferences")    [Terms of Use](https://r.email1.sketchfab.com/mk/cl/f/sh/28xHLtxYQ4z5EdA7ACRI5X35Jgf05H75gw/9wwVJwx_R5dB "Sketchfab Terms of Use")    [Privacy Policy](https://r.email1.sketchfab.com/mk/cl/f/sh/8qyleR3u7gaKqnAcJTd18d42kyOuVFy4Qx0/c476IXyom8E0 "Sketchfab Privacy Policy")    [Website](https://r.email1.sketchfab.com/mk/cl/f/sh/8qyleR3u7gecWFwMi1pFGlgxdBEQy7sDKBW/kx1ysBv_wsDI "Sketchfab")
+
+©2025, Sketchfab, Inc. All rights reserved.
+
+

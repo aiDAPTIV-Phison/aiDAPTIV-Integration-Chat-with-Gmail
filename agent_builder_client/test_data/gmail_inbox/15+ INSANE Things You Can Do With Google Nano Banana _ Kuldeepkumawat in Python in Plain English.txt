@@ -1,0 +1,165 @@
+主旨: 15+ INSANE Things You Can Do With Google Nano Banana _ Kuldeepkumawat in Python in Plain English
+发件人: Medium Daily Digest <noreply@medium.com>
+收件人: ptest9109@gmail.com
+日期: Mon, 10 Nov 2025 23:10:00 +0000 (UTC)
+
+Stories for Ptest
+@ptest9109 (https://medium.com/@ptest9109?source=email-020bca72d959-1762798370194-digest.reader-------------------------82bb75f7_88f6_4250_bc3a_0c589020ea7c)
+·Become a member (https://medium.com/plans?source=email-020bca72d959-1762798370194-digest.reader-------------------------82bb75f7_88f6_4250_bc3a_0c589020ea7c)
+
+Today's highlights
+
+Kuldeepkumawat (https://medium.com/@kuldeepkumawat195?source=email-020bca72d959-1762798370194-digest.reader-78073def27b8-1968da480f3f----0-99------------------82bb75f7_88f6_4250_bc3a_0c589020ea7c-1)
+inPython in Plain English (https://medium.com/python-in-plain-english?source=email-020bca72d959-1762798370194-digest.reader-78073def27b8-1968da480f3f----0-99------------------82bb75f7_88f6_4250_bc3a_0c589020ea7c-1)
+
+15+ INSANE Things You Can Do With Google Nano Banana
+What if you could change any photo in seconds - no…
+
+5 min read
+242
+2
+
+Aashish Kumar (https://medium.com/@aashishkumar_77032?source=email-020bca72d959-1762798370194-digest.reader-ffcf9c43f8e9-816879634db5----1-98------------------82bb75f7_88f6_4250_bc3a_0c589020ea7c-1)
+inThe Pythonworld (https://medium.com/the-pythonworld?source=email-020bca72d959-1762798370194-digest.reader-ffcf9c43f8e9-816879634db5----1-98------------------82bb75f7_88f6_4250_bc3a_0c589020ea7c-1)
+
+15 Modern Python Libraries You Must Know in 2025! 🚀
+I have discovered these few game changer modern set of…
+
+10 min read
+351
+3
+
+Marie Humbert-Droz, PhD (https://medium.com/@mhdroz?source=email-020bca72d959-1762798370194-digest.reader-98111c9905da-90783c59afdc----2-99------------------82bb75f7_88f6_4250_bc3a_0c589020ea7c-1)
+inTowards AI (https://medium.com/towards-artificial-intelligence?source=email-020bca72d959-1762798370194-digest.reader-98111c9905da-90783c59afdc----2-99------------------82bb75f7_88f6_4250_bc3a_0c589020ea7c-1)
+
+I Built a Local Clinical AI Agent from Scratch - Here's How
+How I wired GPT-OSS with custom tools to make clinical…
+
+8 min read
+248
+8
+
+Sumit Pandey (https://medium.com/@sumit.ai?source=email-020bca72d959-1762798370194-digest.reader-73682e81cdce-7544af5d3a76----3-109------------------82bb75f7_88f6_4250_bc3a_0c589020ea7c-1)
+inTowards Deep Learning (https://medium.com/towards-deep-learning?source=email-020bca72d959-1762798370194-digest.reader-73682e81cdce-7544af5d3a76----3-109------------------82bb75f7_88f6_4250_bc3a_0c589020ea7c-1)
+
+The battle of vision models: DINOv2, DINOv3, or V-JEPA 2?
+For last few months I was constantly seeing people…
+
+6 min read
+47
+
+Kostiantyn Teltov (https://medium.com/@dneprokos?source=email-020bca72d959-1762798370194-digest.reader--5827e19574ae----4-98------------------82bb75f7_88f6_4250_bc3a_0c589020ea7c-1)
+
+How Playwright Test Agents Are Changing the Game in E2E Automation
+Hi colleagues,
+
+16 min read
+140
+5
+
+Random Access (https://medium.com/@raccess21?source=email-020bca72d959-1762798370194-digest.reader-16e3527896e0-41ffb7090a38----5-99------------------82bb75f7_88f6_4250_bc3a_0c589020ea7c-1)
+inCoding Nexus (https://medium.com/coding-nexus?source=email-020bca72d959-1762798370194-digest.reader-16e3527896e0-41ffb7090a38----5-99------------------82bb75f7_88f6_4250_bc3a_0c589020ea7c-1)
+
+Algorithmic Trading with Hedge Fund Level Analytics : Polars with DuckDB
+Build a Lightning-Fast Stock Research Database with…
+
+7 min read
+237
+1
+
+Henry Navarro (https://medium.com/@hdnh2006?source=email-020bca72d959-1762798370194-digest.reader--dc80fdc5e0fa----6-109------------------82bb75f7_88f6_4250_bc3a_0c589020ea7c-1)
+
+Ultralytics YOLO 11 and Ollama: a very accurate OCR
+Complete guide to combine object detection with vision…
+
+6 min read
+181
+
+Saurav Mandal (https://medium.com/@mandalsaurav3?source=email-020bca72d959-1762798370194-digest.reader--81be3a096207----7-102------------------82bb75f7_88f6_4250_bc3a_0c589020ea7c-1)
+
+Do Hard Things if You Want an Easy Life
+The one skill that changes everything
+
+8 min read
+22K
+1K
+
+Alex Mathers (https://medium.com/@iamalexmathers?source=email-020bca72d959-1762798370194-digest.reader--18eee26c1fe3----8-98------------------82bb75f7_88f6_4250_bc3a_0c589020ea7c-1)
+
+Seven weird habits that make people obsessively attracted to you
+I spent years trying to figure out why some people are…
+
+4 min read
+10.3K
+348
+
+Abdur Rahman (https://medium.com/@abdur.rahman12?source=email-020bca72d959-1762798370194-digest.reader-78073def27b8-dad1e42eb05d----9-99------------------82bb75f7_88f6_4250_bc3a_0c589020ea7c-1)
+inPython in Plain English (https://medium.com/python-in-plain-english?source=email-020bca72d959-1762798370194-digest.reader-78073def27b8-dad1e42eb05d----9-99------------------82bb75f7_88f6_4250_bc3a_0c589020ea7c-1)
+
+12 Python Scripts to Automate your Daily Tasks
+Small programs, huge stress reduction.
+
+6 min read
+119
+1
+
+Marina Wyss - Gratitude Driven (https://medium.com/@gratitudedriven?source=email-020bca72d959-1762798370194-digest.reader-8993e01dcfd3-56d9658d310c----10-109------------------82bb75f7_88f6_4250_bc3a_0c589020ea7c-1)
+inData Science Collective (https://medium.com/data-science-collective?source=email-020bca72d959-1762798370194-digest.reader-8993e01dcfd3-56d9658d310c----10-109------------------82bb75f7_88f6_4250_bc3a_0c589020ea7c-1)
+
+Why Your Machine Learning Projects Won't Land You a Job
+The 5 levels of ML projects
+
+8 min read
+1.2K
+37
+
+Aysha R (https://medium.com/@tricky16122000?source=email-020bca72d959-1762798370194-digest.reader-a82a9c3afd24-ded752f10eb0----11-98------------------82bb75f7_88f6_4250_bc3a_0c589020ea7c-1)
+inPythonic AF (https://medium.com/pythonic-af?source=email-020bca72d959-1762798370194-digest.reader-a82a9c3afd24-ded752f10eb0----11-98------------------82bb75f7_88f6_4250_bc3a_0c589020ea7c-1)
+
+How To Make Money From Python
+Stop Googling "Passive Income" - Here's The Real…
+
+4 min read
+360
+11
+
+Valeriy Manokhin, PhD, MBA, CQF (https://medium.com/@valeman?source=email-020bca72d959-1762798370194-digest.reader--d2518fb699ee----12-99------------------82bb75f7_88f6_4250_bc3a_0c589020ea7c-1)
+
+Everyone Has Heard of the Central Limit Theorem - But Can You Prove It?
+The Central Limit Theorem (CLT) is one of those…
+
+3 min read
+24
+1
+
+Pape (https://medium.com/@pape14?source=email-020bca72d959-1762798370194-digest.reader--3dfca59dba61----13-109------------------82bb75f7_88f6_4250_bc3a_0c589020ea7c-1)
+
+Transformers for Financial Time Series Forecasting: A Practical Python Guide
+Financial markets are a fascinating beast: a complex…
+
+4 min read
+10
+1
+
+9-5 Data Scientist (https://medium.com/@9-5-datascientist?source=email-020bca72d959-1762798370194-digest.reader--1d519616e9bb----14-99------------------82bb75f7_88f6_4250_bc3a_0c589020ea7c-1)
+
+The Only AI Engineer Roadmap I Recommend to My Mentees for 2026
+Most AI Engineer Roadmaps Are Wrong. Here's the One I…
+
+5 min read
+170
+4
+
+See more of what you like and less of what you don't.
+Control your recommendations (https://medium.com/me/missioncontrol?source=email-020bca72d959-1762798370194-digest.reader-------------------------82bb75f7_88f6_4250_bc3a_0c589020ea7c)
+
+Read from anywhere.
+
+Sent by Medium (https://medium.com/?source=email-020bca72d959-1762798370194-digest.reader-------------------------82bb75f7_88f6_4250_bc3a_0c589020ea7c)
+·3500 South DuPont Highway, Suite IQ-101, Dover, DE 19901
+Unsubscribe (https://medium.com/me/email-settings/020bca72d959/141ac38b885c?type=social&source=email-020bca72d959-1762798370194-digest.reader-------------------------82bb75f7_88f6_4250_bc3a_0c589020ea7c)
+ from this type of email·Switch to the Weekly Digest (https://medium.com/me/email-settings/020bca72d959/141ac38b885c?type=social&preference=2&source=email-020bca72d959-1762798370194-digest.reader-------------------------82bb75f7_88f6_4250_bc3a_0c589020ea7c)
+·Careers (https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?source=email-020bca72d959-1762798370194-digest.reader-------------------------82bb75f7_88f6_4250_bc3a_0c589020ea7c)
+·Help Center (https://help.medium.com/hc/en-us?source=email-020bca72d959-1762798370194-digest.reader-------------------------82bb75f7_88f6_4250_bc3a_0c589020ea7c)
+·Privacy Policy (https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=email-020bca72d959-1762798370194-digest.reader-------------------------82bb75f7_88f6_4250_bc3a_0c589020ea7c)
+·Terms of service (https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=email-020bca72d959-1762798370194-digest.reader-------------------------82bb75f7_88f6_4250_bc3a_0c589020ea7c)

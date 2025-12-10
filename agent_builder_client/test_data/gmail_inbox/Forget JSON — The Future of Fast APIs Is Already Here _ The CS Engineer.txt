@@ -1,0 +1,162 @@
+主旨: Forget JSON — The Future of Fast APIs Is Already Here _ The CS Engineer
+发件人: Medium Daily Digest <noreply@medium.com>
+收件人: ptest9109@gmail.com
+日期: Thu, 13 Nov 2025 23:10:00 +0000 (UTC)
+
+Stories for Ptest
+@ptest9109 (https://medium.com/@ptest9109?source=email-020bca72d959-1763058027914-digest.reader-------------------------9babcdd6_70b8_4eda_b9ee_0b6d3bcb66fb)
+·Become a member (https://medium.com/plans?source=email-020bca72d959-1763058027914-digest.reader-------------------------9babcdd6_70b8_4eda_b9ee_0b6d3bcb66fb)
+
+Today's highlights
+
+The CS Engineer (https://medium.com/@Krishnajlathi?source=email-020bca72d959-1763058027914-digest.reader--ce3f6822f72b----0-109------------------9babcdd6_70b8_4eda_b9ee_0b6d3bcb66fb-1)
+
+Forget JSON - The Future of Fast APIs Is Already Here
+JSON is killing throughput and your developer…
+
+5 min read
+184
+10
+
+Adarsh Gupta (https://medium.com/@adarsh-gupta?source=email-020bca72d959-1763058027914-digest.reader-84ac01765c52-2a1c52eed4ff----1-109------------------9babcdd6_70b8_4eda_b9ee_0b6d3bcb66fb-1)
+inWrite A Catalyst (https://medium.com/write-a-catalyst?source=email-020bca72d959-1763058027914-digest.reader-84ac01765c52-2a1c52eed4ff----1-109------------------9babcdd6_70b8_4eda_b9ee_0b6d3bcb66fb-1)
+
+Remember Vibe Coders? Yeah… They're Gone
+Turns out it was the first AI bubble to burst
+
+4 min read
+6K
+210
+
+Shreyansh Jain (https://medium.com/@shreyanshjain05?source=email-020bca72d959-1763058027914-digest.reader-8993e01dcfd3-38909cf5841f----2-109------------------9babcdd6_70b8_4eda_b9ee_0b6d3bcb66fb-1)
+inData Science Collective (https://medium.com/data-science-collective?source=email-020bca72d959-1763058027914-digest.reader-8993e01dcfd3-38909cf5841f----2-109------------------9babcdd6_70b8_4eda_b9ee_0b6d3bcb66fb-1)
+
+DSPy: The Framework That Kills Prompt Engineering (and Replaces It with Actual…
+Stop begging LLMs with poetic prompts - start…
+
+5 min read
+288
+4
+
+Hash Block (https://medium.com/@connect.hashblock?source=email-020bca72d959-1763058027914-digest.reader--ff090cd8288b----3-109------------------9babcdd6_70b8_4eda_b9ee_0b6d3bcb66fb-1)
+
+FastAPI + Celery, Without the Headaches
+A practical path to running background jobs in Python…
+
+5 min read
+52
+2
+
+Dipak Ahirav (https://medium.com/@dipaksahirav?source=email-020bca72d959-1763058027914-digest.reader-4b3a1ed4f11c-94c946018d57----4-99------------------9babcdd6_70b8_4eda_b9ee_0b6d3bcb66fb-1)
+inJavaScript in Plain English (https://medium.com/javascript-in-plain-english?source=email-020bca72d959-1763058027914-digest.reader-4b3a1ed4f11c-94c946018d57----4-99------------------9babcdd6_70b8_4eda_b9ee_0b6d3bcb66fb-1)
+
+10 Node.js Best Practices Every Developer Should Know
+Write cleaner, more maintainable, and production-ready…
+
+4 min read
+31
+1
+
+Dr Adrian Lucas Malec (https://medium.com/@adlumal?source=email-020bca72d959-1763058027914-digest.reader--fbc3eaad55ea----5-98------------------9babcdd6_70b8_4eda_b9ee_0b6d3bcb66fb-1)
+
+How I Built Lightning-Fast Vector Search for Legal Documents
+From 53 to 2,880 queries/sec with USearch
+
+12 min read
+199
+2
+
+Adham Khaled (https://medium.com/@adhamhidawy?source=email-020bca72d959-1763058027914-digest.reader-b680b860beb1-f080bc89b736----6-109------------------9babcdd6_70b8_4eda_b9ee_0b6d3bcb66fb-1)
+inData And Beyond (https://medium.com/data-and-beyond?source=email-020bca72d959-1763058027914-digest.reader-b680b860beb1-f080bc89b736----6-109------------------9babcdd6_70b8_4eda_b9ee_0b6d3bcb66fb-1)
+
+I Don't Use Microsoft Word for Math Anymore. Gemini's LaTeX Upgrade Changed…
+I tried Gemini's new LaTeX features - here's how they…
+
+6 min read
+477
+10
+
+The Latency Gambler (https://medium.com/@kanishks772?source=email-020bca72d959-1763058027914-digest.reader--5a7142adf701----7-98------------------9babcdd6_70b8_4eda_b9ee_0b6d3bcb66fb-1)
+
+20 Linux Networking Commands Every Engineer Should Know (But Most Don't)
+Let's be honest when your production server goes down…
+
+5 min read
+121
+3
+
+Roshmita Dey (https://medium.com/@roshmitadey?source=email-020bca72d959-1763058027914-digest.reader--fec5aa491650----8-109------------------9babcdd6_70b8_4eda_b9ee_0b6d3bcb66fb-1)
+
+Isolation Forest for Anomaly Detection
+"The easiest way to find an outlier? Isolate it."
+
+4 min read
+
+Bhavyansh (https://medium.com/@bhavyansh001?source=email-020bca72d959-1763058027914-digest.reader--27b69f6fd5a7----9-99------------------9babcdd6_70b8_4eda_b9ee_0b6d3bcb66fb-1)
+
+The CI/CD Setup That Cut Our Deployment Time from 40 Minutes to 8
+How we optimized our deployment pipeline and got back…
+
+5 min read
+58
+1
+
+Jessica Stillman (https://medium.com/@entrylevelrebel?source=email-020bca72d959-1763058027914-digest.reader--5cd66e53b023----10-98------------------9babcdd6_70b8_4eda_b9ee_0b6d3bcb66fb-1)
+
+How to Actually Change Someone's Mind: Ask Them This 1 Question
+Want to actually change the mind of someone you…
+
+4 min read
+6.8K
+182
+
+Kuriko Iwai (https://medium.com/@kuriko-iwai?source=email-020bca72d959-1763058027914-digest.reader-98111c9905da-6faa6f567d0d----11-102------------------9babcdd6_70b8_4eda_b9ee_0b6d3bcb66fb-1)
+inTowards AI (https://medium.com/towards-artificial-intelligence?source=email-020bca72d959-1763058027914-digest.reader-98111c9905da-6faa6f567d0d----11-102------------------9babcdd6_70b8_4eda_b9ee_0b6d3bcb66fb-1)
+
+Transformer in Action - Optimizing Self-Attention with Attention Approximation
+Discover self-attention mechanisms and attention…
+
+20 min read
+217
+
+Gerald A. Corzo (https://medium.com/@gerald.corzo?source=email-020bca72d959-1763058027914-digest.reader--362d408303db----12-102------------------9babcdd6_70b8_4eda_b9ee_0b6d3bcb66fb-1)
+
+From Divide and Conquer in committee machines to Deep Learning: The Evolution…
+Hydrology sits between physics and data. Early modular…
+
+7 min read
+18
+3
+
+Civil Learning (https://medium.com/@civillearning?source=email-020bca72d959-1763058027914-digest.reader-16e3527896e0-ca1dfeb92edb----13-109------------------9babcdd6_70b8_4eda_b9ee_0b6d3bcb66fb-1)
+inCoding Nexus (https://medium.com/coding-nexus?source=email-020bca72d959-1763058027914-digest.reader-16e3527896e0-ca1dfeb92edb----13-109------------------9babcdd6_70b8_4eda_b9ee_0b6d3bcb66fb-1)
+
+I Handed ChatGPT $100 to Trade Stocks - Here's What Happened in 2 Months.
+What happens when you let a chatbot play Wall Street…
+
+4 min read
+6.7K
+235
+
+Dr. Ashish Bamania (https://medium.com/@bamania-ashish?source=email-020bca72d959-1763058027914-digest.reader-5517fd7b58a6-c76bb41ce1ea----14-98------------------9babcdd6_70b8_4eda_b9ee_0b6d3bcb66fb-1)
+inLevel Up Coding (https://medium.com/gitconnected?source=email-020bca72d959-1763058027914-digest.reader-5517fd7b58a6-c76bb41ce1ea----14-98------------------9babcdd6_70b8_4eda_b9ee_0b6d3bcb66fb-1)
+
+20 Must-Know PyTorch Concepts, Explained Simply
+Learn these essential PyTorch concepts to supercharge…
+
+13 min read
+23
+
+See more of what you like and less of what you don't.
+Control your recommendations (https://medium.com/me/missioncontrol?source=email-020bca72d959-1763058027914-digest.reader-------------------------9babcdd6_70b8_4eda_b9ee_0b6d3bcb66fb)
+
+Read from anywhere.
+
+Sent by Medium (https://medium.com/?source=email-020bca72d959-1763058027914-digest.reader-------------------------9babcdd6_70b8_4eda_b9ee_0b6d3bcb66fb)
+·3500 South DuPont Highway, Suite IQ-101, Dover, DE 19901
+Unsubscribe (https://medium.com/me/email-settings/020bca72d959/dd6849eb90bb?type=social&source=email-020bca72d959-1763058027914-digest.reader-------------------------9babcdd6_70b8_4eda_b9ee_0b6d3bcb66fb)
+ from this type of email·Switch to the Weekly Digest (https://medium.com/me/email-settings/020bca72d959/dd6849eb90bb?type=social&preference=2&source=email-020bca72d959-1763058027914-digest.reader-------------------------9babcdd6_70b8_4eda_b9ee_0b6d3bcb66fb)
+·Careers (https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?source=email-020bca72d959-1763058027914-digest.reader-------------------------9babcdd6_70b8_4eda_b9ee_0b6d3bcb66fb)
+·Help Center (https://help.medium.com/hc/en-us?source=email-020bca72d959-1763058027914-digest.reader-------------------------9babcdd6_70b8_4eda_b9ee_0b6d3bcb66fb)
+·Privacy Policy (https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=email-020bca72d959-1763058027914-digest.reader-------------------------9babcdd6_70b8_4eda_b9ee_0b6d3bcb66fb)
+·Terms of service (https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=email-020bca72d959-1763058027914-digest.reader-------------------------9babcdd6_70b8_4eda_b9ee_0b6d3bcb66fb)
