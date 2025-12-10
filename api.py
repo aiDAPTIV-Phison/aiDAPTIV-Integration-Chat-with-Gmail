@@ -1,6 +1,8 @@
 import os
+import sys
 import multiprocessing
 import threading
+from pathlib import Path
 from typing import Optional, List, Dict
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
@@ -41,6 +43,41 @@ def configure_logger():
 
 # 模块加载时配置日志（只执行一次）
 configure_logger()
+
+def get_chroma_path():
+    """
+    獲取 Chroma 數據庫路徑
+    - 打包後：使用 PyInstaller 臨時解壓目錄 (sys._MEIPASS/agent_builder_client/chroma)
+    - 開發環境：使用 project_root/agent_builder_client/chroma
+    
+    Returns:
+        str: Chroma 數據庫路徑
+    """
+    # 如果是打包後運行，使用 PyInstaller 臨時解壓目錄
+    if getattr(sys, 'frozen', False) and hasattr(sys, '_MEIPASS'):
+        meipass_path = Path(sys._MEIPASS)
+        chroma_path = str(meipass_path / 'agent_builder_client' / 'chroma')
+        logger.info(f"打包環境：使用 PyInstaller 臨時目錄")
+        logger.info(f"PyInstaller 臨時目錄: {sys._MEIPASS}")
+    else:
+        # 開發環境：使用 settings.CHROMA_PATH（應該是 project_root/agent_builder_client/chroma）
+        chroma_path = settings.CHROMA_PATH
+        logger.info(f"開發環境：使用項目根目錄")
+    
+    # 確保目錄存在（如果不存在則創建）
+    chroma_path_obj = Path(chroma_path)
+    if not chroma_path_obj.exists():
+        try:
+            chroma_path_obj.mkdir(parents=True, exist_ok=True)
+            logger.info(f"創建 Chroma 數據庫目錄: {chroma_path}")
+        except Exception as e:
+            logger.warning(f"無法創建 Chroma 數據庫目錄 {chroma_path}: {e}")
+    
+    logger.info(f"使用 Chroma 數據庫路徑: {chroma_path}")
+    logger.info(f"路徑是否存在: {chroma_path_obj.exists()}")
+    logger.info(f"是否為打包環境: {getattr(sys, 'frozen', False)}")
+    
+    return chroma_path
 
 # FastAPI 應用程序實例
 app = FastAPI(
@@ -241,10 +278,13 @@ async def create_database(request: CreateDBRequest):
         if embedding_model is None:
             raise HTTPException(status_code=500, detail="嵌入模型未載入，請重新啟動服務器")
         
+        # 獲取 Chroma 路徑（確保使用正確的臨時目錄路徑）
+        chroma_path = get_chroma_path()
+        
         # 創建數據庫
         vectorstore = create_db_from_json(
             json_path=request.json_path,
-            chroma_path=settings.CHROMA_PATH,
+            chroma_path=chroma_path,
             embedding_model=embedding_model,
             collection_name=request.collection_name
         )
@@ -291,8 +331,8 @@ async def query_group_endpoint(request: QueryFileRequest):
         QueryFileResponse: 查詢結果，包含建議的文件名、聊天消息和檢索內容
     """
     try:
-        # 使用配置文件中的 chroma_path
-        chroma_path = settings.CHROMA_PATH
+        # 獲取 Chroma 路徑（確保使用正確的臨時目錄路徑）
+        chroma_path = get_chroma_path()
         
         # 驗證輸入路徑
         if not os.path.exists(chroma_path):

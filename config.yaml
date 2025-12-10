@@ -19,7 +19,7 @@ api:
 # Chroma 數據庫設定
 chroma:
   # Chroma 数据库路径（相对于项目根目录）
-  path: "./chroma"
+  path: "./agent_builder_client/chroma"
 
 # 檔案路徑設定
 files:

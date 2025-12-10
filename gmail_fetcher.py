@@ -10,7 +10,7 @@ import base64
 import pickle
 import re
 from datetime import datetime
-from typing import List, Dict, Any, Optional
+from typing import List, Dict, Any, Optional, Tuple
 import logging
 import sys
 from pathlib import Path
@@ -21,10 +21,6 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 
-# 設定日誌
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-logger = logging.getLogger(__name__)
-
 # Gmail API 範圍
 SCOPES = ['https://www.googleapis.com/auth/gmail.readonly']
 
@@ -33,6 +29,44 @@ APP_BASE_DIR = Path(sys.executable).parent if getattr(sys, 'frozen', False) else
 CREDENTIALS_DEFAULT_PATH = APP_BASE_DIR / "credentials.json"
 GMAIL_EMAILS_DEFAULT_PATH = APP_BASE_DIR / "gmail_emails.json"
 TOKEN_DEFAULT_PATH = APP_BASE_DIR / "token.pickle"
+LOG_FILE = APP_BASE_DIR / "streamlit.log"
+
+# 設定日誌 - 輸出到與執行檔同目錄的 streamlit.log
+# 由於 gmail_fetcher.py 通過 subprocess 運行，是獨立進程，需要單獨配置日誌
+root_logger = logging.getLogger()
+root_logger.setLevel(logging.INFO)
+
+# 檢查是否已經有文件處理器指向 streamlit.log
+log_file_str = str(LOG_FILE.resolve())
+has_file_handler = False
+for handler in root_logger.handlers:
+    if isinstance(handler, logging.FileHandler):
+        try:
+            # 比較絕對路徑
+            handler_path = str(Path(handler.baseFilename).resolve())
+            if handler_path == log_file_str:
+                has_file_handler = True
+                break
+        except:
+            pass
+
+# 如果沒有文件處理器，添加一個
+if not has_file_handler:
+    file_handler = logging.FileHandler(LOG_FILE, encoding='utf-8')
+    file_handler.setLevel(logging.INFO)
+    file_handler.setFormatter(logging.Formatter('%(asctime)s - %(levelname)s - %(message)s'))
+    root_logger.addHandler(file_handler)
+
+# 確保有控制台處理器（用於 subprocess 輸出）
+has_console_handler = any(isinstance(h, logging.StreamHandler) and not isinstance(h, logging.FileHandler) 
+                         for h in root_logger.handlers)
+if not has_console_handler:
+    console_handler = logging.StreamHandler()
+    console_handler.setLevel(logging.INFO)
+    console_handler.setFormatter(logging.Formatter('%(asctime)s - %(levelname)s - %(message)s'))
+    root_logger.addHandler(console_handler)
+
+logger = logging.getLogger(__name__)
 
 class GmailFetcher:
     """Gmail信件抓取器"""
@@ -52,12 +86,12 @@ class GmailFetcher:
         self.service = None
         self.creds = None
         
-    def authenticate(self) -> bool:
+    def authenticate(self) -> Tuple[bool, Optional[str]]:
         """
         進行Gmail API認證
         
         Returns:
-            bool: 認證是否成功
+            tuple[bool, Optional[str]]: (認證是否成功, 錯誤訊息)
         """
         try:
             # 載入已儲存的憑證
@@ -68,29 +102,50 @@ class GmailFetcher:
             # 如果沒有有效的憑證，則進行OAuth2流程
             if not self.creds or not self.creds.valid:
                 if self.creds and self.creds.expired and self.creds.refresh_token:
-                    self.creds.refresh(Request())
+                    try:
+                        self.creds.refresh(Request())
+                    except Exception as e:
+                        error_msg = f"刷新憑證失敗: {str(e)}"
+                        logger.error(error_msg)
+                        return False, error_msg
                 else:
                     if not self.credentials_file.exists():
-                        logger.error(f"找不到憑證檔案: {self.credentials_file}")
-                        logger.error("請先下載Google OAuth2憑證檔案並命名為credentials.json")
-                        return False
+                        error_msg = f"找不到憑證檔案: {self.credentials_file}\n請先下載Google OAuth2憑證檔案並命名為credentials.json"
+                        logger.error(error_msg)
+                        return False, error_msg
                     
-                    flow = InstalledAppFlow.from_client_secrets_file(
-                        self.credentials_file, SCOPES)
-                    self.creds = flow.run_local_server(port=0)
+                    try:
+                        flow = InstalledAppFlow.from_client_secrets_file(
+                            self.credentials_file, SCOPES)
+                        self.creds = flow.run_local_server(port=0)
+                    except Exception as e:
+                        error_msg = f"OAuth2認證流程失敗: {str(e)}"
+                        logger.error(error_msg)
+                        return False, error_msg
                 
                 # 儲存憑證供下次使用
-                with open(self.token_file, 'wb') as token:
-                    pickle.dump(self.creds, token)
+                try:
+                    with open(self.token_file, 'wb') as token:
+                        pickle.dump(self.creds, token)
+                except Exception as e:
+                    error_msg = f"儲存憑證失敗: {str(e)}"
+                    logger.error(error_msg)
+                    return False, error_msg
             
             # 建立Gmail API服務
-            self.service = build('gmail', 'v1', credentials=self.creds)
-            logger.info("Gmail API認證成功")
-            return True
+            try:
+                self.service = build('gmail', 'v1', credentials=self.creds)
+                logger.info("Gmail API認證成功")
+                return True, None
+            except Exception as e:
+                error_msg = f"建立Gmail API服務失敗: {str(e)}"
+                logger.error(error_msg)
+                return False, error_msg
             
         except Exception as e:
-            logger.error(f"認證失敗: {str(e)}")
-            return False
+            error_msg = f"認證失敗: {str(e)}"
+            logger.error(error_msg)
+            return False, error_msg
     
     def get_message_list(self, query: str = '', max_results: int = None) -> List[Dict[str, Any]]:
         """
@@ -350,8 +405,12 @@ def main():
     fetcher = GmailFetcher()
     
     # 進行認證
-    if not fetcher.authenticate():
-        print("認證失敗，程式結束")
+    auth_success, error_msg = fetcher.authenticate()
+    if not auth_success:
+        error_output = f"認證失敗，程式結束"
+        if error_msg:
+            error_output += f"\n錯誤訊息: {error_msg}"
+        print(error_output, file=sys.stderr)
         return
     
     # 檢查是否為非交互模式（從UI調用）
@@ -367,7 +426,7 @@ def main():
         max_results = int(max_results_input) if max_results_input.isdigit() else None
     
     # 生成檔案名
-    timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+    # timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
     filename = str(GMAIL_EMAILS_DEFAULT_PATH)  # f"gmail_emails_{timestamp}.json"
     
     # 抓取信件

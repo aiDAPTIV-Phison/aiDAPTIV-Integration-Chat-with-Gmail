@@ -15,7 +15,6 @@ a = Analysis(
     binaries=[],
     datas=[
         ('agent_builder_client', 'agent_builder_client'),
-        ('aiDAPTIV_Files', 'aiDAPTIV_Files'),
         ('config.yaml', '.'),  # 将 config.yaml 打包到根目录
         ('api.py', '.'),  # 将 api.py 打包到根目录
         ('streamlit_chat_ui.py', '.'),  # 将 streamlit_chat_ui.py 打包到根目录
@@ -88,7 +87,7 @@ exe = EXE(
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
-    upx=True,
+    upx=False,  # 禁用UPX压缩以加快打包速度
     upx_exclude=[],
     runtime_tmpdir=None,
     console=True,  # 不显示控制台窗口

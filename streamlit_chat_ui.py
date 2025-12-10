@@ -16,6 +16,7 @@ import subprocess
 import sys
 import multiprocessing
 from pathlib import Path
+import logging
 from agent_builder_client.config import settings
 
 # 檢查是否在 multiprocessing 子進程中（Windows spawn 模式）
@@ -46,6 +47,18 @@ APP_BASE_DIR = Path(sys.executable).parent if getattr(sys, 'frozen', False) else
 CREDENTIALS_FILE = APP_BASE_DIR / "credentials.json"
 GMAIL_EMAILS_FILE = APP_BASE_DIR / "gmail_emails.json"
 PREVIOUS_EMAILS_FILE = APP_BASE_DIR / "previous_emails.json"
+LOG_FILE = APP_BASE_DIR / "streamlit.log"
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler(LOG_FILE, encoding='utf-8'),
+        logging.StreamHandler()
+    ]
+)
+logger = logging.getLogger(__name__)
 
 # Custom CSS styles
 st.markdown("""
@@ -164,10 +177,62 @@ def query_database(question: str, collection_name: str):
             "question": question,
             "collection_name": collection_name
         }
+        
+        logger.info(f"Querying database - URL: {url}, Collection: {collection_name}, Question: {question[:100]}...")
+        
         response = requests.post(url, json=data, timeout=30)
-        return response.json()
+        
+        # Log HTTP status code
+        logger.info(f"Database query response status code: {response.status_code}")
+        
+        # Check HTTP status code
+        if response.status_code != 200:
+            error_msg = f"HTTP {response.status_code}: {response.text[:500]}"
+            logger.error(f"Database query failed with HTTP error: {error_msg}")
+            return {"success": False, "error": error_msg}
+        
+        # Try to parse JSON response
+        try:
+            result = response.json()
+            logger.debug(f"Database query response JSON: {json.dumps(result, ensure_ascii=False)[:500]}")
+            
+            # Check if response has success field
+            if "success" not in result:
+                error_msg = f"Response missing 'success' field. Response keys: {list(result.keys())}"
+                logger.error(f"Database query response format error: {error_msg}")
+                return {"success": False, "error": error_msg}
+            
+            # Log success status
+            if result.get("success"):
+                logger.info(f"Database query succeeded for collection: {collection_name}")
+            else:
+                error_detail = result.get("error", "Unknown error")
+                logger.warning(f"Database query returned success=False - Error: {error_detail}")
+            
+            return result
+            
+        except json.JSONDecodeError as e:
+            error_msg = f"Invalid JSON response: {str(e)}, Response text: {response.text[:500]}"
+            logger.error(f"Database query JSON parsing error: {error_msg}")
+            return {"success": False, "error": error_msg}
+            
+    except requests.exceptions.Timeout:
+        error_msg = "Request timeout (30s)"
+        logger.error(f"Database query timeout: {error_msg}")
+        return {"success": False, "error": error_msg}
+    except requests.exceptions.ConnectionError as e:
+        error_msg = f"Connection error: {str(e)}"
+        logger.error(f"Database query connection error: {error_msg}")
+        logger.error(f"API_BASE_URL: {API_BASE_URL} - Please check if API server is running")
+        return {"success": False, "error": error_msg}
+    except requests.exceptions.RequestException as e:
+        error_msg = f"Request exception: {str(e)}"
+        logger.error(f"Database query request error: {error_msg}")
+        return {"success": False, "error": error_msg}
     except Exception as e:
-        return {"success": False, "error": f"Query failed: {str(e)}"}
+        error_msg = f"Unexpected error: {str(e)}"
+        logger.exception(f"Database query unexpected error: {error_msg}")
+        return {"success": False, "error": error_msg}
 
 def load_email_data():
     """Load emails"""
@@ -292,7 +357,34 @@ def fetch_gmail_emails():
         
         # Execute gmail_fetcher.py using UI mode
         result = subprocess.run([sys.executable, "gmail_fetcher.py", "--ui-mode"], 
-                              capture_output=True, text=True, timeout=300)
+                              capture_output=True, text=True, timeout=300,
+                              encoding='utf-8', errors='replace')
+        
+        # Log messages to log file based on return code and log level
+        if result.stderr:
+            # Parse log level from stderr and log accordingly
+            stderr_lines = result.stderr.strip().split('\n')
+            for line in stderr_lines:
+                if not line.strip():
+                    continue
+                # Check if line contains log level indicators
+                if ' - ERROR - ' in line:
+                    logger.error(f"Gmail fetcher: {line}")
+                elif ' - WARNING - ' in line or ' - WARN - ' in line:
+                    logger.warning(f"Gmail fetcher: {line}")
+                elif ' - INFO - ' in line:
+                    logger.info(f"Gmail fetcher: {line}")
+                elif ' - DEBUG - ' in line:
+                    logger.debug(f"Gmail fetcher: {line}")
+                else:
+                    # If return code is 0, treat as info; otherwise as error
+                    if result.returncode == 0:
+                        logger.info(f"Gmail fetcher: {line}")
+                    else:
+                        logger.error(f"Gmail fetcher: {line}")
+        
+        if result.stdout and result.returncode != 0:
+            logger.error(f"Gmail fetcher stdout: {result.stdout}")
         
         if result.returncode == 0:
             # Check if gmail_emails.json was generated
@@ -325,7 +417,8 @@ def convert_emails_to_txt():
     try:
         # Execute gmail_to_txt_converter.py
         result = subprocess.run([sys.executable, "gmail_to_txt_converter.py"], 
-                              capture_output=True, text=True, timeout=60)
+                              capture_output=True, text=True, timeout=60,
+                              encoding='utf-8', errors='replace')
         
         if result.returncode == 0:
             return True, "Successfully converted emails to .txt files!"
@@ -342,7 +435,8 @@ def convert_emails_to_chunks():
     try:
         # Execute gmail_to_chunks_converter.py
         result = subprocess.run([sys.executable, "gmail_to_chunks_converter.py"], 
-                              capture_output=True, text=True, timeout=60)
+                              capture_output=True, text=True, timeout=60,
+                              encoding='utf-8', errors='replace')
         
         if result.returncode == 0:
             return True, "Successfully converted emails to chunks!"
@@ -535,17 +629,34 @@ def update_previous_emails(successfully_processed_emails):
 
 def process_new_email_automatically(email, vllm_endpoint, model_name="Qwen2.5-72B-Instruct-AWQ"):
     """Automatically process new emails: query database and call vLLM API for summarization"""
+    email_id = email.get('id', 'unknown')
+    email_subject = email.get('subject', 'No Subject')
+    
     try:
         # Step 1: Query database
-        user_question = f"Summarize {email.get('subject', 'No Subject')} content"
+        user_question = f"Summarize {email_subject} content"
+        logger.debug(f"Processing email - ID: {email_id}, Subject: {email_subject}")
+        logger.debug(f"Query question: {user_question}")
+        
         result = query_database(user_question, "gmail_inbox")
         
+        # Log detailed result information
+        logger.debug(f"Query result keys: {list(result.keys()) if isinstance(result, dict) else 'Not a dict'}")
+        logger.debug(f"Query result success: {result.get('success')}")
+        logger.debug(f"Query result error: {result.get('error', 'No error field')}")
+        
         if not result.get("success"):
-            return False, f"Database query failed: {result.get('error', 'Unknown error')}"
+            error_detail = result.get('error', 'Unknown error')
+            logger.error(f"Database query failed for email {email_id} - Error: {error_detail}")
+            logger.error(f"Full result: {json.dumps(result, ensure_ascii=False)[:1000]}")
+            return False, f"Database query failed: {error_detail}"
         
         # Step 2: Get chat messages
         chat_messages = result.get("chat_messages", [])
+        logger.debug(f"Retrieved {len(chat_messages)} chat messages")
+        
         if not chat_messages:
+            logger.warning(f"No chat messages retrieved for email {email_id}")
             return False, "No chat messages retrieved"
         
         # Find user message
@@ -553,20 +664,27 @@ def process_new_email_automatically(email, vllm_endpoint, model_name="Qwen2.5-72
         for msg in chat_messages:
             if msg.get("role") == "user":
                 user_message = msg.get("content", "")
+                logger.debug(f"Found user message, length: {len(user_message)}")
                 break
         
         if not user_message:
+            logger.warning(f"No user message found in chat_messages for email {email_id}")
+            logger.debug(f"Chat messages structure: {json.dumps(chat_messages, ensure_ascii=False)[:500]}")
             return False, "No user message found"
         
         # Step 3: Call vLLM API for summarization (non-streaming)
+        logger.debug(f"Calling vLLM API for email {email_id}")
         summary = call_vllm_api_non_streaming(user_message, vllm_endpoint, model_name)
         
         if summary.startswith("❌"):
+            logger.error(f"vLLM API call failed for email {email_id}: {summary}")
             return False, f"vLLM API call failed: {summary}"
         
+        logger.info(f"Email {email_id} processed successfully, summary length: {len(summary)}")
         return True, summary
         
     except Exception as e:
+        logger.exception(f"Exception occurred while processing email {email_id}: {str(e)}")
         return False, f"Error occurred during automatic email processing: {str(e)}"
 
 def main():
@@ -644,99 +762,195 @@ def main():
             
             # Fetch Button
             if st.button("🔄 Fetch Emails", use_container_width=True):
-                # Create progress bar
-                progress_bar = st.progress(0)
-                status_text = st.empty()
+                # Initialize variables at the beginning to avoid UnboundLocalError
+                success = False
+                message = ""
+                txt_success = False
+                txt_message = ""
+                chunks_success = False
+                chunks_message = ""
+                db_success = False
+                db_message = ""
                 
-                # Step 1: Fetch Gmail emails
-                status_text.text("Step 1/5: Fetching emails...")
-                progress_bar.progress(15)
-                
-                success, message = fetch_gmail_emails()
-                
-                if success:
-                    progress_bar.progress(25)
-                    status_text.text("Step 1/5: Gmail fetching completed")
-                    st.success(message)
+                try:
+                    logger.info("=" * 80)
+                    logger.info("Starting email fetching process")
+                    logger.info("=" * 80)
                     
-                    # Step 2: Convert to txt file
-                    status_text.text("Step 2/5: Converting to txt file...")
-                    progress_bar.progress(40)
+                    # Create progress bar
+                    progress_bar = st.progress(0)
+                    status_text = st.empty()
                     
-                    txt_success, txt_message = convert_emails_to_txt()
+                    # Step 1: Fetch Gmail emails
+                    logger.info("Step 1/5: Starting Gmail email fetching...")
+                    status_text.text("Step 1/5: Fetching emails...")
+                    progress_bar.progress(15)
                     
-                    if txt_success:
-                        progress_bar.progress(55)
-                        status_text.text("Step 2/5: txt file conversion completed")
-                        st.success(txt_message)
+                    try:
+                        success, message = fetch_gmail_emails()
                         
-                        # Step 3: Convert to chunks
-                        status_text.text("Step 3/5: Converting to chunks format...")
-                        progress_bar.progress(70)
-                        
-                        chunks_success, chunks_message = convert_emails_to_chunks()
-                        if chunks_success:
-                            status_text.text("Step 3/5: chunks format conversion completed")
-                            st.success(chunks_message)
-                        else:
-                            status_text.text("Step 3/5: chunks format conversion failed")
-                            st.error(chunks_message)
+                        if success:
+                            progress_bar.progress(25)
+                            status_text.text("Step 1/5: Gmail fetching completed")
+                            logger.info(f"Step 1/5: Gmail fetching completed successfully - {message}")
+                            st.success(message)
                             
-                        # Step 4:
-                        status_text.text("Step 4/5: Creating database...")
-                        db_success, db_message = create_db(json_path="test_data/gmail_chunks.json", collection_name='gmail_inbox')
-                        if db_success:
-                            status_text.text("Step 4/5: Database creation completed")
-                            st.success(db_message)
-                        else:
-                            status_text.text("Step 4/5: Database creation failed")
-                            st.error(db_message)
-
-                        # Step 5: Detect new emails and process automatically
-                        if chunks_success and db_success:
-                            status_text.text("Step 5/5: Detecting new emails and processing automatically...")
-                            progress_bar.progress(90)
+                            # Step 2: Convert to txt file
+                            logger.info("Step 2/5: Starting txt file conversion...")
+                            status_text.text("Step 2/5: Converting to txt file...")
+                            progress_bar.progress(40)
                             
-                            # Detect new emails
-                            new_emails, detect_message = detect_new_emails()
-                            
-                            if new_emails:
-                                st.info(f"🔍 {detect_message}")
+                            try:
+                                txt_success, txt_message = convert_emails_to_txt()
                                 
-                                # Automatically process each new email
-                                processed_count = 0
-                                successfully_processed_emails = []  # Collect successfully processed emails
-                                
-                                for i, new_email in enumerate(new_emails):
+                                if txt_success:
+                                    progress_bar.progress(55)
+                                    status_text.text("Step 2/5: txt file conversion completed")
+                                    logger.info(f"Step 2/5: txt file conversion completed successfully - {txt_message}")
+                                    st.success(txt_message)
+                                    
+                                    # Step 3: Convert to chunks
+                                    logger.info("Step 3/5: Starting chunks format conversion...")
+                                    status_text.text("Step 3/5: Converting to chunks format...")
+                                    progress_bar.progress(70)
+                                    
                                     try:
-                                        st.write(f"📧 Processing new email {i+1}/{len(new_emails)}: {new_email.get('subject', 'No Subject')}")
+                                        chunks_success, chunks_message = convert_emails_to_chunks()
                                         
-                                        # Automatically process email
-                                        success, result_message = process_new_email_automatically(new_email, vllm_endpoint, selected_model)
-                                        
-                                        if success:
-                                            processed_count += 1
-                                            successfully_processed_emails.append(new_email)  # Add to successfully processed list
-                                            st.success(f"✅ Email {i+1} - {new_email.get('subject', 'No Subject')} processed successfully")
-                                            # Can add summary result display here, but not showing results as per requirements
+                                        if chunks_success:
+                                            status_text.text("Step 3/5: chunks format conversion completed")
+                                            logger.info(f"Step 3/5: chunks format conversion completed successfully - {chunks_message}")
+                                            st.success(chunks_message)
                                         else:
-                                            st.warning(f"⚠️ Email {i+1} processing failed: {result_message}")
+                                            status_text.text("Step 3/5: chunks format conversion failed")
+                                            logger.error(f"Step 3/5: chunks format conversion failed - {chunks_message}")
+                                            st.error(chunks_message)
                                             
+                                        # Step 4: Create database
+                                        logger.info("Step 4/5: Starting database creation...")
+                                        status_text.text("Step 4/5: Creating database...")
+                                        
+                                        try:
+                                            db_success, db_message = create_db(json_path="test_data/gmail_chunks.json", collection_name='gmail_inbox')
+                                            
+                                            if db_success:
+                                                status_text.text("Step 4/5: Database creation completed")
+                                                logger.info(f"Step 4/5: Database creation completed successfully - {db_message}")
+                                                st.success(db_message)
+                                            else:
+                                                status_text.text("Step 4/5: Database creation failed")
+                                                logger.error(f"Step 4/5: Database creation failed - {db_message}")
+                                                st.error(db_message)
+                                                
+                                        except Exception as e:
+                                            db_success = False
+                                            db_message = f"Internal error during database creation: {str(e)}"
+                                            logger.exception(f"Step 4/5: Exception occurred during database creation: {str(e)}")
+                                            status_text.text("Step 4/5: Database creation failed")
+                                            st.error(db_message)
+
+                                        # Step 5: Detect new emails and process automatically
+                                        if chunks_success and db_success:
+                                            logger.info("Step 5/5: Starting new email detection and processing...")
+                                            status_text.text("Step 5/5: Detecting new emails and processing automatically...")
+                                            progress_bar.progress(90)
+                                            
+                                            try:
+                                                # Detect new emails
+                                                new_emails, detect_message = detect_new_emails()
+                                                logger.info(f"Step 5/5: Email detection completed - {detect_message}")
+                                                
+                                                if new_emails:
+                                                    st.info(f"🔍 {detect_message}")
+                                                    logger.info(f"Step 5/5: Found {len(new_emails)} new emails to process")
+                                                    
+                                                    # Automatically process each new email
+                                                    processed_count = 0
+                                                    successfully_processed_emails = []  # Collect successfully processed emails
+                                                    
+                                                    for i, new_email in enumerate(new_emails):
+                                                        email_id = new_email.get('id', 'unknown')
+                                                        email_subject = new_email.get('subject', 'No Subject')
+                                                        
+                                                        try:
+                                                            logger.info(f"Step 5/5: Processing email {i+1}/{len(new_emails)} - ID: {email_id}, Subject: {email_subject}")
+                                                            st.write(f"📧 Processing new email {i+1}/{len(new_emails)}: {email_subject}")
+                                                            
+                                                            # Automatically process email
+                                                            success, result_message = process_new_email_automatically(new_email, vllm_endpoint, selected_model)
+                                                            
+                                                            if success:
+                                                                processed_count += 1
+                                                                successfully_processed_emails.append(new_email)  # Add to successfully processed list
+                                                                logger.info(f"Step 5/5: Email {i+1} processed successfully - ID: {email_id}, Subject: {email_subject}")
+                                                                st.success(f"✅ Email {i+1} - {email_subject} processed successfully")
+                                                                # Can add summary result display here, but not showing results as per requirements
+                                                            else:
+                                                                logger.warning(f"Step 5/5: Email {i+1} processing failed - ID: {email_id}, Subject: {email_subject}, Error: {result_message}")
+                                                                st.warning(f"⚠️ Email {i+1} processing failed: {result_message}")
+                                                                
+                                                        except Exception as e:
+                                                            logger.exception(f"Step 5/5: Exception occurred while processing email {i+1} - ID: {email_id}, Subject: {email_subject}, Error: {str(e)}")
+                                                            st.error(f"❌ Error occurred while processing email {i+1}: {str(e)}")
+                                                    
+                                                    # Only successfully processed emails are added to previous_emails.json
+                                                    if successfully_processed_emails:
+                                                        try:
+                                                            updated_count = update_previous_emails(successfully_processed_emails)
+                                                            logger.info(f"Step 5/5: Updated previous_emails.json with {updated_count} successfully processed emails")
+                                                            st.success(f"🎉 Successfully processed {processed_count} new emails, processing records updated")
+                                                        except Exception as e:
+                                                            logger.exception(f"Step 5/5: Exception occurred while updating previous_emails.json: {str(e)}")
+                                                            st.error(f"Failed to update processing records: {str(e)}")
+                                                    else:
+                                                        logger.info("Step 5/5: No emails processed successfully, processing records not updated")
+                                                        st.info("ℹ️ No emails processed successfully, processing records not updated")
+                                                        
+                                            except Exception as e:
+                                                logger.exception(f"Step 5/5: Exception occurred during email detection and processing: {str(e)}")
+                                                st.error(f"Error during email detection and processing: {str(e)}")
+                                        else:
+                                            logger.warning("Step 5/5: Skipped - chunks conversion or database creation failed")
+                                    
                                     except Exception as e:
-                                        st.error(f"❌ Error occurred while processing email {i+1}: {str(e)}")
+                                        chunks_success = False
+                                        chunks_message = f"Internal error during chunks conversion: {str(e)}"
+                                        logger.exception(f"Step 3/5: Exception occurred during chunks conversion: {str(e)}")
+                                        status_text.text("Step 3/5: chunks format conversion failed")
+                                        st.error(chunks_message)
                                 
-                                # Only successfully processed emails are added to previous_emails.json
-                                if successfully_processed_emails:
-                                    updated_count = update_previous_emails(successfully_processed_emails)
-                                    st.success(f"🎉 Successfully processed {processed_count} new emails, processing records updated")
                                 else:
-                                    st.info("ℹ️ No emails processed successfully, processing records not updated")
-                            else:
-                                st.info(f"ℹ️ {detect_message}")
-                        
+                                    progress_bar.empty()
+                                    status_text.empty()
+                                    logger.error(f"Step 2/5: txt file conversion failed - {txt_message}")
+                                    st.error(f"txt conversion failed: {txt_message}")
+                                    
+                            except Exception as e:
+                                logger.exception(f"Step 2/5: Exception occurred during txt file conversion: {str(e)}")
+                                progress_bar.empty()
+                                status_text.empty()
+                                st.error(f"Internal error during txt conversion: {str(e)}")
+                        else:
+                            progress_bar.empty()
+                            status_text.empty()
+                            logger.error(f"Step 1/5: Gmail fetching failed - {message}")
+                            st.error(f"Gmail fetching failed: {message}")
+                            
+                    except Exception as e:
+                        logger.exception(f"Step 1/5: Exception occurred during Gmail fetching: {str(e)}")
+                        progress_bar.empty()
+                        status_text.empty()
+                        st.error(f"Internal error during Gmail fetching: {str(e)}")
+                    
+                    # Final status - only check if Step 1 succeeded
+                    if success:
+                        # Final status check
                         if chunks_success:
                             progress_bar.progress(100)
                             status_text.text("Completed: All steps completed")
+                            logger.info("=" * 80)
+                            logger.info("Email fetching process completed successfully")
+                            logger.info("=" * 80)
                             st.success(chunks_message)
                             st.info("Email data updated, page will refresh automatically")
                             
@@ -747,18 +961,27 @@ def main():
                             # Auto refresh
                             time.sleep(2)
                             st.rerun()
-                        else:
+                        elif not chunks_success and txt_success:
                             progress_bar.empty()
                             status_text.empty()
+                            logger.error("Email fetching process failed at chunks conversion step")
                             st.error(f"chunks conversion failed: {chunks_message}")
-                    else:
-                        progress_bar.empty()
-                        status_text.empty()
-                        st.error(f"txt conversion failed: {txt_message}")
-                else:
+                        elif not txt_success:
+                            progress_bar.empty()
+                            status_text.empty()
+                            logger.error("Email fetching process failed at txt conversion step")
+                            st.error(f"txt conversion failed: {txt_message}")
+                        else:
+                            # This should not be reached, but handle it just in case
+                            progress_bar.empty()
+                            status_text.empty()
+                            logger.error("Email fetching process failed at an unknown step")
+                        
+                except Exception as e:
+                    logger.exception(f"Unexpected exception in email fetching process: {str(e)}")
                     progress_bar.empty()
                     status_text.empty()
-                    st.error(f"Fetching failed: {message}")
+                    st.error(f"Unexpected error occurred: {str(e)}")
         else:
             st.error("❌ credentials.json file not found")
             st.info("Please upload Google OAuth2 credential file")
