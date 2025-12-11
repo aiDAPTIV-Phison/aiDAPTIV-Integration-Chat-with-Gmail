@@ -167,7 +167,7 @@ echo Starting application...
 echo ==========================================
 echo.
 
-uv run --python 3.12.11 build_exe.py
+uv run build_exe.py
 
 REM Check execution result
 set EXIT_CODE=%ERRORLEVEL%

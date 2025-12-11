@@ -16,7 +16,7 @@ loguru
 uvicorn
 fastapi
 pydantic
-pyyaml==6.0.0
+pyyaml
 # agent_builder_client 依赖（带版本号）
 fastapi==0.116.1
 uvicorn[standard]==0.35.0
